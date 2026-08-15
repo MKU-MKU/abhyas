@@ -1,156 +1,34 @@
 import { relations } from "drizzle-orm";
-import {
-  boolean,
-  index,
-  integer,
-  jsonb,
-  pgTable,
-  primaryKey,
-  text,
-  timestamp,
-  uniqueIndex,
-  uuid,
-} from "drizzle-orm/pg-core";
+import { boolean, index, integer, jsonb, pgTable, primaryKey, text, timestamp, uniqueIndex, uuid } from "drizzle-orm/pg-core";
 
 const timestamps = {
   createdAt: timestamp("created_at", { withTimezone: true }).defaultNow().notNull(),
   updatedAt: timestamp("updated_at", { withTimezone: true }).defaultNow().notNull(),
 };
 
-export const users = pgTable("users", {
-  id: uuid("id").defaultRandom().primaryKey(),
-  email: text("email").notNull(),
-  passwordHash: text("password_hash").notNull(),
-  displayName: text("display_name"),
-  isActive: boolean("is_active").default(true).notNull(),
-  ...timestamps,
-}, (table) => [uniqueIndex("users_email_uq").on(table.email)]);
+export const users = pgTable("users", { id: uuid("id").defaultRandom().primaryKey(), email: text("email").notNull(), passwordHash: text("password_hash").notNull(), displayName: text("display_name"), isActive: boolean("is_active").default(true).notNull(), ...timestamps }, (table) => [uniqueIndex("users_email_uq").on(table.email)]);
 
-export const roles = pgTable("roles", {
-  id: uuid("id").defaultRandom().primaryKey(),
-  name: text("name").notNull(),
-  ...timestamps,
-}, (table) => [uniqueIndex("roles_name_uq").on(table.name)]);
+export const sessions = pgTable("sessions", { id: uuid("id").defaultRandom().primaryKey(), userId: uuid("user_id").notNull().references(() => users.id, { onDelete: "cascade" }), tokenHash: text("token_hash").notNull(), expiresAt: timestamp("expires_at", { withTimezone: true }).notNull(), revokedAt: timestamp("revoked_at", { withTimezone: true }), lastSeenAt: timestamp("last_seen_at", { withTimezone: true }).defaultNow().notNull(), createdAt: timestamps.createdAt }, (table) => [uniqueIndex("sessions_token_hash_uq").on(table.tokenHash), index("sessions_user_idx").on(table.userId)]);
 
-export const userRoles = pgTable("user_roles", {
-  userId: uuid("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
-  roleId: uuid("role_id").notNull().references(() => roles.id, { onDelete: "cascade" }),
-  createdAt: timestamps.createdAt,
-}, (table) => [primaryKey({ columns: [table.userId, table.roleId] })]);
+export const roles = pgTable("roles", { id: uuid("id").defaultRandom().primaryKey(), name: text("name").notNull(), ...timestamps }, (table) => [uniqueIndex("roles_name_uq").on(table.name)]);
+export const permissions = pgTable("permissions", { id: uuid("id").defaultRandom().primaryKey(), code: text("code").notNull(), description: text("description") }, (table) => [uniqueIndex("permissions_code_uq").on(table.code)]);
+export const rolePermissions = pgTable("role_permissions", { roleId: uuid("role_id").notNull().references(() => roles.id, { onDelete: "cascade" }), permissionId: uuid("permission_id").notNull().references(() => permissions.id, { onDelete: "cascade" }) }, (table) => [primaryKey({ columns: [table.roleId, table.permissionId] })]);
+export const userRoles = pgTable("user_roles", { userId: uuid("user_id").notNull().references(() => users.id, { onDelete: "cascade" }), roleId: uuid("role_id").notNull().references(() => roles.id, { onDelete: "cascade" }), createdAt: timestamps.createdAt }, (table) => [primaryKey({ columns: [table.userId, table.roleId] })]);
 
-export const levels = pgTable("levels", {
-  id: uuid("id").defaultRandom().primaryKey(),
-  code: text("code").notNull(),
-  name: text("name").notNull(),
-  sortOrder: integer("sort_order").notNull(),
-  ...timestamps,
-}, (table) => [uniqueIndex("levels_code_uq").on(table.code)]);
+export const levels = pgTable("levels", { id: uuid("id").defaultRandom().primaryKey(), code: text("code").notNull(), name: text("name").notNull(), sortOrder: integer("sort_order").notNull(), ...timestamps }, (table) => [uniqueIndex("levels_code_uq").on(table.code)]);
+export const subjects = pgTable("subjects", { id: uuid("id").defaultRandom().primaryKey(), levelId: uuid("level_id").notNull().references(() => levels.id, { onDelete: "cascade" }), code: text("code").notNull(), name: text("name").notNull(), sortOrder: integer("sort_order").notNull(), ...timestamps }, (table) => [uniqueIndex("subjects_level_code_uq").on(table.levelId, table.code)]);
+export const chapters = pgTable("chapters", { id: uuid("id").defaultRandom().primaryKey(), subjectId: uuid("subject_id").notNull().references(() => subjects.id, { onDelete: "cascade" }), code: text("code").notNull(), name: text("name").notNull(), sortOrder: integer("sort_order").notNull(), ...timestamps }, (table) => [uniqueIndex("chapters_subject_code_uq").on(table.subjectId, table.code)]);
+export const sources = pgTable("sources", { id: uuid("id").defaultRandom().primaryKey(), chapterId: uuid("chapter_id").notNull().references(() => chapters.id, { onDelete: "cascade" }), title: text("title").notNull(), author: text("author"), edition: text("edition"), sortOrder: integer("sort_order").notNull(), ...timestamps });
+export const topics = pgTable("topics", { id: uuid("id").defaultRandom().primaryKey(), chapterId: uuid("chapter_id").notNull().references(() => chapters.id, { onDelete: "cascade" }), name: text("name").notNull(), sortOrder: integer("sort_order").notNull(), ...timestamps });
 
-export const subjects = pgTable("subjects", {
-  id: uuid("id").defaultRandom().primaryKey(),
-  levelId: uuid("level_id").notNull().references(() => levels.id, { onDelete: "cascade" }),
-  code: text("code").notNull(),
-  name: text("name").notNull(),
-  sortOrder: integer("sort_order").notNull(),
-  ...timestamps,
-}, (table) => [uniqueIndex("subjects_level_code_uq").on(table.levelId, table.code)]);
+export const questions = pgTable("questions", { id: uuid("id").defaultRandom().primaryKey(), version: integer("version").default(1).notNull(), chapterId: uuid("chapter_id").notNull().references(() => chapters.id), sourceId: uuid("source_id").references(() => sources.id, { onDelete: "set null" }), topicId: uuid("topic_id").references(() => topics.id, { onDelete: "set null" }), prompt: text("prompt").notNull(), explanation: text("explanation"), difficulty: text("difficulty").default("medium").notNull(), tags: jsonb("tags").$type<string[]>().default([]).notNull(), isActive: boolean("is_active").default(true).notNull(), ...timestamps }, (table) => [index("questions_chapter_idx").on(table.chapterId), index("questions_topic_idx").on(table.topicId), index("questions_active_idx").on(table.isActive)]);
+export const questionOptions = pgTable("question_options", { id: uuid("id").defaultRandom().primaryKey(), questionId: uuid("question_id").notNull().references(() => questions.id, { onDelete: "cascade" }), text: text("text").notNull(), sortOrder: integer("sort_order").notNull(), isCorrect: boolean("is_correct").default(false).notNull() }, (table) => [index("question_options_question_idx").on(table.questionId)]);
 
-export const chapters = pgTable("chapters", {
-  id: uuid("id").defaultRandom().primaryKey(),
-  subjectId: uuid("subject_id").notNull().references(() => subjects.id, { onDelete: "cascade" }),
-  code: text("code").notNull(),
-  name: text("name").notNull(),
-  sortOrder: integer("sort_order").notNull(),
-  ...timestamps,
-}, (table) => [uniqueIndex("chapters_subject_code_uq").on(table.subjectId, table.code)]);
+export const entitlements = pgTable("entitlements", { id: uuid("id").defaultRandom().primaryKey(), userId: uuid("user_id").notNull().references(() => users.id, { onDelete: "cascade" }), status: text("status").notNull(), startsAt: timestamp("starts_at", { withTimezone: true }).notNull(), expiresAt: timestamp("expires_at", { withTimezone: true }), ...timestamps }, (table) => [index("entitlements_user_idx").on(table.userId)]);
+export const payments = pgTable("payments", { id: uuid("id").defaultRandom().primaryKey(), userId: uuid("user_id").notNull().references(() => users.id), transactionId: text("transaction_id").notNull(), amount: integer("amount").notNull(), currency: text("currency").default("NPR").notNull(), screenshotKey: text("screenshot_key"), remarks: text("remarks"), status: text("status").default("pending").notNull(), reviewedAt: timestamp("reviewed_at", { withTimezone: true }), ...timestamps }, (table) => [uniqueIndex("payments_transaction_uq").on(table.transactionId), index("payments_user_idx").on(table.userId), index("payments_status_idx").on(table.status)]);
+export const auditEvents = pgTable("audit_events", { id: uuid("id").defaultRandom().primaryKey(), actorUserId: uuid("actor_user_id").references(() => users.id, { onDelete: "set null" }), action: text("action").notNull(), entityType: text("entity_type").notNull(), entityId: text("entity_id"), metadata: jsonb("metadata").$type<Record<string, unknown>>(), ...timestamps }, (table) => [index("audit_events_actor_idx").on(table.actorUserId), index("audit_events_entity_idx").on(table.entityType, table.entityId)]);
 
-export const sources = pgTable("sources", {
-  id: uuid("id").defaultRandom().primaryKey(),
-  chapterId: uuid("chapter_id").notNull().references(() => chapters.id, { onDelete: "cascade" }),
-  title: text("title").notNull(),
-  author: text("author"),
-  edition: text("edition"),
-  sortOrder: integer("sort_order").notNull(),
-  ...timestamps,
-});
-
-export const topics = pgTable("topics", {
-  id: uuid("id").defaultRandom().primaryKey(),
-  chapterId: uuid("chapter_id").notNull().references(() => chapters.id, { onDelete: "cascade" }),
-  name: text("name").notNull(),
-  sortOrder: integer("sort_order").notNull(),
-  ...timestamps,
-});
-
-export const questions = pgTable("questions", {
-  id: uuid("id").defaultRandom().primaryKey(),
-  version: integer("version").default(1).notNull(),
-  chapterId: uuid("chapter_id").notNull().references(() => chapters.id),
-  sourceId: uuid("source_id").references(() => sources.id, { onDelete: "set null" }),
-  topicId: uuid("topic_id").references(() => topics.id, { onDelete: "set null" }),
-  prompt: text("prompt").notNull(),
-  explanation: text("explanation"),
-  difficulty: text("difficulty").default("medium").notNull(),
-  tags: jsonb("tags").$type<string[]>().default([]).notNull(),
-  isActive: boolean("is_active").default(true).notNull(),
-  ...timestamps,
-}, (table) => [
-  index("questions_chapter_idx").on(table.chapterId),
-  index("questions_topic_idx").on(table.topicId),
-  index("questions_active_idx").on(table.isActive),
-]);
-
-export const questionOptions = pgTable("question_options", {
-  id: uuid("id").defaultRandom().primaryKey(),
-  questionId: uuid("question_id").notNull().references(() => questions.id, { onDelete: "cascade" }),
-  text: text("text").notNull(),
-  sortOrder: integer("sort_order").notNull(),
-  isCorrect: boolean("is_correct").default(false).notNull(),
-}, (table) => [index("question_options_question_idx").on(table.questionId)]);
-
-export const entitlements = pgTable("entitlements", {
-  id: uuid("id").defaultRandom().primaryKey(),
-  userId: uuid("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
-  status: text("status").notNull(),
-  startsAt: timestamp("starts_at", { withTimezone: true }).notNull(),
-  expiresAt: timestamp("expires_at", { withTimezone: true }),
-  ...timestamps,
-}, (table) => [index("entitlements_user_idx").on(table.userId)]);
-
-export const payments = pgTable("payments", {
-  id: uuid("id").defaultRandom().primaryKey(),
-  userId: uuid("user_id").notNull().references(() => users.id),
-  transactionId: text("transaction_id").notNull(),
-  amount: integer("amount").notNull(),
-  currency: text("currency").default("NPR").notNull(),
-  screenshotKey: text("screenshot_key"),
-  remarks: text("remarks"),
-  status: text("status").default("pending").notNull(),
-  reviewedAt: timestamp("reviewed_at", { withTimezone: true }),
-  ...timestamps,
-}, (table) => [
-  uniqueIndex("payments_transaction_uq").on(table.transactionId),
-  index("payments_user_idx").on(table.userId),
-  index("payments_status_idx").on(table.status),
-]);
-
-export const auditEvents = pgTable("audit_events", {
-  id: uuid("id").defaultRandom().primaryKey(),
-  actorUserId: uuid("actor_user_id").references(() => users.id, { onDelete: "set null" }),
-  action: text("action").notNull(),
-  entityType: text("entity_type").notNull(),
-  entityId: text("entity_id"),
-  metadata: jsonb("metadata").$type<Record<string, unknown>>(),
-  ...timestamps,
-}, (table) => [index("audit_events_actor_idx").on(table.actorUserId), index("audit_events_entity_idx").on(table.entityType, table.entityId)]);
-
-export const usersRelations = relations(users, ({ many }) => ({
-  roles: many(userRoles),
-  entitlements: many(entitlements),
-  payments: many(payments),
-  auditEvents: many(auditEvents),
-}));
-
+export const usersRelations = relations(users, ({ many }) => ({ roles: many(userRoles), sessions: many(sessions), entitlements: many(entitlements), payments: many(payments), auditEvents: many(auditEvents) }));
 export const levelsRelations = relations(levels, ({ many }) => ({ subjects: many(subjects) }));
 export const subjectsRelations = relations(subjects, ({ one, many }) => ({ level: one(levels, { fields: [subjects.levelId], references: [levels.id] }), chapters: many(chapters) }));
 export const chaptersRelations = relations(chapters, ({ one, many }) => ({ subject: one(subjects, { fields: [chapters.subjectId], references: [subjects.id] }), sources: many(sources), topics: many(topics), questions: many(questions) }));
