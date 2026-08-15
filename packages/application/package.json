@@ -1,0 +1,13 @@
+{
+  "name": "@abhyas/application",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "typecheck": "tsc -p tsconfig.json --noEmit" },
+  "dependencies": {
+    "@abhyas/content": "workspace:*",
+    "@abhyas/database": "workspace:*",
+    "@abhyas/quiz-engine": "workspace:*"
+  }
+}
