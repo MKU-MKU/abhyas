@@ -1,6 +1,5 @@
 import { and, asc, eq } from "drizzle-orm";
 import type { AnswerAttempt, QuizMode, QuizQuestion, QuizResult } from "@abhyas/quiz-engine";
-import type { AttemptStore } from "@abhyas/application";
 import { quizAttemptAnswers, quizAttempts } from "../schema";
 
 export interface AttemptDatabase {
@@ -9,7 +8,13 @@ export interface AttemptDatabase {
   update: (...args: any[]) => any;
 }
 
-export class DrizzleAttemptRepository implements AttemptStore {
+export interface AttemptPersistence {
+  create(input: { userId: string; mode: QuizMode; questions: readonly QuizQuestion[] }): Promise<{ id: string; startedAt: Date }>;
+  recordAnswer(input: { attemptId: string; attempt: AnswerAttempt; correct: boolean }): Promise<void>;
+  submit(input: { attemptId: string; result: QuizResult }): Promise<void>;
+}
+
+export class DrizzleAttemptRepository implements AttemptPersistence {
   constructor(private readonly db: AttemptDatabase) {}
 
   async create(input: { userId: string; mode: QuizMode; questions: readonly QuizQuestion[] }): Promise<{ id: string; startedAt: Date }> {
