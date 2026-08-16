@@ -41,7 +41,9 @@ jobs:
       - name: Build web
         run: pnpm --filter @abhyas/web build
         env:
-          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+          # The production site is served from the custom domain
+          # www.abhyas.mku.name.np, so assets and routes live at /.
+          NEXT_PUBLIC_BASE_PATH: ""
 
       - name: Upload Pages artifact
         if: github.event_name == 'push'
