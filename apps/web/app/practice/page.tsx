@@ -26,6 +26,17 @@ export default function PracticePage() {
   const question = demoQuestions[index];
   const progress = useMemo(() => ((index + 1) / demoQuestions.length) * 100, [index]);
 
+  if (!question) {
+    return (
+      <main className="main">
+        <section className="card" style={{ maxWidth: 700, margin: "60px auto", textAlign: "center" }}>
+          <p className="eyebrow">No question found</p>
+          <a className="cardLink" href="/">Return to dashboard →</a>
+        </section>
+      </main>
+    );
+  }
+
   function submit() {
     if (selected !== null) setSubmitted(true);
   }
