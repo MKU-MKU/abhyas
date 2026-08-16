@@ -18,8 +18,8 @@ export default function ExamPage() {
 
   useEffect(() => {
     if (submitted || seconds <= 0) return;
-    const timer = window.setInterval(() => setSeconds((value) => Math.max(0, value - 1)), 1000);
-    return () => window.clearInterval(timer);
+    const timer = globalThis.setInterval(() => setSeconds((value) => Math.max(0, value - 1)), 1000);
+    return () => globalThis.clearInterval(timer);
   }, [submitted, seconds]);
 
   useEffect(() => {
