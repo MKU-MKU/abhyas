@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Route } from "next";
 import type { ReactNode } from "react";
 
 const navigation = [
@@ -8,7 +9,7 @@ const navigation = [
   { href: "/exam", label: "Exam" },
   { href: "/review", label: "Review" },
   { href: "/progress", label: "Progress" },
-];
+] satisfies ReadonlyArray<{ href: Route; label: string }>;
 
 export function AppShell({ children }: { children: ReactNode }) {
   return (
