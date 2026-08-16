@@ -1,24 +1,17 @@
 import { NextResponse } from "next/server";
-import { parseCreateAttemptBody } from "./contracts";
-
-export async function GET() {
-  return NextResponse.json({
-    error: "AUTHENTICATION_REQUIRED",
-    message: "Attempt endpoints require an authenticated user.",
-  }, { status: 401 });
-}
+import { validateCreateAttemptCommand } from "@abhyas/application";
 
 export async function POST(request: Request) {
   try {
-    const body = parseCreateAttemptBody(await request.json());
-    return NextResponse.json({
-      error: "AUTHENTICATION_REQUIRED",
-      message: "Attempt creation requires an authenticated user.",
-      requested: body,
-    }, { status: 401 });
+    const body = await request.json();
+    const command = validateCreateAttemptCommand(body);
+    return NextResponse.json({ error: "AUTHENTICATION_REQUIRED", mode: command.mode, questionIds: command.questionIds }, { status: 401 });
   } catch (error) {
-    return NextResponse.json({
-      error: error instanceof Error ? error.message : "INVALID_BODY",
-    }, { status: 400 });
+    const message = error instanceof Error ? error.message : "Invalid request.";
+    return NextResponse.json({ error: "INVALID_REQUEST", message }, { status: 400 });
   }
+}
+
+export async function GET() {
+  return NextResponse.json({ error: "AUTHENTICATION_REQUIRED" }, { status: 401 });
 }
