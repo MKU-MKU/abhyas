@@ -27,6 +27,16 @@ export default function ExamPage() {
   }, [seconds]);
 
   const question = questions[index];
+  if (!question) {
+    return (
+      <main className="main">
+        <section className="card" style={{ maxWidth: 700, margin: "60px auto", textAlign: "center" }}>
+          <p className="eyebrow">No question found</p>
+          <a className="cardLink" href="/">Return to dashboard →</a>
+        </section>
+      </main>
+    );
+  }
   const answered = Object.keys(answers).length;
   const score = useMemo(() => questions.reduce((sum, item, i) => sum + (answers[i] === item.answer ? 1 : 0), 0), [answers]);
   const minutes = Math.floor(seconds / 60).toString().padStart(2, "0");
