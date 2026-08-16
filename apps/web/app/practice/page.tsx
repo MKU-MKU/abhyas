@@ -1,37 +1,78 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { DRIVE_SOURCES, loadQuestions } from "../../lib/content/drive-adapter";
+import type { Question } from "../../lib/content/types";
 
-type Question = { prompt: string; options: string[]; answer: number; explanation: string };
-
-const demoQuestions: Question[] = [
-  { prompt: "Which design philosophy primarily checks reinforced concrete members at ultimate and serviceability limit states?", options: ["Working Stress Method", "Limit State Method", "Elastic Method", "Rankine Method"], answer: 1, explanation: "The Limit State Method checks both ultimate strength and serviceability limit states." },
-  { prompt: "In a pressurised conduit, rapid valve closure can produce which transient phenomenon?", options: ["Cavitation only", "Water hammer", "Sedimentation", "Uniform flow"], answer: 1, explanation: "Rapid changes in flow momentum generate pressure waves known as water hammer." },
-];
+const chapterOptions = Array.from(new Map(DRIVE_SOURCES.map((source) => [`${source.level}:${source.chapterCode}`, source])).values());
+function shuffle<T>(items: T[]): T[] { return [...items].sort(() => Math.random() - 0.5); }
 
 export default function PracticePage() {
+  const [chapterKey, setChapterKey] = useState("level7:2");
+  const [questions, setQuestions] = useState<Question[]>([]);
   const [index, setIndex] = useState(0);
-  const [selected, setSelected] = useState<number | null>(null);
+  const [selected, setSelected] = useState<string | null>(null);
   const [submitted, setSubmitted] = useState(false);
-  const question = demoQuestions[index];
-  const progress = useMemo(() => ((index + 1) / demoQuestions.length) * 100, [index]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const selectedChapter = chapterOptions.find((item) => `${item.level}:${item.chapterCode}` === chapterKey) || chapterOptions[0];
+  const sources = DRIVE_SOURCES.filter((source) => `${source.level}:${source.chapterCode}` === chapterKey);
+  const question = questions[index];
+  const progress = questions.length ? ((index + 1) / questions.length) * 100 : 0;
 
-  if (!question) return <main className="main"><section className="card"><p className="eyebrow">No question found</p><Link className="cardLink" href="/">Return to dashboard →</Link></section></main>;
+  async function startPractice() {
+    setLoading(true); setError(""); setQuestions([]); setIndex(0); setSelected(null); setSubmitted(false);
+    try {
+      const batches = await Promise.all(sources.map(loadQuestions));
+      const loaded = shuffle(batches.flat()).slice(0, 20);
+      if (!loaded.length) throw new Error("No valid questions were returned from this chapter.");
+      setQuestions(loaded);
+    } catch (err) { setError(err instanceof Error ? err.message : "Could not load questions."); }
+    finally { setLoading(false); }
+  }
 
-  const submit = () => { if (selected !== null) setSubmitted(true); };
-  const next = () => { if (index < demoQuestions.length - 1) { setIndex((value) => value + 1); setSelected(null); setSubmitted(false); } };
+  useEffect(() => { void startPractice(); }, []);
 
-  return (
-    <main className="main"><section style={{ maxWidth: 820, margin: "0 auto" }}>
-      <Link className="cardLink" href="/">← Dashboard</Link>
-      <p className="eyebrow" style={{ marginTop: 28 }}>Practice · Civil Engineering</p>
-      <div style={{ height: 6, background: "var(--surface-muted)", borderRadius: 99, overflow: "hidden", margin: "10px 0 24px" }}><div style={{ width: `${progress}%`, height: "100%", background: "var(--primary)" }} /></div>
-      <div className="card"><p className="meta">Question {index + 1} of {demoQuestions.length}</p><h2 style={{ fontSize: "clamp(1.5rem, 4vw, 2.25rem)" }}>{question.prompt}</h2>
-        <div style={{ display: "grid", gap: 10, marginTop: 24 }}>{question.options.map((option, optionIndex) => { const correct = submitted && optionIndex === question.answer; const wrong = submitted && selected === optionIndex && optionIndex !== question.answer; return <button key={option} type="button" onClick={() => !submitted && setSelected(optionIndex)} aria-pressed={selected === optionIndex} style={{ textAlign: "left", padding: "16px 18px", borderRadius: 14, border: `1px solid ${correct ? "var(--success)" : wrong ? "var(--danger)" : selected === optionIndex ? "var(--primary)" : "var(--border)"}`, background: selected === optionIndex ? "var(--surface-muted)" : "var(--surface)", color: "var(--text)" }}><strong>{String.fromCharCode(65 + optionIndex)}.</strong> {option}</button>; })}</div>
-        {submitted && <div className="card" style={{ marginTop: 18, background: "var(--surface-muted)", boxShadow: "none" }}><strong>{selected === question.answer ? "Correct" : "Review this one"}</strong><p>{question.explanation}</p></div>}
-        <div style={{ display: "flex", justifyContent: "flex-end", gap: 10, marginTop: 22 }}>{!submitted ? <button type="button" onClick={submit} disabled={selected === null} className="primaryButton" style={{ opacity: selected === null ? .5 : 1 }}>Check answer</button> : index < demoQuestions.length - 1 ? <button type="button" onClick={next} className="primaryButton">Next question →</button> : <Link className="primaryButton" href="/chapters">Choose another chapter →</Link>}</div>
-      </div>
-    </section></main>
-  );
+  const correct = submitted && question && selected === question.answer;
+  const optionClass = useMemo(() => (optionId: string) => {
+    if (!submitted) return selected === optionId ? "selected" : "";
+    if (optionId === question?.answer) return "correct";
+    if (optionId === selected) return "wrong";
+    return "";
+  }, [question, selected, submitted]);
+
+  function checkAnswer() {
+    if (!question || selected === null) return;
+    setSubmitted(true);
+    try {
+      const current = JSON.parse(localStorage.getItem("abhyas:wrong") || "[]") as Question[];
+      const wrong = selected !== question.answer;
+      localStorage.setItem("abhyas:wrong", JSON.stringify(wrong ? [question, ...current.filter((item) => item.id !== question.id)].slice(0, 100) : current.filter((item) => item.id !== question.id)));
+      const stats = JSON.parse(localStorage.getItem("abhyas:stats") || '{"total":0,"correct":0}') as { total: number; correct: number };
+      stats.total += 1; if (!wrong) stats.correct += 1;
+      localStorage.setItem("abhyas:stats", JSON.stringify(stats));
+    } catch { /* local persistence must never block answering */ }
+  }
+
+  if (!selectedChapter) return <main className="main"><section className="card"><h1>Question bank is being connected</h1><p>Drive sources are not configured yet.</p></section></main>;
+
+  return <main className="main"><section style={{ maxWidth: 920, margin: "0 auto" }}>
+    <Link className="cardLink" href="/">← Dashboard</Link>
+    <div style={{ marginTop: 28, display: "flex", justifyContent: "space-between", gap: 16, alignItems: "end", flexWrap: "wrap" }}>
+      <div><p className="eyebrow">Real Question Bank</p><h1>Practice</h1><p className="meta">Questions load from the existing Abhyas Drive files through the V1 content API.</p></div>
+      <div style={{ minWidth: 240 }}><label className="meta" htmlFor="chapter">Chapter</label><select id="chapter" className="input" value={chapterKey} onChange={(event) => setChapterKey(event.target.value)}>{chapterOptions.map((chapter) => <option key={`${chapter.level}:${chapter.chapterCode}`} value={`${chapter.level}:${chapter.chapterCode}`}>{chapter.chapterName}</option>)}</select></div>
+    </div>
+    <div className="card" style={{ marginTop: 20, display: "flex", gap: 12, flexWrap: "wrap", alignItems: "center" }}><span className="meta">{sources.length} Drive question sets</span><span className="meta">·</span><span className="meta">Offline cache enabled</span><Link className="cardLink" href="/review" style={{ margin: 0 }}>Review mistakes →</Link><button type="button" className="primaryButton" onClick={() => void startPractice()} disabled={loading} style={{ marginLeft: "auto" }}>{loading ? "Loading questions…" : "Start / Reload Practice →"}</button></div>
+    {error && <div className="card" style={{ marginTop: 16, borderColor: "var(--danger)" }}><strong>Could not load the question bank.</strong><p>{error}</p><p className="meta">Check that the existing Apps Script deployment is available and can read the Drive file.</p></div>}
+    {question && !loading && !error && <div className="card" style={{ marginTop: 20 }}>
+      <div style={{ height: 7, background: "var(--surface-muted)", borderRadius: 99, overflow: "hidden", marginBottom: 22 }}><div style={{ width: `${progress}%`, height: "100%", background: "var(--primary)" }} /></div>
+      <div className="meta" style={{ display: "flex", justifyContent: "space-between", gap: 12 }}><span>{selectedChapter.chapterName}</span><span>Question {index + 1} / {questions.length}</span></div>
+      <h2 style={{ fontSize: "clamp(1.3rem, 3vw, 2rem)", lineHeight: 1.35, marginTop: 12 }}>{question.prompt}</h2>
+      <div style={{ display: "grid", gap: 10, marginTop: 24 }}>{question.options.map((option) => <button key={option.id} type="button" className={`questionOption ${optionClass(option.id)}`} onClick={() => !submitted && setSelected(option.id)} disabled={submitted} aria-pressed={selected === option.id}><strong>{String.fromCharCode(65 + Number(option.id))}.</strong><span>{option.label}</span></button>)}</div>
+      {submitted && <div className="card" style={{ marginTop: 18, background: "var(--surface-muted)", boxShadow: "none" }}><strong>{correct ? "✓ Correct" : "Review this question"}</strong>{question.explanation && <p style={{ marginBottom: 0 }}>{question.explanation}</p>}</div>}
+      <div style={{ display: "flex", justifyContent: "flex-end", gap: 10, marginTop: 22 }}>{!submitted ? <button type="button" onClick={checkAnswer} disabled={selected === null} className="primaryButton" style={{ opacity: selected === null ? .5 : 1 }}>Check answer</button> : index < questions.length - 1 ? <button type="button" onClick={() => { setIndex((value) => value + 1); setSelected(null); setSubmitted(false); }} className="primaryButton">Next question →</button> : <button type="button" onClick={() => void startPractice()} className="primaryButton">New practice set ↻</button>}</div>
+    </div>}
+    {!question && !loading && !error && <div className="card" style={{ marginTop: 20 }}><h2>Ready when you are.</h2><p>Choose a chapter and start a real question session.</p></div>}
+  </section></main>;
 }

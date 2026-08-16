@@ -1,20 +1,36 @@
-import Link from "next/link";
+"use client";
 
-const reviewAreas = [
-  ["Weak areas", "Topics where your accuracy needs another pass.", "0 targets"],
-  ["Mistakes", "Questions you answered incorrectly and should revisit.", "0 saved"],
-  ["Bookmarks", "Questions you deliberately kept for later review.", "0 saved"],
-];
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import type { Question } from "../../lib/content/types";
 
 export default function ReviewPage() {
-  return (
-    <main className="main">
-      <p className="eyebrow">Revision workspace</p>
-      <h1>Review what matters.</h1>
-      <p className="subtitle">The review layer will turn attempts and mistakes into targeted revision queues. The foundation is intentionally storage-independent.</p>
-      <div className="grid" style={{ marginTop: 32 }}>
-        {reviewAreas.map(([title, description, count]) => <article className="card" key={title}><span className="pill">{count}</span><h2 style={{ marginTop: 14 }}>{title}</h2><p>{description}</p><Link className="cardLink" href="/chapters">Browse chapters →</Link></article>)}
-      </div>
-    </main>
-  );
+  const [wrong, setWrong] = useState<Question[]>([]);
+  const [stats, setStats] = useState({ total: 0, correct: 0 });
+
+  useEffect(() => {
+    try {
+      setWrong(JSON.parse(localStorage.getItem("abhyas:wrong") || "[]"));
+      setStats(JSON.parse(localStorage.getItem("abhyas:stats") || '{"total":0,"correct":0}'));
+    } catch { /* empty local state */ }
+  }, []);
+
+  const accuracy = stats.total ? Math.round((stats.correct / stats.total) * 100) : 0;
+
+  return <main className="main">
+    <p className="eyebrow">Revision workspace</p>
+    <h1>Review what matters.</h1>
+    <p className="subtitle">Questions answered incorrectly in Practice are retained locally for focused revision. This is the first storage-independent review layer; backend synchronization comes later.</p>
+
+    <div className="stats">
+      <div className="stat"><strong>{wrong.length}</strong><span>Questions in wrong bank</span></div>
+      <div className="stat"><strong>{stats.total}</strong><span>Practice answers</span></div>
+      <div className="stat"><strong>{accuracy}%</strong><span>Current accuracy</span></div>
+    </div>
+
+    <section style={{ marginTop: 30 }}>
+      <div className="sectionHeader"><div><p className="eyebrow">Wrong bank</p><h2 style={{ margin: 0 }}>Questions to revisit</h2></div><Link className="primaryButton" href="/practice">Practice more →</Link></div>
+      {wrong.length === 0 ? <div className="card"><h2>Nothing to review yet.</h2><p>Answer some real questions in Practice. Incorrect answers will appear here automatically.</p></div> : <div className="subtopicList">{wrong.map((question, index) => <article className="card" key={question.id}><div className="meta">Q{index + 1} · {question.source || "Abhyas question bank"}</div><h2 style={{ marginTop: 8 }}>{question.prompt}</h2><div className="pillRow">{question.options.map((option, optionIndex) => <span className="pill" key={option.id}>{String.fromCharCode(65 + optionIndex)}. {option.label}</span>)}</div>{question.explanation && <p><strong>Explanation:</strong> {question.explanation}</p>}</article>)}</div>}
+    </section>
+  </main>;
 }
