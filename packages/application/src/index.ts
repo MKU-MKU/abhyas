@@ -1,5 +1,7 @@
 import type { Chapter, ContentId, Level, Question, Source, Subject, Topic } from "@abhyas/content";
 import type { ContentRepository } from "@abhyas/database";
+export { AttemptService } from "./attempt-service";
+export type { AttemptPersistence } from "./attempt-service";
 
 export interface ContentDiscovery {
   listLevels(): Promise<readonly Level[]>;
