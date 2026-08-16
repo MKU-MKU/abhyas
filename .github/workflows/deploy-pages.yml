@@ -38,6 +38,8 @@ jobs:
 
       - name: Build web
         run: pnpm --filter @abhyas/web build
+        env:
+          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
