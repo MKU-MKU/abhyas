@@ -6,11 +6,9 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   output: "export",
   basePath,
-  assetPrefix: basePath ? `${basePath}/` : undefined,
   trailingSlash: true,
-  experimental: {
-    typedRoutes: true,
-  },
+  typedRoutes: true,
+  ...(basePath ? { assetPrefix: `${basePath}/` } : {}),
 };
 
 export default nextConfig;
