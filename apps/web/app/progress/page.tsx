@@ -1,25 +1,19 @@
-const metrics = [
-  { label: "Accuracy", value: "—", detail: "Build your first attempt" },
-  { label: "Questions", value: "0", detail: "Completed across all modes" },
-  { label: "Streak", value: "0 days", detail: "Start a daily practice habit" },
-];
+import Link from "next/link";
+
+const metrics = [["0%", "Accuracy"], ["0", "Questions"], ["0", "Exams"], ["0 days", "Streak"]];
 
 export default function ProgressPage() {
   return (
     <main className="main">
-      <a className="cardLink" href="/">← Dashboard</a>
-      <section style={{ marginTop: 28 }}>
-        <p className="eyebrow">Progress</p>
-        <h1 style={{ fontSize: "clamp(2rem, 5vw, 3.4rem)" }}>Your preparation at a glance.</h1>
-        <p className="subtitle">A useful progress system should show what improved, what remains weak, and what to study next.</p>
-        <div className="statRow">
-          {metrics.map((metric) => <div className="stat" key={metric.label}><strong>{metric.value}</strong><span>{metric.label}</span><p style={{ marginBottom: 0 }}>{metric.detail}</p></div>)}
-        </div>
-        <div className="grid">
-          <article className="card"><h2>Accuracy by subject</h2><p>No attempt data yet. Complete practice questions to populate this view.</p></article>
-          <article className="card"><h2>Weak areas</h2><p>Abhyas will surface topics with repeated errors rather than simply showing a total score.</p></article>
-          <article className="card"><h2>Recommended next</h2><p>Your revision queue will prioritize recent mistakes, low-confidence topics and overdue review.</p></article>
-        </div>
+      <p className="eyebrow">Performance</p>
+      <h1>See your progress.</h1>
+      <p className="subtitle">A clean baseline for accuracy, consistency and exam performance. Real attempt data will plug into this view through the backend later.</p>
+      <div className="stats" style={{ marginTop: 30 }}>{metrics.map(([value, label]) => <div className="stat" key={label}><strong>{value}</strong><span>{label}</span></div>)}</div>
+      <section className="card" style={{ marginTop: 20 }}>
+        <p className="eyebrow">Next milestone</p>
+        <h2>Complete your first practice set.</h2>
+        <p>Once attempts are persisted, this area will show chapter accuracy, recent activity, streaks and improvement trends.</p>
+        <Link className="primaryButton" href="/practice" style={{ marginTop: 8 }}>Start practice →</Link>
       </section>
     </main>
   );
