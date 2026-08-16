@@ -1,0 +1,10 @@
+{
+  "code": "4.5",
+  "subtopic": "LEVELING",
+  "topic": "Leveling: principle of leveling, temporary and permanent adjustment of level, bench marks, booking methods and their recording, longitudinal and cross sectioning, reciprocal leveling, trigonometric leveling",
+  "source": "survey101-175 / 175-250 / 251-350 / 350-455 updated.json (merged from old LEVEL 7 archive)",
+  "questions": [
+    {"q":"163. A level line is a","options":["line parallel to the mean spherical surface of earth","line normal to the plumb line at all points","horizontal line","both (a) and (b) of above"],"correct":3,"explain":"A level line follows the Earth's curvature and is perpendicular to the direction of gravity (plumb line) at every point."},
+    {"q":"164. The surface of zero elevation around the earth, which is slightly irregular and curved is known as","options":["mean sea level","geoid surface","level surface","horizontal surface"],"correct":1,"explain":"The geoid is the theoretical surface of the Earth's oceans if they were at rest, serving as the global reference for elevations."}
+  ]
+}

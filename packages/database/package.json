@@ -12,14 +12,18 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:push": "drizzle-kit push"
+    "db:push": "drizzle-kit push",
+    "db:seed": "tsx src/migration/seed-from-files.ts"
   },
   "dependencies": {
     "@abhyas/content": "workspace:*",
     "@abhyas/quiz-engine": "workspace:*",
-    "drizzle-orm": "^0.44.5"
+    "drizzle-orm": "^0.44.5",
+    "pg": "^8.13.1"
   },
   "devDependencies": {
-    "drizzle-kit": "^0.31.4"
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.19.2",
+    "@types/pg": "^8.11.10"
   }
 }
