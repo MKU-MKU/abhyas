@@ -1,0 +1,74 @@
+{
+  "code": "9.4",
+  "subtopic": "BOQ",
+  "topic": "Bill of quantities and schedule of quantities",
+  "source": "est_1-50.json, est_101-151.json, est_151-200.json, est_201-250.json, est_51-100.json",
+  "questions": [
+    {
+      "q": "49. Bill of quantity contains",
+      "options": [
+        "description of work",
+        "quantities of work",
+        "rate of the items",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "A BoQ lists descriptions, quantities, and eventually rates for all work items."
+    },
+    {
+      "q": "50. *Rate column of bill of quantity is filled by",
+      "options": [
+        "client",
+        "client's engineer",
+        "contractor",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "In competitive bidding, the contractor fills in their proposed rates in the BoQ."
+    },
+    {
+      "q": "70. *The unit rate of items written by the contractor in BOQ is in numeral as well as alphabetical form. Which one is preferred?",
+      "options": [
+        "numeral",
+        "alphabetical",
+        "both of the above",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Words (alphabetical) are preferred to prevent tampering or ambiguity with numbers in legal tender documents."
+    },
+    {
+      "q": "180. A document showing the list of quantity of various items of works required for completion of any project is known as",
+      "options": [
+        "schedule of quantity",
+        "schedule of rates",
+        "analysis of rate",
+        "abstract estimate"
+      ],
+      "correct": 0,
+      "explain": "The Schedule of Quantities (or Bill of Quantities) lists the calculated amounts of each work item required."
+    },
+    {
+      "q": "229. 'Bill of quantities' are prepared by .............",
+      "options": [
+        "Quantity surveyors",
+        "Vendors",
+        "Geodetic surveyor",
+        "suppliers"
+      ],
+      "correct": 0,
+      "explain": "Quantity Surveyors are specialized professionals responsible for preparing the Bill of Quantities (BOQ)."
+    },
+    {
+      "q": "233. The amount provided in the estimate and bill of quantities for some specialized works to be done by the specialist firm, whose details are not known at the time of preparing estimates is called:",
+      "options": [
+        "prime cost",
+        "day works",
+        "contingencies",
+        "provisional sum"
+      ],
+      "correct": 3,
+      "explain": "Provisional sums are amounts allocated for work that cannot be fully detailed at the time of the initial estimate."
+    }
+  ]
+}

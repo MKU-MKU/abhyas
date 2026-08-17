@@ -1,0 +1,151 @@
+{
+  "code": "4.1",
+  "subtopic": "INTRO&CLASSIFICATION",
+  "topic": "Introduction and basic principles, classification of surveys",
+  "source": "survey1-100 / 101-175 / 175-250 / 251-350 / 350-455 updated.json (merged from old LEVEL 7 archive)",
+  "questions": [
+    {
+      "q": "1. Principle of surveying is:",
+      "options": [
+        "to work from whole to the part",
+        "to work from part to whole",
+        "both (a) and (b) above",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "This is a fundamental principle to prevent the accumulation of errors and to localize them within a specific area."
+    },
+    {
+      "q": "2. Under Survey 'working from whole to part' is done:",
+      "options": [
+        "to prevent the accumulation of error",
+        "to localise the error",
+        "both of the above",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "By establishing a large primary control network first, errors made in smaller, subsequent measurements do not affect the overall framework."
+    },
+    {
+      "q": "3. The curvature of the earth's surface is taken into account only if the extent of survey is more than:",
+      "options": [
+        "60 sq km",
+        "160 sq km",
+        "260 sq km",
+        "500 sq km"
+      ],
+      "correct": 2,
+      "explain": "In plane surveying, the earth is considered flat. If the area exceeds approximately 250-260 sq km, the curvature must be considered (Geodetic Surveying)."
+    },
+    {
+      "q": "4. Geodetic survey is different from plane surveying because of:",
+      "options": [
+        "very large area is covered",
+        "the curvature of the earth is considered",
+        "undulations of the topography",
+        "the large difference of elevations"
+      ],
+      "correct": 1,
+      "explain": "While large areas are a reason to use it, the technical definition of geodetic surveying is that it accounts for the earth's spherical shape."
+    },
+    {
+      "q": "5. The limitation for geodetic survey is:",
+      "options": [
+        "150 km²",
+        "250 km²",
+        "350 km²",
+        "400 km²"
+      ],
+      "correct": 1,
+      "explain": "Generally, if the survey area is less than 250 km², plane surveying is used. Beyond this limit, geodetic methods are required."
+    },
+    {
+      "q": "6. Hydrographic survey deal with the mapping of:",
+      "options": [
+        "large water bodies",
+        "canal system",
+        "cloud movement",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Hydrographic surveys are conducted to map shorelines, depths of water bodies (oceans, lakes, rivers), and under-water features."
+    },
+    {
+      "q": "7. The survey which is carried out for determining absolute locations and the direction of any line... by making observation to heavenly bodies is called:",
+      "options": [
+        "hydrographic survey",
+        "astronomical survey",
+        "land survey",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "This uses observations of the sun or stars to determine absolute azimuth (direction), latitude, and longitude."
+    },
+    {
+      "q": "27. Which one is the simplest survey ?",
+      "options": [
+        "chain survey",
+        "compass survey",
+        "plane table survey",
+        "levelling"
+      ],
+      "correct": 0,
+      "explain": "It is the simplest form of surveying because it only requires linear measurements (no angles) and basic equipment like a chain and arrows."
+    },
+    {
+      "q": "28. During geodetic survey which one is considered:",
+      "options": [
+        "radius of earth is considered",
+        "curvature of earth is considered",
+        "mass of the earth is considered",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "In geodetic surveying, the earth's surface is treated as a spheroid, so lines are arcs and triangles are spherical triangles."
+    },
+    {
+      "q": "29. Cadastral Map is a map having:",
+      "options": [
+        "small scale",
+        "medium scale",
+        "large scale",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Cadastral maps show property boundaries, house numbers, and land ownership. To show these details accurately, a large scale (e.g., 1/500 to 1/2500) is required."
+    },
+    {
+      "q": "30. In city for planning, plotting the details as well as property line is:",
+      "options": [
+        "topographical map",
+        "cadastral map",
+        "land use map",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "These are specific legal maps used for tax purposes and to define the boundaries of individual land parcels in a city or village."
+    },
+    {
+      "q": "445. Which one of the following wrongly describes plane surveying?:",
+      "options": [
+        "it refers to a flat plane without considering curvature of the earth",
+        "it ignores the actual shape of the earth",
+        "it is performed on the surface of the earth",
+        "it considers the size and shape of the earth"
+      ],
+      "correct": 3,
+      "explain": "This wrongly describes plane surveying; Geodetic surveying is the branch that considers the size and shape (curvature) of the earth. Plane surveying specifically assumes the earth is flat."
+    },
+    {
+      "q": "450. A systematic process for combining opinions into a reasoned consensus is:",
+      "options": [
+        "consumer survey",
+        "opinion of experts",
+        "Delphi method",
+        "group work"
+      ],
+      "correct": 2,
+      "explain": "The Delphi method is a structured communication technique used to reach a reasoned consensus among a panel of experts through multiple rounds of questioning."
+    }
+  ]
+}

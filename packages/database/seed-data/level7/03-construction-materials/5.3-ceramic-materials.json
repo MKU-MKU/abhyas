@@ -1,0 +1,821 @@
+{
+  "code": "5.3",
+  "subtopic": "CERAMIC MATERIALS",
+  "topic": "Ceramic materials: ceramic tiles, mosaic tile, brick types and testing",
+  "questions": [
+    {
+      "q": "97. Ceramic material is manufactured from",
+      "options": [
+        "natural clays and minerals admixture at high temperature",
+        "...at high temperature",
+        "...at low temperature",
+        "...at low temperature"
+      ],
+      "correct": 0,
+      "explain": "Ceramics are inorganic, non-metallic materials processed by shaping and then firing at high temperatures (vitrification)."
+    },
+    {
+      "q": "98. The nature of ceramic material is",
+      "options": [
+        "hard and brittle",
+        "soft and brittle",
+        "hard and ductile",
+        "soft and ductile"
+      ],
+      "correct": 0,
+      "explain": "Ceramics are characterized by high hardness and high resistance to heat, but they lack ductility and fail suddenly (brittle)."
+    },
+    {
+      "q": "99. The nature of refractories material is",
+      "options": [
+        "water proof",
+        "non porous",
+        "good appearance",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Refractory materials are designed to withstand high temperatures and often require low porosity to resist chemical attack."
+    },
+    {
+      "q": "100. The magnesium refractories material can withstand",
+      "options": [
+        "low temperature",
+        "high temperature",
+        "hammering",
+        "punching"
+      ],
+      "correct": 1,
+      "explain": "Magnesium-based refractories (like Magnesite) are basic refractories capable of withstanding extreme furnace temperatures."
+    },
+    {
+      "q": "101. Refractory bricks are specially manufactured",
+      "options": [
+        "to withstand high temperature",
+        "to withstand high crushing pressure",
+        "to have high insulation against sound",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Refractory bricks, also known as fire bricks, are designed to resist high temperatures (up to 1700°C) without melting or softening."
+    },
+    {
+      "q": "102. The soil good for making bricks is",
+      "options": [
+        "clay soil",
+        "alluvial",
+        "silt",
+        "sand and silt"
+      ],
+      "correct": 0,
+      "explain": "Clayey soil is ideal because it provides the necessary plasticity for molding and strength after burning."
+    },
+    {
+      "q": "103. The impurity not desirable in the soil used for brick formation is",
+      "options": [
+        "alkali",
+        "kankar",
+        "both (a) and (b) of above",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Alkalis cause efflorescence (white staining), while Kankar (lime nodules) can cause bricks to split upon hydration."
+    },
+    {
+      "q": "104. The ingredient of the brick earth which enables the brick to retain shape is",
+      "options": [
+        "aluminium",
+        "silica",
+        "iron oxide",
+        "magnesia"
+      ],
+      "correct": 1,
+      "explain": "Silica prevents the brick from warping, shrinking, and cracking; it provides the 'skeleton' for shape retention."
+    },
+    {
+      "q": "105. The maximum percentage of ingredients in brick formation is",
+      "options": [
+        "silica",
+        "silica & silt",
+        "silt",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Silica (sand) constitutes the largest portion of brick earth, typically ranging from 50% to 60%."
+    },
+    {
+      "q": "106. Percentage of silica in a good brick earth lies between",
+      "options": [
+        "10-20%",
+        "20-40%",
+        "50-60%",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "For a good brick earth, silica should be present in the range of 50-60% to ensure durability and prevent shrinkage."
+    },
+    {
+      "q": "107. The red colour of the brick is due to",
+      "options": [
+        "iron oxide",
+        "silica",
+        "magnesia",
+        "alumina"
+      ],
+      "correct": 0,
+      "explain": "Iron oxide (roughly 5-6%) acts as a flux and imparts the characteristic red color to the brick upon burning."
+    },
+    {
+      "q": "109. During compressive strength load is applied at the rate of",
+      "options": [
+        "10 N/mm2/min",
+        "12 N/mm2/min",
+        "14 N/mm2/min",
+        "16 N/mm2/min"
+      ],
+      "correct": 2,
+      "explain": "Standard testing procedures require the load to be applied at a steady rate of 14 N/mm² per minute until failure."
+    },
+    {
+      "q": "110. The percentage of alumina in good brick earth lies between",
+      "options": [
+        "10-20%",
+        "20-30%",
+        "30-40%",
+        "40-50%"
+      ],
+      "correct": 1,
+      "explain": "Alumina is responsible for plasticity and should be between 20-30% of the brick earth volume."
+    },
+    {
+      "q": "111. Excess of silica in brick earth causes",
+      "options": [
+        "loss of cohesion",
+        "impermeable",
+        "cracking and warping on drying",
+        "brittleness"
+      ],
+      "correct": 3,
+      "explain": "While silica is vital, an excess makes the brick brittle and weak because it destroys the cohesion between soil particles."
+    },
+    {
+      "q": "112. Excess of alumina in a brick earth causes",
+      "options": [
+        "loss of cohesion",
+        "impermeable",
+        "cracking and warping on drying",
+        "brittleness"
+      ],
+      "correct": 2,
+      "explain": "Excess alumina makes the clay too plastic, leading to significant shrinkage, cracking, and warping during the drying and burning process."
+    },
+    {
+      "q": "113. The main function of alumina in brick earth is",
+      "options": [
+        "to impart plasticity",
+        "to increase durability",
+        "to prevent shrinkage",
+        "to increase impermeability"
+      ],
+      "correct": 0,
+      "explain": "Alumina absorbs water and renders the clay plastic, which is essential for the molding of the brick."
+    },
+    {
+      "q": "114. The process of mixing clay, water and other ingredients to make brick is called",
+      "options": [
+        "moulding",
+        "tempering",
+        "pugging",
+        "blending"
+      ],
+      "correct": 1,
+      "explain": "Tempering is the process of adding water to the brick earth and kneading it to achieve a uniform, plastic mass."
+    },
+    {
+      "q": "115. The process of mixing sand with the powdered natural soil to improve the quality is known as",
+      "options": [
+        "moulding",
+        "tempering",
+        "pugging",
+        "blending"
+      ],
+      "correct": 3,
+      "explain": "Blending involves adding specific materials (like sand or chalk) to the clay to correct its composition before molding."
+    },
+    {
+      "q": "116. Excess of iron oxide in brick earth causes",
+      "options": [
+        "loss of cohesion",
+        "decay of bricks",
+        "the colour change i.e. from red to dark blue",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "While iron oxide provides the red color, an excess amount during burning causes the brick to turn dark blue or blackish."
+    },
+    {
+      "q": "117. Lime is mixed with brick earth",
+      "options": [
+        "to impart plasticity",
+        "to increase durability",
+        "to prevent shrinkage",
+        "to increase impermeability"
+      ],
+      "correct": 2,
+      "explain": "Lime in brick earth helps the silica to fuse at a lower temperature and prevents the raw bricks from shrinking and warping."
+    },
+    {
+      "q": "118. The maximum percentage of water absorption of 1st class bricks in 24 hrs should be limited to",
+      "options": [
+        "10%",
+        "15%",
+        "20%",
+        "24%"
+      ],
+      "correct": 1,
+      "explain": "High-quality 1st class bricks should not absorb more than 1/6th of their dry weight (approximately 15%) when immersed in water for 24 hours."
+    },
+    {
+      "q": "119. The maximum percentage of water absorption of 2nd class bricks in 24 hrs should be limited to",
+      "options": [
+        "10%",
+        "15%",
+        "20%",
+        "24%"
+      ],
+      "correct": 2,
+      "explain": "For 2nd class bricks, the standard allowable limit for water absorption is 20% of its dry weight."
+    },
+    {
+      "q": "120. The crushing strength of 1st class brick should not be less than",
+      "options": [
+        "25 kg/cm2",
+        "70 kg/cm2",
+        "105 kg/cm2",
+        "140 kg/cm2"
+      ],
+      "correct": 2,
+      "explain": "1st class bricks are required to have a minimum compressive (crushing) strength of 10.5 N/mm² or 105 kg/cm²."
+    },
+    {
+      "q": "121. The minimum compressive strength of a 2nd class bricks should be",
+      "options": [
+        "25 kg/cm2",
+        "70 kg/cm2",
+        "105 kg/cm2",
+        "140 kg/cm2"
+      ],
+      "correct": 1,
+      "explain": "2nd class bricks must have a minimum crushing strength of 7.0 N/mm² or 70 kg/cm²."
+    },
+    {
+      "q": "122. The temperature at which bricks are burnt varies from (low melting clay)",
+      "options": [
+        "400° to 700°C",
+        "700° to 1000°C",
+        "1000° to 1200°C",
+        "1200° to 1500°C"
+      ],
+      "correct": 1,
+      "explain": "Standard bricks are typically burnt in a kiln at temperatures ranging between 700°C and 1000°C depending on the clay type."
+    },
+    {
+      "q": "124. The number of standard bricks required for one cubic meter of brick masonry (IS standard) is",
+      "options": [
+        "400",
+        "500",
+        "750",
+        "250"
+      ],
+      "correct": 1,
+      "explain": "For standard modular bricks (19cm x 9cm x 9cm), the nominal requirement including mortar is 500 bricks per cubic meter."
+    },
+    {
+      "q": "125. The red colour obtained by the bricks is due to the presence of",
+      "options": [
+        "lime",
+        "iron oxide",
+        "manganese",
+        "silica"
+      ],
+      "correct": 1,
+      "explain": "Iron oxide is the primary chemical ingredient responsible for the characteristic red hue of burnt clay bricks."
+    },
+    {
+      "q": "126. The soil used for the manufacture of bricks should preferably not contain the following material",
+      "options": [
+        "alkalies",
+        "manganese",
+        "pebbles",
+        "iron oxide"
+      ],
+      "correct": 2,
+      "explain": "Pebbles and stones prevent the uniform mixing of clay and can cause the brick to crack during the burning process."
+    },
+    {
+      "q": "127. Tiles are used for",
+      "options": [
+        "covering the roofs and flooring",
+        "making drains",
+        "both (a) and (b) of above",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Clay tiles are versatile components used for roofing, flooring, and constructing drainage conduits."
+    },
+    {
+      "q": "129. The internal size of mould used in brick preparation is",
+      "options": [
+        "smaller than the size of fully burnt brick",
+        "larger than the size of fully burnt brick",
+        "equal to the size of fully burnt brick",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Moulds are made 8-10% larger than the desired brick size to account for the shrinkage that occurs during drying and burning."
+    },
+    {
+      "q": "130. If fine sand or ash is sprinkled on the inner surface of mould, the bricks are known as",
+      "options": [
+        "slope moulded",
+        "sand moulded",
+        "table moulded",
+        "machine moulded"
+      ],
+      "correct": 1,
+      "explain": "Sprinkling sand inside the mould helps the clay block slide out easily; these are specifically called sand-moulded bricks."
+    },
+    {
+      "q": "131. Pug mill is used for",
+      "options": [
+        "clay preparation",
+        "clay moulding",
+        "brick drying",
+        "brick burning"
+      ],
+      "correct": 0,
+      "explain": "A pug mill is used for 'pugging,' which is the process of kneading the clay to make it uniform and plastic for moulding."
+    },
+    {
+      "q": "132. Advantage of clamp burning as compared to kiln burning is",
+      "options": [
+        "less initial cost",
+        "takes less time",
+        "when large number of bricks are required",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Clamps are temporary structures and do not require the expensive permanent construction associated with kilns."
+    },
+    {
+      "q": "133. The over ground continuous kiln is",
+      "options": [
+        "bull's trench kiln",
+        "haffman's kiln",
+        "tunnel kiln",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Hoffman's kiln is a permanent, over-ground continuous kiln, whereas Bull's Trench is typically partially underground."
+    },
+    {
+      "q": "134. Hoffman's kiln is a",
+      "options": [
+        "intermittent kiln",
+        "continuous kiln",
+        "semi continuous kiln",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Hoffman's kilns allow for continuous loading, burning, and unloading of bricks in different chambers simultaneously."
+    },
+    {
+      "q": "135. Which brick is adopted well ?",
+      "options": [
+        "good strength",
+        "well burnt",
+        "least absorption capacity",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "A high-quality brick must possess all these physical characteristics: high strength, proper burning, and low porosity."
+    },
+    {
+      "q": "136. The bricks used for lining of furnaces is",
+      "options": [
+        "under burnt brick",
+        "over burnt brick",
+        "refractory brick",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Refractory (fire) bricks are specifically made to withstand the intense heat inside furnaces and chimneys."
+    },
+    {
+      "q": "137. Fire bricks should be laid in a",
+      "options": [
+        "lime mortar",
+        "fire cement mortar",
+        "fire clay mortar",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "To maintain thermal consistency, fire bricks are laid using fire clay mortar which can resist similar high temperatures."
+    },
+    {
+      "q": "138. In bricks masonry, the frog of the brick generally kept on",
+      "options": [
+        "top face",
+        "bottom face",
+        "exposed face",
+        "interior face"
+      ],
+      "correct": 0,
+      "explain": "The 'frog' (indentation) is placed facing up so that it can be filled with mortar, creating a mechanical key with the course above."
+    },
+    {
+      "q": "139. Bull nose bricks are not used in",
+      "options": [
+        "walls",
+        "rounding off sharp corners",
+        "arches",
+        "pillars"
+      ],
+      "correct": 2,
+      "explain": "Bullnose bricks have rounded edges and are used for corners or pillars, but they are not standard for arch construction."
+    },
+    {
+      "q": "140. Hollow bricks are used for",
+      "options": [
+        "ornamental designs",
+        "thermal insulation",
+        "reduction in cost",
+        "earthquake resistant buildings"
+      ],
+      "correct": 1,
+      "explain": "The air trapped inside hollow bricks acts as an excellent thermal insulator, keeping interiors cooler in summer and warmer in winter."
+    },
+    {
+      "q": "141. Fire bricks are used",
+      "options": [
+        "to reflect heat",
+        "to increase heat flow",
+        "to decrease heat flow",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Refractory bricks have low thermal conductivity, helping to contain heat within a furnace and decrease outward heat flow."
+    },
+    {
+      "q": "142. Terracotta is used in building for",
+      "options": [
+        "ornamental work",
+        "insulation",
+        "storage",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Terracotta is a glazed or unglazed fired clay used primarily for decorative architectural elements and ornamental work."
+    },
+    {
+      "q": "143. Bloating of bricks is due to",
+      "options": [
+        "presence of excess carbonaceous matter and sulphur",
+        "presence of any gas forming material in clay",
+        "bad burning or rapid firing",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Bloating is a spongy swollen mass caused by the entrapped gases from carbonaceous matter and sulphur during firing."
+    },
+    {
+      "q": "144. Swelling of bricks is known as",
+      "options": [
+        "bloating",
+        "lamination",
+        "chuffs",
+        "efflorescence"
+      ],
+      "correct": 0,
+      "explain": "Bloating is the term for the permanent swelling of a brick, often caused by internal gas pressure during burning."
+    },
+    {
+      "q": "145. The quantity of sand in brick is about",
+      "options": [
+        "1/5 th",
+        "2/5th",
+        "3/5 th",
+        "4/5 th"
+      ],
+      "correct": 2,
+      "explain": "Silica (sand) typically makes up about 50-60% of brick earth, which is roughly equivalent to 3/5ths."
+    },
+    {
+      "q": "146. The bricks are properly soaked in water before use the following reason",
+      "options": [
+        "to wash the kiln dust for better bondage with mortar",
+        "to avoid the chances of absorption of water from the mortar",
+        "to spread the mortar uniformly between them",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Soaking ensures the bricks don't suck water from the mortar (which weakens it) and removes dust for better adhesion."
+    },
+    {
+      "q": "147. In one day, the height of brick masonry construction should generally not exceed",
+      "options": [
+        "1 m",
+        "1.5 m",
+        "2.5 m",
+        "3 m"
+      ],
+      "correct": 0,
+      "explain": "To prevent the fresh mortar in lower courses from being crushed by the weight of new work, the daily height is limited to 1m."
+    },
+    {
+      "q": "148. Frog means",
+      "options": [
+        "a type of amphibian",
+        "elevation on brick",
+        "depression on brick",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "In masonry terminology, a frog is the depression or indentation made on the top face of a brick."
+    },
+    {
+      "q": "149. For manufacture of bricks normally the top soil is removed having a depth of .....",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "30 cm",
+        "40 cm"
+      ],
+      "correct": 1,
+      "explain": "The top 20cm of soil is usually stripped away (unsoiling) as it contains organic matter and impurities unsuitable for bricks."
+    },
+    {
+      "q": "150. Tampering of soil for manufacture of bricks, is done by",
+      "options": [
+        "feet",
+        "pug mill",
+        "feet of cattle",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Kneading the soil (tempering) can be done manually by feet, using cattle, or mechanically in a pug mill."
+    },
+    {
+      "q": "151. In case of clamp for burning of bricks, the bricks/ fuel are laid at a slope of...",
+      "options": [
+        "10°",
+        "15°",
+        "20°",
+        "25°"
+      ],
+      "correct": 1,
+      "explain": "Clamps are constructed with a slight inward slope, usually around 15 degrees, to ensure stability as the fuel burns away."
+    },
+    {
+      "q": "152. Normally the bricks (1st class) obtained from pazawah is about",
+      "options": [
+        "30%",
+        "40%",
+        "50%",
+        "60%"
+      ],
+      "correct": 3,
+      "explain": "Pazawah (clamp) burning is less efficient than kiln burning, typically yielding about 60% good quality bricks."
+    },
+    {
+      "q": "153. The top and sides of a clamp (pazawah) is plastered with mud and cow dung to prevent.....",
+      "options": [
+        "stealing of brick",
+        "low quality of brick",
+        "escape of heat",
+        "firing the neighboring houses"
+      ],
+      "correct": 2,
+      "explain": "Plastering the exterior of the clamp acts as insulation to retain the internal heat required for proper burning."
+    },
+    {
+      "q": "154. Lamination of bricks is caused due to",
+      "options": [
+        "entrapped air in the voids of the clay",
+        "excess lime",
+        "entrapped water in the voids of the clay",
+        "excess sand"
+      ],
+      "correct": 0,
+      "explain": "Lamination occurs when air is trapped within the clay during machine moulding, creating thin layers or planes of weakness."
+    },
+    {
+      "q": "155. Strike is used to remove the",
+      "options": [
+        "crowded people",
+        "stop the work",
+        "surplus clay of mould",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "A strike is a wooden or metal straight-edge used to scrape off excess clay from the top of the mould."
+    },
+    {
+      "q": "156. Refractory bricks are used in",
+      "options": [
+        "retaining walls",
+        "columns",
+        "piers",
+        "combustion chambers"
+      ],
+      "correct": 3,
+      "explain": "Refractory bricks are essential for lining combustion chambers where temperatures are extremely high."
+    },
+    {
+      "q": "157. Refractory bricks are",
+      "options": [
+        "neutral refractory brick",
+        "acid refractory brick",
+        "basic refractory brick",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Refractory bricks are categorized into three types—acidic, basic, and neutral—based on their chemical resistance to slag."
+    },
+    {
+      "q": "158. Generally wooden moulds are made from",
+      "options": [
+        "ply wood",
+        "shisham",
+        "pine wood",
+        "teak wood"
+      ],
+      "correct": 1,
+      "explain": "Hardwoods like Shisham are preferred for brick moulds because they resist wear and warping from moisture."
+    },
+    {
+      "q": "159. Choose the correct statement",
+      "options": [
+        "percentage of silica is increased in 1st class brick",
+        "percentage of alumina is increased in refractory brick",
+        "percentage of alumina is increased in 1st class brick",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Refractory bricks require a higher percentage of alumina (and silica) to withstand extreme temperatures without melting."
+    },
+    {
+      "q": "160. If rain water falls on hot bricks then the shape of the brick gets deformed, this defect is known as",
+      "options": [
+        "efflorescence",
+        "bloating",
+        "chuffs",
+        "nodule"
+      ],
+      "correct": 2,
+      "explain": "Chuffs is the defect caused when falling rain hits hot, newly burnt bricks, resulting in cracking and deformation."
+    },
+    {
+      "q": "161. The discolouration and formation of white deposits due to presence of relatively large proportion of soluble salts in a bricks is known as",
+      "options": [
+        "bloating",
+        "efflorescence",
+        "chuffs",
+        "nodules"
+      ],
+      "correct": 1,
+      "explain": "Efflorescence is the white powdery deposit left on a brick surface when moisture evaporates and leaves behind soluble salts."
+    },
+    {
+      "q": "162. Dolomite bricks are",
+      "options": [
+        "ordinary fire bricks",
+        "acid refractory bricks",
+        "basic refractory bricks",
+        "neutral refractory bricks"
+      ],
+      "correct": 2,
+      "explain": "Dolomite is a basic material; therefore, bricks made from it are classified as basic refractory bricks."
+    },
+    {
+      "q": "163. Jhumb bricks",
+      "options": [
+        "over burnt",
+        "under burnt",
+        "kuccha",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Jhumb bricks (or Jhama bricks) are over-burnt bricks that have become vitrified and often distorted in shape."
+    },
+    {
+      "q": "164. Second class bricks",
+      "options": [
+        "are well burnt",
+        "are under burnt",
+        "produce a metallic sound when struck",
+        "are of dark brown colour"
+      ],
+      "correct": 2,
+      "explain": "While 2nd class bricks may have slight irregularities, they should still be well-burnt and produce a metallic ringing sound."
+    },
+    {
+      "q": "165. The reason for the popularity of bricks as construction material is that",
+      "options": [
+        "they are cheap and available locally at all places",
+        "they are durable and possess fairly good strength and lighter than stones",
+        "they have very good insulating property against heat and sound",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Bricks are widely used due to their cost-effectiveness, durability, ease of handling, and natural insulation properties."
+    },
+    {
+      "q": "167. The standard size of brick as per Indian standard is",
+      "options": [
+        "20 x 10 x 10 cm3",
+        "23 x 12 x 8 cm3",
+        "19 x 9 x 9 cm3",
+        "18 x 9 x 9 cm3"
+      ],
+      "correct": 2,
+      "explain": "The standard modular brick size as per IS: 1077 is 19 cm x 9 cm x 9 cm."
+    },
+    {
+      "q": "168. The soil used for the manufacture of bricks should preferably not contain the following material",
+      "options": [
+        "alkalies",
+        "pebbles",
+        "kankar",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Alkalies cause efflorescence, while pebbles and kankar lead to cracking and weakness in the finished brick."
+    },
+    {
+      "q": "169. The maximum percentages of fine sand content in soil for making good tiles is about",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "correct": 2,
+      "explain": "Good tile earth requires a specific balance, typically capped at 40% fine sand to maintain structural integrity."
+    },
+    {
+      "q": "170. The maximum percentages of clay content for making good tiles, is about",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "correct": 1,
+      "explain": "Clay provides the necessary plasticity for molding tiles, and for high-quality production, it is usually limited to around 30%."
+    },
+    {
+      "q": "171. The maximum percentages of silt content for making good tiles, is about",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "correct": 1,
+      "explain": "Silt content is kept moderate (around 30%) to ensure the tile does not become too brittle after firing."
+    },
+    {
+      "q": "172. The maximum percentages of warping along the sides of tiles, is",
+      "options": [
+        "2",
+        "5",
+        "8",
+        "1.1"
+      ],
+      "correct": 0,
+      "explain": "Quality control standards for tiles generally allow for a maximum of 2% warping along the edges."
+    },
+    {
+      "q": "418. The good clay for making brick is",
+      "options": [
+        "unweathered clay",
+        "silted soil",
+        "black cotton soil",
+        "weathered soil"
+      ],
+      "correct": 3,
+      "explain": "Weathering breaks down the clay particles and removes impurities, making the clay more plastic and suitable for brick molding."
+    },
+    {
+      "q": "425. All burnt bricks should be soaked in water for at least ............ hours to be used with cement mortar.",
+      "options": [
+        "1",
+        "1/4",
+        "1/2",
+        "3/4"
+      ],
+      "correct": 0,
+      "explain": "The key indicates 1/4 (0.25 hours or 15 minutes), though field practice often recommends longer, this value is extracted from the provided answer key."
+    }
+  ]
+}

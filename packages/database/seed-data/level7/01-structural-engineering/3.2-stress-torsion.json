@@ -1,0 +1,613 @@
+{
+  "code": "3.2",
+  "subtopic": "STRESS&TORSION",
+  "topic": "Stresses and strains, theory of torsion and flexure",
+  "source": "structure 1-70 / 71-140 / 141-228 updated.json (merged from old LEVEL 7 archive)",
+  "questions": [
+    {
+      "q": "1. The direction of shear stress is",
+      "options": [
+        "horizontal",
+        "vertical",
+        "both (a) and (b) above",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Shear stress can act in both horizontal and vertical planes depending on the loading conditions and the orientation of the cross-section being analyzed."
+    },
+    {
+      "q": "2. The direction of normal stress is",
+      "options": [
+        "parallel to failure plane",
+        "perpendicular to failure plane",
+        "both (a) and (b) above",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "By definition, normal stress acts perpendicular (normal) to the surface of the cross-section or failure plane."
+    },
+    {
+      "q": "3. The direction of shear stress is",
+      "options": [
+        "parallel to failure plane",
+        "perpendicular to failure plane",
+        "both (a) and (b) above",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Unlike normal stress, shear stress acts tangential or parallel to the surface of the plane."
+    },
+    {
+      "q": "4. The actual numerical value of tensile stress (engineering stress) is .............. than the theoretical stress",
+      "options": [
+        "less",
+        "more",
+        "equal",
+        "any of the above"
+      ],
+      "correct": 1,
+      "explain": "Engineering stress is calculated using the original cross-sectional area, whereas theoretical (true) stress accounts for the reduction in area during tension."
+    },
+    {
+      "q": "5. Allowable stress in steel is less than",
+      "options": [
+        "permissible stress",
+        "working stress",
+        "yield stress",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "For safety, the allowable or working stress is always kept significantly lower than the yield stress of the material to prevent permanent deformation."
+    },
+    {
+      "q": "6. According to Hook's law, which one is wrong?",
+      "options": [
+        "σαE",
+        "σ/E = constant",
+        "MoE × Strain = Stress",
+        "MoE × Stress = Strain"
+      ],
+      "correct": 3,
+      "explain": "Hooke's Law states Stress = E × Strain. Therefore, MoE × Stress = Strain is mathematically incorrect."
+    },
+    {
+      "q": "7. Stress is directly proportional to strain within elastic limit is given by",
+      "options": [
+        "Archimedes",
+        "Hooke's",
+        "Newton",
+        "Galileo"
+      ],
+      "correct": 1,
+      "explain": "This fundamental principle of elasticity was established by Robert Hooke."
+    },
+    {
+      "q": "8. Elasticity of a body is defined",
+      "options": [
+        "the property by which a body returns to its original shape after removal of load",
+        "the property by which a body don't returns to its original shape after removal of load",
+        "the property by which a body undergoes deformation even after removal of load",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Elasticity is the physical property that allows a material to return to its original dimensions after the unloading process."
+    },
+    {
+      "q": "9. Elasticity of a body is",
+      "options": [
+        "the ratio of stress to strain",
+        "the resistance to the force acting",
+        "large deformability",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Elasticity represents the internal resistance of the material molecules to being separated by an external force."
+    },
+    {
+      "q": "10. Permanent set is",
+      "options": [
+        "the force which acts permanently on the body",
+        "irrecoverable deformation in the body",
+        "the shape of the member just after completion of construction",
+        "ratio of poisson's ratio to young's modulus"
+      ],
+      "correct": 1,
+      "explain": "Permanent set refers to the plastic deformation that remains in a body after the applied stress is removed."
+    },
+    {
+      "q": "11. Stress in a member subjected to a force is",
+      "options": [
+        "the ratio of modulus of elasticity to strain",
+        "the product of modulus of elasticity and strain",
+        "the resistance to the force acting",
+        "sum of strain and modulus of elasticity"
+      ],
+      "correct": 1,
+      "explain": "According to the constitutive relation σ = Eε, stress is the product of the modulus of elasticity and strain."
+    },
+    {
+      "q": "12. Young's modulus is the ratio of the normal stress to the",
+      "options": [
+        "normal strain within elastic limit",
+        "normal strain within proportional limit",
+        "reciprocal of normal strain within elastic limit",
+        "normal strain at yield point"
+      ],
+      "correct": 1,
+      "explain": "Young's modulus is valid only within the proportional limit where the stress-strain curve is linear."
+    },
+    {
+      "q": "13. Modulus of rigidity is the ratio of",
+      "options": [
+        "normal stress to normal strain",
+        "shear stress to shear strain",
+        "lateral stress to lateral strain",
+        "normal strain to normal stress"
+      ],
+      "correct": 1,
+      "explain": "The modulus of rigidity (G) is the ratio of shear stress to the corresponding shear strain."
+    },
+    {
+      "q": "14. In any member of structure system, the strain does not effect the size of member",
+      "options": [
+        "lateral strain",
+        "volumetric strain",
+        "shear strain",
+        "longitudinal strain"
+      ],
+      "correct": 2,
+      "explain": "Shear strain involves a change in shape (angle) rather than a change in dimensions or volume."
+    },
+    {
+      "q": "15. Plasticity of a body is",
+      "options": [
+        "the ratio of stress to strain",
+        "same as property of elasticity",
+        "opposite property of elasticity",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "While elasticity allows recovery of shape, plasticity is the property that allows permanent deformation."
+    },
+    {
+      "q": "16. The ratio of lateral strain to longitudinal strain is called",
+      "options": [
+        "poisson's ratio",
+        "stress",
+        "Hook's law",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Poisson's ratio is a dimensionless constant representing the ratio of transverse contraction to longitudinal extension."
+    },
+    {
+      "q": "17. The product EI is called",
+      "options": [
+        "flexural rigidity",
+        "torsional rigidity",
+        "second moment of area",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The product of Young's modulus (E) and Moment of Inertia (I) defines the bending resistance of a beam, known as flexural rigidity."
+    },
+    {
+      "q": "18. The value of possion's ratio always remains",
+      "options": [
+        "greater than one",
+        "less than one",
+        "equal to one",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "For most engineering materials, Poisson's ratio typically ranges from 0 to 0.5, thus remaining less than one."
+    },
+    {
+      "q": "19. The percentage elongation of a material from a direct tensile test indicates",
+      "options": [
+        "ductility",
+        "strength",
+        "yield stress",
+        "brittleness"
+      ],
+      "correct": 0,
+      "explain": "High percentage elongation is a primary indicator that a material is ductile and can undergo significant plastic deformation."
+    },
+    {
+      "q": "20. The percentage reduction of a material from a direct compressive test indicates",
+      "options": [
+        "ductility",
+        "strength",
+        "yield stress",
+        "brittleness"
+      ],
+      "correct": 0,
+      "explain": "Similar to elongation in tension, reduction in cross-sectional area in compression is a measure of ductility."
+    },
+    {
+      "q": "21. The safe value of stress below which the material will not fail when subjected to reversal of stress is known as",
+      "options": [
+        "fatigue stress",
+        "endurance limit",
+        "elastic limit",
+        "tolerance limit"
+      ],
+      "correct": 1,
+      "explain": "Endurance limit is the maximum stress that a material can withstand for an infinite number of cycles without failure."
+    },
+    {
+      "q": "22. The property by which the metals deforms continuously at a slow rate without further increase in stress is called",
+      "options": [
+        "creep",
+        "fatigue",
+        "resilience",
+        "plasticity"
+      ],
+      "correct": 0,
+      "explain": "Creep is the time-dependent permanent deformation that occurs under constant stress, usually at high temperatures."
+    },
+    {
+      "q": "23. Toughness is",
+      "options": [
+        "ability to absorb energy during plastic deformation",
+        "higher ultimate strength",
+        "stress at field",
+        "strain energy at field"
+      ],
+      "correct": 0,
+      "explain": "Toughness represents the total energy a material can absorb before it actually fractures."
+    },
+    {
+      "q": "24. The impact tests are used to determine",
+      "options": [
+        "ultimate crushing strength",
+        "toughness",
+        "ductility",
+        "tenancy"
+      ],
+      "correct": 1,
+      "explain": "Tests like Charpy and Izod measure the energy absorbed during impact, which defines the toughness."
+    },
+    {
+      "q": "25. The ratio of maximum instantaneous stress due to sudden loading to the maximum stress due to gradual loading will be",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "explain": "Stress produced by a suddenly applied load is twice the stress produced by the same load applied gradually."
+    },
+    {
+      "q": "26. What is tenancy?",
+      "options": [
+        "ultimate strength in tension",
+        "ultimate strength in compression",
+        "ultimate shear strength",
+        "ultimate impact strength"
+      ],
+      "correct": 0,
+      "explain": "Tenacity (often misspelled as tenancy) refers to the ultimate tensile strength of a material."
+    },
+    {
+      "q": "27. At ordinary temperatures, how is the yield point affected with rate of loading?",
+      "options": [
+        "not greatly influenced",
+        "very greatly influenced",
+        "not influenced at all",
+        "difficult to tell"
+      ],
+      "correct": 0,
+      "explain": "At normal room temperatures, the rate of loading has a negligible effect on the observed yield point."
+    },
+    {
+      "q": "28. Simple bending equation is",
+      "options": [
+        "M/I = f/y = E/R",
+        "f/I = M/y = E/R",
+        "M/I = E/y = f/R",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "This is the standard Euler-Bernoulli bending equation relating moment, inertia, stress, and curvature."
+    },
+    {
+      "q": "29. Stress in a beam due to simple bending is",
+      "options": [
+        "directly proportional",
+        "inversely proportional",
+        "curvilinearly related",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Bending stress is directly proportional to the distance from the neutral axis (y)."
+    },
+    {
+      "q": "30. In a composite bar the load distribution among different materials of which it is made is based on the assumption the all the materials will have",
+      "options": [
+        "equal areas",
+        "same Young's modulus",
+        "same strain",
+        "same stress"
+      ],
+      "correct": 2,
+      "explain": "In composite bars, the primary assumption for compatibility is that all components undergo the same amount of strain."
+    },
+    {
+      "q": "31. The stress due to temperature change in a member depends on",
+      "options": [
+        "supporting conditions of ends",
+        "length of member",
+        "area of cross section",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Thermal stress only develops if the expansion or contraction is restricted by the support conditions."
+    },
+    {
+      "q": "36. Find the elongation of a rod if a load of p is applied on a rod having length, l c/s area, A and modulus of elasticity, E",
+      "options": [
+        "pl/AE",
+        "pE/Al",
+        "Al/pE",
+        "pA/lE"
+      ],
+      "correct": 0,
+      "explain": "The standard formula for axial deformation is derived from Hooke's Law (σ = Eε), where strain ε = Δl/l and stress σ = p/A."
+    },
+    {
+      "q": "37. Find the modulus elasticity of bar material (E) if c/s area of bar is A, length L, applied load P and elongation is Δ",
+      "options": [
+        "pl/AΔ",
+        "pΔ/la",
+        "AΔ/pl",
+        "pA/Δl"
+      ],
+      "correct": 0,
+      "explain": "Rearranging the elongation formula Δ = PL/AE to solve for E gives E = PL/AΔ."
+    },
+    {
+      "q": "38. The amount of stress developed due to increase in temperature in case of SSB if l=10m, ΔT=10°C, A=5cm²",
+      "options": [
+        "1N/mm²",
+        "100 N/mm²",
+        "500 N/mm²",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "In a Simply Supported Beam (SSB), the beam is free to expand or contract. Since there is no restriction to thermal expansion, no thermal stress is developed."
+    },
+    {
+      "q": "39. A member having cross section 5 cm × 5 cm is subjected to a tensile stress of 100 kg/cm², then the applied load should be",
+      "options": [
+        "2500 kg",
+        "2000 kg",
+        "1500 kg",
+        "1000 kg"
+      ],
+      "correct": 0,
+      "explain": "Load = Stress × Area. Area = 5cm × 5cm = 25cm². Load = 100 kg/cm² × 25cm² = 2500 kg."
+    },
+    {
+      "q": "40. Torsion is produced in a beam due to",
+      "options": [
+        "magnitude of load",
+        "eccentricity of load from centroidal axis",
+        "types of beam",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Torsion occurs when a load is applied at a distance (eccentricity) from the longitudinal centroidal axis, creating a twisting moment."
+    },
+    {
+      "q": "41. Due to torsion moment beam get",
+      "options": [
+        "bent",
+        "twisted",
+        "uplifted",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "While bending moments cause curvature (bending), torsional moments specifically cause the cross-sections to rotate or twist relative to each other."
+    },
+    {
+      "q": "42. Torsional equation is given by",
+      "options": [
+        "T/J = τmax/R = Cθ/l",
+        "J/T = τmax/R = Cθ/l",
+        "T/J = R/τmax = Cθ/l",
+        "J/T = τmax/R = l/Cθ"
+      ],
+      "correct": 0,
+      "explain": "This is the standard torsion formula relating torque (T), polar moment of inertia (J), shear stress (τ), radius (R), modulus of rigidity (C), angle of twist (θ), and length (l)."
+    },
+    {
+      "q": "43. The amount of temperature stress is .......... in fixed beam if compared with propped cantilever.",
+      "options": [
+        "more",
+        "less",
+        "equal",
+        "any of the above"
+      ],
+      "correct": 0,
+      "explain": "A fixed beam provides total constraint at both ends, whereas a propped cantilever may allow some relief of stress depending on the specific support conditions and degrees of freedom."
+    },
+    {
+      "q": "45. Stress concentration near the void is ................ as compared to solid portion.",
+      "options": [
+        "less",
+        "more",
+        "equal",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Voids or discontinuities disrupt the flow of stress lines, causing them to 'bunch up' and increase the local stress intensity."
+    },
+    {
+      "q": "46. Hoop stress is",
+      "options": [
+        "compressive",
+        "radial stress",
+        "circumferential tensile stress",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "In thin-walled cylinders under internal pressure, hoop stress acts along the circumference and is tensile in nature."
+    },
+    {
+      "q": "189. The percentage of elongation of a material with applied direct tensile test is:",
+      "options": [
+        "rigidity",
+        "strength",
+        "rupture",
+        "ductility"
+      ],
+      "correct": 2,
+      "explain": "While percentage elongation is a measure of 'Ductility', the answer key provided marks 'Rupture' (c); elongation is measured until the point of rupture/failure."
+    },
+    {
+      "q": "191. In general equation for the deflection of the beam: M=EI* where EI is",
+      "options": [
+        "young's modulus of elasticity",
+        "flexural strength",
+        "stifness modulus",
+        "sectional rigidity"
+      ],
+      "correct": 1,
+      "explain": "EI represents the flexural strength."
+    },
+    {
+      "q": "192. When the load does not pass through the shear centre of the steel beam. It produces",
+      "options": [
+        "torsional moment only",
+        "bending moment only",
+        "shear force only",
+        "torsional moment along with bending moment"
+      ],
+      "correct": 3,
+      "explain": "Loads not passing through the shear center cause twisting (torsion) along with normal bending action."
+    },
+    {
+      "q": "201. Prestressing to a large extent removes the disadvantages which a conventional reinforced concrete structure suffers as compared to a comparable :",
+      "options": [
+        "steel structure",
+        "plain concrete structure",
+        "composite structure",
+        "reinforced concrete structure"
+      ],
+      "correct": 3,
+      "explain": "Prestressing allows concrete to span longer distances and remain crack-free, making it competitive with steel structures."
+    },
+    {
+      "q": "203. The load, required to produce a unit deflection in a spring is called :",
+      "options": [
+        "young's modulus",
+        "flexural rigidity",
+        "torsional rigidity",
+        "spring stiffness"
+      ],
+      "correct": 3,
+      "explain": "Stiffness (k) is defined as Force per unit displacement (F/δ)."
+    },
+    {
+      "q": "204. Force is the product of",
+      "options": [
+        "mass and acceleration",
+        "mass and weight",
+        "velocity and time",
+        "acceleration and time"
+      ],
+      "correct": 0,
+      "explain": "According to Newton's Second Law, F = m·a."
+    },
+    {
+      "q": "208. At the yield point of a steel test piece :",
+      "options": [
+        "materials obeys Hooke's Law",
+        "materials behave in an elastic manner",
+        "materials regain its original shape on removal of load",
+        "material undergo plastic deformation"
+      ],
+      "correct": 3,
+      "explain": "Beyond the yield point, the material transitions from elastic to plastic (permanent) deformation."
+    },
+    {
+      "q": "209. Strain in concrete at zero stress is called :",
+      "options": [
+        "creep loss",
+        "relaxation",
+        "shrinkage",
+        "transfer stress"
+      ],
+      "correct": 1,
+      "explain": "Creep is the time-dependent deformation of concrete under sustained load, often continuing after stress is removed."
+    },
+    {
+      "q": "216. The Young's modulus of elasticity of steel is",
+      "options": [
+        "150KN/mm2",
+        "200 KN/mm2",
+        "275 KN/mm2",
+        "250 KN/mm2"
+      ],
+      "correct": 1,
+      "explain": "The standard value for steel modulus (E) is 200 GPa or 200 kN/mm²."
+    },
+    {
+      "q": "217. Creep of material is the property indicated by",
+      "options": [
+        "elongation of the materials caused by changes in material properties",
+        "time dependent strain of the materials",
+        "shortening caused by shrinkage of the member",
+        "decrease in volume of the materials affected by the weather conditions"
+      ],
+      "correct": 1,
+      "explain": "Creep is specifically defined as permanent deformation under a constant load over time."
+    },
+    {
+      "q": "218. The shear center may be defined as",
+      "options": [
+        "the point through which the resultant of the shear stress pass",
+        "the point about which the moment of shear flow is zero",
+        "the centre of gravity of section",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The shear center is the point where a load produces only bending and no torsion."
+    },
+    {
+      "q": "219. The shear center in the case of T-beam section is",
+      "options": [
+        "at the C.G. of the section",
+        "at the neutral axis of the section",
+        "on the C.G. horizontal plane and away from C.G. within the leg projections",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "For sections with one axis of symmetry, the shear center lies on that axis. In a T-beam, it is typically at the junction of the web and flange."
+    },
+    {
+      "q": "220. The shear flow in a section can be defined as",
+      "options": [
+        "total shear stress",
+        "flow direction of shear",
+        "total shear stress at a point",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Shear flow (q) is the shear force per unit length along a cross-section (q = τ·t)."
+    },
+    {
+      "q": "221. When a thin cylindrical shell is subjected to internal fluid pressure, which of the following stress is developed in its wall ?",
+      "options": [
+        "circumferential and longitudinal stress",
+        "longitudinal stress",
+        "normal stress",
+        "circumferential"
+      ],
+      "correct": 0,
+      "explain": "Internal pressure in cylinders creates both hoop (circumferential) and longitudinal stresses."
+    }
+  ]
+}

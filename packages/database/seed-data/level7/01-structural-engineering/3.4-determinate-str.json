@@ -1,0 +1,503 @@
+{
+  "code": "3.4",
+  "subtopic": "DETERMINATE STR",
+  "topic": "Determinate structures (energy methods), three hinged systems, suspension cable system",
+  "source": "structure 1-70 / 71-140 / 141-228 updated.json (merged from old LEVEL 7 archive)",
+  "questions": [
+    {
+      "q": "32. Strain energy of a member may be defined as work done on it",
+      "options": [
+        "to deform it",
+        "to resist elongation",
+        "to resist shortening",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Strain energy is the internal work stored in a material due to any form of deformation (tension, compression, etc.)."
+    },
+    {
+      "q": "33. Partial derivative of strain energy gives",
+      "options": [
+        "deflection",
+        "slop",
+        "moment",
+        "redundant force"
+      ],
+      "correct": 0,
+      "explain": "According to Castigliano's first theorem, the partial derivative of strain energy with respect to a load gives the deflection at that load."
+    },
+    {
+      "q": "34. The strain energy stored in a specimen when strained within the elastic limit is known as",
+      "options": [
+        "resilience",
+        "proof resilience",
+        "strain energy",
+        "modulus of resilience"
+      ],
+      "correct": 0,
+      "explain": "Resilience is the capacity of a material to absorb energy when it is deformed elastically."
+    },
+    {
+      "q": "35. The maximum strain energy stored in a specimen when strained within the elastic limit is known as",
+      "options": [
+        "resilience",
+        "proof resilience",
+        "strain energy",
+        "modulus of resilience"
+      ],
+      "correct": 1,
+      "explain": "Proof resilience is the maximum energy that can be stored without causing permanent deformation."
+    },
+    {
+      "q": "100. The moments in the arch will be zero, if",
+      "options": [
+        "ends are hinged",
+        "ends are fixed",
+        "the arch axis coincides with the line of thrust",
+        "the arch axis is parallel to the line of thrust"
+      ],
+      "correct": 2,
+      "explain": "Bending moment in an arch is the product of the thrust and the eccentricity. If the arch axis coincides with the line of thrust, the eccentricity is zero, and thus the moment is zero."
+    },
+    {
+      "q": "101. The arch meant for supporting uniformly distributed loads, to avoid any bending moment must be",
+      "options": [
+        "circular",
+        "elliptical",
+        "parabolic",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "A parabolic arch is the 'funicular' shape for a uniformly distributed load, meaning it carries the load purely through compression with zero bending moment."
+    },
+    {
+      "q": "102. In any determinate structure, vertical load fall on the",
+      "options": [
+        "hinge",
+        "roller",
+        "fixed",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Determinate structures can have various support types (hinges, rollers) that receive and transfer vertical loads to the foundation."
+    },
+    {
+      "q": "103. Three hinged arch is a .....structure.",
+      "options": [
+        "indeterminate",
+        "determinate",
+        "both (a) and (b) of above",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "A three-hinged arch has 4 reaction components and 4 equilibrium equations (3 standard + 1 moment equation at the internal hinge), making it statically determinate."
+    },
+    {
+      "q": "104. Three hinged arch will have three hinges",
+      "options": [
+        "two at the two ends and one any where in between the two ends",
+        "two at the two ends and one at the crown only",
+        "one hinge at the crown essentially and the other two any where",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "A standard three-hinged arch features two hinges at the supports (abutments) and a third hinge at the highest point, known as the crown."
+    },
+    {
+      "q": "105. The value of horizontal thrust produced in a arch is",
+      "options": [
+        "wL²/4",
+        "wL²/6",
+        "wL²/8h",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "For a three-hinged parabolic arch carrying a UDL (w) over the entire span (L) with rise (h), the horizontal thrust H = wL²/8h."
+    },
+    {
+      "q": "106. The amount of bending moment induced in a cable is",
+      "options": [
+        "unity",
+        "zero",
+        "wl²/8",
+        "wl²/10"
+      ],
+      "correct": 1,
+      "explain": "A perfectly flexible cable cannot resist bending; it carries loads through pure tension."
+    },
+    {
+      "q": "107. A suspension cable, supporting loads will be under",
+      "options": [
+        "tension",
+        "bending",
+        "compression",
+        "compression and bending"
+      ],
+      "correct": 0,
+      "explain": "Due to their flexibility, cables adapt their shape (catenary or parabola) to remain in pure tension."
+    },
+    {
+      "q": "108. The maximum tension in a cable occurs",
+      "options": [
+        "at the highest point in the cable",
+        "at the lowest point in the cable",
+        "at the centre point of the cable",
+        "at all points in the cable"
+      ],
+      "correct": 0,
+      "explain": "Tension is the vector sum of horizontal thrust and vertical shear; since vertical shear is highest at the supports (highest points), the tension is maximum there."
+    },
+    {
+      "q": "109. A cable subjected to UDL over its entire span assumes a shape of",
+      "options": [
+        "semi-circle",
+        "parabola",
+        "an isosceles triangle",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "A cable under a uniformly distributed load (UDL) acting over the horizontal projection takes a parabolic shape."
+    },
+    {
+      "q": "110. What is the maximum number of unknown reaction components that can be determined using only statics",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 3,
+      "explain": "For a 2D structure, there are three equations of static equilibrium: ΣFx = 0, ΣFy = 0, and ΣM = 0."
+    },
+    {
+      "q": "112. A roller support for a space structure",
+      "options": [
+        "permits the movement perpendicular to the base of the supports only",
+        "permits movement in any direction in the plane of the base",
+        "does not permit any movement but permits rotation",
+        "permits movement in any direction in the plane of the base but does not permit any rotation"
+      ],
+      "correct": 1,
+      "explain": "A roller support allows movement parallel to the supporting surface (the plane of the base)."
+    },
+    {
+      "q": "113. A hinged support for a space structure",
+      "options": [
+        "permits the movement perpendicular to the base of the support only",
+        "permits movement in any direction in the plane of the base",
+        "does not permit any movement at all but permits rotation about all three mutually perpendicular axes through the joint",
+        "does not permit movement as well as rotation in any direction"
+      ],
+      "correct": 2,
+      "explain": "A hinged (pin) support restricts all translational movement but allows the members to rotate freely about the axes."
+    },
+    {
+      "q": "114. A fixed support for a space structure",
+      "options": [
+        "permits the translation only in all directions",
+        "permits rotation only about all three mutually perpendicular axes through the joint",
+        "permits rotation about all three mutually perpendicular axes and movement in any direction in the plane of the base",
+        "permits neither rotation about nor translation along, any of the three principal axes"
+      ],
+      "correct": 3,
+      "explain": "A fixed support provides total restraint, preventing both translation and rotation in all three dimensions."
+    },
+    {
+      "q": "115. Free body diagram is",
+      "options": [
+        "the diagram of the body or a part of the body in isolated equilibrium",
+        "the diagram of a body freed from all the forces that have been acting",
+        "the diagram of a body with no supports at all",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "A Free Body Diagram (FBD) isolates a body or segment to show all active forces and reactive components acting on it."
+    },
+    {
+      "q": "116. The free body diagram of a portion of a body will be in equilibrium under the action of",
+      "options": [
+        "only external loading acting on that part without consideration of support reactions",
+        "all super-imposed loads, self-weight, support reactions, if any, and the internal reactions exposed at the cuts",
+        "only support reactions and the internal reactions exposed at the cuts",
+        "external loading acting on that part and internal reactions exposed at the cuts"
+      ],
+      "correct": 1,
+      "explain": "For any portion of a structure to be in equilibrium, all forces (external, gravity, and internal forces at the cut section) must be accounted for."
+    },
+    {
+      "q": "117. The analysis of a structure is",
+      "options": [
+        "deciding the material of the member",
+        "deciding the dimensions of the member",
+        "calculating the magnitude and nature of various straining actions at salient points of the structure",
+        "planning of the structure"
+      ],
+      "correct": 2,
+      "explain": "Structural analysis is the process of determining the effects of loads (internal forces like shear and moment) on physical structures."
+    },
+    {
+      "q": "118. The design of a structure is",
+      "options": [
+        "the planning of the structure",
+        "the calculation of straining actions at salient points",
+        "deciding the material and proportions of the various members of the structure",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Design involves selecting materials and determining member sizes to ensure the structure can safely resist the analyzed forces."
+    },
+    {
+      "q": "121. A plane structure is structure",
+      "options": [
+        "the various members of which lie in a plane",
+        "the thickness of various members of which will be very small",
+        "in which there will not be any bending moment",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "A plane structure is defined as a two-dimensional structure where all members and applied forces lie within the same single plane."
+    },
+    {
+      "q": "122. A one dimensional structure is one in which",
+      "options": [
+        "one dimension is very small and other two are large",
+        "one dimension is much larger than the other two dimensions",
+        "all the three dimensions are equal",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "In structural engineering, members like beams or columns are considered one-dimensional (line elements) because their length is significantly greater than their cross-sectional width and depth."
+    },
+    {
+      "q": "123. A two dimensional structure is one in which",
+      "options": [
+        "two dimensions are very much larger than the third",
+        "all the dimensions are equal",
+        "two dimensions are very much smaller than the third",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Two-dimensional structures, such as plates or shells, have two primary dimensions (length and width) that are much larger than the thickness."
+    },
+    {
+      "q": "124. A plane structure which subjected to a force lying outside the plane will be",
+      "options": [
+        "stable",
+        "statically determinate",
+        "unstable",
+        "statically indeterminate"
+      ],
+      "correct": 2,
+      "explain": "If a structure designed only for in-plane forces is subjected to out-of-plane forces, it lacks the necessary constraints to resist that movement, making it unstable in that direction."
+    },
+    {
+      "q": "132. A support over which the real beam is continuous will correspond to",
+      "options": [
+        "an internal hinge in the conjugate beam",
+        "a hinged support in the conjugate beam",
+        "a fixed support in the conjugate beam",
+        "a discontinuity in the conjugate beam"
+      ],
+      "correct": 0,
+      "explain": "In the conjugate beam method, an internal support in the real beam (where slope exists but deflection is zero) corresponds to an internal hinge in the conjugate beam."
+    },
+    {
+      "q": "133. The displacements of joints of a truss can be obtained directly from",
+      "options": [
+        "space diagram",
+        "force diagram",
+        "Williot Mohr diagram",
+        "funicular polygon"
+      ],
+      "correct": 2,
+      "explain": "The Williot-Mohr diagram is a graphical method used to find the resultant displacement of all joints in a truss due to member deformations."
+    },
+    {
+      "q": "134. The basic form of a pin jointed frame is",
+      "options": [
+        "triangle",
+        "rectangular",
+        "trapezium",
+        "parallelogram"
+      ],
+      "correct": 0,
+      "explain": "The triangle is the simplest and only inherently stable geometric shape for a pin-jointed frame; other shapes require bracing to prevent collapse."
+    },
+    {
+      "q": "135. In a pin jointed plane frame all the loads are assumed to act",
+      "options": [
+        "in the plane of the frame",
+        "perpendicular to the plane of the frame",
+        "in a plane inclined at 45 degrees to the plane of the frame",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "In the analysis of plane trusses, it is a fundamental assumption that all applied loads and reactions act within the plane of the structure."
+    },
+    {
+      "q": "136. A pin jointed plane frame with J number of joints and n, number of members will be internally redundant, if",
+      "options": [
+        "n=(2j+3)",
+        "n>(2j-3)",
+        "n<(2j-3)",
+        "n=(2j-3)"
+      ],
+      "correct": 1,
+      "explain": "A truss is internally redundant (over-stiff) if the number of members (n) is greater than the minimum required for stability, which is given by the formula n = 2j - 3."
+    },
+    {
+      "q": "137. A pin jointed frame with with J number of joints and n, number of members will be a perfect frame if",
+      "options": [
+        "n> (2j-3)",
+        "n< (2j-3)",
+        "n=(2j-3)",
+        "n<(2j+3)"
+      ],
+      "correct": 2,
+      "explain": "A perfect (just-rigid) plane frame satisfies the condition n = 2j - 3, where it is stable and determinate."
+    },
+    {
+      "q": "141. Find the number of member in a structure if the number of joint is 4 for a determinate structure.",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explain": "Using the formula m = 2j - 3 for a determinate plane truss, where j = 4: m = 2(4) - 3 = 5."
+    },
+    {
+      "q": "142. Find the no of joint in a structure if the number of member is 3 for a determinate structure.",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 0,
+      "explain": "For a determinate truss, m = 2j - 3. If m = 3, then 3 = 2j - 3, which leads to 2j = 6, so j = 3."
+    },
+    {
+      "q": "143. A structure having J = 4 & number of member is 3 then structure should be",
+      "options": [
+        "stable",
+        "unstable",
+        "indeterminate",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "For a plane truss, the condition for stability/determinacy is m = 2j - 3. Here, 2(4) - 3 = 5 members are required. Since there are only 3 members, the structure is deficient and unstable."
+    },
+    {
+      "q": "145. For finding forces in the members of a truss by the graphical method. The force diagram is suggested by",
+      "options": [
+        "Mohr",
+        "Timoshenko",
+        "Maxwell",
+        "Betti"
+      ],
+      "correct": 2,
+      "explain": "The Maxwell-Cremona diagram is a well-known graphical method used to determine the internal forces in the members of a static truss."
+    },
+    {
+      "q": "158. The vertical distance of the crown of the arch above the springing is called",
+      "options": [
+        "span of the arch",
+        "rise of the arch",
+        "thickness of the arch",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The 'Rise' of an arch is the vertical distance from the springing line (the level where the arch begins) to the highest point of the intrados (the crown)."
+    },
+    {
+      "q": "159. An arch can be treated as a curved beam",
+      "options": [
+        "whose ends are restrained against horizontal movement",
+        "whose ends do not provide any reaction",
+        "whose ends are unsupported",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "An arch differs from a curved beam because its supports are designed to provide horizontal thrust, effectively restraining the ends against horizontal movement."
+    },
+    {
+      "q": "160. The line of thrust of the linear arch is",
+      "options": [
+        "the axis of the arch",
+        "the imaginary line of thrust for a given set of loads",
+        "the Springing Line",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "For a given set of loads, the linear arch (or theoretical arch) follows the shape of the funicular polygon, which represents the imaginary line of thrust."
+    },
+    {
+      "q": "190. Bending moment at any section in a conjugate beam gives in the actual beam:",
+      "options": [
+        "slope",
+        "curvature",
+        "deflection",
+        "bending moment"
+      ],
+      "correct": 2,
+      "explain": "According to Conjugate Beam Theory, the Slope of the actual beam is the Shear of the conjugate beam, and the Deflection of the actual beam is the Bending Moment of the conjugate beam."
+    },
+    {
+      "q": "195. If 'S' is the axial acting on an element 'ds' of a structural member with cross sectional area 'A' and modulus of elasticity 'E' the total strain energy of the member on account of axial force 'S' is given by",
+      "options": [
+        "∫ S² ds / 2AE",
+        "∫ S ds / 2AE",
+        "∫ S² ds / AE",
+        "∫ S² ds / A"
+      ],
+      "correct": 0,
+      "explain": "The standard formula for axial strain energy is U = ∫ P²/(2AE) dx."
+    },
+    {
+      "q": "196. Given pin jointed frame is",
+      "options": [
+        "internally stable",
+        "externally unstable",
+        "unstable",
+        "stable"
+      ],
+      "correct": 2,
+      "explain": "A frame is unstable if it doesn't meet the minimum member requirement (m < 2j-3) or if the arrangement of hinges allows for a mechanism."
+    },
+    {
+      "q": "199. The slope and the deflection at a section in a loaded beam cannot be found out by :",
+      "options": [
+        "Rankine's method",
+        "virtual work method",
+        "macaulay's method",
+        "moment area method"
+      ],
+      "correct": 0,
+      "explain": "Rankine's method is typically used for earth pressure or column buckling, not for determining beam deflection."
+    },
+    {
+      "q": "205. The function of king post in a roof truss is",
+      "options": [
+        "to support the framework of the roof",
+        "to receive the ends of principal rafters",
+        "to prevent the walls from spreading outward",
+        "to prevent the tie beam from sagging at its centre"
+      ],
+      "correct": 3,
+      "explain": "The king post is a central vertical member that supports the tie beam below it, preventing it from sagging due to its own weight."
+    },
+    {
+      "q": "210. Which of the following is a true example of a statically determinate beam?",
+      "options": [
+        "one end is fixed and the other end is simply supported",
+        "both ends are fixed",
+        "the beam over hangs over two support",
+        "the beam is supported on three supports"
+      ],
+      "correct": 2,
+      "explain": "An overhanging beam with two supports has three reaction components, which can be solved with three equilibrium equations."
+    }
+  ]
+}

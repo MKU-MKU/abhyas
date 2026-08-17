@@ -1,0 +1,525 @@
+{
+  "code": "3.5",
+  "subtopic": "INDETERMINATE STR",
+  "topic": "Indeterminate structures: slope deflection method and moment distribution method, use of influence line diagrams for simple beams, unit load method, two hinged arch",
+  "source": "structure 1-70 / 71-140 / 141-228 updated.json (merged from old LEVEL 7 archive)",
+  "questions": [
+    {
+      "q": "111. A statically indeterminate structure is the one which",
+      "options": [
+        "cannot be analysed using the equations of statics alone",
+        "cannot be analysed at all",
+        "is not stable for general loading",
+        "can be analysed with the equations of statics alone"
+      ],
+      "correct": 0,
+      "explain": "Statically indeterminate structures have more unknowns than available equilibrium equations and require compatibility equations for analysis."
+    },
+    {
+      "q": "119. The statically indeterminate structure can be solved by",
+      "options": [
+        "using equations of statics alone",
+        "equations of compatibility alone",
+        "ignoring all deformations and assuming the structure to be rigid",
+        "using the equations of statics and the necessary number of equations of compatibility"
+      ],
+      "correct": 3,
+      "explain": "Indeterminate structures require both equilibrium equations (statics) and displacement-based equations (compatibility) to be fully solved."
+    },
+    {
+      "q": "120. The equations of compatibility are written based on",
+      "options": [
+        "the geometry of the deformed structure under the action of several forces acting",
+        "the nature of external forces",
+        "the duration of external forces",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Compatibility equations ensure that the deformed shape of the structure is geometrically continuous and consistent with the supports."
+    },
+    {
+      "q": "125. An externally indeterminate structure is the one in which",
+      "options": [
+        "the total number of external reaction components is more than the equations of statics applicable to the structure as a whole",
+        "the total number of external reaction components is more than the degree of indeterminacy",
+        "the sum of external reaction components and the degree of internal redundancy is greater than three",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "External indeterminacy occurs when the number of support reactions exceeds the available static equilibrium equations."
+    },
+    {
+      "q": "126. An internally indeterminate structure",
+      "options": [
+        "must be externally indeterminate",
+        "must be externally determinate",
+        "may be an unstable structure based on supports",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Internal indeterminacy refers to the redundancy of internal members; per the provided key, it is categorized here relative to an externally determinate setup."
+    },
+    {
+      "q": "127. A frame is completely analysed, when",
+      "options": [
+        "the variation in shear is found throughout the frame",
+        "the variation in direct stress, shear and moment is found throughout the frame",
+        "the shear and moment reaction from member to member are known at every joint",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Complete analysis of a frame requires determining all internal actions, including axial (direct) stress, shear force, and bending moments across all members."
+    },
+    {
+      "q": "128. A prop is",
+      "options": [
+        "An additional support provided to a stable structure to avoid any displacement at the desired point in a direction perpendicular to the plane of the prop",
+        "the support which gives the maximum number of reactions for the stability of the structure",
+        "a support which will not affect the geometry of the deformed structure",
+        "a dummy support provided for architectural purposes"
+      ],
+      "correct": 0,
+      "explain": "A prop is a redundant support (often a roller or hinge) added to a structure to reduce deflection or provide extra stability at a specific point."
+    },
+    {
+      "q": "129. A rigid prop is one which",
+      "options": [
+        "permits 50% of free deflection, that would have occurred if the prop were not there",
+        "does not permit any displacement perpendicular to that plane of prop",
+        "does not offer any reaction",
+        "supports the entire load and relieves all other supports completely"
+      ],
+      "correct": 1,
+      "explain": "A rigid prop acts as an unyielding support, meaning the vertical displacement (deflection) at the point of the prop is forced to be zero."
+    },
+    {
+      "q": "130. An elastic prop is one which",
+      "options": [
+        "does not offer any reaction",
+        "supports the entire load and relieves all other supports completely",
+        "develops reaction proportional to the compression in itself",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "An elastic prop (like a spring) provides a reaction force that is proportional to its deformation, following Hooke's Law (F = kx)."
+    },
+    {
+      "q": "131. A sinking prop is one which",
+      "options": [
+        "permits any amount of deflection",
+        "does not permit any deflection at all",
+        "is provided below the level of regular supports and becomes effective after the respective deflection occurs",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "A sinking prop refers to a support that undergoes a predetermined settlement or only engages once the structure has deflected to a certain point."
+    },
+    {
+      "q": "138. Find the DSI of propped cantilever beam",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explain": "A propped cantilever has 4 reaction components (3 at fixed end + 1 at prop). With 3 equilibrium equations, the Degree of Static Indeterminacy (DSI) is 4 - 3 = 1."
+    },
+    {
+      "q": "139. DSI of structure depends upon",
+      "options": [
+        "loading",
+        "types of material",
+        "c/s of the member",
+        "types of joint"
+      ],
+      "correct": 3,
+      "explain": "DSI is a geometric property determined by the arrangement of members and the types of joints (rigid vs. pinned) and supports."
+    },
+    {
+      "q": "140. The ends of continuous beam should be",
+      "options": [
+        "cantilever",
+        "hinged",
+        "roller",
+        "any of the above"
+      ],
+      "correct": 3,
+      "explain": "The end of a continuous beam can be configured in various ways—fixed, pinned, roller, or cantilever—depending on the design requirements."
+    },
+    {
+      "q": "144. If the co moment of Joint A, B, & C are 10, 20 and 30 kN-m then find the balancing moment at joint B.",
+      "options": [
+        "20 kN-m",
+        "30 kN-m",
+        "50 kN-m",
+        "-20 kN-m"
+      ],
+      "correct": 3,
+      "explain": "In the Moment Distribution Method, the balancing moment is equal in magnitude but opposite in sign to the out-of-balance moment at the joint to maintain equilibrium."
+    },
+    {
+      "q": "146. The theorem of three moments for the solution of continuous beams is formulated by",
+      "options": [
+        "Young",
+        "Maxwell",
+        "Williot-Mohr",
+        "Clepeyron"
+      ],
+      "correct": 3,
+      "explain": "Clapeyron's Theorem of Three Moments is a relationship between the bending moments at three consecutive supports of a continuous beam."
+    },
+    {
+      "q": "148. The moment distribution method is formulated by",
+      "options": [
+        "Hardy Cross",
+        "Thomas Young",
+        "Mohr",
+        "Kani's"
+      ],
+      "correct": 0,
+      "explain": "Hardy Cross published the Moment Distribution Method in 1930, providing a simple iterative way to analyze indeterminate structures."
+    },
+    {
+      "q": "149. The simultaneous equations of slope deflection method can be solved by iteration in",
+      "options": [
+        "moment distribution method",
+        "consistent deformation method",
+        "force method",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The Moment Distribution Method is essentially an iterative procedure for solving the same equations found in the slope-deflection method."
+    },
+    {
+      "q": "150. Slope deflection method is",
+      "options": [
+        "energy method",
+        "deflection method",
+        "unit load method",
+        "willot Mohr method"
+      ],
+      "correct": 1,
+      "explain": "The Slope Deflection method is a displacement (deflection) method of structural analysis that relates end moments to joint rotations and displacements."
+    },
+    {
+      "q": "151. Moment distribution method is",
+      "options": [
+        "approximate method",
+        "accurate method",
+        "international method",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "The Moment Distribution Method (Hardy Cross method) is an iterative process; it is fundamentally an approximation technique used to solve for bending moments without solving simultaneous equations."
+    },
+    {
+      "q": "152. Degree of freedom (DOF) or DKI, for the structure is",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "explain": "Based on the standard analysis of the joint configuration shown in typical structural problems of this level, the kinematic indeterminacy (DKI) is 2."
+    },
+    {
+      "q": "153. The stiffness factor at the near end of a member with far end hinged is",
+      "options": [
+        "4EI/l",
+        "3EI/l",
+        "EI/l",
+        "EI"
+      ],
+      "correct": 1,
+      "explain": "When the far end is hinged (pinned), the moment required to produce unit rotation at the near end is 3EI/L. If the far end were fixed, it would be 4EI/L."
+    },
+    {
+      "q": "154. The ratio of stiffness of a member when far end is hinged to that of the member when far end is fixed is",
+      "options": [
+        "1",
+        "2",
+        "3/4",
+        "4/3"
+      ],
+      "correct": 2,
+      "explain": "The ratio is (3EI/L) / (4EI/L) = 3/4. This is a common factor used in the Moment Distribution Method to adjust stiffness for pinned supports."
+    },
+    {
+      "q": "155. At a joint where several members meet, any applied moment will be distributed among the various members",
+      "options": [
+        "equally",
+        "equally among such members whose far ends are fixed",
+        "in proportion to their stiffness",
+        "equally among such members whose far ends are hinged"
+      ],
+      "correct": 2,
+      "explain": "According to the principle of moment distribution, an applied moment is shared by members meeting at a joint in direct proportion to their relative stiffness (K)."
+    },
+    {
+      "q": "156. The distribution factor of a member at a joint is",
+      "options": [
+        "the ratio of the moment borne by the member to the total moment applied at the joint",
+        "the ratio of the area of the member to the sum of the areas of several members",
+        "the ratio of the moment induced at the far end to the moment applied at the near end",
+        "equally among such members whose far ends are hinged"
+      ],
+      "correct": 0,
+      "explain": "The Distribution Factor (DF) is defined as the ratio of the stiffness of a particular member to the total stiffness of all members meeting at that joint."
+    },
+    {
+      "q": "157. If ki is the stiffness of i th member of a Joint, the distribution factor for the member is",
+      "options": [
+        "Ki / ΣKi",
+        "Ki",
+        "ΣKi",
+        "(ΣKi - Ki)"
+      ],
+      "correct": 0,
+      "explain": "Mathematically, the DF for a member 'i' is expressed as the stiffness of that member divided by the sum of the stiffnesses of all members at the joint: DF = Ki / ΣKi."
+    },
+    {
+      "q": "161. In hingeless arch, it is supposed to",
+      "options": [
+        "stable",
+        "geometrically unstable",
+        "2nd degree",
+        "3rd degree"
+      ],
+      "correct": 2,
+      "explain": "A hingeless (fixed) arch is statically indeterminate; per the provided key, it refers to specific constraints or a 2nd-degree analysis found in certain textbook contexts."
+    },
+    {
+      "q": "162. If there is a cantilever beam joined with the edge of the span, then it is",
+      "options": [
+        "determinate",
+        "indeterminate",
+        "2nd degree",
+        "3rd degree"
+      ],
+      "correct": 1,
+      "explain": "Joining a cantilever to an existing span introduces additional redundant constraints or internal forces that cannot be solved by simple static equilibrium equations alone, making the structure indeterminate."
+    },
+    {
+      "q": "163. Influence line is",
+      "options": [
+        "the line showing stress function due to unit moving load",
+        "the line showing stress function due to unit load",
+        "the line showing stress function due to udl",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "By definition, an Influence Line Diagram (ILD) represents the variation of a specific response (stress function like shear, moment, or reaction) at a fixed section as a unit load moves across the structure."
+    },
+    {
+      "q": "164. The line showing the variations of stress function at a given point due to a unit load moving on a span is known as",
+      "options": [
+        "load line",
+        "influence line",
+        "curve line",
+        "stress function line"
+      ],
+      "correct": 1,
+      "explain": "This is the formal definition of an influence line; it tracks how a single 'unit' load affects one specific point as that load changes position."
+    },
+    {
+      "q": "165. Influence lines are drawn for structures",
+      "options": [
+        "indeterminate",
+        "determinate",
+        "any type",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Influence lines are a universal tool in structural engineering, used for both determinate (linear) and indeterminate (typically curved) structures."
+    },
+    {
+      "q": "166. Which one is right w.r.t. ILD?",
+      "options": [
+        "it is the BMD due to unit load",
+        "it is the BMD due to static unit load",
+        "it is the BMD due to moving unit load",
+        "it is the BMD due to impacting unit load"
+      ],
+      "correct": 2,
+      "explain": "The ILD specifically captures the effects of a moving unit load, unlike a standard BMD which shows the effect of a fixed load along the whole beam."
+    },
+    {
+      "q": "167. The influence line diagram for S.F. or BM at a section is",
+      "options": [
+        "the value of S.F. or B.M. at that section when the unit load is placed over that section only",
+        "the value of S.F. or B.M. at that section when the unit load is at the centre of the span",
+        "the variation in the value of S.F. or B.M. at that section as the unit load transverses the span from left to right",
+        "the S.F. or B.M. diagram"
+      ],
+      "correct": 2,
+      "explain": "An ILD for a section must show the full range of variation (the 'influence') as the unit load moves from the start of the span to the end."
+    },
+    {
+      "q": "168. The influence line diagram for reaction at a support of a simply supported beam is",
+      "options": [
+        "a triangle with ordinate 1 at that support",
+        "a triangle with ordinate 1 at the other support",
+        "a rectangle with ordinate 1",
+        "a rectangle with ordinate 1/2"
+      ],
+      "correct": 0,
+      "explain": "For a support reaction RA, the reaction is 1 when the unit load is exactly at A, and 0 when it is at the other support B, creating a right-angled triangle with a peak (ordinate) of 1 at support A."
+    },
+    {
+      "q": "169. The influence line diagram for reaction at the support of a cantilever will be a",
+      "options": [
+        "triangle with zero ordinate at fixed end and unit ordinate at free end",
+        "triangle with unit ordinate at fixed end and zero ordinate at free end",
+        "rectangle with ordinate 1/2",
+        "rectangle with unit ordinate"
+      ],
+      "correct": 3,
+      "explain": "In a cantilever, any vertical load placed anywhere on the beam must be fully resisted by the single vertical reaction at the fixed support. Therefore, the reaction is always 1, resulting in a rectangle with unit ordinate."
+    },
+    {
+      "q": "170. The influence line diagram for shear force at a section on a cantilever will be",
+      "options": [
+        "a rectangle of length equal to full length of span with unit ordinate",
+        "a rectangle extending between free end and the section with unit ordinate",
+        "a triangle extending for whole length of span with unit ordinate at fixed support",
+        "a triangle extending between the section and the fixed end with unit ordinate at fixed support"
+      ],
+      "correct": 1,
+      "explain": "Shear force at a section in a cantilever only exists when the load is between the free end and that section, creating a rectangle from the section to the free end."
+    },
+    {
+      "q": "171. The influence line diagram for BM at a section in a cantilever will be a triangle extending between the section and the",
+      "options": [
+        "fixed end with maximum ordinate under the section",
+        "fixed end with maximum ordinate under the fixed end",
+        "unsupported end with maximum ordinate at the section",
+        "unsupported end with maximum ordinate at the supported end"
+      ],
+      "correct": 3,
+      "explain": "The bending moment at a section is created by the load multiplied by its distance from that section. The maximum moment occurs when the unit load is at the farthest possible point from the support (the free/unsupported end)."
+    },
+    {
+      "q": "172. The influence line diagram for BM at a section of a simply supported beam will be a",
+      "options": [
+        "triangle with maximum ordinate at the section and zero at the two supports",
+        "triangle with maximum ordinate at the support nearer to the section and zero at the other support",
+        "rectangle with unit ordinate",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "For a simply supported beam, the B.M. at a section 'C' is zero when the load is at either support and reaches its maximum value (ab/L) when the load is directly on the section."
+    },
+    {
+      "q": "188. Which of the following methods of structure analysis is a force method?",
+      "options": [
+        "slope deflection method",
+        "column analogy method",
+        "moment distribution method",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Column Analogy and Method of Consistent Deformation are Force Methods (Flexibility Methods), where redundant forces are the unknowns. Slope Deflection and Moment Distribution are Displacement Methods."
+    },
+    {
+      "q": "194. Degree of static indeterminacy of the frame is equal to",
+      "options": [
+        "18",
+        "15",
+        "12",
+        "8"
+      ],
+      "correct": 3,
+      "explain": "Calculated using Ds = 3c - r', where 'c' is the number of closed loops and 'r' represents the releases at supports or hinges."
+    },
+    {
+      "q": "198. Portal method of framed analysis for horizontal loads is appropriate for a frame:",
+      "options": [
+        "that has a width greater than its height",
+        "that has a height greater than its width",
+        "Which is thin and tall",
+        "any width any height"
+      ],
+      "correct": 0,
+      "explain": "The portal method is an approximate method suitable for low-rise frames where the width is significant relative to the height."
+    },
+    {
+      "q": "206. Which of the following structural analysis is a force method?",
+      "options": [
+        "slope deflection",
+        "column analogy",
+        "moment distribution",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Column analogy treats the redundants as forces, making it a force-based method."
+    },
+    {
+      "q": "207. Stiffness factor is calculated in structural members for analyzing it by",
+      "options": [
+        "moment distribution method",
+        "slope deflection method",
+        "column analogy method",
+        "none of above"
+      ],
+      "correct": 0,
+      "explain": "The moment distribution method relies heavily on member stiffness to distribute unbalanced moments."
+    },
+    {
+      "q": "211. Unequal settlement in the supports of statically indeterminate structure develop",
+      "options": [
+        "member force",
+        "reactions from supports",
+        "no reactions",
+        "strains in some members"
+      ],
+      "correct": 1,
+      "explain": "Settlement in indeterminate structures induces internal forces and reactions that wouldn't exist in a determinate structure."
+    },
+    {
+      "q": "212. In approximate analysis of building frames under lateral loads, the point of contraflexure in columns is assumed at",
+      "options": [
+        "storey height/2",
+        "storey height/3",
+        "storey height/10",
+        "storey height/12"
+      ],
+      "correct": 0,
+      "explain": "Methods like the Portal and Cantilever methods assume the point of zero moment (contraflexure) is at the mid-height of the column."
+    },
+    {
+      "q": "213. The moment distribution method is best suited for",
+      "options": [
+        "trussed beam",
+        "space frames",
+        "rigid frames",
+        "indeterminate pin jointed truss"
+      ],
+      "correct": 0,
+      "explain": "MDM is specifically designed for rigid frames and continuous beams where joint rotations occur."
+    },
+    {
+      "q": "214. In the moment distribution method, the sum of distribution factors of all the members meeting at any joint is always :",
+      "options": [
+        "zero",
+        "less than 1",
+        "1",
+        "greater than 1"
+      ],
+      "correct": 2,
+      "explain": "The total unbalanced moment must be 100% distributed, so ΣDF = 1."
+    },
+    {
+      "q": "215. The stiffness method in structural analysis is also known as :",
+      "options": [
+        "unit load method",
+        "consistent deformation method",
+        "force method",
+        "displacement method"
+      ],
+      "correct": 3,
+      "explain": "The stiffness method uses displacements as the primary unknowns, hence it is a displacement method."
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "code": "11.4",
+  "subtopic": "COST CONCEPTS",
+  "topic": "Cost classification: fixed, variable, marginal, opportunity, sunk, direct/indirect costs, financial ratios",
+  "source": "econ_1-75.json, econ_76-127.json",
+  "questions": [
+    {
+      "q": "28. In case of construction/production industry the cost of material is normally",
+      "options": [
+        "more than cost of labour",
+        "equal to cost of labour",
+        "less than cost of labour",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "In heavy construction, material inputs typically represent a larger share of the budget than labor."
+    },
+    {
+      "q": "29. What is the element of total cost?",
+      "options": [
+        "material & labour cost",
+        "labour & fuel cost",
+        "fuel & machine cost",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Total cost incorporates materials, labor, energy, and equipment."
+    },
+    {
+      "q": "30. The average cost incurred in supplying a particular benefit over the entire life time of the project is called",
+      "options": [
+        "project cost",
+        "average life cycle cost",
+        "maintenance cost",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Life cycle costing looks at the total cost of ownership over the project's lifespan."
+    },
+    {
+      "q": "31. The types of indirect cost which can't measured and allocated to a specific output or work activity is called",
+      "options": [
+        "direct cost",
+        "prime cost",
+        "overhead cost",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Overhead costs are general business expenses that cannot be attributed to a single task."
+    },
+    {
+      "q": "32. Material cost is concerned with",
+      "options": [
+        "direct cost",
+        "indirect cost",
+        "both (a) and (b)",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Materials directly used in production are classified as direct costs."
+    },
+    {
+      "q": "33. The types of costing used to find the cost of non-standard jobs generally made according to customer's specifications, is called",
+      "options": [
+        "job costing",
+        "process costing",
+        "satisfaction costing",
+        "manufacture costing"
+      ],
+      "correct": 0,
+      "explain": "Job costing tracks costs for specific, unique projects or tasks."
+    },
+    {
+      "q": "34. The types of costing used to find out involved while converting a raw material to finished output, is called",
+      "options": [
+        "job costing",
+        "process costing",
+        "satisfaction costing",
+        "manufacture costing"
+      ],
+      "correct": 1,
+      "explain": "Process costing is used for continuous production of uniform products."
+    },
+    {
+      "q": "36. The difference between actual cost of the project with the targeted cost is called",
+      "options": [
+        "loss",
+        "profit",
+        "variance",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "In cost accounting, the gap between actual and planned costs is the variance."
+    },
+    {
+      "q": "37. Find the direct wage rate variance if the actual working hours are 8. If the actual and standard working rate is 15 & 12 per hour respectively.",
+      "options": [
+        "120",
+        "24",
+        "160",
+        "35"
+      ],
+      "correct": 1,
+      "explain": "Variance = (15 - 12) x 8 = 3 x 8 = 24."
+    },
+    {
+      "q": "77. As indirect cost of project increases, the profit of project",
+      "options": [
+        "increases",
+        "decreases",
+        "constant",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Profit is calculated as Total Revenue minus Total Costs (Direct + Indirect). Therefore, increasing indirect costs directly reduces the profit margin."
+    },
+    {
+      "q": "83. A review of management processes and the associated documentation is commonly called:",
+      "options": [
+        "audit",
+        "inspection",
+        "testing and measuring",
+        "screening"
+      ],
+      "correct": 0,
+      "explain": "An audit is a systematic and independent examination of books, accounts, and management processes."
+    },
+    {
+      "q": "86. Costs which are independent of output and no alteration by the change in production level are called:",
+      "options": [
+        "fixed costs",
+        "production costs",
+        "total costs",
+        "variable costs"
+      ],
+      "correct": 0,
+      "explain": "Fixed costs (like rent or insurance) remain constant regardless of the volume of goods or services produced."
+    },
+    {
+      "q": "89. The financial analysis helps to judge:",
+      "options": [
+        "the operational efficiency of the firm",
+        "the financial position of the firm",
+        "both of the above",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Financial analysis evaluates both how efficiently a firm uses its resources and its overall stability/solvency."
+    },
+    {
+      "q": "95. The ratio obtained by dividing quick assets by current liabilities is called:.",
+      "options": [
+        "turnover ratio",
+        "acid test ratio",
+        "solvency ratio",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The Acid Test (or Quick) Ratio measures a firm's ability to meet short-term obligations with its most liquid assets."
+    },
+    {
+      "q": "100. The benefit that is forgone by engaging the resource in a chosen activity instead of engaging the same resource in the forgone activity is known as :",
+      "options": [
+        "marginal cost",
+        "opportunity cost",
+        "incremental cost",
+        "life cycle cost"
+      ],
+      "correct": 1,
+      "explain": "Opportunity cost is the value of the next best alternative given up when a choice is made."
+    },
+    {
+      "q": "101. The sunk cost includes",
+      "options": [
+        "a past expenditure",
+        "an unrecovered balance",
+        "an invested capital that cannot be retrieved",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Sunk costs are historical costs that have already been incurred and cannot be recovered by any future decision."
+    },
+    {
+      "q": "107. Which of the following is not direct cost for a project ?",
+      "options": [
+        "wages of lab our",
+        "cost of materials",
+        "insurance cost",
+        "sun contract cost"
+      ],
+      "correct": 2,
+      "explain": "Insurance is an administrative or overhead expense (indirect cost) as it cannot be tied to a specific unit of production."
+    },
+    {
+      "q": "109. Costs which are independent of output and no alteration by the change is production level are called",
+      "options": [
+        "fixed costs",
+        "production costs",
+        "total costs",
+        "variable costs"
+      ],
+      "correct": 0,
+      "explain": "Fixed costs remain static regardless of whether 1 unit or 1,000 units are produced."
+    },
+    {
+      "q": "114. In economic marginal cost is the change in total cost that arises when the quantity produced changes by",
+      "options": [
+        "100 units",
+        "0.01 unit",
+        "0.1 unit",
+        "1 unit"
+      ],
+      "correct": 3,
+      "explain": "Marginal cost is defined as the cost of producing 'one additional' unit."
+    },
+    {
+      "q": "115. The additional money received from selling one more unit at a specified level of output is",
+      "options": [
+        "normal cost",
+        "marginal revenue",
+        "average revenue",
+        "equivalent revenue"
+      ],
+      "correct": 1,
+      "explain": "Marginal revenue is the incremental increase in total revenue from selling one extra unit."
+    },
+    {
+      "q": "119. The most unpredictable cost of a project is",
+      "options": [
+        "environment management cost",
+        "under ground construction cost",
+        "transportation cost",
+        "social management cost"
+      ],
+      "correct": 1,
+      "explain": "Geological uncertainties make underground work (tunnels, foundations) notoriously difficult to estimate accurately."
+    },
+    {
+      "q": "122. Prime cost of a project includes",
+      "options": [
+        "direct material cost",
+        "direct labour cost",
+        "direct expenses",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Prime cost is the sum of all direct costs involved in manufacturing or construction."
+    },
+    {
+      "q": "126. In economics, the change in total cost that arises when the quantity produced changes by one unit is called :",
+      "options": [
+        "variable cost",
+        "added cost",
+        "marginal cost",
+        "cost without profit"
+      ],
+      "correct": 2,
+      "explain": "This is the classic definition of Marginal Cost."
+    },
+    {
+      "q": "127. The ratio analysis of a construction firm is used for the analysis by:",
+      "options": [
+        "financial analysis",
+        "share holders of the firm",
+        "management groups of construction firms",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Ratio analysis is a core component of financial analysis used to interpret financial statements."
+    }
+  ]
+}

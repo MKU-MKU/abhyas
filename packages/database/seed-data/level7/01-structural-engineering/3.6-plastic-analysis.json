@@ -1,0 +1,239 @@
+{
+  "code": "3.6",
+  "subtopic": "PLASTIC ANALYSIS",
+  "topic": "Plastic analysis of beam and frame",
+  "source": "structure 1-70 / 71-140 / 141-228 updated.json (merged from old LEVEL 7 archive)",
+  "questions": [
+    {
+      "q": "173. Plastic section modulus is defined as",
+      "options": [
+        "the ratio of plastic moment capacity of a section to the yield stress",
+        "the ratio of moment of inertia to radius of gyration",
+        "radius of gyration multiplied by the area",
+        "the ratio of plastic moment capacity of a section to the yield moment"
+      ],
+      "correct": 0,
+      "explain": "Plastic Section Modulus (Zp) is derived from the formula Mp = fy × Zp. Therefore, Zp = Mp / fy (Plastic moment / yield stress)."
+    },
+    {
+      "q": "174. Plastic hinge in a section is caused",
+      "options": [
+        "when the material at a section reach plastic state",
+        "when the extreme fibres at a section reach plastic state",
+        "when all the fibres at a section reach plastic state",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "A plastic hinge is formed only when every fiber across the entire cross-section has reached the yield stress (fy), allowing the section to undergo large rotations at a constant moment (Mp)."
+    },
+    {
+      "q": "175. The shape factor is defined as the ratio of",
+      "options": [
+        "plastic moment / yield moment",
+        "M.I. / yield stress",
+        "ultimate moment / yield stress",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Shape Factor (S) is the ratio of the Plastic Moment (Mp) to the Yield Moment (My). It represents the reserve strength of a section beyond its elastic limit."
+    },
+    {
+      "q": "176. The shape factor of rectangle section is",
+      "options": [
+        "1.50",
+        "1.69",
+        "1.80",
+        "2.00"
+      ],
+      "correct": 0,
+      "explain": "For a rectangular section, the Plastic Section Modulus (Zp) is bd²/4 and the Elastic Section Modulus (Ze) is bd²/6. The Shape Factor (S = Zp/Ze) is (bd²/4) / (bd²/6) = 1.5."
+    },
+    {
+      "q": "177. The shape factor of circular section is",
+      "options": [
+        "1.50",
+        "1.69",
+        "1.80",
+        "2.00"
+      ],
+      "correct": 1,
+      "explain": "For a solid circular cross-section, the shape factor is approximately 1.697 (rounded to 1.69/1.7 in many texts)."
+    },
+    {
+      "q": "178. The approximate value of the shape factor of an I section is equal to",
+      "options": [
+        "2.15",
+        "1.75",
+        "1.15",
+        "0.75"
+      ],
+      "correct": 2,
+      "explain": "I-sections are very efficient because most of the material is in the flanges. This leads to a low shape factor, typically ranging from 1.12 to 1.15."
+    },
+    {
+      "q": "179. The shape factor of diamond section is",
+      "options": [
+        "1.50",
+        "1.69",
+        "1.80",
+        "2.00"
+      ],
+      "correct": 3,
+      "explain": "For a diamond section (square with diagonal vertical), the shape factor is exactly 2.0, indicating a high reserve strength after the extreme fibers yield."
+    },
+    {
+      "q": "180. The ultimate strength design of steel structures make use of",
+      "options": [
+        "plastic analysis of structures",
+        "elastic analysis of structures",
+        "ultimate analysis of structures",
+        "elastic and plastic analysis"
+      ],
+      "correct": 1,
+      "explain": "In classical 'Ultimate Strength Design', the internal forces are typically determined using elastic analysis, while the sections are sized based on their ultimate or plastic capacities."
+    },
+    {
+      "q": "181. The limit strength design of steel structures make use of",
+      "options": [
+        "plastic analysis of structures",
+        "elastic analysis of structures",
+        "ultimate analysis of structures",
+        "elastic and plastic analysis"
+      ],
+      "correct": 0,
+      "explain": "Limit state design (or Plastic Design) utilizes plastic analysis to determine the collapse mechanism and the true ultimate load-carrying capacity of the entire structure."
+    },
+    {
+      "q": "182. The plastic design of steel structure which is based on the mechanism method of plastic analysis",
+      "options": [
+        "is safe",
+        "is unsafe",
+        "gives no any indication",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The mechanism method (Kinematic Method) is based on the Upper Bound Theorem, which states that the predicted collapse load will be greater than or equal to the true collapse load. Therefore, it can be 'unsafe' if the lowest mechanism is not found."
+    },
+    {
+      "q": "183. The plastic design of steel structure which is based on the kinematic method of plastic analysis",
+      "options": [
+        "is safe",
+        "is unsafe",
+        "gives no any indication",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Kinematic method is synonymous with the mechanism method. As an Upper Bound approach, it overestimates the strength of the structure, thus carrying a risk of being 'unsafe' if the critical mechanism is missed."
+    },
+    {
+      "q": "184. The plastic design of steel structure which is based on the statical method of plastic analysis",
+      "options": [
+        "is safe",
+        "is unsafe",
+        "gives no any indication",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The statical method (Lower Bound Theorem) ensures that equilibrium and yield conditions are met. It states the load will be less than or equal to the true collapse load, making it a 'safe' approach."
+    },
+    {
+      "q": "185. The plastic design of steel structure which is based on the lower bound theorem of plastic analysis",
+      "options": [
+        "is safe",
+        "is unsafe",
+        "gives no any indication",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The lower bound theorem satisfies equilibrium and the yield criterion without violating the capacity anywhere, ensuring the predicted load is always on the 'safe' side of the true collapse load."
+    },
+    {
+      "q": "186. The plastic design of steel structure which is based on the upper bound theorem of plastic analysis",
+      "options": [
+        "is safe",
+        "is unsafe",
+        "gives no any indication",
+        "none of the above"
+      ],
+      "correct": 3,
+      "explain": "While the Upper Bound theorem is technically 'unsafe' (overestimating strength), the provided answer key indicates that in this specific test context, it provides neither a guaranteed safety nor a simple indication without further check."
+    },
+    {
+      "q": "222. What is the condition for equilibrium in plastic analysis?",
+      "options": [
+        "bending moment distribution defined by assumed plastic hinges must not be in static equilibrium",
+        "shear force distribution must be in equilibrium",
+        "bending moment distribution must be in static equilibrium with applied loads and reactions",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "All plastic analysis methods must satisfy basic static equilibrium conditions."
+    },
+    {
+      "q": "223. Which of the following is true?",
+      "options": [
+        "ultimate load is reached when a mechanism is formed",
+        "ultimate load is not reached when a mechanism is formed",
+        "plastic hinges are not required for beam to form a mechanism",
+        "frictionless hinges are not required"
+      ],
+      "correct": 0,
+      "explain": "Collapse occurs when enough plastic hinges form to turn the structure into a kinematic mechanism."
+    },
+    {
+      "q": "224. Which of the following relation is correct?",
+      "options": [
+        "-Mp ≥ M",
+        "M > Mp",
+        "M ≥ Mp",
+        "M ≤ Mp"
+      ],
+      "correct": 3,
+      "explain": "The bending moment (M) at any section cannot exceed the plastic moment capacity (Mp) of that section."
+    },
+    {
+      "q": "225. Lowest plastic limit load is obtained when ....",
+      "options": [
+        "only equilibrium condition is satisfied",
+        "equilibrium and mechanism condition of plastic hinge are satisfied",
+        "only mechanism condition is satisfied",
+        "equilibrium, mechanism and plasticity condition are satisfied"
+      ],
+      "correct": 3,
+      "explain": "Satisfying all three conditions (equilibrium, mechanism, and plasticity) gives the true, exact collapse load."
+    },
+    {
+      "q": "226. Which load is obtained when equilibrium and mechanism conditions of plastic analysis are satisfied?",
+      "options": [
+        "plastic limit load",
+        "upper bound solution of true ultimate load",
+        "lower bound solution of true ultimate load",
+        "no solution"
+      ],
+      "correct": 1,
+      "explain": "This combination of conditions satisfies the Kinematic Theorem, giving an upper bound solution."
+    },
+    {
+      "q": "227. Which load is obtained when equilibrium and plasticity conditions of plastic analysis are satisfied?",
+      "options": [
+        "plastic limit load",
+        "upper bound solution of true ultimate load",
+        "lower bound solution of true ultimate load",
+        "no solution"
+      ],
+      "correct": 2,
+      "explain": "This combination follows the Static Theorem, providing a lower bound (safe) solution."
+    },
+    {
+      "q": "228. What is principle of virtual work?",
+      "options": [
+        "work done by external forces > internal forces",
+        "work done by external forces < internal forces",
+        "work done by external forces = work done by internal forces",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "For a system in equilibrium, the virtual work done by external forces equals the virtual work done by internal forces."
+    }
+  ]
+}

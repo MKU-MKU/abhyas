@@ -1,0 +1,580 @@
+{
+  "code": "9.3",
+  "subtopic": "RATE ANALYSIS",
+  "topic": "Rate analysis, contracts, norms, labour/material rates, contractor terms",
+  "source": "est_1-50.json, est_101-151.json, est_151-200.json, est_201-250.json, est_51-100.json",
+  "questions": [
+    {
+      "q": "35. Generally the provision for supervision is",
+      "options": [
+        "1 %",
+        "2 to 3%",
+        "3 to 5%",
+        "5 to 10 %"
+      ],
+      "correct": 3,
+      "explain": "Work supervision charges are typically estimated at 5% to 10% of the total cost."
+    },
+    {
+      "q": "37. Excavation of earth work analysis is done",
+      "options": [
+        "manpower x rate",
+        "manpower x rate + plant",
+        "all of the above",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Rate analysis for excavation includes both labor (manpower) and mechanical equipment (plant)."
+    },
+    {
+      "q": "45. Unit rate is only for",
+      "options": [
+        "preparing document",
+        "finding cost",
+        "Contractor",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "According to the key, unit rates are used for preparing documents (like tender documents)."
+    },
+    {
+      "q": "56. Normally which one contract gives the maximum value of project",
+      "options": [
+        "labour contract",
+        "item rate contract",
+        "LS contract",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "An item rate contract often leads to a higher project value as every individual unit of work is measured and paid for based on actual execution."
+    },
+    {
+      "q": "96. *The rate analysis induces",
+      "options": [
+        "material, labour, vat, all taxes",
+        "material, labour, contractor's overhead and profit",
+        "material, labour, contractor's all taxes",
+        "material & labour"
+      ],
+      "correct": 1,
+      "explain": "Comprehensive rate analysis must account for materials, labor, overheads, and the contractor's profit margin."
+    },
+    {
+      "q": "97. The overheads and profit claimed by the contractor to client is",
+      "options": [
+        "separate item",
+        "included in materials only",
+        "included in labours only",
+        "included in rate analysis"
+      ],
+      "correct": 3,
+      "explain": "These costs are not billed separately but are embedded into the unit rates of the work items."
+    },
+    {
+      "q": "99. *The main target of a contractor is to",
+      "options": [
+        "complete the work",
+        "waste more materials",
+        "earn more profit",
+        "save the materials"
+      ],
+      "correct": 2,
+      "explain": "While a contractor must complete the work, the primary business objective is to maximize profit."
+    },
+    {
+      "q": "100. *The chairman of material rate fixation committee in district is",
+      "options": [
+        "CDO",
+        "LDO",
+        "chairman of DDC",
+        "SP"
+      ],
+      "correct": 0,
+      "explain": "In the Nepalese administrative system, the Chief District Officer (CDO) chairs the committee that fixes district material rates."
+    },
+    {
+      "q": "101. Rate analysis prepared by ministry of transport and work includes",
+      "options": [
+        "labour & material",
+        "labour, material & equipment",
+        "labour, material & supervision",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "According to the MOPIT (Ministry of Physical Infrastructure and Transport) norms, rate analysis comprehensively includes the cost of labour, materials, and necessary equipment/machinery for the task."
+    },
+    {
+      "q": "102. *Full payment of contractor is done",
+      "options": [
+        "after agreement",
+        "after construction",
+        "after maintenance",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Full and final payment is released only after the 'Defects Liability Period' or maintenance period is over to ensure all construction defects are rectified."
+    },
+    {
+      "q": "103. As per norms prepared by MOPIT the number of skilled and unskilled manpower required to dismantling of existing structure having conc. grade M10 for 20 m3",
+      "options": [
+        "1 & 24",
+        "2 & 24",
+        "3 & 24",
+        "4 & 24"
+      ],
+      "correct": 0,
+      "explain": "Official MOPIT norms specify 3 skilled and 30 unskilled laborers for dismantling 15 cubic meters of M15 concrete structure."
+    },
+    {
+      "q": "104. In sanitary pipe line for 3m length, how many skilled labour are required ",
+      "options": [
+        "2 person",
+        "1 person",
+        "3 person",
+        "4 person"
+      ],
+      "correct": 1,
+      "explain": "Higher grade concrete (M20) requires more effort; the norms specify 3 skilled and 30 unskilled workers for this volume."
+    },
+    {
+      "q": "105. As per norms prepared by MOPIT, the of brick on edge required for footpath on 60 mm thick sand bed for 10 m2",
+      "options": [
+        "625",
+        "725",
+        "825",
+        "925"
+      ],
+      "correct": 1,
+      "explain": "For brick-on-edge paving on a 60mm sand bed, 825 bricks are required for a 10 square meter area."
+    },
+    {
+      "q": "106. As per norms prepared by MOPIT, the of brick on flat required for footpath on 60 mm thick sand bed for 20 m2",
+      "options": [
+        "650",
+        "750",
+        "850",
+        "950 kg"
+      ],
+      "correct": 1,
+      "explain": "For flat brick paving, the requirement is 750 bricks per 20 square meters according to MOPIT standards."
+    },
+    {
+      "q": "107. The expected out turn of brick work in cement mortar (1:6) in foundation and plinth per mason per day (as per MOPIT norms), is",
+      "options": [
+        "0.73 m3",
+        "0.83 m3",
+        "0.93 m3",
+        "1.03 m3"
+      ],
+      "correct": 1,
+      "explain": "The standard daily output (out-turn) for a mason doing brickwork in the foundation/plinth is 0.83 cubic meters."
+    },
+    {
+      "q": "108. The no. of masons required per cubic metre of DRY stone masonry (as per MOPIT norms), is",
+      "options": [
+        "0.2",
+        "0.4",
+        "0.6",
+        "0.8"
+      ],
+      "correct": 3,
+      "explain": "Dry stone masonry is labor-intensive; 0.8 masons are required per cubic meter."
+    },
+    {
+      "q": "109. The no. of skilled man power required per cubic metre cement concrete 1:2:4 (as per MOPIT norms), is",
+      "options": [
+        "0.8",
+        "0.6",
+        "0.4",
+        "0.2"
+      ],
+      "correct": 3,
+      "explain": "For mixing and placing 1:2:4 concrete, the skilled labor coefficient is 0.2 per cubic meter."
+    },
+    {
+      "q": "110. The no. of skilled manpower required for 10 m2 plaster having thickness 12.5mm in 1:2 mortar (as per MOPIT norms), is",
+      "options": [
+        "14",
+        "12",
+        "10",
+        "8"
+      ],
+      "correct": 2,
+      "explain": "For 10m2 of 12.5mm thick plaster (1:2 ratio), 10 skilled manpower units are required."
+    },
+    {
+      "q": "111. The no. of skilled manpower required for 10 m2 plaster having thickness 12.5mm in 1:3 mortar (as per MOPIT norms), is",
+      "options": [
+        "14",
+        "12",
+        "10",
+        "8"
+      ],
+      "correct": 1,
+      "explain": "The norm specifies 12 skilled manpower units for 10m2 of 1:3 ratio plaster at 12.5mm thickness."
+    },
+    {
+      "q": "112. In RCC work, one mason in one day can perform",
+      "options": [
+        "0.20 m3",
+        "0.40 m3",
+        "0.60 m3",
+        "0.80 m3"
+      ],
+      "correct": 0,
+      "explain": "In reinforced cement concrete (RCC) work, the out-turn per mason is relatively low (0.20 m3) due to the complexity of working around reinforcement."
+    },
+    {
+      "q": "113. The quantity of thermoplastic paint for 400 m2 on smooth road surface (as per MOPIT norms), is",
+      "options": [
+        "730 lit",
+        "830 lit",
+        "930 lit",
+        "1000 lit"
+      ],
+      "correct": 2,
+      "explain": "MOPIT norms state that 930 liters of thermoplastic paint are needed for a 400m2 smooth road surface."
+    },
+    {
+      "q": "114. The quantity of thermoplastic paint for 300 m2 on smooth road surface (as per MOPIT norms), is",
+      "options": [
+        "1200 lit",
+        "1100 lit",
+        "1050 lit",
+        "1000 lit"
+      ],
+      "correct": 0,
+      "explain": "The requirement for 300m2 is listed as 1200 liters in the provided key."
+    },
+    {
+      "q": "120. *The number of skilled manpower required for fabrication of 1MT steel is",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "16"
+      ],
+      "correct": 2,
+      "explain": "Fabricating one metric ton (MT) of reinforcement steel typically requires 12 skilled workers."
+    },
+    {
+      "q": "133. The portion which is wrongly excavated by the contractor is to be filled",
+      "options": [
+        "the earth excavated from the same pit",
+        "the earth excavated from a borrow pit for away from the site",
+        "concrete as specified",
+        "brick masonry"
+      ],
+      "correct": 2,
+      "explain": "If a contractor over-excavates foundation trenches, they must fill the excess with concrete to ensure structural integrity."
+    },
+    {
+      "q": "134. In the analysis of rates what percentage of total cost is provided towards water charges",
+      "options": [
+        "5%",
+        "7 1/2 %",
+        "1 1/2 %",
+        "10%"
+      ],
+      "correct": 2,
+      "explain": "A standard allowance of 1.5% of the total cost is added to cover water charges used during construction."
+    },
+    {
+      "q": "138. *Steel formwork can be used upto about.........times.",
+      "options": [
+        "35",
+        "40",
+        "45",
+        "50"
+      ],
+      "correct": 3,
+      "explain": "Due to its durability, steel formwork can be reused approximately 50 times with proper maintenance."
+    },
+    {
+      "q": "157. If valuable properties are found during excavation, it becomes the property of",
+      "options": [
+        "contractor",
+        "labourers",
+        "owner of the site",
+        "government"
+      ],
+      "correct": 3,
+      "explain": "Standard contract clauses (and the Treasure Trove Act) stipulate that any fossils, coins, or articles of value found during excavation belong to the Government."
+    },
+    {
+      "q": "168. In the analysis of rates, the profit and over head for the contractor is generally taken as",
+      "options": [
+        "20%",
+        "15%",
+        "10%",
+        "5%"
+      ],
+      "correct": 1,
+      "explain": "As per standard norms (including Nepal's norms), 15% is added to the cost of materials and labor to cover contractor overheads and profit."
+    },
+    {
+      "q": "169. Contractor tax is",
+      "options": [
+        "1.5%",
+        "2.5%",
+        "5%",
+        "10%"
+      ],
+      "correct": 0,
+      "explain": "In many South Asian public procurement systems, a 1.5% TDS (Tax Deducted at Source) is applied to the contractor's bills."
+    },
+    {
+      "q": "177. Tender does not contain",
+      "options": [
+        "notice",
+        "item of work",
+        "estimated cost",
+        "item rate"
+      ],
+      "correct": 3,
+      "explain": "A blank tender provided to a contractor contains items and quantities but not the rates; the contractor fills in the rates."
+    },
+    {
+      "q": "178. The amount of money deposited along with the submission of tender is known as ",
+      "options": [
+        "security money",
+        "performance bond",
+        "retention money ",
+        "earnest money "
+      ],
+      "correct": 3,
+      "explain": "earnest money or bid security is deposited while bidding."
+    },
+    {
+      "q": "194. A fixed stipulated sum of penalty payable by the contractor having no relationship with real damage, is known as",
+      "options": [
+        "fixed penalty",
+        "liquidated damages",
+        "damage charges",
+        "unliquidated damages"
+      ],
+      "correct": 1,
+      "explain": "Liquidated damages are pre-estimated amounts fixed in the contract to be paid if a breach (like delay) occurs."
+    },
+    {
+      "q": "195. Liquidated damage is directly related with",
+      "options": [
+        "terms of condition",
+        "real damage",
+        "cost of project",
+        "deprecation"
+      ],
+      "correct": 0,
+      "explain": "Liquidated damages are governed by the specific clauses and terms of the contract agreement."
+    },
+    {
+      "q": "196. A fixed stipulated sum of penalty payable by the contractor having certain relationship with real damage, is known as",
+      "options": [
+        "fixed penalty",
+        "liquidated damages",
+        "unliquidated damage",
+        "damage charges"
+      ],
+      "correct": 2,
+      "explain": "Unliquidated damages are not fixed in the contract and are determined by a court based on the actual loss suffered."
+    },
+    {
+      "q": "197. When engineering departments undertake the works of other departments the amount charged toward design, supervision and execution etc. is called",
+      "options": [
+        "work charged establishment",
+        "contingencies",
+        "service charge",
+        "centage charge"
+      ],
+      "correct": 3,
+      "explain": "Centage charges (or departmental charges) are fees collected by a construction department for services rendered to another department."
+    },
+    {
+      "q": "198. Work charged establishment",
+      "options": [
+        "1.5%",
+        "2.5%",
+        "3.5%",
+        "5%"
+      ],
+      "correct": 0,
+      "explain": "A provision of 1.5% to 2% is typically made in the estimate for staff (supervisors, etc.) employed specifically for that project."
+    },
+    {
+      "q": "200. Which of the following is known as job overhead?",
+      "options": [
+        "stationery",
+        "postage",
+        "workman's compensation insurances etc.",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Job overheads are expenses directly related to a specific project site, such as insurance for workers and site-specific supervision."
+    },
+    {
+      "q": "201. In which of the following works, the work turned in cu.m per mason per day will be the least",
+      "options": [
+        "random rubble masonry in lime mortar",
+        "stone arch work",
+        "brick masonry in super structure",
+        "brick masonry in parapet wall"
+      ],
+      "correct": 1,
+      "explain": "Stone arch work requires high precision, dressing, and complex centering, which significantly reduces the daily output (outturn) per mason compared to straight walling."
+    },
+    {
+      "q": "202. Which of the following is known as general overhead?",
+      "options": [
+        "losses on advance",
+        "interest on investment",
+        "travelling expanses",
+        "amenities to the labour"
+      ],
+      "correct": 2,
+      "explain": "General overheads include expenses that cannot be charged to a specific job, such as office rent, administrative salaries, and traveling expenses for general business."
+    },
+    {
+      "q": "206. Actual Cost of construction plus certain profit is paid to the contractor . such a contract is known as ",
+      "options": [
+        "unscheduled constant",
+        "nominated contract",
+        "cost plus percentage contract ",
+        "work order"
+      ],
+      "correct": 2,
+      "explain": "In a cost-plus-percentage contract, the contractor is reimbursed the actual verified cost of construction plus an agreed percentage as profit."
+    },
+    {
+      "q": "207. When contractor fails to complete the work, an agency is employed to execute a part or whole of the at the cost of contractor. Such an agency is known as",
+      "options": [
+        "substitute agency",
+        "debitable agency",
+        "secondary agency",
+        "creditable agency"
+      ],
+      "correct": 1,
+      "explain": "A debitable agency is hired to complete unfinished work, and the costs incurred are debited (charged) to the original contractor's account."
+    },
+    {
+      "q": "211. The document showing the account of work done or supply of material including the particulars and quantities is known as",
+      "options": [
+        "bill",
+        "voucher",
+        "balance sheet",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "A bill is a formal statement of account showing the amount due for work performed or materials supplied."
+    },
+    {
+      "q": "212. The full form of VAT is",
+      "options": [
+        "variation at tax",
+        "voucher and tax",
+        "value added tax",
+        "violation and taxation"
+      ],
+      "correct": 2,
+      "explain": "VAT stands for Value Added Tax, which is a consumption tax placed on a product whenever value is added at each stage of the supply chain."
+    },
+    {
+      "q": "218. Rate analysis is based on the following factors",
+      "options": [
+        "quantity of materials",
+        "quality of materials",
+        "rate of materials",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Analysis of rates considers the quantity of materials, their quality, current market rates, and labor costs to determine the unit price of an item."
+    },
+    {
+      "q": "225. The amount provisioned for tools and plants on earthwork excavation item in norms for rate analysis is:",
+      "options": [
+        "3% of material",
+        "3% of labour",
+        "5% of material",
+        "5% of labour"
+      ],
+      "correct": 1,
+      "explain": "Tools and plants (T&P) charges are often estimated as a percentage of the labor cost for manual excavation."
+    },
+    {
+      "q": "234. Which of the following is not a part of estimating norms for rate analysis?",
+      "options": [
+        "labour cost",
+        "material cost",
+        "equipment cost",
+        "taxes"
+      ],
+      "correct": 3,
+      "explain": "Standard rate analysis focuses on direct costs (labor, material, equipment); taxes like VAT are usually added at the summary level, not within individual item norms."
+    },
+    {
+      "q": "235. What is the defects liability period in construction norms for rate analysis?",
+      "options": [
+        "one year",
+        "two year",
+        "one month",
+        "three year"
+      ],
+      "correct": 0,
+      "explain": "The standard defects liability period (DLP) for most construction contracts is typically one year after completion."
+    },
+    {
+      "q": "240. The main purpose of rate analysis is:",
+      "options": [
+        "to find actual cost per unit items",
+        "to find economic value of material",
+        "both a and B of the above",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The primary goal is to determine the unit rate of a work item based on its components."
+    },
+    {
+      "q": "243. The provision for overhead and profit in the rate analysis is generally:",
+      "options": [
+        "5%",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      "correct": 2,
+      "explain": "The standard allowance for contractor's profit and overhead combined is generally taken as 15%."
+    },
+    {
+      "q": "245. FIDIC is",
+      "options": [
+        "international federation of contractor",
+        "international federation of consulting engineers",
+        "international finance institution",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "FIDIC (Fédération Internationale Des Ingénieurs-Conseils) is the International Federation of Consulting Engineers."
+    },
+    {
+      "q": "248. Key components of norms prepared for rate analysis of works may not include with quantity of",
+      "options": [
+        "labour",
+        "material",
+        "equipment",
+        "establishment costs"
+      ],
+      "correct": 3,
+      "explain": "Establishment costs (overhead) are added as a percentage, not as a specific quantity component in the base norms."
+    },
+    {
+      "q": "249. The rates worked for material/labour based on paid bills/vouchers produced by contractor plus profit is",
+      "options": [
+        "derived rate",
+        "scheduled rate",
+        "star rate",
+        "estimated rate"
+      ],
+      "correct": 2,
+      "explain": "Star rates are rates derived from actual market prices plus profit when the item is not in the standard schedule of rates."
+    }
+  ]
+}

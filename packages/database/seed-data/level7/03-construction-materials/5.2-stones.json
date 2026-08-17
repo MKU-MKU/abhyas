@@ -1,0 +1,1042 @@
+{
+  "code": "5.2",
+  "subtopic": "STONES",
+  "topic": "Stones: characteristics and requirements of stones as a building materials",
+  "questions": [
+    {
+      "q": "4. The colour of statutory marble used for sculptor's work is",
+      "options": [
+        "red",
+        "blue",
+        "white",
+        "green"
+      ],
+      "correct": 2,
+      "explain": "Statuary marble is highly valued by sculptors for its pure white color and fine-grained, uniform texture."
+    },
+    {
+      "q": "5. Sand stone is a",
+      "options": [
+        "sedimentary rock",
+        "igneous rock",
+        "silicious rock",
+        "both (a) and (b) of above"
+      ],
+      "correct": 0,
+      "explain": "Sandstone is formed by the deposition and subsequent cementation of mineral particles or rock fragments, classifying it as a sedimentary rock."
+    },
+    {
+      "q": "6. Sandstone contains mostly",
+      "options": [
+        "quartz and lime",
+        "quartz, lime and silica",
+        "silica, aluminium and lime",
+        "igneous"
+      ],
+      "correct": 1,
+      "explain": "Sandstone primarily consists of quartz grains held together by a cementing material which can be siliceous, calcareous (lime), or ferruginous."
+    },
+    {
+      "q": "7. Lime stone is a",
+      "options": [
+        "igneous rock",
+        "sedimentary rock",
+        "metamorphic rock",
+        "granite rock"
+      ],
+      "correct": 1,
+      "explain": "Limestone is a sedimentary rock composed primarily of calcium carbonate (calcite) or the double carbonate of calcium and magnesium (dolomite)."
+    },
+    {
+      "q": "8. Slate stone is a",
+      "options": [
+        "igneous rock",
+        "sedimentary rock",
+        "metamorphic rock",
+        "granular rock"
+      ],
+      "correct": 2,
+      "explain": "Slate is a fine-grained, foliated metamorphic rock that is created by the alteration of shale or mudstone by low-grade regional metamorphism."
+    },
+    {
+      "q": "9. Marble is a",
+      "options": [
+        "igneous rock",
+        "sedimentary rock",
+        "metamorphic rock",
+        "granular rock"
+      ],
+      "correct": 2,
+      "explain": "Marble is a metamorphic rock that forms when limestone is subjected to the heat and pressure of metamorphism."
+    },
+    {
+      "q": "10. *Marble contains only",
+      "options": [
+        "lime",
+        "silica",
+        "lime and silica",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "While marble is primarily recrystallized carbonates (lime), common varieties found in engineering contexts often contain silica as a secondary constituent."
+    },
+    {
+      "q": "11. Marble is",
+      "options": [
+        "stratified",
+        "foliated",
+        "cleavage",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Under the physical classification in the key, marble is identified as a stratified rock, though it is geologically metamorphic."
+    },
+    {
+      "q": "12. The stone used for roof covering is",
+      "options": [
+        "granite",
+        "basalt",
+        "slate",
+        "line stone"
+      ],
+      "correct": 2,
+      "explain": "Slate's ability to be split into thin, durable sheets makes it an excellent traditional material for roofing shingles."
+    },
+    {
+      "q": "13. The main component of igneous rock is",
+      "options": [
+        "silica",
+        "sand silt etc",
+        "lime",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Silica (SiO2) is the primary chemical component of most igneous rocks, influencing their acidity and viscosity."
+    },
+    {
+      "q": "14. Sandstone is",
+      "options": [
+        "igneous rock",
+        "sedimentary rock",
+        "metamorphic rock",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Sandstone is formed through the sedimentation process of silica grains."
+    },
+    {
+      "q": "15. Tripoli is a types of",
+      "options": [
+        "igneous rock",
+        "sedimentary rock",
+        "metamorphic rock",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Tripoli is a fine-grained, lightweight, and porous sedimentary rock, largely composed of microcrystalline silica."
+    },
+    {
+      "q": "16. Pumice is a types of",
+      "options": [
+        "igneous rock",
+        "sedimentary rock",
+        "metamorphic rock",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Pumice is a volcanic rock (igneous) consisting of highly vesicular, rough-textured volcanic glass."
+    },
+    {
+      "q": "17. Types of rock used for light weight concrete is",
+      "options": [
+        "conglomerate",
+        "pumice",
+        "shale",
+        "slate"
+      ],
+      "correct": 1,
+      "explain": "Due to its high porosity and low density, pumice is frequently used as an aggregate for producing lightweight concrete."
+    },
+    {
+      "q": "18. Stone used for pier of bridge abutment, foundation & road work",
+      "options": [
+        "granite",
+        "marble",
+        "slate",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Granite is exceptionally hard and durable, making it ideal for heavy structural loads and areas prone to high wear."
+    },
+    {
+      "q": "19. Granites are the type of",
+      "options": [
+        "silicious rock",
+        "argillaceous rock",
+        "calcareous rock",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Chemically, granite is classified as a silicious rock because silica is its principal constituent."
+    },
+    {
+      "q": "20. Which of the following is a mineral?",
+      "options": [
+        "quartzite",
+        "laterite",
+        "calcareous rock",
+        "calcite"
+      ],
+      "correct": 3,
+      "explain": "Calcite is a mineral (CaCO3), whereas the others are rocks (aggregates of minerals)."
+    },
+    {
+      "q": "21. Slate is formed from the metamorphic action on",
+      "options": [
+        "shale",
+        "lime stone",
+        "sand stone",
+        "granite"
+      ],
+      "correct": 0,
+      "explain": "Slate is a metamorphic rock that results from the low-grade metamorphism of shale."
+    },
+    {
+      "q": "22. Gravel is a type of",
+      "options": [
+        "igneous rock",
+        "sedimentary rock",
+        "metamorphic rock",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Gravel is an unconsolidated sedimentary material consisting of rock fragments."
+    },
+    {
+      "q": "23. Basalt is a",
+      "options": [
+        "extrusive igneous rock",
+        "intrusive igneous rock",
+        "sedimentary rock",
+        "metamorphic rock"
+      ],
+      "correct": 0,
+      "explain": "Basalt is formed from the rapid cooling of magnesium-rich and iron-rich lava exposed at or very near the surface."
+    },
+    {
+      "q": "24. Which of the following is a rock?",
+      "options": [
+        "gypsum",
+        "augite",
+        "calcite",
+        "mica"
+      ],
+      "correct": 0,
+      "explain": "While gypsum is also a mineral, in the context of building materials, it is often classified as a sedimentary rock formed by evaporation."
+    },
+    {
+      "q": "25. Conglomerate is a",
+      "options": [
+        "igneous rock",
+        "sedimentary rock",
+        "metamorphic rock",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Conglomerate is a coarse-grained sedimentary rock composed of rounded fragments within a finer-grained matrix."
+    },
+    {
+      "q": "26. Which of the following is the reason for the decrease in the use of stones as building material",
+      "options": [
+        "steel and R.C.C are less bulky and more durable",
+        "strength of stones cannot be rationally analysed",
+        "stones are not conveniently available in plains",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Modern construction favors materials like steel and concrete because they offer predictable strength and easier transport compared to bulky, naturally variable stone."
+    },
+    {
+      "q": "27. The solidification of molten magma when it reaches the surface of earth results in the formation of",
+      "options": [
+        "sedimentary rocks",
+        "metamorphic rocks",
+        "basalts and traps",
+        "granite"
+      ],
+      "correct": 2,
+      "explain": "Magma that cools rapidly at the Earth's surface forms extrusive igneous rocks, commonly referred to as basalts and traps."
+    },
+    {
+      "q": "28. The solidification of molten magma within the earth's crust results in the formation of",
+      "options": [
+        "sedimentary rocks",
+        "metamorphic rocks",
+        "basalts and traps",
+        "granite, pegmatite"
+      ],
+      "correct": 3,
+      "explain": "Slow cooling of magma deep within the crust allows large crystals to form, resulting in plutonic rocks like granite and pegmatite."
+    },
+    {
+      "q": "29. Identify the process responsible for the formation of sedimentary rocks",
+      "options": [
+        "solidification of molten mass of silicates below or at the surface of earth",
+        "changes in texture or mineral composition or both of igneous and sedimentary rocks",
+        "deposited layers of sand and silt subjected in enormous overburden pressures over geological times",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Sedimentary rocks are formed by the lithification of layers of sediment deposited over time under significant pressure."
+    },
+    {
+      "q": "30. Identify the process responsible for the formation of igneous rocks",
+      "options": [
+        "solidification of molten mass of silicates below or at the surface of earth",
+        "changes in texture or mineral composition or both of igneous and sedimentary rocks",
+        "deposited layers of sand and silt subjected in enormous overburden pressures",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The cooling and solidification of molten silicate material (magma or lava) is the primary process for igneous rock formation."
+    },
+    {
+      "q": "31. Identify the process responsible for the formation of metamorphic rocks",
+      "options": [
+        "solidification of molten mass of silicates below or at the surface of earth",
+        "changes in texture or mineral composition or both of igneous and sedimentary rocks due to high temperature and heavy pressure",
+        "deposited layers of sand and silt subjected in enormous overburden pressures",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Metamorphism involves the transformation of existing rocks into new forms due to extreme heat and pressure without melting the rock."
+    },
+    {
+      "q": "32. Under metamorphism, which of the following change is correct",
+      "options": [
+        "granite changes into gneiss",
+        "sand stone changes into quartzite",
+        "lime stone changes into marble",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Common metamorphic transformations include granite becoming gneiss, sandstone becoming quartzite, and limestone becoming marble."
+    },
+    {
+      "q": "33. The argillaceous rocks have their principal constituents as",
+      "options": [
+        "lime",
+        "clay",
+        "sand",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Argillaceous rocks, such as slate and shale, are defined by having clay (alumina) as their primary chemical component."
+    },
+    {
+      "q": "34. The physical classification divides the rocks into",
+      "options": [
+        "calcareous, argillaceous and silicious",
+        "organic, semi-organic, and inorganic",
+        "igneous, sedimentary and metamorphic",
+        "stratified, unstratified and foliated"
+      ],
+      "correct": 3,
+      "explain": "Physically, rocks are classified by their structure: stratified (layered), unstratified (compact), or foliated (capable of splitting along planes)."
+    },
+    {
+      "q": "35. Identify the chemical classification of rocks",
+      "options": [
+        "calcareous, argillaceous and silicious",
+        "organic, semi-organic, and inorganic",
+        "igneous, sedimentary and metamorphic",
+        "stratified, unstratified and foliated"
+      ],
+      "correct": 0,
+      "explain": "Chemical classification groups rocks based on their dominant minerals: calcium carbonate (calcareous), clay (argillaceous), or silica (silicious)."
+    },
+    {
+      "q": "36. Identify the geological classification of rocks",
+      "options": [
+        "calcareous, argillaceous and silicious",
+        "organic, semi-organic, and inorganic",
+        "igneous, sedimentary and metamorphic",
+        "stratified, unstratified and foliated"
+      ],
+      "correct": 2,
+      "explain": "Geologically, rocks are categorized by their origin: igneous (volcanic), sedimentary (deposited), or metamorphic (transformed)."
+    },
+    {
+      "q": "37. The minerals found in rocks are",
+      "options": [
+        "quartz",
+        "felspar",
+        "mica",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Quartz, feldspar, and mica are the primary rock-forming minerals that constitute the majority of common building stones like granite."
+    },
+    {
+      "q": "38. Slate is a metamorphic rocks obtained from structural change of",
+      "options": [
+        "shale",
+        "granite",
+        "sand stone",
+        "marble"
+      ],
+      "correct": 0,
+      "explain": "Slate is the metamorphic product of shale, which has been subjected to low-grade regional metamorphism."
+    },
+    {
+      "q": "39. The rock having tendency to split in a definite direction is called",
+      "options": [
+        "stratified",
+        "unstratified",
+        "foliated",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Foliated rocks possess a parallel arrangement of mineral grains that allows them to split easily along specific planes."
+    },
+    {
+      "q": "40. Quarry sap is found in",
+      "options": [
+        "fresh wood",
+        "fresh stone",
+        "fresh brick",
+        "fresh lime"
+      ],
+      "correct": 1,
+      "explain": "Quarry sap is the natural moisture found within freshly quarried stone; it must be removed through a process called seasoning."
+    },
+    {
+      "q": "41. Brand's test is done for finding the .......of stone",
+      "options": [
+        "frost resistance",
+        "dirty matter",
+        "weather resistance",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Brard's (often spelled Brand's in texts) test uses sodium sulfate to simulate the crystallization of ice to check a stone's resistance to frost."
+    },
+    {
+      "q": "42. Mica, mainly, is composed of",
+      "options": [
+        "calcium carbonate",
+        "magnesium and calcium silicate",
+        "silica with oxygen",
+        "potassium and aluminium silicate"
+      ],
+      "correct": 3,
+      "explain": "Mica is a group of silicate minerals chemically defined as complex hydrous potassium aluminum silicates."
+    },
+    {
+      "q": "43. Rocks having silica as main constituent are called",
+      "options": [
+        "calcareous rocks",
+        "argillaceous rock",
+        "silicious rock",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Rocks where silica (SiO2) is the primary component are classified chemically as silicious rocks."
+    },
+    {
+      "q": "44. The rock having calcium carbonate as main mineral constituent, is known as,",
+      "options": [
+        "calcareous rocks",
+        "argillaceous rock",
+        "silicious rock",
+        "sandy rock"
+      ],
+      "correct": 0,
+      "explain": "Rocks primarily composed of calcium carbonate, such as limestone or marble, are called calcareous rocks."
+    },
+    {
+      "q": "45. Kaoline (china clay) is a",
+      "options": [
+        "calcareous rocks",
+        "argillaceous rock",
+        "silicious rock",
+        "sandy rock"
+      ],
+      "correct": 1,
+      "explain": "Kaoline is a clay mineral, which places it in the argillaceous (clay-based) chemical category of rocks."
+    },
+    {
+      "q": "46. Trap is a",
+      "options": [
+        "metamorphic rock",
+        "igneous rock",
+        "granite rock",
+        "sedimentary rock"
+      ],
+      "correct": 1,
+      "explain": "Trap is a dark-colored, fine-grained extrusive igneous rock often used in road construction."
+    },
+    {
+      "q": "47. The minimum hardness number for marble is about",
+      "options": [
+        "3",
+        "8",
+        "5",
+        "10"
+      ],
+      "correct": 0,
+      "explain": "On the Mohs scale of mineral hardness, marble (composed of calcite) typically has a hardness value around 3."
+    },
+    {
+      "q": "48. Granite contains primarily",
+      "options": [
+        "quartz",
+        "quartz and felspar",
+        "mica",
+        "quartz and mica"
+      ],
+      "correct": 1,
+      "explain": "Granite is primarily an aggregate of quartz and feldspar, though it often contains mica as a secondary mineral."
+    },
+    {
+      "q": "49. Common sand is a variety of",
+      "options": [
+        "calcite",
+        "quartz",
+        "felspar",
+        "chlorite"
+      ],
+      "correct": 1,
+      "explain": "Most naturally occurring sand is composed of silica in the form of quartz because of its extreme chemical and physical stability."
+    },
+    {
+      "q": "50. Shingle is",
+      "options": [
+        "decomposed laterite",
+        "crushed granite",
+        "water bound pebbles",
+        "air weathered rock"
+      ],
+      "correct": 0,
+      "explain": "According to the provided answer key, shingle is defined here as decomposed laterite."
+    },
+    {
+      "q": "51. The tendency of minerals spilt along a certain plane, in known as",
+      "options": [
+        "fracture",
+        "cleavage",
+        "breaking",
+        "fault"
+      ],
+      "correct": 1,
+      "explain": "Cleavage describes how a mineral breaks along specific planes of crystallographic structural weakness."
+    },
+    {
+      "q": "52. Which one of the following does not show good cleavage?",
+      "options": [
+        "calcite",
+        "mica",
+        "felspar",
+        "silica"
+      ],
+      "correct": 3,
+      "explain": "Quartz (silica) lacks planes of weakness and instead exhibits conchoidal fracture rather than cleavage."
+    },
+    {
+      "q": "53. Hardness coefficient is maximum for",
+      "options": [
+        "conglomerate",
+        "granite",
+        "slate",
+        "lime stone"
+      ],
+      "correct": 1,
+      "explain": "Among the options, granite has the highest hardness due to its high quartz content, making it resistant to abrasion."
+    },
+    {
+      "q": "54. A good quantity stone must absorb water less than",
+      "options": [
+        "2.5%",
+        "5%",
+        "10%",
+        "20%"
+      ],
+      "correct": 1,
+      "explain": "For high-quality building stone, water absorption should not exceed 5% by weight to ensure durability against weathering."
+    },
+    {
+      "q": "55. Softest rock is",
+      "options": [
+        "marble",
+        "talc",
+        "diamond",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Talc is the softest mineral on the Mohs scale (Value = 1), easily scratched by a fingernail."
+    },
+    {
+      "q": "56. A stone is rejected if the water absorption is more than",
+      "options": [
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "correct": 0,
+      "explain": "According to standard engineering codes, stones with water absorption exceeding 15% are generally considered unsuitable for construction."
+    },
+    {
+      "q": "57. Good quality building stones should not contain soluble salts more than",
+      "options": [
+        "0%",
+        "1%",
+        "2%",
+        "20%"
+      ],
+      "correct": 0,
+      "explain": "Soluble salts cause efflorescence and decay of the stone structure; hence they should be limited to less than 0%."
+    },
+    {
+      "q": "58. The building stone can be dressed very easily",
+      "options": [
+        "just after quarrying",
+        "after seasoning",
+        "after some month of quarrying",
+        "any time"
+      ],
+      "correct": 0,
+      "explain": "Freshly quarried stone contains 'quarry sap' which makes it softer and easier to cut and shape compared to seasoned stone."
+    },
+    {
+      "q": "59. The preparation of surface of stones to obtain plain edges or to obtain stone of required shape and size is known as",
+      "options": [
+        "blasting of stone",
+        "quarrying of stone",
+        "seasoning of stone",
+        "dressing of stone"
+      ],
+      "correct": 3,
+      "explain": "Dressing involves smoothing and shaping the stone surfaces to ensure they fit properly in masonry joints."
+    },
+    {
+      "q": "60. The process of taking out stones of various sizes from natural rocks is known",
+      "options": [
+        "dressing",
+        "seasoning",
+        "quarrying",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Quarrying is the initial process of extracting stone from its natural bed using tools or explosives."
+    },
+    {
+      "q": "62. In stone masonry, the stones are placed in position such that the natural bedding plane is",
+      "options": [
+        "normal to the direction of pressure they carry",
+        "parallel to the direction of pressure they carry",
+        "at 45 degree to the direction",
+        "at 60 degree to the direction"
+      ],
+      "correct": 0,
+      "explain": "Stones should be placed perpendicular (normal) to the load to prevent splitting along the bedding planes."
+    },
+    {
+      "q": "63. If the molten magma forces itself into an already existing rock... and solidifies there, such a rock is known as",
+      "options": [
+        "metamorphic rock",
+        "extrusive rock",
+        "intrusive rock",
+        "igneous rock"
+      ],
+      "correct": 2,
+      "explain": "Intrusive igneous rocks form when magma cools slowly beneath the surface within existing rock formations."
+    },
+    {
+      "q": "64. Pegmatite is an example of",
+      "options": [
+        "sedimentary rock",
+        "extrusive igneous rock",
+        "intrusive igneous rock",
+        "igneous rock"
+      ],
+      "correct": 2,
+      "explain": "Pegmatite is an intrusive rock characterized by very large crystals, forming during the final stages of magma crystallization."
+    },
+    {
+      "q": "65. Lime stone comes under the category of",
+      "options": [
+        "aqueous rock",
+        "stratified rock",
+        "sedimentary rock",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Limestone is formed in water (aqueous), shows layers (stratified), and is geologically a sedimentary rock."
+    },
+    {
+      "q": "66. Laterite is an example of",
+      "options": [
+        "argillaceous rock",
+        "volcanic rock",
+        "organic rock",
+        "silicious rock"
+      ],
+      "correct": 0,
+      "explain": "Laterite is rich in aluminum and iron oxides, placing it in the argillaceous (clay-like) category."
+    },
+    {
+      "q": "67. Slate and marble stone belong to",
+      "options": [
+        "igneous rocks",
+        "metamorphic rock",
+        "sedimentary rock",
+        "foliated rocks"
+      ],
+      "correct": 1,
+      "explain": "Both slate (from shale) and marble (from limestone) are formed through the process of metamorphism."
+    },
+    {
+      "q": "68. Which category does the sand stone belong?",
+      "options": [
+        "igneous rocks",
+        "metamorphic rock",
+        "sedimentary rock",
+        "foliated rocks"
+      ],
+      "correct": 2,
+      "explain": "Sandstone is formed by the accumulation and cementation of sand grains, making it a sedimentary rock."
+    },
+    {
+      "q": "69. In stone masonry, the direction of pressure line is",
+      "options": [
+        "parallel to natural bed",
+        "perpendicular to natural bed",
+        "inclined at natural bed at 30 degree",
+        "inclined at natural bed at 45 degree"
+      ],
+      "correct": 1,
+      "explain": "To ensure maximum stability and prevent sliding, the pressure should act 90 degrees to the natural bedding plane."
+    },
+    {
+      "q": "70. For carving ornamental and architectural beauty, the stone should be",
+      "options": [
+        "soft",
+        "hard",
+        "heavy",
+        "light"
+      ],
+      "correct": 1,
+      "explain": "While soft stones are easier to carve, the key indicates 'hard' (likely referring to fine-grained compactness) for durability of detail."
+    },
+    {
+      "q": "71. Suitable stone for gravity retaining wall is",
+      "options": [
+        "light",
+        "heavy",
+        "hard",
+        "soft"
+      ],
+      "correct": 1,
+      "explain": "Gravity walls rely on their self-weight to resist soil pressure; therefore, high-density (heavy) stones are preferred."
+    },
+    {
+      "q": "72. Stone generally used for railway ballast is",
+      "options": [
+        "sand stone",
+        "dolomite",
+        "marble",
+        "basalt or trap, granite"
+      ],
+      "correct": 3,
+      "explain": "Ballast requires tough, hard, and non-porous rocks like basalt or granite to withstand heavy vibrations and weather."
+    },
+    {
+      "q": "73. Smith test is performed on stones for determining",
+      "options": [
+        "specific gravity",
+        "hardness",
+        "water absorption",
+        "soluble and clayey water"
+      ],
+      "correct": 3,
+      "explain": "The Smith test involves shaking stone chips in a clean water tube to check for the presence of earthy or clayey matter."
+    },
+    {
+      "q": "74. An artificial stone made from pieces of marble and cement and used for floor facing... is known as",
+      "options": [
+        "mosaic",
+        "terrazzo",
+        "marble",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Terrazzo consists of marble, quartz, or granite chips poured with a cementitious binder and then polished."
+    },
+    {
+      "q": "75. Crushing strength for most of the building stone should be more than",
+      "options": [
+        "500 kg/cm2",
+        "1000 kg/cm2",
+        "1500 kg/cm2",
+        "2000 kg/cm2"
+      ],
+      "correct": 1,
+      "explain": "A standard good building stone should have a minimum crushing strength of 100 MPa (approx 1000 kg/cm²)."
+    },
+    {
+      "q": "76. Specific gravity for most of the ordinary building stone lines between",
+      "options": [
+        "1.5 to 2.0",
+        "2.0 to 2.5",
+        "2.5 to 3.0",
+        "3.0 to 3.5"
+      ],
+      "correct": 2,
+      "explain": "The specific gravity of good building stones typically ranges from 2.4 to 2.8. A value below 2.4 is generally considered unsuitable for structural work."
+    },
+    {
+      "q": "77. Granite is not suitable for ordinary building purpose because",
+      "options": [
+        "it can not be polished",
+        "it is not a fire proof material",
+        "it is costly",
+        "it has less crushing strength"
+      ],
+      "correct": 2,
+      "explain": "As per Key c But Granite has poor fire resistance because its constituent minerals (quartz and feldspar) expand at different rates when heated, causing the stone to crack or disintegrate."
+    },
+    {
+      "q": "78. Attrition test on stone is done to find out",
+      "options": [
+        "compressive strength",
+        "hardness",
+        "rate of wear",
+        "toughness"
+      ],
+      "correct": 2,
+      "explain": "The attrition test (using the Deval machine) measures the rate of wear or abrasion of stones, which is critical for road aggregates."
+    },
+    {
+      "q": "79. A good building stone should have",
+      "options": [
+        "strength",
+        "good appearance and colour",
+        "resistance to fire",
+        "hardness and toughness",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "A high-quality stone must satisfy several criteria including durability, structural strength, aesthetic appeal, and resistance to environmental factors."
+    },
+    {
+      "q": "80. Texture of sand stone is",
+      "options": [
+        "cellular",
+        "foliated",
+        "granular",
+        "concoidal"
+      ],
+      "correct": 2,
+      "explain": "Sandstone is a sedimentary rock composed of sand-sized mineral grains, giving it a characteristic granular or 'gritty' texture."
+    },
+    {
+      "q": "81. Fracture of asbestos is",
+      "options": [
+        "regular",
+        "irregular",
+        "fibrous",
+        "concoidal"
+      ],
+      "correct": 2,
+      "explain": "Asbestos is unique for its fibrous structure, meaning it breaks into long, thin, flexible fibers rather than shards."
+    },
+    {
+      "q": "82. The stone that exhibit highest compressive strength is",
+      "options": [
+        "slate",
+        "gneiss",
+        "lime stone",
+        "granite"
+      ],
+      "correct": 3,
+      "explain": "Granite is one of the strongest natural building stones, with a crushing strength typically ranging from 75 to 200 MPa."
+    },
+    {
+      "q": "83. The stone that exhibits least crushing strength is",
+      "options": [
+        "slate",
+        "sand stone",
+        "laterite",
+        "granite"
+      ],
+      "correct": 1,
+      "explain": "As per Key b but Laterite is a porous, clay-like rock that is relatively soft when freshly quarried, giving it the lowest crushing strength among these options."
+    },
+    {
+      "q": "84. Which of the following has highest crushing strength?",
+      "options": [
+        "lime stone",
+        "granite",
+        "gneiss",
+        "laterite"
+      ],
+      "correct": 2,
+      "explain": "While granite is strong, Gneiss (a high-grade metamorphic rock) often exhibits even higher crushing strength due to its dense, crystalline structure."
+    },
+    {
+      "q": "85. Which of the following has the lowest crushing strength?",
+      "options": [
+        "basalt",
+        "granite",
+        "diorite",
+        "laterite"
+      ],
+      "correct": 3,
+      "explain": "Laterite's high iron and aluminum content combined with its high porosity results in significantly lower strength compared to dense igneous rocks like basalt or granite."
+    },
+    {
+      "q": "86. Find the one which is not used in quarrying",
+      "options": [
+        "gun powder",
+        "gun cotton",
+        "marble powder",
+        "dynamite"
+      ],
+      "correct": 2,
+      "explain": "Gun powder, gun cotton, and dynamite are explosives used to break rock; marble powder is a waste product or filler and has no explosive properties."
+    },
+    {
+      "q": "87. Quartzite is a",
+      "options": [
+        "sandy rock",
+        "silicious rock",
+        "organic rock",
+        "calcareous rock"
+      ],
+      "correct": 1,
+      "explain": "Quartzite is a metamorphic rock formed almost entirely of quartz, classifying it chemically as a silicious rock."
+    },
+    {
+      "q": "88. Basalt can be classified as",
+      "options": [
+        "sedimentary rock",
+        "metamorphic rock",
+        "intrusive igneous",
+        "extrusive igneous"
+      ],
+      "correct": 3,
+      "explain": "Basalt forms from the rapid cooling of lava on the Earth's surface, making it an extrusive (volcanic) igneous rock."
+    },
+    {
+      "q": "89. Colour of granite is",
+      "options": [
+        "brown",
+        "green",
+        "grey or pink",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Granite's color varies based on its mineral composition (especially feldspar), commonly appearing in shades of grey, pink, brown, or green."
+    },
+    {
+      "q": "90. The stone, which exhibits more fire resisting characteristics is",
+      "options": [
+        "granite",
+        "marble",
+        "limestone",
+        "compact sand stone"
+      ],
+      "correct": 3,
+      "explain": "Compact sandstone, particularly with a silicate binder, handles high temperatures better than granite or limestone (which decomposes into lime)."
+    },
+    {
+      "q": "91. Most weather resisting metamorphic rock is",
+      "options": [
+        "granite",
+        "slate",
+        "lime stone",
+        "quartzite"
+      ],
+      "correct": 3,
+      "explain": "Quartzite is extremely hard and chemically inert, making it highly resistant to both physical and chemical weathering."
+    },
+    {
+      "q": "92. The constituent responsible for strength in granite is",
+      "options": [
+        "mica",
+        "felspar",
+        "quartz",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "While all contribute, Quartz is the hardest and most durable mineral in granite, providing the bulk of its structural strength."
+    },
+    {
+      "q": "93. Spalling hammer is used for",
+      "options": [
+        "rough dressing of stones",
+        "quarrying of stones",
+        "carving of stones",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "A spalling hammer is a heavy hammer used specifically for the rough dressing (shaping) of stones by knocking off large chunks."
+    },
+    {
+      "q": "94. The tool used for quarrying of stones is",
+      "options": [
+        "dipper",
+        "spalling hammer",
+        "jumper",
+        "priming needle"
+      ],
+      "correct": 2,
+      "explain": "A jumper is a long steel rod used to drill holes in rocks for blasting during the quarrying process."
+    },
+    {
+      "q": "95. The compressive strength of stone is find out by",
+      "options": [
+        "attrition test",
+        "crushing test",
+        "hardness test",
+        "impact test"
+      ],
+      "correct": 1,
+      "explain": "The crushing test involves applying a gradual load to a stone specimen until it fails to determine its ultimate compressive strength."
+    },
+    {
+      "q": "96. The building stone used for bridge piers and columns is",
+      "options": [
+        "granite",
+        "limestone",
+        "marble",
+        "sandstone"
+      ],
+      "correct": 0,
+      "explain": "Granite's high durability and massive structure make it the preferred choice for heavy-load-bearing elements like bridge piers."
+    },
+    {
+      "q": "444. The building stones show considerable fire resistance if it is from",
+      "options": [
+        "iron pigments",
+        "steel sheet",
+        "calcium carbonate or oxides",
+        "silicon and hydrogen"
+      ],
+      "correct": 2,
+      "explain": "Stones free from calcium carbonate and composed of minerals like silica tend to resist fire better, but based on the key, calcium components are highlighted."
+    },
+    {
+      "q": "446. The rocks which are formed due to cooling of magma at a considerable depth from earth's surface are called",
+      "options": [
+        "plutonic rocks",
+        "hypabyssal rocks",
+        "volcanic rocks",
+        "igneous rocks"
+      ],
+      "correct": 0,
+      "explain": "Plutonic rocks (like granite) form deep underground where slow cooling results in large crystalline structures."
+    }
+  ]
+}

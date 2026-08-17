@@ -1,0 +1,459 @@
+{
+  "code": "4.6",
+  "subtopic": "CONTOURING",
+  "topic": "Contouring: contour interval and characteristics of contours, methods of contouring, interpolation, use of contour map",
+  "source": "survey 350-455 updated.json (merged from old LEVEL 7 archive)",
+  "questions": [
+    {
+      "q": "371. An imaginary line connecting the points of equal elevation on the ground surface is known as",
+      "options": [
+        "contour line",
+        "contour interval",
+        "horizontal equivalent",
+        "contour gradient"
+      ],
+      "correct": 0,
+      "explain": "A contour line is a line drawn on a map connecting points of the same height above or below sea level."
+    },
+    {
+      "q": "372. The vertical distance between any two consecutive contours is known as",
+      "options": [
+        "contour line",
+        "contour interval",
+        "horizontal equivalent",
+        "contour gradient"
+      ],
+      "correct": 1,
+      "explain": "The vertical distance between two successive contour lines is the contour interval."
+    },
+    {
+      "q": "373. The minimum horizontal distance between any two consecutive contours is known as",
+      "options": [
+        "contour line",
+        "contour interval",
+        "horizontal equivalent",
+        "contour gradient"
+      ],
+      "correct": 2,
+      "explain": "The horizontal distance between two consecutive contours is termed the horizontal equivalent."
+    },
+    {
+      "q": "374. Horizontal equivalent of uniform slope must be",
+      "options": [
+        "equal",
+        "unequal",
+        "contour interval",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "For a uniform slope, the horizontal distance between contours (horizontal equivalent) remains constant or equal."
+    },
+    {
+      "q": "375. The contour interval depends upon",
+      "options": [
+        "nature of the ground",
+        "scale of the map",
+        "purpose and extent of survey",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "The choice of contour interval is influenced by ground terrain, map scale, and the specific needs of the project."
+    },
+    {
+      "q": "376. Contour interval is proportional",
+      "options": [
+        "directly to the scale of map",
+        "inversely to the scale of map",
+        "directly to flatness of the ground",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The interval is inversely proportional to the scale; smaller scales typically require larger intervals."
+    },
+    {
+      "q": "377. An imaginary line lying through the surface of ground, having a constant inclination to the horizontal is known as",
+      "options": [
+        "contour line",
+        "contour gradient",
+        "contour interval",
+        "horizontal equivalent"
+      ],
+      "correct": 1,
+      "explain": "A line maintaining a constant slope or inclination on the ground is called a contour gradient."
+    },
+    {
+      "q": "378. A series of closed contour lines on the map with higher to lower values inside them represents a",
+      "options": [
+        "hill",
+        "ridge",
+        "depression",
+        "steep slope"
+      ],
+      "correct": 2,
+      "explain": "Closed contours with decreasing values toward the center indicate a depression or hollow."
+    },
+    {
+      "q": "379. The contour lines merge or cross one another on the map in case of",
+      "options": [
+        "cave",
+        "overhang ground surfaces",
+        "both (a) and (b) of above",
+        "vertical surfaces"
+      ],
+      "correct": 2,
+      "explain": "Contour lines only cross or merge in exceptional cases like caves or overhanging cliffs."
+    },
+    {
+      "q": "380. A series of closely spaced contour lines represents a",
+      "options": [
+        "steep slope",
+        "uniform slope",
+        "horizontal surface",
+        "gentle slope"
+      ],
+      "correct": 0,
+      "explain": "Close spacing between contour lines indicates a rapid change in elevation, signifying a steep slope."
+    },
+    {
+      "q": "381. A series of straight, parallel and widely spaced contours on a map represents a",
+      "options": [
+        "valley",
+        "ridge",
+        "curved surface",
+        "inclined plane surface"
+      ],
+      "correct": 3,
+      "explain": "Straight, parallel, and equidistant contours represent a uniform inclined plane surface."
+    },
+    {
+      "q": "382. The contour lines are perpendicular to the",
+      "options": [
+        "ridge line",
+        "valley line",
+        "both (a) and (b) of above",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Contours cross both ridge and valley lines at right angles (90°)."
+    },
+    {
+      "q": "383. The tacheometric method is more suitable method for preparing the contour map of a",
+      "options": [
+        "valley",
+        "hill",
+        "ridge",
+        "plain surface"
+      ],
+      "correct": 1,
+      "explain": "Tacheometry is the most efficient method for contouring hilly or rough terrain."
+    },
+    {
+      "q": "384. The representation of general topography of a very flat terrain is possible only",
+      "options": [
+        "by drawing possible only",
+        "by drawing contours at large interval",
+        "by giving spot levels at large interval",
+        "by giving spot levels to salient features of close interval"
+      ],
+      "correct": 3,
+      "explain": "On flat ground, contours are far apart; spot levels at close intervals are used instead to show detail."
+    },
+    {
+      "q": "385. Contour represent at equal interval",
+      "options": [
+        "steepest slope",
+        "hill",
+        "depression",
+        "uniform slope"
+      ],
+      "correct": 3,
+      "explain": "When contours are spaced at equal horizontal intervals, they represent a uniform slope."
+    },
+    {
+      "q": "386. The contour close to each other represents",
+      "options": [
+        "plain",
+        "steep slope",
+        "river",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Contours drawn close together represent a steep incline/slope."
+    },
+    {
+      "q": "387. Contour interval, within the limits of a map",
+      "options": [
+        "may be kept constant",
+        "may not be kept constant",
+        "must be kept constant",
+        "may vary according to the configuration"
+      ],
+      "correct": 2,
+      "explain": "The contour interval must remain constant on a single map to avoid confusion in interpretation."
+    },
+    {
+      "q": "388. Two contour lines, having the same elevation",
+      "options": [
+        "can't cross each other",
+        "can cross each other",
+        "can't unite together",
+        "can unite together"
+      ],
+      "correct": 1,
+      "explain": "While generally they don't, in specific cases like an overhanging cliff, they can appear to cross."
+    },
+    {
+      "q": "389. Contour lines",
+      "options": [
+        "end abruptly",
+        "cross each other",
+        "are uniformly spaced",
+        "close somewhere"
+      ],
+      "correct": 3,
+      "explain": "Every contour line must eventually close upon itself, either within or outside the map limits."
+    },
+    {
+      "q": "390. Method of contour plotting can be done by",
+      "options": [
+        "by square",
+        "by offsetting",
+        "by arch",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Various methods like squares, offsets, and cross-sections are used to locate points for contour plotting."
+    },
+    {
+      "q": "391. Contouring in hilly area is done by",
+      "options": [
+        "square method",
+        "c/s method",
+        "tacheometric method",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "The tacheometric method is ideal for hilly terrain because it allows the surveyor to find elevations and distances optically without the struggle of chaining over rough ground."
+    },
+    {
+      "q": "392. Contour lines look to cross each other in case of",
+      "options": [
+        "an overhanging cliff",
+        "a dam of vertical face",
+        "a steep hill",
+        "a deep valley"
+      ],
+      "correct": 0,
+      "explain": "In an overhanging cliff, the upper part of the land sticks out over the lower part, causing the contour lines to physically cross on a 2D map."
+    },
+    {
+      "q": "393. Pick up the odd statement",
+      "options": [
+        "contour gives topography of the area",
+        "intervisibility between two points can be judged from a contour map",
+        "quantities of work can be computed from the contour map",
+        "for a vertical cliff contours seem to cross each other"
+      ],
+      "correct": 3,
+      "explain": "Odd statement because contours for a vertical cliff 'unite' or 'merge' into one; they only 'cross' in an overhanging cliff."
+    },
+    {
+      "q": "394. Deep ravine means",
+      "options": [
+        "pond",
+        "lake very deep",
+        "ocean",
+        "very much difference in level within a little horizontal distance"
+      ],
+      "correct": 3,
+      "explain": "A deep ravine is a narrow, steep-sided valley; on a map, it is shown by a very large change in elevation over a small horizontal distance, resulting in extremely close contour lines."
+    },
+    {
+      "q": "395. Height indicator is a",
+      "options": [
+        "scale",
+        "tool",
+        "instrument",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The Height Indicator is technically a scale or measuring device used to read vertical distances on specific surveying models or maps."
+    },
+    {
+      "q": "396. The direction of steepest slope on a contour, is",
+      "options": [
+        "along the contour",
+        "at an angles to the contour",
+        "at right angles to the contour",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "The steepest slope always occurs at right angles (90°) to the contour lines."
+    },
+    {
+      "q": "397. The direct method of contouring is",
+      "options": [
+        "very slow method",
+        "most accurate method",
+        "suitable for contouring small areas",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "It is slow because you must physically walk the contour on the ground, but it is the most accurate because the points are actually located, so it's only practical for small plots."
+    },
+    {
+      "q": "398. In the direct method of contouring the process of locating points lying on a contour is known as",
+      "options": [
+        "horizontal control",
+        "vertical control",
+        "ranging",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Vertical control is the process of establishing the elevation (Z) to find points on a specific contour line."
+    },
+    {
+      "q": "399. The spacing of cross-sections in indirect method of contouring depends upon",
+      "options": [
+        "character of the ground",
+        "scale of map",
+        "contour intervals",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Rougher ground needs closer sections, large scale maps need more detail, and smaller intervals require more data points — all of these factors influence the spacing."
+    },
+    {
+      "q": "400. Find the contour interval for the map, 1: 25000 in IS & FPS",
+      "options": [
+        "4m & 20.70ft",
+        "6m & 19.70ft",
+        "3m & 20.70ft",
+        "5m & 19.70ft"
+      ],
+      "correct": 3,
+      "explain": "For a 1:25,000 scale map, the standard metric interval is 5m. Converting 5 meters to feet gives approximately 19.70ft."
+    },
+    {
+      "q": "401. Contours are used to determine",
+      "options": [
+        "intervisibility of points on a contour map",
+        "area of the drainage basin and capacity of the reservoir",
+        "quantities of earth work",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "By drawing a profile between two points, checking intervisibility, calculating catchment basin sizes, and estimating earthwork volumes are all primary applications of contour maps."
+    },
+    {
+      "q": "402. Closed contours with higher value inside represents a",
+      "options": [
+        "depression",
+        "hill",
+        "valley",
+        "ridge"
+      ],
+      "correct": 1,
+      "explain": "When contour values increase as you move toward the center, it represents a peak or a hill."
+    },
+    {
+      "q": "403. The order of accuracy of elevation of points obtained from a contour map is equal to",
+      "options": [
+        "contour interval",
+        "1/2 x contour interval",
+        "1/4 x contour interval",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Standard mapping specifications state that 90% of tested elevations should be accurate within half of the contour interval."
+    },
+    {
+      "q": "404. The best method of interpolation of contours in direct method of contouring is by",
+      "options": [
+        "computations",
+        "interpolation",
+        "estimation",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Arithmetical computation is the most accurate method because it uses the exact ratio of the distance between two points and their difference in elevation."
+    },
+    {
+      "q": "405. In double line river, contours are",
+      "options": [
+        "stopped at the bank of the river",
+        "stopped at the edge of the river",
+        "drawn across the water",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "For a wide, 'double line' river, contour lines are stopped at the edge of the water surface."
+    },
+    {
+      "q": "406. The limit of water level in a river represents a",
+      "options": [
+        "contour line",
+        "horizontal surface",
+        "contour gradient",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The surface of still water (or a slow-moving wide river) is always level, meaning every point on that surface is at the same elevation, forming a horizontal surface."
+    },
+    {
+      "q": "407. Location of contour gradient for a highway is best set out from",
+      "options": [
+        "ridge down the hill",
+        "saddle down the hill",
+        "bottom to the ridge",
+        "bottom to the saddle"
+      ],
+      "correct": 1,
+      "explain": "A saddle is the lowest point on a ridge; starting from the saddle and working down the hill allows the highway to maintain a more consistent and gentle gradient."
+    },
+    {
+      "q": "408. For any point on the surface with a given inclination, contour gradient possible is",
+      "options": [
+        "one",
+        "two",
+        "infinite",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "From any single point on a slope, you can turn in infinite directions to maintain a specific gradient, depending on how you curve your path."
+    },
+    {
+      "q": "409. For route survey of a contour map, method used is",
+      "options": [
+        "square method",
+        "cross-profile method",
+        "quantities of earth work",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Cross-profile (or cross-section) method involves taking sections perpendicular to the route's centerline, making it perfect for roads, canals, or railways."
+    },
+    {
+      "q": "410. A contour map of the area is essential before proceeding the construction of",
+      "options": [
+        "a building",
+        "a swimming pool",
+        "a dam",
+        "a bridge"
+      ],
+      "correct": 2,
+      "explain": "A dam requires knowing the exact topography of the entire valley to calculate flood zones, storage capacity, and spillway height, making a contour map absolutely essential."
+    },
+    {
+      "q": "411. The V-shaped contours shown below represent",
+      "options": [
+        "a ridge",
+        "a valley",
+        "an overhanging cliff",
+        "both (a) & (b) of above"
+      ],
+      "correct": 1,
+      "explain": "When the V-shape points toward the higher elevation, it identifies the feature as a valley."
+    }
+  ]
+}

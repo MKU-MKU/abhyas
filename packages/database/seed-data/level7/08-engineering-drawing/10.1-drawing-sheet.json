@@ -1,0 +1,172 @@
+{
+  "code": "10.1",
+  "subtopic": "DRAWING SHEET",
+  "topic": "Drawing sheet composition and its essential components",
+  "questions": [
+    {
+      "q": "1. The art of representation of an object by systemic lines on a paper is known as",
+      "options": [
+        "drawing",
+        "art",
+        "dimensioning",
+        "profession"
+      ],
+      "correct": 0,
+      "explain": "Drawing is the technical method of representing an object's shape and features using lines on a flat surface."
+    },
+    {
+      "q": "2. Drawing is the ................of engineers.",
+      "options": [
+        "language",
+        "tool",
+        "machine",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Engineering drawing is considered the universal language of engineers because it conveys technical information across different regions and languages without ambiguity."
+    },
+    {
+      "q": "12. When only one drawing is to be made then its position should be",
+      "options": [
+        "left side of paper",
+        "right side of paper",
+        "upper side of paper",
+        "centre of paper"
+      ],
+      "correct": 3,
+      "explain": "Placing a single drawing in the center of the sheet ensures proper balance, aesthetic appeal, and space for annotations/dimensions on all sides."
+    },
+    {
+      "q": "13. Working/ drawing space on the paper is determined by",
+      "options": [
+        "working line",
+        "drawing line",
+        "border line",
+        "deader line"
+      ],
+      "correct": 2,
+      "explain": "Border lines are drawn on the sheet to define the actual area available for the technical drawing and to provide a frame for the work."
+    },
+    {
+      "q": "43. The paper size of A3 is",
+      "options": [
+        "297 x 420",
+        "210 x 297",
+        "420 x 850",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Standard ISO paper sizes: A3 is 297mm x 420mm (double the size of A4)."
+    },
+    {
+      "q": "44. Size of A4 size paper is",
+      "options": [
+        "148 x 210 mm",
+        "210 x 297 mm",
+        "297 x 210 mm",
+        "320 x 460 mm"
+      ],
+      "correct": 1,
+      "explain": "A4 is the most common paper size, measuring exactly 210mm by 297mm."
+    },
+    {
+      "q": "45. Number of equal pieces of A4 size paper from A0 is equal to",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "correct": 3,
+      "explain": "Each step in the A-series halves the area. A0 → A1 → A2 → A3 → A4. That is 2^4 = 16 sheets."
+    },
+    {
+      "q": "46. The area occupied by A0 (drawing sheet) is ............ times the area occupied by A1 (drawing sheet).",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "correct": 0,
+      "explain": "One A0 sheet is equivalent to two A1 sheets placed side-by-side."
+    },
+    {
+      "q": "47. The area occupied by A0 (drawing sheet) is ............ times the area occupied by A2 (drawing sheet).",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "correct": 1,
+      "explain": "Following the division rule (2^2), A0 is four times the size of A2."
+    },
+    {
+      "q": "48. The area occupied by A0 (drawing sheet) is ............ times the area occupied by A3 (drawing sheet).",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "correct": 2,
+      "explain": "Following the division rule (2^3), A0 is eight times the size of A3."
+    },
+    {
+      "q": "49. The area occupied by A0 (drawing sheet) is ............ times the area occupied by A4 (drawing sheet).",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "correct": 3,
+      "explain": "Following the division rule (2^4), A0 is sixteen times the size of A4."
+    },
+    {
+      "q": "142. \"Title Block\" is placed at bottom right hand corner of the drawing which gives information about",
+      "options": [
+        "title of drawing",
+        "scale of the drawing",
+        "serial no of drawing",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "The title block is the metadata center of a drawing, containing names, dates, scales, and identification numbers."
+    },
+    {
+      "q": "157. *In standard A series drawing sheet, the ratio of length of shorter side to longer side",
+      "options": [
+        "1:2",
+        "3:4",
+        "1: √2",
+        "√3: 2"
+      ],
+      "correct": 2,
+      "explain": "ISO 216 standard (A series) uses a constant aspect ratio of 1 to the square root of 2 so that the proportions remain the same when the sheet is folded in half."
+    },
+    {
+      "q": "166. The selection of suitable scale and allotment of proper space for margin, title block, revision panel, folding marks, etc. on the drawing sheet is known as :",
+      "options": [
+        "formatting",
+        "layout",
+        "folding",
+        "centering"
+      ],
+      "correct": 1,
+      "explain": "Layout refers to the organized arrangement of all required elements on a drawing sheet."
+    },
+    {
+      "q": "167. The size of the title block of all sizes of drawing sheet is :",
+      "options": [
+        "420 mm, 65 mm",
+        "185 mm, 65 mm",
+        "297 mm, 65 mm",
+        "185 mm, 50 mm"
+      ],
+      "correct": 1,
+      "explain": "According to Bureau of Indian Standards (BIS), the standard size for a title block is 185 mm x 65 mm."
+    }
+  ]
+}

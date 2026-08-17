@@ -1,0 +1,283 @@
+{
+  "code": "9.6",
+  "subtopic": "VALUATION",
+  "topic": "Valuation of property, depreciation, and related financial concepts",
+  "source": "est_1-50.json, est_101-151.json, est_151-200.json, est_201-250.json, est_51-100.json",
+  "questions": [
+    {
+      "q": "51. Evaluation of building is done based on",
+      "options": [
+        "detailed estimate",
+        "plinth area rate",
+        "cube rate",
+        "depreciation method"
+      ],
+      "correct": 1,
+      "explain": "Preliminary evaluation of a building's cost is typically calculated using the plinth area rate of similar structures in the locality."
+    },
+    {
+      "q": "63. *Compound amount of Rs. 100 in 4 years @ 4% interest",
+      "options": [
+        "Rs. 116",
+        "Rs. 114",
+        "Rs. 117",
+        "Rs. 120"
+      ],
+      "correct": 2,
+      "explain": "Using A = P(1 + r/100)^n, 100(1.04)^4 is approximately 116.98, rounded to 117."
+    },
+    {
+      "q": "95. *Contractor profit is added to",
+      "options": [
+        "detailed estimate",
+        "rate analysis",
+        "valuation",
+        "salvage"
+      ],
+      "correct": 1,
+      "explain": "Contractor's profit is included during the rate analysis phase for individual items."
+    },
+    {
+      "q": "151. The life of teak wood doors and window is usually taken to be",
+      "options": [
+        "80 year",
+        "60 year",
+        "40 year",
+        "20 year"
+      ],
+      "correct": 2,
+      "explain": "The average service life of high-quality teak wood joinery in buildings is estimated at 40 years before significant decay or structural replacement is required."
+    },
+    {
+      "q": "165. The technique of finding the fair price of an existing building or property is known as",
+      "options": [
+        "estimation",
+        "valuation",
+        "pricing",
+        "costing"
+      ],
+      "correct": 1,
+      "explain": "Valuation is the process of determining the present-day value of an asset, whereas estimation is predicting the cost before construction."
+    },
+    {
+      "q": "166. Valuation is done for",
+      "options": [
+        "minimum value",
+        "market value",
+        "present value based on reality",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "The primary goal of valuation is to find the actual present value of the property in its current condition and market context."
+    },
+    {
+      "q": "181. Working out the exact quantities of various items of work is known as",
+      "options": [
+        "estimating",
+        "mensuration",
+        "quantity surveying",
+        "valuation"
+      ],
+      "correct": 2,
+      "explain": "Quantity Surveying is the professional discipline of calculating materials, labor, and costs for construction projects."
+    },
+    {
+      "q": "187. The value of the property or structures become less by its becoming out of date in style is known as",
+      "options": [
+        "scrap value",
+        "salvation value",
+        "junk value",
+        "obsolescence"
+      ],
+      "correct": 3,
+      "explain": "Obsolescence is the loss in value due to changes in design, technology, or demand, making the property 'outdated'."
+    },
+    {
+      "q": "188. The value of the property (without being dismentaled) at the end of the useful life period is known as",
+      "options": [
+        "scrap value",
+        "salvation value",
+        "junk value",
+        "book value"
+      ],
+      "correct": 1,
+      "explain": "Salvage value is the value of an asset at the end of its utility without being broken up. (Note: Question text says 'salvation' which is a typo for 'salvage')."
+    },
+    {
+      "q": "189. The annual periodic payments made for the repayment of the capital invested is known as",
+      "options": [
+        "annuity",
+        "depreciation",
+        "sinking fund",
+        "salvation"
+      ],
+      "correct": 0,
+      "explain": "An annuity is a fixed sum of money paid to someone each year, often used to repay capital over a period of time."
+    },
+    {
+      "q": "190. The net annual letting out value of a property, which is obtained after deducting the amount of yearly repairs from the gross income, is known as",
+      "options": [
+        "market value",
+        "book value",
+        "sinking value",
+        "rateable value"
+      ],
+      "correct": 3,
+      "explain": "Rateable value is used by local authorities to calculate taxes, determined by deducting outgoings from gross rent."
+    },
+    {
+      "q": "191. The value shown in account book after allowing necessary depreciation known as",
+      "options": [
+        "salvage value",
+        "book value",
+        "market value",
+        "retable value"
+      ],
+      "correct": 1,
+      "explain": "Book value is the original cost minus accumulated depreciation as recorded in accounting ledgers."
+    },
+    {
+      "q": "192. The gradual accumulations of amount by way of annual periodic deposits which is meant for the replacement of the structure at the end of its useful life period is known as",
+      "options": [
+        "annuity depreciation",
+        "depreciation",
+        "sinking fund",
+        "solatium"
+      ],
+      "correct": 2,
+      "explain": "A sinking fund is created by setting aside a specific sum annually so that the accumulated amount can replace the asset at the end of its life."
+    },
+    {
+      "q": "193. The value of the dismentalled material less the cost of dismentalling is called",
+      "options": [
+        "scrap value",
+        "salvation value",
+        "rateable value",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Scrap value is the worth of the materials (bricks, steel, timber) after the building has been demolished."
+    },
+    {
+      "q": "208. If the payment of annuity beings after some years in future, it is known as",
+      "options": [
+        "deferred annuity",
+        "delayed annuity",
+        "readjusted annuity",
+        "regulated annuity"
+      ],
+      "correct": 0,
+      "explain": "An annuity where payments start after a specific number of years or a certain period has elapsed is called a deferred annuity."
+    },
+    {
+      "q": "209. Salvage value of any structure is",
+      "options": [
+        "less than the scrap value",
+        "more than the scrap value",
+        "equal to the scrap value",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Salvage value is the value of a property at the end of its utility period without being dismantled, which is typically higher than scrap value (value of dismantled materials)."
+    },
+    {
+      "q": "215. The amount of capital from required to be invested to receive a net annual income as an annuity of Rs. 1 /- at certain rate of interest is called",
+      "options": [
+        "year's capital",
+        "year's interest",
+        "year's purchase",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Year's Purchase (YP) is the capital sum required to be invested to receive an annuity of Re 1.00 at a given rate of interest."
+    },
+    {
+      "q": "216. Find the value of year's purchase to get Rs.1 per year at the interest rate of 5%.",
+      "options": [
+        "25.00",
+        "20.00",
+        "15.00",
+        "10.00"
+      ],
+      "correct": 1,
+      "explain": "Year's Purchase = 100 / Interest Rate. Here, 100 / 5 = 20.00."
+    },
+    {
+      "q": "221. Value is",
+      "options": [
+        "the cost of a structure",
+        "the cost of a structure",
+        "both of the above",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Value is the present worth of a property, which can differ from the historical cost."
+    },
+    {
+      "q": "227. The value of structure without being dismantled at the end of its utility period is known as:",
+      "options": [
+        "scrap value",
+        "savage value",
+        "market value",
+        "book value"
+      ],
+      "correct": 1,
+      "explain": "The value of a property at the end of its useful life, without being dismantled, is the salvage (or savage) value."
+    },
+    {
+      "q": "230. If the net income is calculated with the rental method of valuation then, the net income is then,",
+      "options": [
+        "a difference of gross income with all outgoing expenses",
+        "a product of actual cost and depreciation",
+        "a addition of original cost and annual depreciation",
+        "a difference of original cost and scrap-"
+      ],
+      "correct": 0,
+      "explain": "Net Income = Gross Rent - Outgoings (taxes, repairs, management, etc.)."
+    },
+    {
+      "q": "232. The sinking fund is:",
+      "options": [
+        "a part of the proceed in reserve for additional structure and modification",
+        "the sum of money to be paid to authorities by the tenants",
+        "the fund for rebuilding structure its economic life is over",
+        "raised to meet the maintenance costs of the structure before dismantling"
+      ],
+      "correct": 2,
+      "explain": "A sinking fund is a fund created by setting aside annual installments so that at the end of the utility period, the accumulated amount is enough to replace the structure."
+    },
+    {
+      "q": "237. Purpose of valuation is",
+      "options": [
+        "buying/selling of property",
+        "for taxation",
+        "for security of loans/ mortagage",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Valuation is required for various purposes including sale, tax assessment, and securing bank loans."
+    },
+    {
+      "q": "239. In a linear depreciation method of property valuation depreciation is imposed on costs related to:",
+      "options": [
+        "land",
+        "building",
+        "services",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Land does not depreciate; depreciation is applied to the building structure which has a finite life."
+    },
+    {
+      "q": "241. Annual rent is generally fixed at:",
+      "options": [
+        "1 to 2% of value of building",
+        "2 to 5% of value of building",
+        "5 to 10% of value of building",
+        "10 to 25% of value of building"
+      ],
+      "correct": 2,
+      "explain": "Annual rent is typically estimated between 5% and 10% of the capitalized value of the building."
+    }
+  ]
+}

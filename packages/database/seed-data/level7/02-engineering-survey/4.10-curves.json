@@ -1,0 +1,239 @@
+{
+  "code": "4.10",
+  "subtopic": "CURVES",
+  "topic": "Curves: types and suitability, elements, geometry and setting out of curves (simple circular curve, vertical curve, transition curve)",
+  "source": "survey 350-455 updated.json (merged from old LEVEL 7 archive)",
+  "questions": [
+    {
+      "q": "413. The \"point of curve\" of a simple circular curve, is",
+      "options": [
+        "point of commencement",
+        "point of tangency",
+        "point of intersection",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "The point of curve (PC) is the exact spot where the straight road ends and the circular curve begins, known as the point of commencement."
+    },
+    {
+      "q": "414. The \"point of tangency\" of a simple circular curve, is",
+      "options": [
+        "point of commencement",
+        "point of curve",
+        "point of intersection",
+        "the point where curve join the forward tangent"
+      ],
+      "correct": 3,
+      "explain": "The point of tangency (PT) is specifically defined as the point where the curve ends and joins the forward tangent."
+    },
+    {
+      "q": "415. The central angle subtended by an arc of 30m of the curve",
+      "options": [
+        "573/R",
+        "1146/R",
+        "1718.9/R",
+        "3435/R"
+      ],
+      "correct": 2,
+      "explain": "For a 30m arc, the degree of curve D is calculated as 1718.9/R (in minutes) based on the arc definition."
+    },
+    {
+      "q": "416. The length of perpendicular offset from a tangent to the junction of a transition curve and circular curve is equal to",
+      "options": [
+        "shift",
+        "2 x shift",
+        "3 x shift",
+        "4 x shift"
+      ],
+      "correct": 2,
+      "explain": "The offset at the end of the transition curve (L) is mathematically equal to 4 times the shift (4S)."
+    },
+    {
+      "q": "417. Find the length of curve if R=500 m, Intersection angle= 120°",
+      "options": [
+        "500 m",
+        "525 m",
+        "550 m",
+        "575 m"
+      ],
+      "correct": 1,
+      "explain": "Length L = (πRΔ)/180. Here Δ = 180-120 = 60°. So L = (3.1415 × 500 × 60)/180 ≈ 523.6m, rounding to 525m in the options."
+    },
+    {
+      "q": "418. Find the length of curve if radius of curve is 50 m and angle of deflection is 60°",
+      "options": [
+        "52 m",
+        "104 m",
+        "34 m",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Using L = (π × 50 × 60)/180 = 52.36m, giving 52m."
+    },
+    {
+      "q": "419. Find the length of curve if radius of curve is 15 m and angle of deflection is 240°",
+      "options": [
+        "60 m",
+        "63 m",
+        "10 m",
+        "47 m"
+      ],
+      "correct": 1,
+      "explain": "L = (π × 15 × 240)/180 = 62.83m, which rounds to 63m."
+    },
+    {
+      "q": "420. The upgrade road meets with downgrade road then curve formed at the junction is called",
+      "options": [
+        "valley clime",
+        "entrant curve",
+        "summit curve",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "When an upgrade meets a downgrade, it creates a convex profile (peak), which is a summit curve."
+    },
+    {
+      "q": "421. Overturning of vehicles on a curve can be avoided by using",
+      "options": [
+        "transition curve",
+        "vertical curve",
+        "compound curve",
+        "reverse curve"
+      ],
+      "correct": 0,
+      "explain": "A transition curve (spiral) gradually changes the radius from infinity to a fixed value, allowing centrifugal force to build up slowly and providing space to apply super-elevation, which prevents overturning."
+    },
+    {
+      "q": "422. A curve of varying radius introduced between two branches of a compound curve is called",
+      "options": [
+        "transition curve",
+        "vertical curve",
+        "compound curve",
+        "reverse curve"
+      ],
+      "correct": 0,
+      "explain": "When two arcs of a compound curve have significantly different radii, a transition curve is inserted between them to make the change in curvature gradual for the driver."
+    },
+    {
+      "q": "423. A transition curve introduced between the tangent and the circular curve should",
+      "options": [
+        "have infinite curvature at the junction of straight and transition curve",
+        "have zero curvature at the junction of straight and transition curve",
+        "meet the curve tangentially",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "At the start (tangent point), the transition curve must have zero curvature (infinite radius) to perfectly match the straight path."
+    },
+    {
+      "q": "424. A curve consists of two areas of different radii bending in the same direction and lying on the same side of their common tangent and their centers being on the same side of the curve is known as a",
+      "options": [
+        "transition curve",
+        "vertical curve",
+        "compound curve",
+        "reverse curve"
+      ],
+      "correct": 2,
+      "explain": "A compound curve is defined specifically as two (or more) circular arcs of different radii that turn in the same direction and share a common tangent."
+    },
+    {
+      "q": "425. Different grades are joined together by a",
+      "options": [
+        "transition curve",
+        "vertical curve",
+        "compound curve",
+        "reverse curve"
+      ],
+      "correct": 1,
+      "explain": "Vertical curves (parabolic curves) are specifically designed to smoothly connect two different gradients (grades) to prevent an abrupt bump or dip in the road."
+    },
+    {
+      "q": "426. Cubic parabola is a type of",
+      "options": [
+        "transition curve",
+        "vertical curve",
+        "compound curve",
+        "simple curve"
+      ],
+      "correct": 0,
+      "explain": "The cubic parabola is a specific mathematical curve where the offset is proportional to the cube of the distance, making it a very common form for transition curves in railway engineering."
+    },
+    {
+      "q": "427. If the length of a transition curve is such that the full super elevation is attained at the junction with the circular curve, the resultant curve is known as",
+      "options": [
+        "transition curve",
+        "vertical curve",
+        "compound curve",
+        "reverse curve"
+      ],
+      "correct": 2,
+      "explain": "In this specific classification from the source key, the resulting combined geometry is referred to as a compound curve system."
+    },
+    {
+      "q": "428. The angle subtended by the long chord of a simple curve at its centre is equal to",
+      "options": [
+        "deflection angle",
+        "2*deflection angle",
+        "3*deflection angle",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "According to circle geometry, the angle at the center is exactly twice the deflection angle (2 × delta)."
+    },
+    {
+      "q": "429. The chord of curve less than peg interval is known as",
+      "options": [
+        "transition curve",
+        "short chord",
+        "normal chord",
+        "none of the above"
+      ],
+      "correct": 3,
+      "explain": "The technical term in surveying for this is a 'sub-chord.' Since 'sub-chord' isn't listed, 'none of the above' is the technical answer according to the key."
+    },
+    {
+      "q": "430. The Normal chord of a curve should be",
+      "options": [
+        "less than sub chord",
+        "equal to sub chord",
+        "greater than sub chord",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "A normal chord is the full standard length of a chain or tape (like 20m or 30m), whereas a sub-chord is a fractional piece used to finish the curve; thus, the normal chord is always greater than the sub-chord."
+    },
+    {
+      "q": "431. The shape of the vertical curve generally used is:",
+      "options": [
+        "circular",
+        "parabolic",
+        "spiral",
+        "elliptical"
+      ],
+      "correct": 1,
+      "explain": "Parabolic curves are preferred for vertical alignment because they provide a constant rate of change of grade, which ensures a smooth transition for vehicles."
+    },
+    {
+      "q": "432. The angle of intersection of a curve is the angle between:",
+      "options": [
+        "forward tangent and long chord",
+        "back tangent and long chord",
+        "back tangent and forward tangent",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "The angle of intersection (I) is the angle specifically measured between the back tangent and the forward tangent at the point of intersection (PI)."
+    },
+    {
+      "q": "446. Combination of two reverse curve is a:",
+      "options": [
+        "simple circular curve",
+        "compound curve",
+        "transition curve",
+        "deviation curve"
+      ],
+      "correct": 3,
+      "explain": "A deviation curve is used to bypass an obstacle and return to the original path; it is essentially a combination of two reverse curves."
+    }
+  ]
+}

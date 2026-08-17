@@ -1,0 +1,1119 @@
+{
+  "code": "9.2",
+  "subtopic": "QUANTITY CALC",
+  "topic": "Quantity take-off methods, unit conversions, and material/quantity calculations",
+  "source": "est_1-50.json, est_101-151.json, est_151-200.json, est_201-250.json, est_51-100.json",
+  "questions": [
+    {
+      "q": "1. The unit of measurement for earth work in excavation in ordinary soils, earth work in mixed soil with kankar, bajri etc. when depth of excavation does not exceed 30 cm, is",
+      "options": [
+        "r.m.",
+        "cu. M.",
+        "sq. m.",
+        "100 sq. m."
+      ],
+      "correct": 2,
+      "explain": "For shallow excavations (surface excavation) where the depth does not exceed 30 cm, the work is measured in area (sq. m.) rather than volume."
+    },
+    {
+      "q": "2. The unit of measurement for concrete work in R.C.C. is",
+      "options": [
+        "sq m",
+        "cu m",
+        "10 sq m",
+        "10 cu m"
+      ],
+      "correct": 1,
+      "explain": "Major concrete works, including Reinforced Cement Concrete (RCC), are calculated by volume in cubic meters."
+    },
+    {
+      "q": "3. *The unit of measurement for wood work in door and window frame, rafters, beams, roof trusses etc. is",
+      "options": [
+        "metre",
+        "cm",
+        "quintal",
+        "cu m"
+      ],
+      "correct": 3,
+      "explain": "Structural woodwork for frames and beams is measured by volume (cubic meters), whereas shutters are often measured by area."
+    },
+    {
+      "q": "4. The unit of measurement for beading provided in door and window frame, rafters etc. is",
+      "options": [
+        "metre",
+        "cm",
+        "quintal",
+        "cu m"
+      ],
+      "correct": 0,
+      "explain": "Beading and thin decorative strips are measured in linear units (running meters)."
+    },
+    {
+      "q": "5. The unit of measurement for steel works in trussed and its parts is",
+      "options": [
+        "quintal",
+        "cm",
+        "numbers",
+        "kilograms"
+      ],
+      "correct": 0,
+      "explain": "Structural steelwork for trusses is generally measured and paid for by weight, typically in quintals (100 kg)."
+    },
+    {
+      "q": "6. *The unit of measurement for electric wiring or electrification light, fan plug points is",
+      "options": [
+        "point",
+        "metre",
+        "number",
+        "no unit"
+      ],
+      "correct": 0,
+      "explain": "Internal electrical wiring is estimated by the number of 'points' (light points, fan points, etc.)."
+    },
+    {
+      "q": "8. The unit of payment for blasting of rock including stacking is",
+      "options": [
+        "sq m",
+        "cu m",
+        " % sq m",
+        " % cu m"
+      ],
+      "correct": 1,
+      "explain": "Rock blasting involves volume displacement and is measured in cubic meters."
+    },
+    {
+      "q": "9. The unit of payment for road side brick edging to increase the pavement width is",
+      "options": [
+        "cu m",
+        "metre",
+        "sq m",
+        "kg"
+      ],
+      "correct": 2,
+      "explain": "as per key c .Edging or borders along roads are measured in running meters."
+    },
+    {
+      "q": "10. Generally the unit of measurement for partition wall is",
+      "options": [
+        "cu m",
+        "sq m",
+        "running metre",
+        "numbers"
+      ],
+      "correct": 1,
+      "explain": "Thin partition walls (like half-brick walls) are measured by area in square meters."
+    },
+    {
+      "q": "11. The unit of payment for excavation trenches for pipes, cables etc. upto 1.5 m depth in ordinary rock/hard rock is",
+      "options": [
+        "cu m",
+        "sq m",
+        "r m",
+        "none"
+      ],
+      "correct": 2,
+      "explain": "Narrow trenches for utility lines are often measured by running length (r m) for a specified depth range."
+    },
+    {
+      "q": "12. *The unit of payment for A.C. sheet roofing is in",
+      "options": [
+        "cu m",
+        "sq m",
+        "metre",
+        "quintal"
+      ],
+      "correct": 1,
+      "explain": "Roofing materials like Asbestos Cement (A.C.) sheets are measured by the area covered in square meters."
+    },
+    {
+      "q": "13. The unit of payment for fixing of glass panes or cleaning is in",
+      "options": [
+        "kg",
+        "number",
+        "sq m",
+        "cu m"
+      ],
+      "correct": 1,
+      "explain": "Fixing small items like glass panes or specific cleaning tasks is often measured by 'number' per item."
+    },
+    {
+      "q": "14. Following items of earth work is not measured separately",
+      "options": [
+        "setting out of work",
+        "site clearance",
+        "dead man",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Preliminary tasks like setting out, clearing small vegetation, and leaving 'dead men' (earth tell-tales) are considered incidental to the main excavation."
+    },
+    {
+      "q": "15. Pick up the correct statement",
+      "options": [
+        "pointing is measured in sq. m.",
+        "plastering is measured in sq. m.",
+        "glazing is measured in sq. m.",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Surface finishing works like pointing, plastering, and glazing are all standardly measured by area (sq. m.)."
+    },
+    {
+      "q": "16. *The quantity of soiling is obtained in",
+      "options": [
+        "m^3",
+        "m",
+        "lump-sum",
+        "m^2"
+      ],
+      "correct": 3,
+      "explain": "Soling (the layer of stones under a foundation or floor) is typically measured by area for a specified thickness."
+    },
+    {
+      "q": "17. The quantity of honey-comb walls are worked out in",
+      "options": [
+        "m",
+        "m^2",
+        "m^3",
+        "lump-sum"
+      ],
+      "correct": 1,
+      "explain": "Honey-comb brickwork, where openings are left in the wall, is measured in square meters."
+    },
+    {
+      "q": "18. *The quantity of wood for the shutters of doors and windows is calculated in",
+      "options": [
+        "m^2",
+        "m^3",
+        "lump-sum",
+        "m"
+      ],
+      "correct": 0,
+      "explain": "While door frames are measured in m^3, the actual door/window shutters (leaves) are measured in m^2."
+    },
+    {
+      "q": "19. The unit of measurement for 10 cm thick wall is",
+      "options": [
+        "m",
+        "m^3",
+        "m^2",
+        "lump-sum"
+      ],
+      "correct": 2,
+      "explain": "Half-brick walls (approx. 10cm) are treated as partition walls and measured in square meters."
+    },
+    {
+      "q": "20. *The standard unit of measurement for expansion joint of a roof, wall or bridge etc is :",
+      "options": [
+        "m^3",
+        "m^2",
+        "rm",
+        "lump-sum"
+      ],
+      "correct": 2,
+      "explain": "Joints are linear features and are measured in running meters (rm)."
+    },
+    {
+      "q": "21. The explosive for blasting is usually expressed in term of",
+      "options": [
+        "explosive power",
+        "kilograms",
+        "volume of earthwork that can be blasted",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Explosives required for rock excavation are quantified by weight in kilograms."
+    },
+    {
+      "q": "22. The measurement of steel grills is taken in term of",
+      "options": [
+        "area",
+        "volume",
+        "weight",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Steel fabrications like grills are paid for based on their total weight."
+    },
+    {
+      "q": "23. *One metric horse power is equal to",
+      "options": [
+        "0.736 kw",
+        "0.746 kw",
+        "0.756",
+        "1.736 kw"
+      ],
+      "correct": 0,
+      "explain": "One metric horsepower (PS) is approximately 0.7355 kW, commonly rounded to 0.736 kW."
+    },
+    {
+      "q": "24. *The quantity of jafri is measured in terms of",
+      "options": [
+        "m",
+        "m^2",
+        "m^3",
+        "lump-sum"
+      ],
+      "correct": 1,
+      "explain": "Jafri (lattice work) is measured by area in square meters."
+    },
+    {
+      "q": "25. Measurement of railing of staircase",
+      "options": [
+        "rm",
+        "m^2",
+        "m^3",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Handrails and railings are measured along their length in running meters."
+    },
+    {
+      "q": "26. The unit of cribbing is",
+      "options": [
+        "m",
+        "m^2",
+        "m^3",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Cribbing (retaining structures) is measured in square meters of the face area."
+    },
+    {
+      "q": "27. *Form work is measured in",
+      "options": [
+        "m",
+        "m^2",
+        "m^3",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Formwork (shuttering) for concrete is measured by the area of the surface in contact with the concrete."
+    },
+    {
+      "q": "28. The brick work is measured in sq. m., in case of",
+      "options": [
+        "honey comb brick work",
+        "brick flat soling",
+        "half brick walls",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Thin or non-structural brick elements like half-walls, soling, and honey-comb work use area as the unit of measure."
+    },
+    {
+      "q": "29. The quantity of damp proof course (D.P.C) is worked out in",
+      "options": [
+        "m^3",
+        "m^2",
+        "m",
+        "lump-sum"
+      ],
+      "correct": 1,
+      "explain": "DPC is a thin horizontal layer, so it is measured in square meters."
+    },
+    {
+      "q": "30. The unit of ornamental pillar cap is",
+      "options": [
+        "rm",
+        "no",
+        "m^2",
+        "m^3"
+      ],
+      "correct": 1,
+      "explain": "Individual decorative elements like pillar caps are counted by number."
+    },
+    {
+      "q": "31. *The unit of door frame chaukhat is",
+      "options": [
+        "rm",
+        "m^2",
+        "m^3",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "The wooden frame (chaukhat) is measured by its volume in cubic meters."
+    },
+    {
+      "q": "32. The quantity of cement concrete PCC having thickness less than 75mm is normally measured in",
+      "options": [
+        "m",
+        "m^2",
+        "m^3",
+        "lump-sum"
+      ],
+      "correct": 1,
+      "explain": "Thin layers of PCC (below 75mm) are measured by area (m^2) instead of volume."
+    },
+    {
+      "q": "33. The unit of brick work having 1/2 brick thick is",
+      "options": [
+        "m",
+        "m^2",
+        "m^3",
+        "all of the above "
+      ],
+      "correct": 1,
+      "explain": "A 1/2 brick thick wall is measured in square meters."
+    },
+    {
+      "q": "34. *Scaffolding is calculated in",
+      "options": [
+        "m",
+        "m^3",
+        "m^2",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "According to the key, scaffolding is calculated in Sq meters (m^2)."
+    },
+    {
+      "q": "36. *Mass curve in road project is used to",
+      "options": [
+        "show cumulative cut",
+        "show cumulative fill",
+        "show cumulative cut & fill",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "A mass haul diagram shows the cumulative volumes of earthwork (cut and fill) along the center line of a road."
+    },
+    {
+      "q": "52. Centre line method is specially adopted for estimating......... buildings.",
+      "options": [
+        "circular buildings",
+        "hexagonal building",
+        "octagonal building",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "The center line method is versatile and efficient for various geometric shapes, including circular and polygonal buildings."
+    },
+    {
+      "q": "53. *Centre-line method is used for calculation of",
+      "options": [
+        "building",
+        "culvert",
+        "well",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "This method is used to calculate quantities for any structure where the walls or perimeters follow a consistent center line."
+    },
+    {
+      "q": "54. In long and short wall method of estimation, the length of long wall is the center to center space between walls plus",
+      "options": [
+        "breadth of wall",
+        "half of the breadth of wall on each side",
+        "one forth of the breadth of wall on each side",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The formula for the length of a long wall is (C/C length + 2 x half width), which equals C/C length + one full breadth."
+    },
+    {
+      "q": "55. Payment of the steel is done by",
+      "options": [
+        "per quintel",
+        "per MT",
+        "per thousand",
+        "per bundle"
+      ],
+      "correct": 1,
+      "explain": "While small quantities use quintals, large scale steel procurement and payment are standardly measured in Metric Tonnes (MT)."
+    },
+    {
+      "q": "57. *The volume of C.A required to make 100 m^3 of 1:2:4 concrete is",
+      "options": [
+        "84 m^3",
+        "87 m^3",
+        "90 m^3",
+        "93 m^3"
+      ],
+      "correct": 1,
+      "explain": "Due to voids and shrinkage, roughly 150-154 m^3 of dry material is needed for 100 m^3 wet concrete. For a 1:2:4 mix, coarse aggregate is 4/7 of that dry volume."
+    },
+    {
+      "q": "58. Compute the amount of cement required for 10 m^3 RCC having M20 (1:1.5:3).",
+      "options": [
+        "3975 kg",
+        "79.54 bag",
+        "2.76 m^3",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "All options are mathematically equivalent for this mix ratio once converted between volume, bags, and weight."
+    },
+    {
+      "q": "59. The amount of cement required in 10 m^3 concrete having 1:2:3 ratio",
+      "options": [
+        "50 bag",
+        "60 bag",
+        "70 bag",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Based on the standard 1.54 shrinkage factor, a 1:2:3 mix (total 6 parts) for 10 m^3 requires approximately 70-72 bags."
+    },
+    {
+      "q": "60. The amount of cement required per cubic meter having mix (1:3:6)",
+      "options": [
+        "4.3 bag",
+        "3.3 bag",
+        "6.3 bag",
+        "5.3 bag"
+      ],
+      "correct": 0,
+      "explain": "For a 1:3:6 mix, cement is 1/10 of the dry volume. For 1 m^3 wet, we use ~1.54 m^3 dry, resulting in approx 4.3 bags."
+    },
+    {
+      "q": "62. The c/s area (mm^2) and unit weight (kg/m) of 16 mm steel bar is respectively",
+      "options": [
+        "201, 1.85",
+        "210, 1.58",
+        "201, 1.58",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Area = pi x r^2 = 201 mm^2. Unit weight = D^2/162 = 16^2/162 = approx 1.58 kg/m."
+    },
+    {
+      "q": "64. The quantity of cement required for 1 m^3 plaster C:S(1:5) ratio",
+      "options": [
+        "110 kg",
+        "210 kg",
+        "310 kg",
+        "410 kg"
+      ],
+      "correct": 2,
+      "explain": "Calculating dry mortar volume and cement portion results in approximately 310 kg."
+    },
+    {
+      "q": "65. The amount of cement required for 1 m^3 mortar (1:6) plaster",
+      "options": [
+        "165 kg",
+        "265 kg",
+        "365 kg",
+        "465 kg"
+      ],
+      "correct": 1,
+      "explain": "Using standard shrinkage and wastage factors for 1:6 mortar, the cement required is roughly 265 kg."
+    },
+    {
+      "q": "66. The actual weight of cement bag is more in case of",
+      "options": [
+        "paper bag",
+        "jute bag",
+        "nylon bag",
+        "poked bag"
+      ],
+      "correct": 0,
+      "explain": "Paper bags prevent the 'seepage' or loss of fine cement particles better than woven bags, maintaining weight better."
+    },
+    {
+      "q": "69. In the center-line method of working out volumes, for cross walls what deductions must be made from the center line length at each junction?",
+      "options": [
+        "twice the breadth",
+        "half the breadth",
+        "1.5 breadth",
+        "breadth"
+      ],
+      "correct": 1,
+      "explain": "At a T-junction, half the breadth of the wall is deducted from the total center line length to avoid double counting."
+    },
+    {
+      "q": "73. There is a room size of 4m x 5m x 3m height having opening for ventilation is 0.75m x 0.75m, then total plaster for ceiling is",
+      "options": [
+        "20.00 m^2",
+        "19.25 m^2",
+        "20.25 m^2",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Ceiling plaster area is simply Length x Breadth (4 x 5 = 20 m^2). Openings in walls do not affect ceiling area."
+    },
+    {
+      "q": "77. The volume of cement required to prepare 100 cubic metre of 1 : 2 : 4 concrete is",
+      "options": [
+        "16 m^3",
+        "32 m^3",
+        "25 m^3",
+        "21 m^3"
+      ],
+      "correct": 3,
+      "explain": "Dry volume = 154 m^3. Cement = 154 / (1+2+4) = 154 / 7 = 22 m^3 (Option d is the closest answer provided in the key)."
+    },
+    {
+      "q": "78. During the calculation of RCC the amount of steel deducted is",
+      "options": [
+        "3% of total steel",
+        "5% of total steel",
+        "10% of total steel",
+        "0% of total steel"
+      ],
+      "correct": 3,
+      "explain": "In standard concrete volume calculations, the volume of steel reinforcement is not deducted."
+    },
+    {
+      "q": "79. Arrange the specific weights of wood (w), cement (c), steel (s) and coarse aggregate (A) in increasing order",
+      "options": [
+        "W-C-S-A",
+        "W-C-A-S",
+        "A-S-C-W",
+        "A-C-S-W"
+      ],
+      "correct": 1,
+      "explain": "Typical densities: Wood (~600-800), Cement (1440), Aggregate (~1600), Steel (7850 kg/m^3)."
+    },
+    {
+      "q": "80. *1 British gallon = ........litres.",
+      "options": [
+        "4.546",
+        "3.785",
+        "5.456",
+        "7.385"
+      ],
+      "correct": 0,
+      "explain": "The Imperial (British) gallon is defined as 4.54609 liters."
+    },
+    {
+      "q": "81. One US Gallon =",
+      "options": [
+        "4.546 lit",
+        "3.785 lit",
+        "5.456 lit",
+        "7.385 lit"
+      ],
+      "correct": 1,
+      "explain": "The US liquid gallon is smaller than the British gallon, equaling 3.785 liters."
+    },
+    {
+      "q": "82. One dharmi is equivalent to",
+      "options": [
+        "2.80 kg",
+        "2.60 kg",
+        "2.50 kg",
+        "2.40 kg"
+      ],
+      "correct": 3,
+      "explain": "A 'dharmi' is a local unit of measurement, standardly taken as 2.40 kg in this context."
+    },
+    {
+      "q": "83. Which one is incorrect with respect to measurement of area of land?",
+      "options": [
+        "1 bigha = 20 katha",
+        "1 katha = 3645 ft^2",
+        "1 ropani = 5476 ft^2",
+        "none of the above"
+      ],
+      "correct": 3,
+      "explain": "All the listed conversions for Bigha, Katha, and Ropani are standard accepted values in Nepal."
+    },
+    {
+      "q": "84. *One Ropani =",
+      "options": [
+        "5476 ft^2",
+        "1.502 Katha",
+        "both of the above",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "One Ropani is equal to 5476 square feet, which is approximately 1.502 Katha."
+    },
+    {
+      "q": "85. 1 He = .....Ropani.",
+      "options": [
+        "19",
+        "24",
+        "29",
+        "34"
+      ],
+      "correct": 0,
+      "explain": "One hectare is approximately equal to 19.6 Ropani."
+    },
+    {
+      "q": "86. *An area of one hectare is equal to",
+      "options": [
+        "10 m^2",
+        "100 m^2",
+        "10000 m^2",
+        "1000 m^2"
+      ],
+      "correct": 2,
+      "explain": "A hectare is a square with 100-meter sides, totaling 10,000 m^2."
+    },
+    {
+      "q": "87. One hectare-meter represents a volume of",
+      "options": [
+        "1000 m^3",
+        "10000 m^3",
+        "100000 m^3",
+        "1000000 m^3"
+      ],
+      "correct": 1,
+      "explain": "1 Hectare (10,000 m^2) x 1 meter depth = 10,000 m^3."
+    },
+    {
+      "q": "88. The weight of 10 mm diameter mild steel rod per meter length is equal to",
+      "options": [
+        "0.22 kg",
+        "0.32 kg",
+        "0.42 kg",
+        "0.62 kg"
+      ],
+      "correct": 3,
+      "explain": "Weight = D^2/162 = 100/162 = approx 0.617 kg/m, rounded to 0.62."
+    },
+    {
+      "q": "89. The weight of 12mm diameter mild steel per meter length is equal to",
+      "options": [
+        "0.66 kg",
+        "0.77 kg",
+        "0.88 kg",
+        "0.99 kg"
+      ],
+      "correct": 2,
+      "explain": "Weight = D^2/162 = 144/162 = approx 0.888 kg/m."
+    },
+    {
+      "q": "90. How many kilo-liters are in one cubic meter?",
+      "options": [
+        "0.5",
+        "1",
+        "10",
+        "100"
+      ],
+      "correct": 1,
+      "explain": "1 m^3 = 1000 liters. Since 1000 liters = 1 kilo-liter, 1 m^3 = 1 kL."
+    },
+    {
+      "q": "91. Which method is easiest for the estimation of the quantity of material?",
+      "options": [
+        "centre line method",
+        "long & short wall method",
+        "both (a) and (b) of above",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The center line method is generally faster and easier as it involves a single continuous length."
+    },
+    {
+      "q": "94. The volume of cement required for 10 m^3 of brick work in 1:6 cement mortar is approximately equal to",
+      "options": [
+        "3/7 m^3",
+        "3/8 m^3",
+        "3/4 m^3",
+        "3/5 m^3"
+      ],
+      "correct": 0,
+      "explain": "10 m^3 brickwork requires ~3 m^3 mortar. Cement = 3 / (1+6) = 3/7 m^3."
+    },
+    {
+      "q": "121. According to ISI method of measurement the order is in the sequence",
+      "options": [
+        "length, breadth & height",
+        "breadth, length & height",
+        "height, length & breadth",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "The standard sequence for recording measurements is always Length followed by Breadth (or width) and then Height (or depth/thickness)."
+    },
+    {
+      "q": "122. *Brick walls are measured in m2 if the thickness of wall is",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "30 cm",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Half-brick walls (10 cm thick) are measured by area (m2), whereas full-brick walls are measured by volume (m3)."
+    },
+    {
+      "q": "125. The actual size of the modular brick (as per IS Code) is",
+      "options": [
+        "19cm x 9cm x 9cm",
+        "20cm x 9cm x 9cm",
+        "20cm x 10cm x 9cm",
+        "20cm x 10cm x 9cm"
+      ],
+      "correct": 0,
+      "explain": "The standard modular brick size is 19cm x 9cm x 9cm. (Note: 20x10x10 is the nominal size with mortar)."
+    },
+    {
+      "q": "126. *The number of standard modular bricks required to make 1 m3 of masonry (as per IS Code) is",
+      "options": [
+        "480",
+        "500",
+        "520",
+        "540"
+      ],
+      "correct": 1,
+      "explain": "When accounting for mortar joints, exactly 500 standard modular bricks are required per cubic meter of masonry."
+    },
+    {
+      "q": "127. *The nominal lead and lift allowed for the earthwork in the excavations of the foundations are (NS norm)",
+      "options": [
+        "50 m and 2 m",
+        "30 m and 2 m",
+        "30 m and 1.5 m",
+        "20 m and 1.5 m"
+      ],
+      "correct": 2,
+      "explain": "Nepal Standards (NS) align with the general 30m horizontal lead and 1.5m vertical lift for basic excavation rates."
+    },
+    {
+      "q": "128. No deductions is made in the masonry for the opening if the area of the opening does not exceed",
+      "options": [
+        "0.5 m2",
+        "0.25 m2",
+        "0.15 m2",
+        "0.10 m2"
+      ],
+      "correct": 3,
+      "explain": "Small openings up to 0.10 square meters are ignored in masonry volume calculations."
+    },
+    {
+      "q": "129. *No deductions is made in the plastering or painting for the opening if the area of the opening does not exceed",
+      "options": [
+        "0.50 m2",
+        "0.25 m2",
+        "0.15 m2",
+        "0.10 m2"
+      ],
+      "correct": 0,
+      "explain": "In plastering/painting, openings up to 0.50 m2 are not deducted from the total area."
+    },
+    {
+      "q": "130. The measurement up what unit in area is taken as",
+      "options": [
+        "0.04 m2",
+        "0.03 m2",
+        "0.02 m2",
+        "0.01 m2"
+      ],
+      "correct": 3,
+      "explain": "Areas should be calculated and recorded to the nearest 0.01 square meter."
+    },
+    {
+      "q": "131. When not specified, the volume of steel in R.C.C work is taken as",
+      "options": [
+        "1% to 1.6% of R.C.C. volume",
+        "2% to 4% of R.C.C. volume",
+        "4% to 6% of R.C.C. volume",
+        "0.6% to 1.0% of R.C.C. volume"
+      ],
+      "correct": 3,
+      "explain": "For general estimating purposes when reinforcement details are absent, steel volume is assumed to be 0.6% to 1.0% of the concrete volume."
+    },
+    {
+      "q": "132. The thickness of slabs and beams must be measured to the nearest",
+      "options": [
+        "0.001 m",
+        "0.005 m",
+        "0.01 m",
+        "0.05 m"
+      ],
+      "correct": 1,
+      "explain": "Critical structural thicknesses like slabs and beams are measured to a precision of 0.005 meters (5 mm)."
+    },
+    {
+      "q": "135. *The density of cement is generally taken as",
+      "options": [
+        "1440 kg/m3",
+        "1540 kg/m3",
+        "1640 kg/m3",
+        "1740 kg/m3"
+      ],
+      "correct": 0,
+      "explain": "The standard bulk density for Portland cement used in calculations is 1440 kg/m3."
+    },
+    {
+      "q": "136. The weight of cement in one bag is",
+      "options": [
+        "45 kg",
+        "50 kg",
+        "60 kg",
+        "65 kg"
+      ],
+      "correct": 1,
+      "explain": "Standard commercial cement bags in the region weigh 50 kg."
+    },
+    {
+      "q": "137. The volume of cement in one bag is",
+      "options": [
+        "0.067 m3",
+        "0.050 m3",
+        "0.0347 m3",
+        "0.025 m3"
+      ],
+      "correct": 2,
+      "explain": "Based on a 50kg bag and 1440 kg/m3 density, the volume is approximately 0.0347 cubic meters (often rounded to 0.035)."
+    },
+    {
+      "q": "139. In the estimation of plastering surface the deductions are not made for",
+      "options": [
+        "ends of beams",
+        "end of rafters",
+        "small opening upto 0.5 m2",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Ends of structural members and very small openings are not deducted from total plastering area measurements."
+    },
+    {
+      "q": "140. In the case of roof truss made of steel, rivets, bolts, nuts etc. normally account for",
+      "options": [
+        "5%",
+        "10%",
+        "10%",
+        "20%"
+      ],
+      "correct": 0,
+      "explain": "An additional 5% weight is usually added to the main steel sections to account for connections like rivets and bolts."
+    },
+    {
+      "q": "141. When it is not specified, the number of hold fasts for a door frame is usually taken as",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct": 2,
+      "explain": "A standard door frame requires 6 hold-fasts (3 on each side) to secure it into the masonry."
+    },
+    {
+      "q": "142. The minimum number of hinges provided in door and window shutter should be",
+      "options": [
+        "2 and 1",
+        "2 and 2",
+        "2 and 3",
+        "3 and 2"
+      ],
+      "correct": 3,
+      "explain": "Doors generally require 3 hinges for stability, while windows typically require 2."
+    },
+    {
+      "q": "153. Whenever colour washing on A.C. corrugated sheets is done, in the estimation the plan area of the sheets is increased by",
+      "options": [
+        "5%",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      "correct": 3,
+      "explain": "Due to the corrugations, the actual surface area is greater than the plan area. For standard corrugated asbestos cement sheets, a 20% increase is applied for painting/washing."
+    },
+    {
+      "q": "154. In case of steel rolling shutter, for the estimation of painted area, the plain area is multiplied by",
+      "options": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2"
+      ],
+      "correct": 2,
+      "explain": "For rolling shutters, the area is calculated as the size of the opening multiplied by 1.10 to 1.25 (1 1/4) to account for corrugations and overlaps, depending on the specific code used."
+    },
+    {
+      "q": "155. To account for the corrugation, the plain area of the semi-corrugated asbestos sheet is increased by (for white washing)",
+      "options": [
+        "1%",
+        "10%",
+        "20%",
+        "30%"
+      ],
+      "correct": 1,
+      "explain": "Semi-corrugated sheets have fewer curves than fully corrugated sheets, so the standard increase factor is lower, typically 10%."
+    },
+    {
+      "q": "158. The volume of sand in a normal truck can carry per trip is approximately",
+      "options": [
+        "20-25 m3",
+        "15-20 m3",
+        "10-15 m3",
+        "3-5 m3"
+      ],
+      "correct": 3,
+      "explain": "A standard medium-sized Tipper or truck used in local construction typically carries a volume of roughly 3 to 5 cubic meters of loose material like sand."
+    },
+    {
+      "q": "161. The area of the segmental portion of an arch with span, l and rise r is approximately given by",
+      "options": [
+        "2/3 lr",
+        "1/2 lr",
+        "3/4 lr",
+        "3/8 lr"
+      ],
+      "correct": 0,
+      "explain": "The approximate area of a parabolic segment or a shallow arch is calculated using the formula (2/3) x span x rise."
+    },
+    {
+      "q": "163. The approximate weight of one cubic meter of mild steel is",
+      "options": [
+        "1000 kg",
+        "2400 kg",
+        "1400 kg",
+        "7850 kg"
+      ],
+      "correct": 3,
+      "explain": "The standard density of mild steel used in engineering calculations is 7850 kg/m3."
+    },
+    {
+      "q": "164. Approximate weight of 1 cubic meter of sand is",
+      "options": [
+        "800 kg",
+        "1600 kg",
+        "2400 kg",
+        "3200 kg"
+      ],
+      "correct": 1,
+      "explain": "The bulk density of dry sand typically ranges between 1500 kg/m3 and 1700 kg/m3. 1600 kg is the standard average used."
+    },
+    {
+      "q": "203. The excavation exceeding 1.5 m in width and area 10 m2 with a depth not exceeding 30 cm is termed as",
+      "options": [
+        "excavation",
+        "cutting",
+        "surface dressing",
+        "surface excavation"
+      ],
+      "correct": 3,
+      "explain": "Surface excavation refers to the removal of the top layer of soil over a large area where the depth is shallow (usually not exceeding 30 cm)."
+    },
+    {
+      "q": "204. Indicating works left in excavated trenches to facilitate the measurement of borrow pits are known as",
+      "options": [
+        "jambs",
+        "posts",
+        "tell-tale",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Tell-tales (or 'deadman') are small mounds of earth left undisturbed in the borrow pit to show the original ground level for accurate measurement of excavated volume."
+    },
+    {
+      "q": "205. During the excavation of soil some portion is left without disturbing, which is known as",
+      "options": [
+        "dead man",
+        "motam",
+        "tell-tale",
+        "all of the ab"
+      ],
+      "correct": 3,
+      "explain": "In various regions and technical contexts, these undisturbed portions used for measurement are referred to as dead men, motams, or tell-tales."
+    },
+    {
+      "q": "210. The quantity of work of any item which is the output of a skilled labour in a day is known as",
+      "options": [
+        "basic work",
+        "daily work",
+        "target work",
+        "task work"
+      ],
+      "correct": 3,
+      "explain": "Task work (or outturn) is the amount of work an average skilled laborer can perform in a standard working day of 8 hours."
+    },
+    {
+      "q": "213. The quantity of earth wok in 1 Km length of road following given section should be",
+      "options": [
+        "15000 m3",
+        "30000 m3",
+        "10000 m3",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The cross-section is a triangle with base 6m and height 5m. Area = 0.5 * 6 * 5 = 15 m2. For 1 km (1000m) length, Volume = 15 * 1000 = 15,000 m3."
+    },
+    {
+      "q": "214. The unit of PVC pipe used in water supply pipe line is",
+      "options": [
+        "quintel",
+        "cum",
+        "m",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Pipes and tubes for water supply are generally measured and paid for by their linear length in meters."
+    },
+    {
+      "q": "217. Find the area of the figure given below and dimension are in m (Trapezoid: heights 15, bases 20 and 30)",
+      "options": [
+        "600 m2",
+        "450 m2",
+        "375 m2",
+        "300 m2"
+      ],
+      "correct": 2,
+      "explain": "Area of a trapezoid = [(a+b)/2] * h. [(20+30)/2] * 15 = 25 * 15 = 375 m2."
+    },
+    {
+      "q": "219. The volume of cement required to make 100 m3 of 1:2:4 concrete is",
+      "options": [
+        "22 m3",
+        "33 m3",
+        "44 m3",
+        "88 m3"
+      ],
+      "correct": 0,
+      "explain": "For 1:2:4, dry volume = 154% of wet volume. Total parts = 1+2+4 = 7. Cement = (1/7) * 154 = 22 m3."
+    },
+    {
+      "q": "220. Find the area of the quadrilateral shown below and dimension are in m (Diagonal 70, offsets 50 and 40)",
+      "options": [
+        "1050 m2",
+        "1470 m2",
+        "980 m2",
+        "2450 m2"
+      ],
+      "correct": 3,
+      "explain": "Area of quadrilateral = 0.5 * diagonal * (sum of offsets) = 0.5 * 70 * (50 + 40) = 35 * 90 = 3150 m2. Note: The answer key indicates 'd' (2450) based on potentially different image interpretation or key error."
+    },
+    {
+      "q": "222. The approximate percentage by volume of reinforcement for chajja and sunshade is:",
+      "options": [
+        "0.5%",
+        "1.0%",
+        "1.5%",
+        "2.0%"
+      ],
+      "correct": 0,
+      "explain": "Thin RCC members like chajjas and sunshades typically require roughly 0.5% to 0.8% reinforcement."
+    },
+    {
+      "q": "231. The method of calculation of quantity is:",
+      "options": [
+        "long wall method",
+        "short wall method",
+        "long and short wall method",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "The long-wall and short-wall method is a standard technique used in estimating building quantities."
+    },
+    {
+      "q": "236. The number of bricks required for a wall of 80 feet long 1 feet 3 inch thick and 7 feet high with one mortar joint is: (the dimension of brick is 10 inch by 5 inch by 3 inch)",
+      "options": [
+        "7000",
+        "8000",
+        "8064",
+        "9000"
+      ],
+      "correct": 1,
+      "explain": "Wall volume = 80' * 1.25' * 7' = 700 cu.ft. Using standard brickwork norms (approx 14-15 bricks per cu.ft), the count is ~10,000."
+    },
+    {
+      "q": "247. Skirting of wooden floor is measured in",
+      "options": [
+        "square meter",
+        "cubic meter",
+        "running meter",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Skirting is generally measured by its linear length (running meters) as it has a fixed height."
+    }
+  ]
+}

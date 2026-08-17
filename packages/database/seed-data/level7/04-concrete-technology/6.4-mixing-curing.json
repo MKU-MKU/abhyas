@@ -1,0 +1,2296 @@
+{
+  "code": "6.4",
+  "subtopic": "MIXING&CURING",
+  "topic": "Batching, mixing, workability, transporting, placing, compaction, finishing, curing, and testing of concrete",
+  "source": "601-80.json, 681-760.json, 761-842.json, Concrete_1-50.json, Concrete_101-150.json, Concrete_151-200.json, Concrete_50-100.json, conc_201-250.json, conc_250-300.json, conc_301-350.json, conc_350-405.json",
+  "questions": [
+    {
+      "q": "27. Pick up the correct statement from the following:",
+      "options": [
+        "insufficient quantity of water makes the concrete mix harsh",
+        "insufficient quantity of water makes the concrete unworkable",
+        "excess quantity of water makes the concrete mix segregated",
+        "excess quantity of water cause bleeding in concrete",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "All these statements about the effect of water quantity (deficiency causing harshness/unworkability, excess causing segregation/bleeding) on concrete are correct."
+    },
+    {
+      "q": "35. The increase in the strength of concrete with time is",
+      "options": [
+        "linear",
+        "non-linear",
+        "asympotic",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Concrete strength gain over time follows a non-linear curve — rapid initially and gradually slowing down, not a straight line."
+    },
+    {
+      "q": "110. After casting, an ordinary cement concrete",
+      "options": [
+        "Expands when dried",
+        "Shrinks when wet",
+        "Shrinks when dried",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "As concrete loses moisture through evaporation during drying, the cement paste loses volume, causing the concrete to shrink — this is known as drying shrinkage."
+    },
+    {
+      "q": "117. The increased cohesiveness of concrete, makes it",
+      "options": [
+        "Less liable to segregation",
+        "More liable to segregation",
+        "More liable to bleeding",
+        "More liable for surface scaling in frosty"
+      ],
+      "correct": 0,
+      "explain": "Cohesiveness refers to the ability of the fresh concrete mix to hold its ingredients together; higher cohesiveness reduces the tendency of coarser particles to separate out, i.e., reduces segregation."
+    },
+    {
+      "q": "127. At freezing point of water, concrete",
+      "options": [
+        "Sets freely",
+        "Sets slowly",
+        "Sets rapidly",
+        "Does not set"
+      ],
+      "correct": 3,
+      "explain": "At the freezing point, water needed for the hydration reaction turns to ice and is unavailable to react chemically with cement, so hydration (setting) effectively stops."
+    },
+    {
+      "q": "128. The datum temperature for maturity by Plowman, is",
+      "options": [
+        "23°C",
+        "0°C",
+        "−5.6°C",
+        "−11.7°C"
+      ],
+      "correct": 3,
+      "explain": "In Plowman's maturity concept (maturity = time × (temperature − datum temperature)), the empirically determined datum temperature below which hydration is assumed to stop is −11.7°C (11°F below freezing, i.e. 0°F)."
+    },
+    {
+      "q": "129. I.S.I. has specified the full strength of concrete after",
+      "options": [
+        "7 days",
+        "14 days",
+        "21 days",
+        "28 days"
+      ],
+      "correct": 3,
+      "explain": "As per Indian Standards (I.S.I.), the characteristic/full design strength of concrete is conventionally specified and tested at 28 days of curing."
+    },
+    {
+      "q": "131. The approximate ratio of strength of cement concrete at 3 months to that of 28 days of curing",
+      "options": [
+        "1.0",
+        "1.15",
+        "1.20",
+        "1.30"
+      ],
+      "correct": 1,
+      "explain": "Concrete continues to gain strength beyond 28 days as hydration progresses further; empirically, the strength at 3 months is roughly 1.15 times the 28-day strength."
+    },
+    {
+      "q": "132. The percentage of compressive strength of concrete at 7 days to that of 28 days",
+      "options": [
+        "40%",
+        "65%",
+        "100%",
+        "115%"
+      ],
+      "correct": 1,
+      "explain": "For ordinary Portland cement concrete, the strength gained at 7 days is typically about 65% of the 28-day design strength, since a large share of hydration is still incomplete at 7 days."
+    },
+    {
+      "q": "133. The approximate ratio of direct tensile strength to direct compressive strength test of concrete",
+      "options": [
+        "0.65",
+        "0.40",
+        "0.15",
+        "0.10"
+      ],
+      "correct": 3,
+      "explain": "Concrete is inherently weak in tension compared to compression; its direct tensile strength is only about 1/10th (approximately 0.10) of its direct compressive strength."
+    },
+    {
+      "q": "135. High increase in temperature",
+      "options": [
+        "Increases the strength of concrete",
+        "Decreases the strength of concrete",
+        "Has no effect on the strength of concrete",
+        "None of these"
+      ],
+      "correct": 1,
+      "explain": "A high increase in curing/ambient temperature accelerates early hydration but leads to a more porous, less uniform microstructure and rapid moisture loss, ultimately reducing the long-term strength of concrete."
+    },
+    {
+      "q": "141. Adding a thin layer of cement mortar to the surface of concrete is known as",
+      "options": [
+        "Punning",
+        "Admixing",
+        "Rodding",
+        "Rendeting"
+      ],
+      "correct": 0,
+      "explain": "Rendering (rendeting) refers to applying a thin coat/layer of cement mortar over a concrete or masonry surface, typically for finishing or protective purposes."
+    },
+    {
+      "q": "142. The breaking up and remixing of concrete that has layers to set is called",
+      "options": [
+        "Resetting",
+        "Double setting",
+        "Knocking",
+        "Time setting"
+      ],
+      "correct": 2,
+      "explain": "Resetting is the process of breaking up concrete that has already begun to set in layers and remixing it, typically done when placement is delayed beyond the initial setting time."
+    },
+    {
+      "q": "143. A concrete mix that causes difficulty in obtaining a smooth or good contact with forms, which may be due to excess of middle sized particles or a deficiency of lime materials is called",
+      "options": [
+        "Uneven mix",
+        "Harsh mix",
+        "Heterogeneous",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explain": "A harsh mix is defined precisely by this deficiency in fines/paste content or excess of medium-sized aggregate, giving it poor cohesion and a rough, difficult-to-finish surface against formwork."
+    },
+    {
+      "q": "144. A watery scum that is formed on top of concrete due to excessive water or excessive use of trowel or float is called",
+      "options": [
+        "Laitance",
+        "Flashing",
+        "Punning",
+        "Water facing"
+      ],
+      "correct": 0,
+      "explain": "Laitance is the weak, milky layer of cement fines and water that rises to and accumulates on the surface of concrete, often from excess mixing water or over-troweling/floating."
+    },
+    {
+      "q": "147. The entrained air in concrete",
+      "options": [
+        "Increases workability",
+        "Decrease workability",
+        "Decrease resistance to weathering",
+        "Increase strength"
+      ],
+      "correct": 0,
+      "explain": "Per the answer key, entrained air is stated to decrease resistance to weathering here — note this differs from typical air-entrainment theory (which normally improves frost/weathering resistance), but the correct option as marked in the source is (c)."
+    },
+    {
+      "q": "148. The concrete mix which causes difficulty in obtaining a smooth finish, is known to possess",
+      "options": [
+        "Segregation",
+        "Internal friction",
+        "Hardness",
+        "Bleeding"
+      ],
+      "correct": 2,
+      "explain": "High internal friction between aggregate particles (harsh mix) resists smooth movement of material against the formwork/trowel, making it difficult to achieve a smooth surface finish."
+    },
+    {
+      "q": "151. The top diameter, bottom diameter and the height of a slump mould are",
+      "options": [
+        "10 cm, 20 cm, 30 cm",
+        "10 cm, 30 cm, 20 cm",
+        "20 cm, 10 cm, 30 cm",
+        "20 cm, 30 cm, 10 cm"
+      ],
+      "correct": 0,
+      "explain": "The standard slump mould (frustum of a cone) as per IS 7320 has a top diameter of 10 cm, bottom diameter of 20 cm, and a height of 30 cm."
+    },
+    {
+      "q": "152. In a mix if a desired slump is not obtained, the adjustment for each concrete slump is made by adjusting water content by",
+      "options": [
+        "0.25%",
+        "0.50%",
+        "0.75%",
+        "1%"
+      ],
+      "correct": 3,
+      "explain": "As a general rule of thumb in mix design trial adjustments, approximately 1% change in water content is made for each required change in slump to achieve the target workability."
+    },
+    {
+      "q": "154. Pick up the incorrect statement from the following:",
+      "options": [
+        "the bottom and top ends of slump mould are parallel to each other",
+        "the axis of the mould is perpendicular to the end faces",
+        "the internal surface of the mould is kept clean and free from set cement",
+        "the mould is in the form of a frustum of hexagonal pyramid"
+      ],
+      "correct": 3,
+      "explain": "The slump mould is in the shape of a frustum of a cone (circular cross-section), not a hexagonal pyramid, making this statement incorrect."
+    },
+    {
+      "q": "157. In slump test, each layer of concrete compacted by a steel rod 60 cm long and 16 mm diameter for",
+      "options": [
+        "20 times",
+        "25 times",
+        "30 times",
+        "40 times"
+      ],
+      "correct": 1,
+      "explain": "As per the standard slump test procedure, each of the four layers filled in the mould is tamped 25 times uniformly with a 16 mm diameter, 60 cm long tamping rod."
+    },
+    {
+      "q": "158. If the slump of concrete mix is 60 mm, its workability is",
+      "options": [
+        "very low",
+        "low",
+        "medium",
+        "high"
+      ],
+      "correct": 2,
+      "explain": "A slump of 25-75 mm generally corresponds to medium workability, suitable for normal reinforced concrete work placed with vibration."
+    },
+    {
+      "q": "159. The concrete having a slump of 6.5 cm, is said to be",
+      "options": [
+        "dry",
+        "earth moist",
+        "semi-plastic",
+        "plastic"
+      ],
+      "correct": 3,
+      "explain": "A slump of around 6.5 cm falls in the plastic concrete range, indicating good flowability suitable for normal placing and compaction."
+    },
+    {
+      "q": "160. Slump test is the most widely used field test primarily because",
+      "options": [
+        "it indicates the behaviour of fresh concrete under action of gravitational forces",
+        "of the simplicity of apparatus and test procedure",
+        "it measures consistency or wetness of mix",
+        "it ensures uniformity among different batches of similar concrete"
+      ],
+      "correct": 1,
+      "explain": "The slump test is popular in the field mainly due to the simplicity of its apparatus (a simple cone mould and tamping rod) and the ease and speed of the test procedure."
+    },
+    {
+      "q": "161. The workability of concrete by slump test is expressed as",
+      "options": [
+        "mm3/h",
+        "mm2/h",
+        "mm/h",
+        "mm"
+      ],
+      "correct": 3,
+      "explain": "Slump is simply a linear measurement, expressed in millimetres (mm), representing the subsidence of the concrete cone."
+    },
+    {
+      "q": "162. The slump for beam slab is",
+      "options": [
+        "75-150 mm",
+        "15-30 mm",
+        "50-100 mm",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "For beams and slabs, a medium workability with a slump in the range of 50-100 mm is generally recommended for proper placement and compaction."
+    },
+    {
+      "q": "163. The workability may be defined as the amount of applied work required to compact the concrete to its maximum density. The principle is used in",
+      "options": [
+        "Vee Bee test",
+        "slump test",
+        "compaction factor test",
+        "flow test"
+      ],
+      "correct": 2,
+      "explain": "The compaction factor test is based on the principle of determining the degree of compaction achieved by a standard amount of work done in dropping concrete through a standard height, directly relating to the definition given."
+    },
+    {
+      "q": "165. A concrete is said to be workable if",
+      "options": [
+        "it is of uniform colour",
+        "it is almost a fluid",
+        "it can be easily mixed, placed and compacted",
+        "it has a tendency to segregate and bleed"
+      ],
+      "correct": 2,
+      "explain": "Workability is defined as the ease with which concrete can be mixed, transported, placed, and compacted without segregation or bleeding."
+    },
+    {
+      "q": "167. Wp and Wf are the weights of a cylinder containing partially compacted and fully compacted concrete. If the compaction factor is 0.95, the workability of concrete is",
+      "options": [
+        "extremely low",
+        "very low",
+        "low",
+        "high"
+      ],
+      "correct": 3,
+      "explain": "A compaction factor close to 1 (such as 0.95) indicates that the partially compacted weight is very close to the fully compacted weight, meaning the concrete compacts easily and has high workability."
+    },
+    {
+      "q": "168. Pick up the correct statement from the following:",
+      "options": [
+        "segregation is necessary for a workable concrete",
+        "consistency does not affect the workability of concrete",
+        "if the slump increases, workability decreases",
+        "if the concrete mix is dry, the slump is maximum",
+        "none of the above"
+      ],
+      "correct": 4,
+      "explain": "None of the first four statements is technically correct: segregation is undesirable, consistency does affect workability, higher slump means higher (not lower) workability, and a dry mix gives minimum (not maximum) slump. Hence 'none of the above' is correct."
+    },
+    {
+      "q": "172. A joint positioned so as to separate concrete from adjacent surfaces or into individual structural elements that are not in direct physical contact, is known as",
+      "options": [
+        "contraction joint",
+        "expansion joint",
+        "construction joint",
+        "isolation joint"
+      ],
+      "correct": 3,
+      "explain": "An isolation joint is specifically provided to separate or isolate one concrete element/structure from an adjacent one so that they are not in direct physical contact and can move independently."
+    },
+    {
+      "q": "176. Minimum number of test specimens required for finding the compressive strength of concrete are",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "9"
+      ],
+      "correct": 0,
+      "explain": "As per standard practice, a minimum of 3 test specimens (cubes) are cast and tested to determine the compressive strength of a concrete batch."
+    },
+    {
+      "q": "177. The preliminary test is repeated if the difference of compressive strength of three test specimens, exceeds",
+      "options": [
+        "8 kg/cm2",
+        "10 kg/cm2",
+        "12 kg/cm2",
+        "15 kg/cm2"
+      ],
+      "correct": 3,
+      "explain": "If the range (difference) between the highest and lowest strength values of the three specimens exceeds 15 kg/cm², the test results are considered unreliable and the preliminary test must be repeated."
+    },
+    {
+      "q": "191. Shrinkage in cement concrete is directly proportional to",
+      "options": [
+        "water content in the mix",
+        "sand content",
+        "aggregate content",
+        "aggregate to cement ratio"
+      ],
+      "correct": 0,
+      "explain": "Shrinkage of concrete is primarily caused by the loss of water from the cement paste, so it is directly proportional to the water content present in the mix."
+    },
+    {
+      "q": "192. Shrinkage in cement concrete is directly proportional to",
+      "options": [
+        "cement content",
+        "sand content",
+        "aggregate content",
+        "temp. of water"
+      ],
+      "correct": 0,
+      "explain": "Since shrinkage originates in the cement paste (not the aggregates), a higher cement content in the mix directly increases the overall shrinkage of the concrete."
+    },
+    {
+      "q": "193. Shrinkage in cement concrete decrease with",
+      "options": [
+        "initiation of load",
+        "removal of load",
+        "removal of moisture",
+        "addition of moisture"
+      ],
+      "correct": 3,
+      "explain": "Shrinkage is caused by moisture loss from the concrete; therefore, adding moisture (as in wet curing) counteracts and decreases the shrinkage effect."
+    },
+    {
+      "q": "194. The shrinkage of concrete is due to a change in",
+      "options": [
+        "length",
+        "cross-sectional area",
+        "volume",
+        "surface area"
+      ],
+      "correct": 2,
+      "explain": "Shrinkage fundamentally refers to a reduction in the overall volume of the concrete mass as it loses moisture over time."
+    },
+    {
+      "q": "195. The concrete shrinkage is more pronounced in",
+      "options": [
+        "rich mix",
+        "lean mix",
+        "very lean mix",
+        "normal mix"
+      ],
+      "correct": 0,
+      "explain": "A rich mix contains a higher proportion of cement paste (which is the shrinking component), so shrinkage is more pronounced in rich mixes compared to lean mixes."
+    },
+    {
+      "q": "196. Maximum shrinkage takes place in cement concrete after drying for",
+      "options": [
+        "28 days",
+        "three month",
+        "six month",
+        "one year"
+      ],
+      "correct": 3,
+      "explain": "Drying shrinkage continues over an extended period, with the maximum shrinkage generally being observed after about one year of drying."
+    },
+    {
+      "q": "197. Poisson's ratio of concrete reduced by using",
+      "options": [
+        "richer mix",
+        "poor mix",
+        "constant with any mix",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Using a richer mix (more cement content) tends to reduce the Poisson's ratio of the resulting concrete."
+    },
+    {
+      "q": "198. Poisson's ratio for concrete ranges between",
+      "options": [
+        "0.11 to 0.21",
+        "0.20 and 0.25",
+        "0.25 and 0.30",
+        "0.30 and 0.35"
+      ],
+      "correct": 0,
+      "explain": "The typical Poisson's ratio for concrete lies within the range of 0.11 to 0.21, depending on the mix and testing conditions."
+    },
+    {
+      "q": "199. As compared to static tests the dynamic tests on concrete give",
+      "options": [
+        "higher value of poisson's ratio",
+        "lower value of poisson's ratio",
+        "same value of poisson's ratio",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Dynamic (vibration-based) testing methods generally yield a higher value of Poisson's ratio for concrete compared to static (load-based) testing methods."
+    },
+    {
+      "q": "209. Pick up the incorrect statement from the following:",
+      "options": [
+        "with passage of time, the strength of cement increases",
+        "with passage of time, the strength of cement decreases",
+        "after a period of 24 months, the strength of cement reduces to 50 %",
+        "The concrete made with storage deteriorated cement, gains strength with time"
+      ],
+      "correct": 0,
+      "explain": "Cement strength actually decreases (not increases) over prolonged storage time due to gradual absorption of atmospheric moisture and partial hydration, making statement (a) incorrect."
+    },
+    {
+      "q": "215. The durability of concrete is due to its resistance to",
+      "options": [
+        "deterioration from environmental condition",
+        "internal disruptive forces",
+        "chemical crack",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Durability of concrete is defined by its overall ability to resist deterioration from a combination of environmental exposure, internal disruptive forces, and chemical attack/cracking."
+    },
+    {
+      "q": "216. The inelastic behavior of concrete is due to the",
+      "options": [
+        "shrinkage in concrete",
+        "propagation of bond and mortar cracks",
+        "presence of macro and micro cracks",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "The inelastic (non-linear stress-strain) behaviour of concrete is primarily attributed to the progressive propagation of bond cracks (at aggregate-paste interface) and mortar cracks under loading."
+    },
+    {
+      "q": "218. Which of the following does not react with concrete?",
+      "options": [
+        "sewage water",
+        "sulphuric acid",
+        "vegetable oil",
+        "alcohol"
+      ],
+      "correct": 3,
+      "explain": "Alcohol is generally chemically inert with respect to hardened concrete and does not cause any significant chemical reaction or deterioration, unlike sewage water, sulphuric acid, or vegetable oil."
+    },
+    {
+      "q": "219. The presence of algae in concrete",
+      "options": [
+        "reduces its strength",
+        "reduces its bond",
+        "causes a large entrainment of air",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Algae contamination in concrete negatively affects it in multiple ways - reducing strength, weakening bond between paste and aggregate, and causing excessive air entrainment."
+    },
+    {
+      "q": "220. Quality control means",
+      "options": [
+        "extra cost",
+        "a rational use of available resources",
+        "adequate design to minimize cost",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Quality control fundamentally refers to the rational and efficient use of available resources (materials, labour, equipment) to consistently achieve the desired quality standards."
+    },
+    {
+      "q": "221. The cube strength of concrete exceeds the cylinder strength by (in percent)",
+      "options": [
+        "10 to 50",
+        "10 to 15",
+        "15 to 20",
+        "20 to 25"
+      ],
+      "correct": 3,
+      "explain": "Due to the difference in specimen geometry and the resulting confinement/end effects during testing, cube strength typically exceeds cylinder strength by about 20 to 25%."
+    },
+    {
+      "q": "222. For cylindrical specimens, the dimension of cylinder generally used",
+      "options": [
+        "D = 15 cm, H = 30 cm",
+        "D = 30 cm, H = 30 cm",
+        "D = 15 cm, H = 15 cm",
+        "D = 30 cm, H = 15 cm"
+      ],
+      "correct": 0,
+      "explain": "The standard cylindrical test specimen used for compressive strength testing has a diameter of 15 cm and a height of 30 cm, giving the standard height-to-diameter ratio of 2."
+    },
+    {
+      "q": "223. For cylindrical specimens, minimum strength required should be",
+      "options": [
+        "0.20 times the strength of 15 cm cubes",
+        "0.40 times the strength of 15 cm cubes",
+        "0.60 times the strength of 15 cm cubes",
+        "0.80 times the strength of 15 cm cubes"
+      ],
+      "correct": 3,
+      "explain": "The compressive strength obtained from a standard cylinder is typically about 0.80 times the strength of an equivalent 15 cm cube, due to the difference in specimen shape and testing conditions."
+    },
+    {
+      "q": "224. The surface area of standard cube used for finding compressive strength of concrete is",
+      "options": [
+        "225 cm2",
+        "22500 mm2",
+        "0.0225 m2",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "The standard cube face is 15cm x 15cm = 225 cm² = 22500 mm² = 0.0225 m² - all these are equivalent expressions of the same area in different units, so all of the above is correct."
+    },
+    {
+      "q": "225. During application of load on cylindrical specimen the failure plane makes an angle of .........with the horizontal.",
+      "options": [
+        "30 deg",
+        "45 deg",
+        "60 deg",
+        "75 deg"
+      ],
+      "correct": 2,
+      "explain": "Under compressive load, cylindrical concrete specimens typically fail along a shear plane inclined at approximately 60 degrees to the horizontal (or about 30 degrees to the vertical axis of loading)."
+    },
+    {
+      "q": "228. Water in excess of that required for chemical reaction in concrete results in",
+      "options": [
+        "bleeding",
+        "segregation",
+        "cracks",
+        "honeycombing"
+      ],
+      "correct": 3,
+      "explain": "Excess water beyond what's chemically required for hydration tends to rise to the surface of freshly placed concrete, a phenomenon known as bleeding."
+    },
+    {
+      "q": "235. Allowable shear strength of concrete, depends upon",
+      "options": [
+        "shear strength",
+        "tensile strength",
+        "compressive strength",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The allowable shear strength of concrete is generally derived as a function of, and depends upon, its compressive strength, as per design code provisions."
+    },
+    {
+      "q": "236. The strength of concrete is decreased by",
+      "options": [
+        "vibration",
+        "impact",
+        "fatigue",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Excessive vibration (over-vibration), impact loading, and fatigue (repeated cyclic loading) can all contribute to a decrease in the effective strength of concrete over time."
+    },
+    {
+      "q": "239. The standard size of a concrete cube for compressive strength test is",
+      "options": [
+        "50 mm",
+        "100 mm",
+        "150 mm",
+        "200 mm"
+      ],
+      "correct": 2,
+      "explain": "The standard concrete cube specimen size used for compressive strength testing is 150 mm x 150 mm x 150 mm (15 cm cube)."
+    },
+    {
+      "q": "252. Workability of concrete is directly proportional to",
+      "options": [
+        "grading of the aggregate",
+        "time of transit",
+        "aggregate cement ratio",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Better grading of the aggregate (proper distribution of particle sizes) results in reduced voids and less water demand, which directly improves and is proportional to workability."
+    },
+    {
+      "q": "253. Workability of concrete is inversely proportional to",
+      "options": [
+        "grading of the aggregate",
+        "time of transit",
+        "aggregate cement ratio",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "As the time of transit increases, some water evaporates and initial hydration begins, causing the mix to stiffen - hence workability decreases (inversely proportional) with increasing transit time."
+    },
+    {
+      "q": "254. The shrinkage of concrete",
+      "options": [
+        "is proportional to water content in the mix",
+        "is proportional to cement concrete",
+        "increases with age of concrete",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Shrinkage of concrete is influenced by water content, cement content, and generally increases (though at a decreasing rate) with the age of concrete - all these factors together describe shrinkage behaviour."
+    },
+    {
+      "q": "260. Strength of concrete with passage of time",
+      "options": [
+        "increases",
+        "decreases",
+        "fluctuates",
+        "remains constants"
+      ],
+      "correct": 0,
+      "explain": "As hydration of cement continues over time, the strength of properly cured concrete continues to increase with the passage of time."
+    },
+    {
+      "q": "262. The nature of fresh concrete is",
+      "options": [
+        "elastic",
+        "plastic",
+        "rigid",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Freshly mixed (unset) concrete behaves as a plastic material - it can be moulded, placed, and compacted into any shape before it hardens."
+    },
+    {
+      "q": "263. Too wet concrete may cause",
+      "options": [
+        "weakness of concrete",
+        "excessive laitance",
+        "segregation",
+        "lower density",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "Excessively wet concrete leads to multiple defects together - reduced strength, laitance formation, segregation of ingredients, and lower final density."
+    },
+    {
+      "q": "264. The process of proper and accurate measurement of concrete ingredients for uniformity of proportion, is known",
+      "options": [
+        "grading",
+        "curing",
+        "mixing",
+        "batching"
+      ],
+      "correct": 3,
+      "explain": "Batching is the specific term for the process of accurately measuring the quantities of concrete ingredients (cement, sand, aggregate, water) to ensure a uniform mix proportion."
+    },
+    {
+      "q": "265. Proper batching ensures",
+      "options": [
+        "economy",
+        "durability",
+        "workability",
+        "strength",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "Accurate batching of concrete ingredients ensures all these desirable qualities together - economical use of materials, durability, workability, and required strength of the finished concrete."
+    },
+    {
+      "q": "267. In the batching of materials, the ingredients should be measured to a tolerance (as a percentage of batch quantity) of",
+      "options": [
+        "+/- 1.0",
+        "+/- 2.0",
+        "+/- 3.0",
+        "+/- 4.0"
+      ],
+      "correct": 2,
+      "explain": "As per standard practice, concrete batching ingredients should be measured within a tolerance of ±3% of the specified batch quantity to ensure acceptable mix accuracy."
+    },
+    {
+      "q": "268. The process of mixing some mortar in the mixer at the beginning of the first batch concrete mixing is called",
+      "options": [
+        "buttering",
+        "borrowing",
+        "initiating",
+        "accelerating"
+      ],
+      "correct": 0,
+      "explain": "'Buttering' refers to the practice of first mixing a small quantity of mortar in the drum before the main batch, to coat the mixer surfaces and prevent loss of cement paste from the first actual batch."
+    },
+    {
+      "q": "270. The concrete mixers are normally classified on the basis of",
+      "options": [
+        "the technique of discharging the mixed concrete",
+        "capacity of batch handled",
+        "the number of drums",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Concrete mixers are classified based on multiple criteria simultaneously - their discharge mechanism, batch capacity, and number of drums."
+    },
+    {
+      "q": "271. The capacity of concrete mixer is expressed in terms of",
+      "options": [
+        "total volume of concrete produced per day",
+        "total volume of concrete produced in 8 hrs",
+        "total volume of concrete produced per hr",
+        "volume of concrete mix handled per batch"
+      ],
+      "correct": 3,
+      "explain": "The capacity of a concrete mixer is standardly expressed as the volume of concrete mix it can handle per batch (e.g., a 150-litre mixer, 10/7 mixer, etc.)."
+    },
+    {
+      "q": "277. In case of hand mixing of concrete, the extra cement to be added is",
+      "options": [
+        "5%",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      "correct": 1,
+      "explain": "Since hand mixing is less efficient and thorough than machine mixing, an extra 10% cement is typically added to compensate for the reduced mixing efficiency."
+    },
+    {
+      "q": "279. Placing of concrete should preferably be done at a temperature of",
+      "options": [
+        "0 deg C",
+        "10 deg C",
+        "20 deg C",
+        "27 +/- 2 deg C"
+      ],
+      "correct": 3,
+      "explain": "Concrete placing is preferably carried out at a moderate temperature of around 27 ± 2°C, which is favourable for proper hydration and setting without excessive heat or cold-related issues."
+    },
+    {
+      "q": "280. To prevent segregation, the maximum vertical height for placing concrete, is",
+      "options": [
+        "100 cm",
+        "125 cm",
+        "150 cm",
+        "200 cm"
+      ],
+      "correct": 2,
+      "explain": "To prevent segregation of concrete during placing (free fall), the maximum vertical drop height allowed is limited to about 150 cm (1.5 m)."
+    },
+    {
+      "q": "281. For concerting of tunnel linings, transportation of concrete is done by",
+      "options": [
+        "pans",
+        "wheel borrows",
+        "containers",
+        "pumps"
+      ],
+      "correct": 3,
+      "explain": "For confined and often difficult-access locations like tunnel linings, concrete pumps are the preferred method of transportation, allowing concrete to be conveyed through pipelines to the point of placement."
+    },
+    {
+      "q": "282. Transport of concrete by pumps, is done for a distance of",
+      "options": [
+        "100 m",
+        "200 m",
+        "300 m",
+        "400 m"
+      ],
+      "correct": 3,
+      "explain": "Concrete pumps are capable of efficiently transporting concrete over relatively long distances, typically up to about 400 m, without significant loss in workability."
+    },
+    {
+      "q": "283. 'Tremie' is a",
+      "options": [
+        "bucket",
+        "water-tight pipe",
+        "bag",
+        "prepack concrete"
+      ],
+      "correct": 1,
+      "explain": "A 'tremie' is a water-tight pipe used to place concrete underwater or in deep foundations, preventing the concrete from mixing with water during placement."
+    },
+    {
+      "q": "285. Concrete is unsuitable for compaction by vibrator if it is",
+      "options": [
+        "dry",
+        "earth moist",
+        "semi-plastic",
+        "plastic"
+      ],
+      "correct": 3,
+      "explain": "Very dry concrete mixes are unsuitable for vibration compaction because there isn't enough paste/fluidity for the vibrator to effectively consolidate the mix and expel air voids."
+    },
+    {
+      "q": "286. While compacting the concrete by a mechanical vibrator, the slump should not exceed",
+      "options": [
+        "2.5 cm",
+        "5.0 cm",
+        "7.5 cm",
+        "10 cm"
+      ],
+      "correct": 1,
+      "explain": "For effective and safe use of mechanical vibrators (avoiding segregation), the slump of the concrete being compacted should not exceed 5.0 cm."
+    },
+    {
+      "q": "287. Compaction of mechanical vibrations is suitable for",
+      "options": [
+        "all the grades of concrete",
+        "all the structural elements",
+        "all the mixes except very plastic mixes",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Mechanical vibration compaction is versatile and suitable across all grades of concrete, all structural elements, and various mix consistencies (except very plastic mixes), making it broadly applicable."
+    },
+    {
+      "q": "288. Surface vibrator is effective only when the thickness of concrete member does not exceed",
+      "options": [
+        "100 mm",
+        "150 mm",
+        "200 mm",
+        "250 mm"
+      ],
+      "correct": 2,
+      "explain": "Surface vibrators are effective only for compacting relatively thin concrete sections, with their effectiveness limited to a thickness not exceeding 200 mm."
+    },
+    {
+      "q": "289. A surface vibrator for compaction of concrete is preferred for all of the following except",
+      "options": [
+        "reft footings",
+        "columns",
+        "RCC slab",
+        "road pavements"
+      ],
+      "correct": 1,
+      "explain": "Surface vibrators, being effective mainly for shallow/thin horizontal sections, are not preferred for columns (which are deep, vertical, heavily reinforced members) unlike footings, slabs, or pavements."
+    },
+    {
+      "q": "290. Curing",
+      "options": [
+        "reduces the shrinkage of concrete",
+        "preserves the properties of concrete",
+        "prevents the loss of water by evaporation",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Curing serves multiple purposes simultaneously - it reduces shrinkage, preserves the desired properties of concrete, and prevents premature loss of moisture through evaporation."
+    },
+    {
+      "q": "291. The process by which fresh cement concrete is wetted by rain water is known as",
+      "options": [
+        "curing",
+        "wetting",
+        "raining",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Wetting of fresh concrete by rain water is not a controlled/intended process and is not technically classified as curing, wetting (in the technical sense), or raining, so 'none of the above' is correct."
+    },
+    {
+      "q": "292. The process of hardening the concrete by keeping its surface moist is known as",
+      "options": [
+        "placing",
+        "wetting",
+        "curing",
+        "compacting"
+      ],
+      "correct": 2,
+      "explain": "The deliberate process of keeping concrete surfaces moist to promote continued hydration and hardening is technically known as curing."
+    },
+    {
+      "q": "293. Generally curing is allowed only after concreting of",
+      "options": [
+        "24 hours",
+        "7 days",
+        "fully set",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Curing is generally started/allowed after an initial period of about 24 hours from concreting, once the concrete has achieved sufficient initial set to withstand water application without damage."
+    },
+    {
+      "q": "294. Steam curing is used in",
+      "options": [
+        "columns only",
+        "long slabs and column",
+        "mass production of precast concrete",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Steam curing is primarily employed in the mass production of precast concrete elements, where accelerated strength gain is needed to allow rapid mould turnover in factory settings."
+    },
+    {
+      "q": "296. Curing of pavements, floors, roofs and slabs is done by",
+      "options": [
+        "membrane method",
+        "ponding method",
+        "covering surface with bags",
+        "sprinkling water method"
+      ],
+      "correct": 1,
+      "explain": "For large flat horizontal surfaces like pavements, floors, roofs, and slabs, the ponding method (creating a shallow standing pool of water on the surface) is a commonly used and effective curing technique."
+    },
+    {
+      "q": "298. Curing of concrete for long period ensures better",
+      "options": [
+        "strength",
+        "wear resistance",
+        "water tightness and durability",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Extended/proper curing of concrete ensures improvement in all these properties together - higher strength, better wear resistance, and improved water tightness and durability."
+    },
+    {
+      "q": "299. Under normal conditions using an ordinary cement, the period of removal of the form work is",
+      "options": [
+        "7 days for beams soffits",
+        "14 days for bottom of slabs of spans 4.6 m and more",
+        "21 days for bottom of beams over 6m spans",
+        "2 days for vertical sides of columns",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "These are all standard specified formwork removal periods (as per IS code guidance) for different structural elements under normal conditions using ordinary cement, so all of the above is correct."
+    },
+    {
+      "q": "301. Higher workability of concrete is required if the structure is",
+      "options": [
+        "made with cement concrete",
+        "thick and reinforced",
+        "thin and heavily reinforced",
+        "thick and heavily reinforced"
+      ],
+      "correct": 3,
+      "explain": "In thick, heavily reinforced sections the congestion of steel restricts free movement of concrete, so a higher workability mix is needed to ensure the concrete flows around bars and fills every corner without honeycombing."
+    },
+    {
+      "q": "304. The shuttering of a hall measuring 4 m x 5 m, can be removed after",
+      "options": [
+        "5 days",
+        "7 days",
+        "10 days",
+        "14 days"
+      ],
+      "correct": 3,
+      "explain": "For slabs/beams with spans greater than 4.5 m (props under beams/slabs spanning more than about 4.5 m), formwork should remain in place for 14 days as per standard formwork removal periods."
+    },
+    {
+      "q": "305. Pick up the correct statement from the following",
+      "options": [
+        "there should not be any loss of cement from the charged drum of the mixer",
+        "cement should be mixed for at least one minute",
+        "10% of water is placed in the rotating drum before adding dry material",
+        "10% of water is added after placing the other ingredients in the drum",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "All these are standard good-practice requirements for charging and mixing a concrete mixer, so the combined statement 'all of the above' is correct."
+    },
+    {
+      "q": "306. If the effective working time is 7 hours and per batch time of concrete mixer of 150 litre capacity, is",
+      "options": [
+        "15,900 litres",
+        "16,900 litres",
+        "17,900 litres",
+        "18,900 litres"
+      ],
+      "correct": 3,
+      "explain": "Multiplying the number of batches that can be produced by a 150-litre mixer within the effective 7-hour working period (based on a typical batch cycle time) gives a total output of about 18,900 litres of concrete."
+    },
+    {
+      "q": "307. The main object of compaction of concrete is",
+      "options": [
+        "to eliminate air holes",
+        "to achieve maximum density",
+        "to provide intimate contact between the concrete and embedded materials",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Compaction removes entrapped air, densifies the mix, and ensures concrete is in intimate contact with reinforcement/embedded parts — all these are objectives of compaction."
+    },
+    {
+      "q": "308. Non-uniform compaction may cause the concrete",
+      "options": [
+        "porous",
+        "non-homogeneous",
+        "reduced strength",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Uneven compaction leaves pockets of poorly consolidated concrete, making it porous, non-homogeneous, and weaker in strength — hence all effects occur together."
+    },
+    {
+      "q": "309. The compaction of concrete, improves",
+      "options": [
+        "density",
+        "strength",
+        "durability",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Proper compaction expels air voids, which simultaneously increases density, strength, and durability of the hardened concrete."
+    },
+    {
+      "q": "310. The final operation of finishing floors, is known",
+      "options": [
+        "screening",
+        "floating",
+        "trowelling",
+        "finishing"
+      ],
+      "correct": 2,
+      "explain": "Trowelling is carried out last, after floating, to produce a smooth, dense, and hard surface finish on concrete floors."
+    },
+    {
+      "q": "311. The operation of removing humps and hollows of uniform concrete surface, is known as",
+      "options": [
+        "floating",
+        "screeding",
+        "trowelling",
+        "finishing"
+      ],
+      "correct": 1,
+      "explain": "Screeding is the process of striking off excess concrete with a straightedge to remove humps and hollows and bring the surface to the required level."
+    },
+    {
+      "q": "312. The ratio of the length and breadth of wooden float, is",
+      "options": [
+        "4.5",
+        "5.5",
+        "6.5",
+        "7.5"
+      ],
+      "correct": 3,
+      "explain": "A wooden float used for finishing concrete surfaces typically has a length-to-breadth ratio of about 7.5, giving a long narrow tool for smoothing the surface."
+    },
+    {
+      "q": "313. Construction joints are provided",
+      "options": [
+        "where BM and SF are small",
+        "where it is supported by another member",
+        "at 18 m apart in huge structures",
+        "in concrete wall at sill level of windows",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "Construction joints are located at points of low bending moment/shear, at supports, at regular intervals in large structures, and at window sill levels in walls — all of these are valid locations."
+    },
+    {
+      "q": "314. The surface where two successive placements of concrete meet, is known as",
+      "options": [
+        "contraction joint",
+        "expansion joint",
+        "construction joint",
+        "both (a) and (b) of above"
+      ],
+      "correct": 2,
+      "explain": "A construction joint is, by definition, the interface formed where one concreting operation stops and the next placement begins."
+    },
+    {
+      "q": "315. A construction joint is provided where",
+      "options": [
+        "bending moment is small",
+        "shear force is small",
+        "it is supported by other member",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Construction joints are best located where internal forces (BM and SF) are minimal or where the member is supported, so all the listed conditions are appropriate locations."
+    },
+    {
+      "q": "316. Horizontal construction joins in concrete walls are generally provided at",
+      "options": [
+        "soffit level",
+        "window sill level",
+        "floor level",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Horizontal construction joints in walls are conventionally placed at soffit level, window sill level, and floor level, since these are natural break points in the pour."
+    },
+    {
+      "q": "317. Pick up the correct statement from the following:",
+      "options": [
+        "construction joints in columns are provided a few cm below the junction of beam",
+        "construction joints in columns are provided at the bottom haunching",
+        "construction joints in beam and slabs are provided within middle third",
+        "construction joints are generally provided in positions subjected to least shear force",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "Each statement correctly describes accepted practice for locating construction joints in columns, beams and slabs, so the combined answer 'all of the above' applies."
+    },
+    {
+      "q": "318. Joints in concrete structures, are provided",
+      "options": [
+        "to reduce the tensile stresses likely to be developed due to evaporation of water",
+        "to minimize the change in the dimensions of the slab",
+        "to minimize the necessary cracking",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Joints in concrete relieve tensile stresses from shrinkage/temperature effects, limit dimensional change, and control cracking, so all listed purposes are correct."
+    },
+    {
+      "q": "319. Expansion joints are provided if the length of concrete structures exceeds",
+      "options": [
+        "10 m",
+        "15 m",
+        "20 m",
+        "40 m"
+      ],
+      "correct": 3,
+      "explain": "Expansion joints are generally introduced in long concrete structures once their length exceeds about 40 m, to accommodate thermal movement."
+    },
+    {
+      "q": "320. According to the recommendations of IS:456-2000, expansion joints",
+      "options": [
+        "are provided where plane changes abruptly",
+        "are provided to ensure minimum resistance",
+        "are supported on separate columns",
+        "do not carry reinforcement across them",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "IS:456-2000 recommends expansion joints at abrupt plan changes, designed to offer minimum resistance to movement, supported independently, and without reinforcement crossing them — all points are valid."
+    },
+    {
+      "q": "321. Construction joints are generally provided in concrete",
+      "options": [
+        "roads",
+        "retaining walls",
+        "lining of channel",
+        "lining of tunnels",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "Construction joints are a common feature in roads, retaining walls, channel linings, and tunnel linings wherever concreting must be carried out in separate stages."
+    },
+    {
+      "q": "322. Pick up the correct statement from the following:",
+      "options": [
+        "construction joins are necessarily planned for their locations",
+        "expansion joints are provided to accommodate thermal expansion",
+        "construction joints are provided to control shrinkage cracks",
+        "expansion joints need not be provided in foundation concrete",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "Each statement is a correct principle about joint design and location, so together they form the correct combined answer."
+    },
+    {
+      "q": "327. The risk of segregation is more for",
+      "options": [
+        "water mix",
+        "larger proportion of maximum size",
+        "coarser grading",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Wetter mixes, a larger proportion of maximum-size aggregate, and coarser grading all reduce cohesion of the mix, increasing the likelihood that coarse aggregate separates from the mortar (segregation)."
+    },
+    {
+      "q": "328. The process by which fresh cement concrete is compacted to remove the air bubbles is known as",
+      "options": [
+        "compaction",
+        "wetting",
+        "placing",
+        "consolidation"
+      ],
+      "correct": 0,
+      "explain": "Compaction is the specific operation of expelling entrapped air from freshly placed concrete, typically by vibration or ramming."
+    },
+    {
+      "q": "329. Maturity of concrete means",
+      "options": [
+        "oldness of concrete",
+        "strength of concrete",
+        "sum of product of temperature & time",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Maturity is a concept that combines the effects of curing temperature and time (the temperature-time factor), used to estimate strength gain, rather than simply age."
+    },
+    {
+      "q": "355. An increase in strain in a concrete member at constant stress is called",
+      "options": [
+        "creep loss",
+        "relaxation",
+        "shrinkage",
+        "transfer stress"
+      ],
+      "correct": 0,
+      "explain": "Creep is defined as the gradual increase in strain in concrete under a sustained constant stress over time."
+    },
+    {
+      "q": "356. Strain in concrete at zero stress is called",
+      "options": [
+        "creep loss",
+        "relaxation",
+        "shrinkage",
+        "transfer stress"
+      ],
+      "correct": 1,
+      "explain": "Shrinkage is the volumetric/strain change that occurs in concrete due to moisture loss even in the absence of any applied stress."
+    },
+    {
+      "q": "367. What is the process of smoothening the surface of newly placed concrete with a trowel called?",
+      "options": [
+        "hardening",
+        "knocking up",
+        "flashing",
+        "floating"
+      ],
+      "correct": 3,
+      "explain": "The operation of smoothening and levelling the surface of freshly placed concrete is termed floating, carried out with a float/trowel before final finishing."
+    },
+    {
+      "q": "372. Steel mould used for slump test is in the form of :",
+      "options": [
+        "cube",
+        "cylinder",
+        "frustum of a cone",
+        "triangular"
+      ],
+      "correct": 2,
+      "explain": "The standard slump test mould is a frustum of a cone (Abrams cone), which is filled with concrete and lifted vertically to measure the resulting slump."
+    },
+    {
+      "q": "375. The concrete in which preliminary tests are preformed for designing the mix is called:",
+      "options": [
+        "ordinary concrete",
+        "rich concrete",
+        "controlled concrete",
+        "lean concrete"
+      ],
+      "correct": 2,
+      "explain": "Controlled concrete refers to concrete whose mix proportions are determined and controlled through preliminary laboratory tests to meet specified strength and durability requirements."
+    },
+    {
+      "q": "376. Concreting should be stopped when temperature falls below …",
+      "options": [
+        "4.5 C",
+        "20 C",
+        "15 C",
+        "10 C"
+      ],
+      "correct": 0,
+      "explain": "Concreting operations are generally stopped once the ambient temperature drops below about 4.5°C, since hydration slows drastically and frost damage risk increases."
+    },
+    {
+      "q": "380. Modulus of rupture of concrete is measure of :",
+      "options": [
+        "compressive strength",
+        "flexural tensile strength",
+        "direct tensile strength",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Modulus of rupture is obtained from a beam flexure test and represents the flexural (bending) tensile strength of concrete."
+    },
+    {
+      "q": "382. The durability of concrete is proportion to :",
+      "options": [
+        "sand content",
+        "water cement",
+        "aggregate ratio",
+        "cement aggregate ratio"
+      ],
+      "correct": 3,
+      "explain": "Durability of concrete is closely linked to the cement-aggregate ratio, since it governs the density and impermeability of the paste matrix surrounding the aggregate."
+    },
+    {
+      "q": "383. Plain cement concrete is strong in taking :",
+      "options": [
+        "tensile stress",
+        "compressive stress",
+        "shear stress",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Plain (unreinforced) concrete has high compressive strength but is comparatively weak in tension and shear, hence it is primarily used to resist compressive stress."
+    },
+    {
+      "q": "384. The removal of excess air after placing concrete helps in increasing the strength of concrete by :",
+      "options": [
+        "15 to 20 %",
+        "20 to 30 %",
+        "30 to 50 %",
+        "50 to 70 %"
+      ],
+      "correct": 0,
+      "explain": "Proper compaction that removes entrapped/excess air from freshly placed concrete has been found to increase its strength by roughly 15 to 20%."
+    },
+    {
+      "q": "386. The cold bent test is conducted in a steel bar to determine :",
+      "options": [
+        "bending without fracture",
+        "bending without curvature",
+        "bending at 90 degree",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "The cold bend test checks the ductility of reinforcement bars by bending a test specimen through a specified angle, typically 90 degrees, without cracking."
+    },
+    {
+      "q": "389. To determine the modulus of rupture, the size of test specimen used is",
+      "options": [
+        "150 x150 x500 mm",
+        "100 x100 x500 mm",
+        "100 x100 x700 mm",
+        "150 x150 x700 mm"
+      ],
+      "correct": 3,
+      "explain": "The standard flexural (modulus of rupture) test specimen for concrete is a beam of size 150 x 150 x 700 mm as per Indian Standard specifications."
+    },
+    {
+      "q": "390. The steel mould used for slump test is in the form of :",
+      "options": [
+        "cube",
+        "cylinder",
+        "frustum of a cone",
+        "triangular"
+      ],
+      "correct": 2,
+      "explain": "As with the standard slump test mould, it is shaped as a frustum of a cone (Abrams cone) open at both ends."
+    },
+    {
+      "q": "395. The individual variation between test strength of sample should not be more than",
+      "options": [
+        "±5% of average",
+        "±10% of average",
+        "± 15% of average",
+        "±20% of average"
+      ],
+      "correct": 2,
+      "explain": "As per test acceptance criteria, the deviation of an individual test result from the average of the sample should not exceed ±15% of the average value."
+    },
+    {
+      "q": "400. Age factor for permissible compressive stress in concrete after six months is :",
+      "options": [
+        "1.10",
+        "1.20",
+        "1.15",
+        "1.30"
+      ],
+      "correct": 1,
+      "explain": "Concrete continues to gain strength with age, so codes allow an age factor of 1.20 to be applied to the permissible compressive stress for concrete that is six months old."
+    },
+    {
+      "q": "2. The workability of concrete is defined as the",
+      "options": [
+        "ease with which it can be mixed, transported and placed in position in a homogeneous state",
+        "breaking up of cohesion in a mass of concrete",
+        "separation of water or water-cement mixture from the freshly mixed concrete",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Workability describes how easily fresh concrete can be mixed, transported, placed, and compacted without segregation, while remaining homogeneous."
+    },
+    {
+      "q": "3. Segregation in concrete results in",
+      "options": [
+        "honey combing",
+        "porous layers",
+        "surface scaling",
+        "all of these"
+      ],
+      "correct": 3,
+      "explain": "Segregation separates coarse aggregate, mortar, and water unevenly, which can cause honeycombing, porous layers, and surface scaling all at once depending on where separation occurs."
+    },
+    {
+      "q": "4. Harshness in concrete is due to the excess of",
+      "options": [
+        "water",
+        "finer particles",
+        "middle sized particle",
+        "coarser particles"
+      ],
+      "correct": 2,
+      "explain": "An excess of coarser particles relative to fines reduces the paste's ability to lubricate the mix, making the concrete harsh and difficult to work."
+    },
+    {
+      "q": "6. Reinforced cement concrete is equally strong in taking",
+      "options": [
+        "tensile and compressive stresses",
+        "compressive and shear stresses",
+        "tensile, compressive and shear stressed",
+        "tensile and shear stresses"
+      ],
+      "correct": 2,
+      "explain": "By combining concrete (strong in compression) with steel reinforcement (strong in tension) and proper detailing for shear, RCC is designed to resist tensile, compressive, and shear stresses effectively."
+    },
+    {
+      "q": "11. The characteristic, which makes the concrete a versatile and widely used material of modern construction, is the possibility of",
+      "options": [
+        "controlling the properties of concrete by using appropriate ingredients",
+        "molding the concrete in any desired shape",
+        "complete mechanization of concrete preparation and its placing process",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Concrete's versatility comes from a combination of factors: controllable properties through mix design, moldability into any shape, and full mechanization of production and placement, all of which together make it widely used."
+    },
+    {
+      "q": "14. Minimum number of days required for curing fresh laid concrete under normal atmospheric condition is",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "10"
+      ],
+      "correct": 2,
+      "explain": "Under normal atmospheric conditions, a minimum curing period of 7 days is generally specified to allow adequate hydration and strength gain of concrete."
+    },
+    {
+      "q": "41. Maturity of concrete means",
+      "options": [
+        "oldness of concrete",
+        "strength of concrete",
+        "sum of product of temperature and time",
+        "all of these"
+      ],
+      "correct": 2,
+      "explain": "Maturity of concrete is a concept defined as the sum of the products of curing temperature and time, used to estimate strength development."
+    },
+    {
+      "q": "60. The slump test of concrete is used to measure its",
+      "options": [
+        "consistency",
+        "mobility",
+        "homogeneity",
+        "all of these"
+      ],
+      "correct": 0,
+      "explain": "The slump test primarily measures the consistency (a measure of wetness/workability) of fresh concrete by observing how much it settles after removing the slump cone."
+    },
+    {
+      "q": "61. The test conducted in the laboratory on the specimen made out of trial concrete mix is called",
+      "options": [
+        "preliminary test",
+        "slump test",
+        "works test",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "A preliminary test is conducted in the laboratory on trial mixes before actual construction to determine and verify the proportions needed to achieve the required strength."
+    },
+    {
+      "q": "64. The concrete in which no preliminary tests are performed for designing the mix is called",
+      "options": [
+        "rich concrete",
+        "controlled concrete",
+        "lean concrete",
+        "ordinary concrete"
+      ],
+      "correct": 3,
+      "explain": "Ordinary (nominal mix) concrete is proportioned using fixed ratios (e.g., 1:2:4) without conducting preliminary trial mix tests, unlike controlled/design mix concrete."
+    },
+    {
+      "q": "69. The importance of batching is to obtain",
+      "options": [
+        "strength",
+        "workability",
+        "durability",
+        "all of these"
+      ],
+      "correct": 3,
+      "explain": "Accurate batching of ingredients ensures the desired mix proportions, which in turn affects and helps achieve strength, workability, and durability all together."
+    },
+    {
+      "q": "70. The mixer, which produces a steady stream of concrete as long as it is in operation, is known as",
+      "options": [
+        "non-tilting batch mixer",
+        "tilting type batch mixer",
+        "continuous mixer",
+        "none of these"
+      ],
+      "correct": 2,
+      "explain": "A continuous mixer feeds materials in continuously and discharges a steady, uninterrupted stream of mixed concrete for as long as it operates, unlike batch mixers which discharge in batches."
+    },
+    {
+      "q": "71. For continuous transportation of concrete, the method used is",
+      "options": [
+        "transport of concrete by wheel barrows",
+        "transport of concrete by wheel barrows",
+        "transport of concrete by belt concrete conveyors",
+        "transport of concrete by pumps"
+      ],
+      "correct": 2,
+      "explain": "Belt conveyors provide a continuous, uninterrupted method of transporting concrete over distances, unlike wheel barrows or pumps used for other applications."
+    },
+    {
+      "q": "72. In transportation of concrete by pumps",
+      "options": [
+        "the slump should not be less than 50 mm and more than 80mm",
+        "the water cement ratio should remain between 0.5 to 0.65",
+        "the number of bends in a pipe line should be as small as possible",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Successful pumping of concrete requires appropriate slump range, controlled water-cement ratio, and minimizing pipeline bends to reduce friction losses, so all conditions apply together."
+    },
+    {
+      "q": "73. When the concrete mix is too wet, it caused",
+      "options": [
+        "segregation",
+        "low density",
+        "excess laitance at the top",
+        "all of these"
+      ],
+      "correct": 3,
+      "explain": "A too-wet concrete mix leads to segregation of aggregates, reduces density after settlement, and produces excess laitance (weak cement-water layer) at the surface, all occurring together."
+    },
+    {
+      "q": "74. The object of compaction is to",
+      "options": [
+        "eradicate air holes",
+        "give maximum density",
+        "ensure intimate contact between the concrete and the surface of reinforcement",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Compaction serves multiple purposes simultaneously: removing entrapped air, achieving maximum density, and ensuring the concrete surrounds reinforcement completely."
+    },
+    {
+      "q": "75. For compacting large sections of mass concrete in structures, the types of vibrator used is",
+      "options": [
+        "internal vibrator",
+        "screed vibrator",
+        "form vibrator",
+        "all of these"
+      ],
+      "correct": 0,
+      "explain": "Internal (needle) vibrators are inserted directly into the concrete mass and are best suited for compacting large sections of mass concrete."
+    },
+    {
+      "q": "76. For compacting plain concrete or one-way reinforced concrete floors, the vibrator used is",
+      "options": [
+        "internal vibrator",
+        "screed vibrator",
+        "form vibrator",
+        "all of these"
+      ],
+      "correct": 1,
+      "explain": "Screed vibrators are mounted on a screed board and are ideal for compacting relatively thin, flat sections like plain concrete or one-way reinforced floors."
+    },
+    {
+      "q": "77. After the curing of 28 days, the concrete gains strength upto (As per IS)",
+      "options": [
+        "40 %",
+        "67%",
+        "100 %",
+        "122%"
+      ],
+      "correct": 2,
+      "explain": "By IS convention, 28-day cured concrete is considered to have gained 100% of its designated characteristic (design) strength, though it continues to gain further strength beyond 28 days."
+    },
+    {
+      "q": "78. In concrete walls, construction joints should be provided at the",
+      "options": [
+        "floor level",
+        "soffit level of lintels",
+        "sill level of windows",
+        "all of these"
+      ],
+      "correct": 3,
+      "explain": "Construction joints in walls are conveniently located at floor levels, lintel soffit levels, and window sill levels, as these are natural break points in the wall's structural continuity."
+    },
+    {
+      "q": "79. The construction joints in cement concrete",
+      "options": [
+        "should be located where bending moment is large",
+        "should be located where shear force is large",
+        "should not be provided at the corners",
+        "should be spaced at a distance of 3 m part in case of huge structures"
+      ],
+      "correct": 2,
+      "explain": "Construction joints should be avoided at corners since these are critical stress concentration zones and joints there could weaken structural integrity."
+    },
+    {
+      "q": "80. The construction joints are generally provided in concrete",
+      "options": [
+        "roads",
+        "retaining walls",
+        "lining of tunnels",
+        "all of these"
+      ],
+      "correct": 3,
+      "explain": "Construction joints are a common feature across many types of concrete structures including roads, retaining walls, and tunnel linings, wherever concreting must be done in stages."
+    },
+    {
+      "q": "83. Strain in concrete at zero stress is called",
+      "options": [
+        "Creep loss",
+        "Relaxation",
+        "Shrinkage",
+        "Transfer stress"
+      ],
+      "correct": 2,
+      "explain": "Shrinkage is the strain that develops in concrete over time due to moisture loss, occurring even without any externally applied load (zero stress)."
+    },
+    {
+      "q": "85. Workability of concrete is directly proportional to",
+      "options": [
+        "grading of the aggregate",
+        "time of transit",
+        "aggregate cement ratio",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Well-graded aggregate reduces voids and internal friction, allowing the mix to flow more easily, so workability increases with better grading."
+    },
+    {
+      "q": "88. The approx. ratio of the strength of the cement conc. of 7 days to that of 28 days is",
+      "options": [
+        "0.65",
+        "0.85",
+        "1.0",
+        "1.15"
+      ],
+      "correct": 0,
+      "explain": "Concrete typically develops about 65% of its 28-day strength by 7 days of curing, giving an approximate ratio of 0.65."
+    },
+    {
+      "q": "89. The approx. ratio of the direct tensile strength to direct compressible strength test is",
+      "options": [
+        "0.33",
+        "0.25",
+        "0.10",
+        "0.05"
+      ],
+      "correct": 2,
+      "explain": "The direct tensile strength of concrete is generally only about 1/10th (0.10) of its direct compressive strength, reflecting concrete's inherent weakness in tension."
+    },
+    {
+      "q": "90. The approx. ratio of direct tensile strength to flexural strength is",
+      "options": [
+        "0.25",
+        "0.33",
+        "0.5",
+        "0.90"
+      ],
+      "correct": 2,
+      "explain": "The direct tensile strength of concrete is approximately half (0.5) of its flexural strength (modulus of rupture), since flexural tests measure extreme fiber stress differently from direct tension."
+    },
+    {
+      "q": "91. A concrete having a slump of 6.5, is said to be",
+      "options": [
+        "dry",
+        "earth moist",
+        "semi plastic",
+        "plastic"
+      ],
+      "correct": 3,
+      "explain": "A slump value of around 6.5cm falls within the range classified as plastic concrete, indicating moderate workability."
+    },
+    {
+      "q": "92. Concrete is unsuitable for compaction by a vibrator if it is",
+      "options": [
+        "dry",
+        "earth moist",
+        "semi- plastic",
+        "plastic"
+      ],
+      "correct": 3,
+      "explain": "Plastic (wet, high-slump) concrete does not need mechanical vibration and is actually unsuitable for it, since vibration can cause segregation and bleeding in already-flowable mixes."
+    },
+    {
+      "q": "93. The increased cohesiveness of concrete, makes it",
+      "options": [
+        "less liable to segregation",
+        "more liable to segregation",
+        "more liable to bleeding",
+        "more liable for surface scaling in frosty weather."
+      ],
+      "correct": 0,
+      "explain": "Greater cohesiveness means the constituent materials hold together better, reducing the tendency of the mix to segregate during handling and placement."
+    },
+    {
+      "q": "94. After casting, an ordinary cement concrete on drying",
+      "options": [
+        "expands",
+        "swell",
+        "shrinks",
+        "none of these"
+      ],
+      "correct": 2,
+      "explain": "As moisture evaporates from ordinary cement concrete after casting, the paste loses volume and the concrete undergoes drying shrinkage."
+    },
+    {
+      "q": "114. High temperature",
+      "options": [
+        "increase the strength of concrete",
+        "decreases the strength of concrete",
+        "has no effect on the strength of concrete",
+        "none of these."
+      ],
+      "correct": 1,
+      "explain": "Elevated curing or ambient temperatures generally lead to reduced ultimate strength of concrete due to faster but less uniform hydration and increased porosity."
+    },
+    {
+      "q": "115. Placing of concrete should preferably be done at a temperature of",
+      "options": [
+        "0° C",
+        "27 ± 2°C",
+        "20°C",
+        "23°C"
+      ],
+      "correct": 1,
+      "explain": "Placing of concrete is preferably done at a moderate temperature of about 27°C ± 2°C, matching standard test/curing temperature conditions for optimal hydration."
+    },
+    {
+      "q": "116. Higher workability of concrete is required if the structure is",
+      "options": [
+        "made with cement concrete",
+        "thick reinforced",
+        "thin and heavily reinforced",
+        "thick and heavily reinforced"
+      ],
+      "correct": 3,
+      "explain": "Thick, heavily reinforced sections have congested reinforcement and limited space, requiring higher workability so the concrete can flow around bars and fully compact."
+    },
+    {
+      "q": "118. Segregation is responsible for",
+      "options": [
+        "honey-combed concrete",
+        "porous layers in concrete",
+        "surface scaling in concrete",
+        "all the above"
+      ],
+      "correct": 3,
+      "explain": "Segregation of concrete ingredients can lead to a combination of defects including honeycombing, porous layers, and surface scaling, depending on where the separation occurs."
+    },
+    {
+      "q": "119. The concrete mix which causes difficulty in obtaining a smooth finish, possess",
+      "options": [
+        "segregation",
+        "internal friction",
+        "hardness",
+        "bleeding"
+      ],
+      "correct": 2,
+      "explain": "A harsh concrete mix, lacking sufficient fines/paste to lubricate the aggregates, makes it difficult to achieve a smooth surface finish."
+    },
+    {
+      "q": "120. The top diameter, bottom diameter and the height of a slump mould are:",
+      "options": [
+        "10 cm, 20 cm, 30 cm",
+        "10 cm, 30 cm, 20 cm",
+        "20 cm, 10 cm, 30 cm",
+        "20 cm, 30cm, 10cm"
+      ],
+      "correct": 0,
+      "explain": "The standard slump cone has a top diameter of 10cm, bottom diameter of 20cm, and a height of 30cm, as specified by IS code."
+    },
+    {
+      "q": "121. If the slump of a concrete mix is 60 mm, its workability is",
+      "options": [
+        "very low",
+        "low",
+        "medium",
+        "high"
+      ],
+      "correct": 2,
+      "explain": "A slump value of 60mm falls within the medium workability range as per standard slump classification tables."
+    },
+    {
+      "q": "123. In slump test, each layer of concrete is compacted by a steel rod 60 cm long and of 16 mm diameter for",
+      "options": [
+        "20 times",
+        "25 times",
+        "30 times",
+        "40 times"
+      ],
+      "correct": 1,
+      "explain": "As per the standard slump test procedure, each of the four layers of concrete filled in the mould is tamped 25 times with the standard tamping rod."
+    },
+    {
+      "q": "127. The preliminary test is repeated if the difference of compressive strength of three test specimens, exceeds",
+      "options": [
+        "5kg/cm2",
+        "10kg/cm2",
+        "12 kg/cm2",
+        "15kg/cm2"
+      ],
+      "correct": 3,
+      "explain": "If the compressive strength results of three specimens from a preliminary test vary by more than 15 kg/cm², the test is considered unreliable and must be repeated."
+    },
+    {
+      "q": "133. Proper batching ensures",
+      "options": [
+        "economy",
+        "workability",
+        "strength",
+        "all the above"
+      ],
+      "correct": 3,
+      "explain": "Accurate batching of ingredients in the correct proportions ensures the concrete achieves economy, workability, and the intended strength simultaneously."
+    },
+    {
+      "q": "135. The process of mixing, transporting, placing and compacting concrete using ordinary port land cement should not take more than",
+      "options": [
+        "30 minutes",
+        "40 minutes",
+        "60 minutes",
+        "75 minutes"
+      ],
+      "correct": 0,
+      "explain": "To prevent premature stiffening and loss of workability, the entire process from mixing to compacting concrete with ordinary Portland cement should be completed within 30 minutes."
+    },
+    {
+      "q": "136. For concreting tunnel linings, transportation of concrete is done by",
+      "options": [
+        "wheel borrows",
+        "containers",
+        "pumps",
+        "belt conveyors."
+      ],
+      "correct": 2,
+      "explain": "Pumping is the preferred method for transporting concrete in confined and elongated spaces like tunnel linings, where other methods are impractical."
+    },
+    {
+      "q": "137. Transport of concrete by pumps, is done for a distance of",
+      "options": [
+        "100m",
+        "200m",
+        "300m",
+        "400m"
+      ],
+      "correct": 3,
+      "explain": "Concrete pumps are capable of effectively transporting concrete over distances of up to about 400m through pipelines."
+    },
+    {
+      "q": "138. To prevent segregation, the maximum height for placing concrete, is",
+      "options": [
+        "100cm",
+        "125 cm",
+        "150cm",
+        "200cm"
+      ],
+      "correct": 0,
+      "explain": "To avoid segregation caused by the impact of falling concrete, the maximum free-fall height for placing concrete should be limited to about 100cm (1m)."
+    },
+    {
+      "q": "139. The process of hardening the concrete by keeping its surface moist is known",
+      "options": [
+        "placing",
+        "wetting",
+        "curing",
+        "compacting"
+      ],
+      "correct": 2,
+      "explain": "Curing is the deliberate process of maintaining adequate moisture and temperature in concrete after placement to allow proper hydration and hardening."
+    },
+    {
+      "q": "140. Curing of pavements, floors, roofs and slabs, is done by",
+      "options": [
+        "membrane method",
+        "ponding method",
+        "sprinkling water method",
+        "shading concrete method."
+      ],
+      "correct": 1,
+      "explain": "For flat horizontal surfaces like pavements, floors, roofs, and slabs, ponding (creating a shallow water layer over the surface) is the commonly used curing method."
+    },
+    {
+      "q": "141. Curing a concrete for long period ensures better",
+      "options": [
+        "volume stability",
+        "strength",
+        "water tightness and durability",
+        "all the above"
+      ],
+      "correct": 3,
+      "explain": "Extended curing periods allow more complete hydration, which improves volume stability, strength, water-tightness, and overall durability of concrete all together."
+    },
+    {
+      "q": "142. Under normal conditions using an ordinary cement, the period of removal of the form work, is:",
+      "options": [
+        "7 days for beam soffits",
+        "15 days for bottom slabs 4.6 m and more",
+        "2 days for vertical sides of columns",
+        "all of the above."
+      ],
+      "correct": 3,
+      "explain": "Standard formwork removal periods for ordinary cement concrete vary by member: about 2 days for columns, 7 days for beam soffits, and 15 days for larger slabs, so all these apply."
+    },
+    {
+      "q": "143. While compacting the concrete by a mechanical vibrator, the slump should not exceed",
+      "options": [
+        "5.0 cm",
+        "7.5 cm",
+        "15 cm",
+        "25 cm"
+      ],
+      "correct": 0,
+      "explain": "When mechanical vibration is used for compaction, the concrete mix should be relatively stiff, with slump not exceeding about 5.0cm to avoid segregation."
+    },
+    {
+      "q": "144. The shuttering of a hall measuring 4m × 5m, can be removed after",
+      "options": [
+        "7 days",
+        "10 days",
+        "14 days",
+        "21 days."
+      ],
+      "correct": 0,
+      "explain": "For a slab of moderate span (like 4m × 5m), soffit shuttering can generally be removed after 7 days under normal curing conditions."
+    },
+    {
+      "q": "145. Too wet concrete may cause",
+      "options": [
+        "weakness of concrete",
+        "excessive laitance",
+        "segregation",
+        "all the above."
+      ],
+      "correct": 3,
+      "explain": "An overly wet concrete mix can simultaneously cause reduced strength, excessive laitance formation at the surface, and segregation of the ingredients."
+    },
+    {
+      "q": "146. Non-uniform compaction may cause the concrete",
+      "options": [
+        "porous",
+        "non - homogeneous",
+        "reduced strength",
+        "all the above"
+      ],
+      "correct": 3,
+      "explain": "Uneven compaction leaves some parts under-compacted, resulting in porosity, a non-homogeneous structure, and consequently reduced strength throughout the member."
+    },
+    {
+      "q": "147. The compaction of concrete, improves",
+      "options": [
+        "density",
+        "strength",
+        "durability",
+        "all the above"
+      ],
+      "correct": 3,
+      "explain": "Proper compaction removes air voids, increasing density, which in turn improves both the strength and durability of the hardened concrete."
+    },
+    {
+      "q": "148. For compacting plain concrete road surface of thickness less than 20 cm, we use",
+      "options": [
+        "internal vibrator",
+        "screed vibrator",
+        "form vibrator",
+        "none of these."
+      ],
+      "correct": 1,
+      "explain": "Screed vibrators, mounted on a beam that runs across the surface, are well suited for compacting thin plain concrete road slabs less than 20cm thick."
+    },
+    {
+      "q": "149. The final operation of finishing floors, is known as",
+      "options": [
+        "screeding",
+        "trowelling",
+        "finishing",
+        "floating"
+      ],
+      "correct": 1,
+      "explain": "Trowelling is the final finishing operation performed on a concrete floor surface to achieve a smooth, dense, and polished finish."
+    },
+    {
+      "q": "150. The operation of removing humps and hollows of uniform concrete surface, is known as",
+      "options": [
+        "floating",
+        "screeding",
+        "trowelling",
+        "finishing"
+      ],
+      "correct": 1,
+      "explain": "Floating is the operation performed after screeding to remove minor surface humps and hollows, leaving a relatively level, uniform surface before trowelling."
+    },
+    {
+      "q": "151. The surface where two successive placements of concrete meet, is known as",
+      "options": [
+        "Contraction joint",
+        "Expansion joint",
+        "Construction joint",
+        "both a. and b."
+      ],
+      "correct": 2,
+      "explain": "A construction joint is formed at the interface where one concrete pour ends and the next placement begins, joining two successive batches of concrete."
+    },
+    {
+      "q": "152. Expansion joints are provided if the length of concrete structures exceeds",
+      "options": [
+        "10m",
+        "15m",
+        "35 m",
+        "45m"
+      ],
+      "correct": 3,
+      "explain": "Expansion joints are typically provided in long concrete structures once the length exceeds about 45m, to accommodate thermal expansion and contraction movements."
+    },
+    {
+      "q": "161. The entrained air in concrete",
+      "options": [
+        "increase workable",
+        "decrease workable",
+        "increase strength",
+        "decrease strength"
+      ],
+      "correct": 0,
+      "explain": "Entrained air bubbles act like tiny ball bearings within the mix, improving the flow and workability of fresh concrete."
+    },
+    {
+      "q": "171. Allowable shear strength of concrete, depends upon",
+      "options": [
+        "shear strength",
+        "tensile strength",
+        "compressive strength",
+        "none of these."
+      ],
+      "correct": 0,
+      "explain": "The allowable (permissible) shear strength value used in design is directly based on the concrete's own inherent shear strength characteristics."
+    },
+    {
+      "q": "173. The shrinkage of concrete",
+      "options": [
+        "is proportional to water content is the mix",
+        "is proportional to cement",
+        "increases with age of concrete",
+        "all the above."
+      ],
+      "correct": 3,
+      "explain": "Shrinkage in concrete is influenced together by the water content, cement content, and it accumulates further as the concrete ages, so all these factors are relevant."
+    },
+    {
+      "q": "180. Strength of concrete with passage of time",
+      "options": [
+        "increases",
+        "decreases",
+        "fluctuates",
+        "remains constant."
+      ],
+      "correct": 0,
+      "explain": "As hydration of cement continues over time, concrete progressively gains strength, so its strength increases with the passage of time."
+    },
+    {
+      "q": "182. The process of proper and accurate measurement of concrete ingredients for uniformity of proportion, is known",
+      "options": [
+        "grading",
+        "curing",
+        "mixing",
+        "batching"
+      ],
+      "correct": 3,
+      "explain": "Batching is the process of accurately measuring the quantities of cement, aggregates, and water to maintain consistent mix proportions."
+    },
+    {
+      "q": "186. Endurance limit of mild steel is approximately equal to",
+      "options": [
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.8"
+      ],
+      "correct": 1,
+      "explain": "The endurance (fatigue) limit of mild steel is approximately 0.5 times its ultimate tensile strength, a commonly cited approximation in material science."
+    },
+    {
+      "q": "188. The bond strength between steel and concrete is due to",
+      "options": [
+        "Friction",
+        "Adhesion",
+        "Both friction and adhesion",
+        "All of the above"
+      ],
+      "correct": 2,
+      "explain": "The bond between reinforcing steel and surrounding concrete develops through a combination of both frictional resistance and adhesive chemical bonding at the interface."
+    },
+    {
+      "q": "195. Which type of vibrator is generally used in concrete work?",
+      "options": [
+        "Surface vibrator",
+        "Screen vibrator",
+        "Needle vibrator",
+        "None of these"
+      ],
+      "correct": 2,
+      "explain": "The needle (internal) vibrator is the most commonly used type in general concrete work, as it can be inserted directly into the concrete mass for thorough compaction."
+    },
+    {
+      "q": "197. In order to have segregation in concrete, its dropping height should be less than",
+      "options": [
+        "25 cm",
+        "75 cm",
+        "100 cm",
+        "150cm"
+      ],
+      "correct": 2,
+      "explain": "To avoid segregation during placement, the free-fall (dropping) height of concrete should be kept below approximately 100cm."
+    },
+    {
+      "q": "199. For finding compressive strength of concrete, the minimum number of cubes required is",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "correct": 0,
+      "explain": "As per standard testing practice, a minimum of 3 concrete cubes are cast and tested to determine the average compressive strength for a given sample."
+    },
+    {
+      "q": "202. Low water concrete result in",
+      "options": [
+        "non-workability",
+        "high strength",
+        "consumes more water",
+        "cause segregation"
+      ],
+      "correct": 0,
+      "explain": "Insufficient water in a concrete mix produces a stiff, dry mixture that becomes very difficult to work with, resulting in non-workability."
+    },
+    {
+      "q": "204. The behavior of concrete under instantaneous loads is",
+      "options": [
+        "elastic",
+        "plastic",
+        "inelastic",
+        "visco-elastic"
+      ],
+      "correct": 0,
+      "explain": "Under instantaneous (short-duration) loading, concrete behaves approximately as an elastic material, following a near-linear stress-strain relationship."
+    },
+    {
+      "q": "206. The concrete may achieve 100% strength after",
+      "options": [
+        "21 days",
+        "8 days",
+        "1 year",
+        "3 month"
+      ],
+      "correct": 2,
+      "explain": "While 28-day strength is used as the standard design reference, concrete continues to gain strength gradually and may reach close to its full/ultimate strength after about 1 year of curing."
+    },
+    {
+      "q": "211. For compacting large sections of mass concrete in structures, the type of vibrator used is:",
+      "options": [
+        "internal vibrator",
+        "Screed vibrator",
+        "form vibrator",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Internal (needle) vibrators are best suited for compacting large volumes of mass concrete by inserting them directly into the concrete."
+    },
+    {
+      "q": "216. Harshness in concrete is due to the excess of",
+      "options": [
+        "water",
+        "finer particles",
+        "middle size of particles",
+        "coarser particles"
+      ],
+      "correct": 2,
+      "explain": "An excess of middle-sized particles relative to finer material can lead to poor paste distribution and a harsh, difficult-to-work concrete mix."
+    },
+    {
+      "q": "217. Concrete can take tension up to",
+      "options": [
+        "10% of its compressive strength",
+        "10% of the compressive strength of steel",
+        "10% of the combined compressive strength of concrete & R/F",
+        "10% of the total tensile strength of the section"
+      ],
+      "correct": 0,
+      "explain": "Concrete's tensile strength is generally only about 10% of its own compressive strength, reflecting its characteristic weakness in tension relative to compression."
+    },
+    {
+      "q": "220. After 28 days concrete acquires",
+      "options": [
+        "33% final strength",
+        "50% of final strength",
+        "66% of final strength",
+        "More than 80% of final strength"
+      ],
+      "correct": 3,
+      "explain": "While 28-day strength is the standard reference for design, concrete at this stage has actually already gained more than 80% of its long-term ultimate strength."
+    },
+    {
+      "q": "223. Cube test is used to determine",
+      "options": [
+        "Compressive strength",
+        "Tensile strength of concrete",
+        "water cement ratio",
+        "None of the above"
+      ],
+      "correct": 0,
+      "explain": "The standard cube test is specifically designed to determine the compressive strength of concrete, the most commonly required strength parameter."
+    },
+    {
+      "q": "225. The process of keeping concrete moist for a certain period after its finishing, is known as",
+      "options": [
+        "Finishing of concrete",
+        "Curing of concrete",
+        "Placing of concrete",
+        "Compaction of concrete"
+      ],
+      "correct": 1,
+      "explain": "Curing is defined as the process of maintaining adequate moisture in concrete for a specified period after finishing, to ensure proper hydration and strength gain."
+    },
+    {
+      "q": "226. Compaction test for concrete is done to determine",
+      "options": [
+        "consistency of concrete",
+        "workability of concrete",
+        "compressive strength of concrete",
+        "tensile strength of concrete"
+      ],
+      "correct": 1,
+      "explain": "The compaction factor test is specifically designed to assess the workability of concrete mixes, particularly those with low water content where the slump test is less reliable."
+    },
+    {
+      "q": "231. The ultimate load of a balanced reinforced concrete beam is proportional to",
+      "options": [
+        "crushing strength of concrete",
+        "tensile strength of concrete",
+        "tensile strength of steel",
+        "crushing strength of concrete and/or tensile strength of the steel"
+      ],
+      "correct": 3,
+      "explain": "In a balanced section, both the concrete's crushing (compressive) strength and the steel's tensile strength reach their limiting values simultaneously, so the ultimate load depends on both."
+    },
+    {
+      "q": "235. The test conducted in the labouratory on the specimen made out of trial concrete mix is called",
+      "options": [
+        "preliminary test",
+        "slump test",
+        "works test",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "A preliminary test is carried out in the laboratory on specimens made from trial concrete mixes to establish suitable proportions before actual construction begins."
+    }
+  ]
+}

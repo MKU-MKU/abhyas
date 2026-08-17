@@ -1,0 +1,547 @@
+{
+  "code": "10.4",
+  "subtopic": "DRAFTING TOOLS",
+  "topic": "Drafting tools and equipments",
+  "questions": [
+    {
+      "q": "3. The edge of drawing board where T-square is made to slide is called",
+      "options": [
+        "sliding edge",
+        "fixing edge",
+        "working edge",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "The working edge (or ebony edge) is a perfectly straight wooden strip on the left side of the drawing board used to guide the T-square."
+    },
+    {
+      "q": "4. As per ISI recommended size of drawing board is/are",
+      "options": [
+        "B0 (1000 x 1500 mm)",
+        "B1 (700 x 1000 mm)",
+        "B2 (500 x 700 mm)",
+        "B3 (350 x 500 mm)",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "ISI (Indian Standards Institution) specifies these standard sizes for drawing boards to ensure uniformity in technical drawings."
+    },
+    {
+      "q": "5. Working edge of drawing board is kept ........... of the user.",
+      "options": [
+        "left",
+        "right",
+        "ahead",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "For right-handed users, the ebony/working edge is always on the left so the T-square can be manipulated by the left hand while drawing with the right."
+    },
+    {
+      "q": "6. Drawing board is made of",
+      "options": [
+        "well seasoned soft wood",
+        "well seasoned hard wood",
+        "moisted soft wood",
+        "moisted hard wood"
+      ],
+      "correct": 0,
+      "explain": "Softwood like white pine or fir is used because it allows drawing pins to be inserted and removed easily, and 'seasoning' prevents warping."
+    },
+    {
+      "q": "7. During drawing stock of T-square is placed",
+      "options": [
+        "adjoining the working edge of the board",
+        "adjoining the sliding edge of the board",
+        "surface of the board",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The 'stock' is the cross-head of the T-square that must be held firmly against the working edge of the board to ensure horizontal lines are parallel."
+    },
+    {
+      "q": "8. The working edge of T-square is used to",
+      "options": [
+        "draw horizontal line",
+        "as a base of set square",
+        "draw horizontal parallel line",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "The T-square serves multiple purposes: drawing horizontal lines, ensuring they are parallel, and providing a base for set squares to draw vertical or inclined lines."
+    },
+    {
+      "q": "9. Set squares are not used to draw",
+      "options": [
+        "straight line",
+        "vertical line with T-square",
+        "horizontal line",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Horizontal lines are primarily drawn using the T-square or a mini-drafter; set squares are typically used for vertical and inclined lines relative to the T-square."
+    },
+    {
+      "q": "10. The diameter of semi-circle is called",
+      "options": [
+        "diameter of protractor",
+        "base of protractor",
+        "length of protractor",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The flat bottom edge of a semi-circular protractor, which aligns with the 0°-180° line, is referred to as its base."
+    },
+    {
+      "q": "11. Drawing pins/cello tapes are used to",
+      "options": [
+        "draw a drawing",
+        "move the drawing",
+        "fix the drawing",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "These items are essential for securing the drawing sheet to the board to prevent it from shifting during work."
+    },
+    {
+      "q": "14. The edge of the board on which T-square is made to slide is called",
+      "options": [
+        "working edge",
+        "drawing line",
+        "border line",
+        "deader line"
+      ],
+      "correct": 0,
+      "explain": "This is a repetition of Q3; the working edge is the guide for the T-square's vertical movement."
+    },
+    {
+      "q": "15. To prevent warping of the board ........are cleated at its back.",
+      "options": [
+        "packing",
+        "wooden block",
+        "batten",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Battens are wooden strips fixed to the back of the board to prevent it from bending or warping due to moisture or temperature changes."
+    },
+    {
+      "q": "16. The two parts of T-square are........ and .......",
+      "options": [
+        "vertical and horizontal edge",
+        "straight and slant edge",
+        "stock and blade",
+        "blade and batten"
+      ],
+      "correct": 2,
+      "explain": "A T-square consists of a 'stock' (the head) and a 'blade' (the long straight edge) joined at a 90° angle."
+    },
+    {
+      "q": "17. Angles in multiples of 15 degrees are constructed by the combined use of",
+      "options": [
+        "T-square and set-square",
+        "set-square and scale",
+        "scale and french curve",
+        "french curve and erasing shield"
+      ],
+      "correct": 0,
+      "explain": "By combining 45° and 30°/60° set squares on a T-square base, one can achieve angles like 15°, 75°, 105°, etc."
+    },
+    {
+      "q": "18. To draw or measure angles ........... is used.",
+      "options": [
+        "set-square",
+        "T-square",
+        "protractor",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "A protractor is specifically designed with degree graduations to measure and mark angles accurately."
+    },
+    {
+      "q": "19. For drawing large-size circles .................. is attached to the compass (>150mm).",
+      "options": [
+        "straight bar",
+        "bow compass",
+        "lengthening bar",
+        "divider"
+      ],
+      "correct": 2,
+      "explain": "A lengthening bar is an extension that increases the radius of the compass beyond its standard limit."
+    },
+    {
+      "q": "20. Circles of small radii are drawn by means of a",
+      "options": [
+        "straight bar",
+        "bow compass",
+        "lengthening bar",
+        "drop compass"
+      ],
+      "correct": 1,
+      "explain": "Bow compasses are rigid and small, making them ideal for maintaining precision while drawing small circles."
+    },
+    {
+      "q": "21. The scale should never be used as a ......... for drawing straight lines.",
+      "options": [
+        "set-square",
+        "working edge",
+        "straight edge",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Using a measuring scale as a straight edge for drawing can damage its precision graduations; a dedicated straight edge should be used instead."
+    },
+    {
+      "q": "22. Measurements from scale to the drawing are transferred with the aid of",
+      "options": [
+        "scale",
+        "compass",
+        "divider",
+        "plumbing fork"
+      ],
+      "correct": 2,
+      "explain": "Dividers are used to pick up a measurement from a scale and transfer it to the drawing sheet without marking the scale."
+    },
+    {
+      "q": "23. .......... is used for setting of short equal distances.",
+      "options": [
+        "compass",
+        "bow divider",
+        "scale",
+        "lengthening bar"
+      ],
+      "correct": 1,
+      "explain": "Bow dividers are used for repeating small, equal measurements along a line accurately."
+    },
+    {
+      "q": "24. In drafting machine, which one does not follow",
+      "options": [
+        "levelling machine",
+        "T-square",
+        "set square",
+        "divider"
+      ],
+      "correct": 0,
+      "explain": "A drafting machine (mini-drafter) combines the functions of a T-square, set squares, and protractor, but has nothing to do with leveling equipment."
+    },
+    {
+      "q": "25. Which one is not drafting equipment?",
+      "options": [
+        "drafter",
+        "dust cloth",
+        "scale",
+        "none of the above"
+      ],
+      "correct": 3,
+      "explain": "All listed items (drafter, scale, and even a dust cloth to keep the sheet clean) are considered part of the drafting environment."
+    },
+    {
+      "q": "26. Circles of very small radii are drawn by means of a",
+      "options": [
+        "straight bar",
+        "bow compass",
+        "lengthening bar",
+        "drop compass"
+      ],
+      "correct": 3,
+      "explain": "A drop compass is specifically used for very tiny circles, where the center point remains fixed while the pencil lead 'drops' and rotates around it."
+    },
+    {
+      "q": "27. .............is used to protect the adjoining lines on the drawing when some parts of the line is being erased.",
+      "options": [
+        "eraser",
+        "erasing shield",
+        "pencil",
+        "drop compass"
+      ],
+      "correct": 1,
+      "explain": "An erasing shield is a thin metal or plastic plate with holes of various shapes that allows erasing a specific area without disturbing nearby lines."
+    },
+    {
+      "q": "28. For drawing thin lines of uniform thickness the pencil should be sharpened in the form of -",
+      "options": [
+        "chisel edge",
+        "conical",
+        "pointed",
+        "circular"
+      ],
+      "correct": 0,
+      "explain": "A chisel edge is used for drawing long, thin, uniform lines (like outlines) because the wide edge wears down more slowly than a point."
+    },
+    {
+      "q": "29. Pencil of ......grade sharpened in the form of ........ is used for sketching.",
+      "options": [
+        "soft & conical point",
+        "low and conical point",
+        "hard & conical point",
+        "chisel & conical point"
+      ],
+      "correct": 0,
+      "explain": "Sketching requires a softer lead (like HB or B) and a conical point to allow for free-hand movement and varied line weight."
+    },
+    {
+      "q": "30. ......... is used for drawing curves which can't be drawn by a compass",
+      "options": [
+        "bow compass",
+        "protractor",
+        "french curve",
+        "scale"
+      ],
+      "correct": 2,
+      "explain": "French curves are templates with various irregular radii used to draw smooth, non-circular curves."
+    },
+    {
+      "q": "31. To remove unnecessary lines ....... is used",
+      "options": [
+        "duster",
+        "chalk",
+        "sand box",
+        "eraser"
+      ],
+      "correct": 3,
+      "explain": "The standard tool for correcting errors or removing construction lines is an eraser."
+    },
+    {
+      "q": "32. Uses of the T-square, set squares, scale and protractor are combined in the",
+      "options": [
+        "set-square",
+        "drafting machine",
+        "compass",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "A drafting machine (or mini-drafter) is an all-in-one tool that replaces several individual drafting instruments."
+    },
+    {
+      "q": "33. Circle and arcs of circles are drawn by means of a .......",
+      "options": [
+        "lengthening bar",
+        "divider",
+        "compass",
+        "T-square"
+      ],
+      "correct": 2,
+      "explain": "A compass is the primary instrument used for drawing circular geometry."
+    },
+    {
+      "q": "35. Inking pen is used for drawing ----------- in ink",
+      "options": [
+        "writing",
+        "curve",
+        "straight line",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "While technical pens can be used for many things, traditional inking pens were primarily used with guides to draw permanent straight lines."
+    },
+    {
+      "q": "36. Set squares are used for drawing ......., ......... and .......... lines.",
+      "options": [
+        "vertical",
+        "inclined",
+        "parallel",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Set squares are versatile tools used to draw vertical lines, standard angles (30, 45, 60), and parallel lines when slid along a reference."
+    },
+    {
+      "q": "37. The purpose of making the drawing board with seasoned soft wood",
+      "options": [
+        "easy to carry",
+        "for fixing of drawing paper with the help of drawing pin",
+        "to match with T-square",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Softwood is essential so that drawing pins can penetrate the surface easily without damaging the board or the pins."
+    },
+    {
+      "q": "38. For dimensioning and lettering normally following pencils are used",
+      "options": [
+        "H & HB",
+        "2H & HB",
+        "H & 2HB",
+        "2H & 2HB"
+      ],
+      "correct": 0,
+      "explain": "H is used for thin, precise dimension lines, and HB is used for lettering to make it clear and legible."
+    },
+    {
+      "q": "39. The most important material for drawing is",
+      "options": [
+        "pencil and eraser",
+        "eraser & paper",
+        "paper & pencil",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Without paper and a marking tool (pencil), no drawing can be created; they are the fundamental necessities."
+    },
+    {
+      "q": "40. Which pencil is used for thinner line ?",
+      "options": [
+        "H",
+        "B",
+        "2B",
+        "2H"
+      ],
+      "correct": 3,
+      "explain": "The 'H' stands for Hardness. Higher numbers (like 2H) have harder lead, which produces thinner, lighter lines."
+    },
+    {
+      "q": "41. 9H pencil is ......than the 7H pencil",
+      "options": [
+        "softer",
+        "harder",
+        "medium",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "In the pencil grading system, 9H is the hardest grade available, making it harder than 7H."
+    },
+    {
+      "q": "42. To draw very light line which pencil is used",
+      "options": [
+        "B",
+        "HB",
+        "H",
+        "2H"
+      ],
+      "correct": 3,
+      "explain": "Harder pencils (like 2H) do not deposit much graphite, resulting in very light construction lines."
+    },
+    {
+      "q": "50. The equipment mainly used to transfer the measurements is",
+      "options": [
+        "scale",
+        "divider",
+        "compass",
+        "drawing pin"
+      ],
+      "correct": 1,
+      "explain": "Dividers have two sharp points specifically intended to pick up distances from a scale and transfer them to the work without marking the original source."
+    },
+    {
+      "q": "51. The shape of scales are",
+      "options": [
+        "flat and triangular",
+        "flat and rectangular",
+        "flat and square",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Drafting scales are commonly manufactured in flat shapes for portability or triangular shapes to provide multiple scale ratios on a single instrument."
+    },
+    {
+      "q": "55. Tracing paper is also named as",
+      "options": [
+        "drafting vellum",
+        "drafting film",
+        "drafting media",
+        "drafting line"
+      ],
+      "correct": 0,
+      "explain": "Vellum is a high-quality, translucent paper specifically designed for tracing and manual drafting."
+    },
+    {
+      "q": "126. Which of the following is not a drawing hand tool?",
+      "options": [
+        "alidade",
+        "straight edge",
+        "french curve",
+        "set squares"
+      ],
+      "correct": 0,
+      "explain": "An alidade is a surveying instrument used on a plane table to sight distant objects, not a standard drafting instrument."
+    },
+    {
+      "q": "128. French curve is used to draw",
+      "options": [
+        "regular curve",
+        "circle",
+        "irregular curve",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "French curves are templates for non-circular, mathematically irregular curves like ellipses or parabolas."
+    },
+    {
+      "q": "129. Parallel ruling straight edge machine is used to draw",
+      "options": [
+        "inclined lines",
+        "curved lines",
+        "irregular lines",
+        "horizontal lines"
+      ],
+      "correct": 3,
+      "explain": "These machines use a cable system to keep a straight edge perfectly horizontal as it moves up and down the board."
+    },
+    {
+      "q": "151. *In Engineering Drawing, French Curves mean :",
+      "options": [
+        "the shape of an hourglass",
+        "drafting tools used to draw non-linear figures",
+        "drafting tools used to draw oblong figures",
+        "helical designs patented in France"
+      ],
+      "correct": 1,
+      "explain": "French curves are plastic or wooden templates used in manual drafting to draw smooth, non-circular curves that cannot be drawn with a compass."
+    },
+    {
+      "q": "153. The letter 'H' labelled in a Drawing Pencil indicates -",
+      "options": [
+        "relative hardness",
+        "thickness of line",
+        "both of above",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "In pencil grading, 'H' stands for 'Hard,' indicating the relative hardness of the graphite lead; higher numbers mean harder leads."
+    },
+    {
+      "q": "159. The most of the texture can be drawn with the help of drawing pen with line thickness",
+      "options": [
+        "0.1mm",
+        "0.5mm",
+        "0.8mm",
+        "1.0mm"
+      ],
+      "correct": 2,
+      "explain": "For detailed texture and hatching, a specific medium-thick pen like 0.8mm is often used for emphasis."
+    },
+    {
+      "q": "162. The best drawing paper used for water colour is :",
+      "options": [
+        "hand made drawing paper",
+        "tracing drawing sheet",
+        "ordinary drawing sheet",
+        "ammonia paper"
+      ],
+      "correct": 1,
+      "explain": "Though handmade paper is traditionally used, the answer key specifies tracing/technical sheets in this specific engineering context."
+    },
+    {
+      "q": "170. Pencil drawings are generally corrected or revised with the help of :",
+      "options": [
+        "razor blade",
+        "eraser shield",
+        "ink",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "An eraser shield is a thin metal or plastic template that allows a drafter to erase small areas without disturbing the surrounding lines."
+    },
+    {
+      "q": "183. Chisel pencils are used to draw",
+      "options": [
+        "curved lines",
+        "free hand sketch",
+        "irregular lines",
+        "straight lines"
+      ],
+      "correct": 3,
+      "explain": "A chisel point lead is ideal for drawing consistent, heavy straight lines in technical drafting."
+    }
+  ]
+}

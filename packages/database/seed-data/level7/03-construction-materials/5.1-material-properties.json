@@ -1,0 +1,39 @@
+{
+  "code": "5.1",
+  "subtopic": "MATERIAL PROPERTIES",
+  "questions": [
+    {
+      "q": "1. The properties of the materials is influenced by",
+      "options": [
+        "internal structure",
+        "external structure",
+        "constituents",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "The physical and mechanical behavior of a material is determined by its chemical composition (constituents), how those atoms are arranged (internal structure), and its surface condition (external structure)."
+    },
+    {
+      "q": "2. The effect of chemical on any building materials is studied under the",
+      "options": [
+        "chemical properties",
+        "physical properties",
+        "thermal properties",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Chemical properties describe how a material reacts with external agents like acids, alkalis, or salts, leading to corrosion or degradation."
+    },
+    {
+      "q": "3. The effect of temperature on any building materials is studied under the",
+      "options": [
+        "chemical properties",
+        "physical properties",
+        "thermal properties",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Thermal properties include parameters like thermal conductivity, coefficient of thermal expansion, and fire resistance."
+    }
+  ]
+}

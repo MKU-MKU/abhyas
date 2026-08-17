@@ -23,7 +23,20 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
  */
 const CHAPTER_NAMES: Record<string, Record<string, string>> = {
   level7: {
+    "01-structural-engineering": "Structural Engineering",
     "02-engineering-survey": "Engineering Survey",
+    "03-construction-materials": "Construction Materials",
+    "04-concrete-technology": "Concrete Technology",
+    "05-geotechnical-engineering": "Geotechnical Engineering",
+    "06-construction-management": "Construction Management",
+    "07-estimating-costing": "Estimating & Costing",
+    "08-engineering-drawing": "Engineering Drawing",
+    "09-engineering-economics": "Engineering Economics",
+    "10-professional-practices": "Professional Practices",
+  },
+  gk: {
+    "01-general-awareness-and-contemporary-issues": "General Awareness and Contemporary Issues",
+    "02-general-reasoning-test": "General Reasoning Test",
   },
 };
 

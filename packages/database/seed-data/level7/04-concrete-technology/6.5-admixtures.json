@@ -1,0 +1,323 @@
+{
+  "code": "6.5",
+  "subtopic": "ADMIXTURES",
+  "topic": "Chemical and mineral admixtures used to modify the properties of concrete",
+  "source": "601-80.json, 681-760.json, 761-842.json, Concrete_1-50.json, Concrete_101-150.json, Concrete_151-200.json, Concrete_50-100.json, conc_201-250.json, conc_250-300.json, conc_301-350.json, conc_350-405.json",
+  "questions": [
+    {
+      "q": "20. Addition of sugar in concrete results in",
+      "options": [
+        "increase in setting time by about 1 hr",
+        "increase in setting time by about 4 hr",
+        "decrease in setting time by about 1 hr",
+        "decrease in setting time by about 4 hr"
+      ],
+      "correct": 1,
+      "explain": "Sugar acts as a retarder in concrete; it delays the setting time significantly, by about 4 hours, when added in small quantities."
+    },
+    {
+      "q": "21. Setting time of cement decreases by adding",
+      "options": [
+        "gypsum",
+        "hydrogen peroxide",
+        "calcium chloride",
+        "sodium oxide"
+      ],
+      "correct": 2,
+      "explain": "Calcium chloride acts as an accelerator, speeding up the hydration reaction and thereby decreasing the setting time of cement."
+    },
+    {
+      "q": "46. Pick up the correct statement from the following:",
+      "options": [
+        "calcium chloride acts as a retarder",
+        "gypsum (calcium sulphate) acts as an accelerator",
+        "gypsum (calcium sulphate) acts as a retarder",
+        "calcium chloride acts as an accelerator",
+        "both (c) and (d) of above"
+      ],
+      "correct": 4,
+      "explain": "Gypsum retards the setting time of cement by controlling C3A hydration, while calcium chloride acts as an accelerator, speeding up the setting; hence both (c) and (d) are correct."
+    },
+    {
+      "q": "95. The impurity of mixing water which affects the setting time and strength of concrete, is",
+      "options": [
+        "sodium sulphates",
+        "sodium chlorides",
+        "sodium carbonates and bicarbonates",
+        "calcium chlorides"
+      ],
+      "correct": 2,
+      "explain": "Sodium carbonates and bicarbonates present in mixing water can adversely affect the setting time and reduce the strength of concrete."
+    },
+    {
+      "q": "120. A concrete using an air entrained cement",
+      "options": [
+        "Has strength less than 10% to 15%",
+        "Has more resistance to weathering",
+        "Is more plastic and workable",
+        "Is free from segregation and bleeding"
+      ],
+      "correct": 2,
+      "explain": "Air-entrainment introduces microscopic air bubbles that act like tiny ball bearings within the mix, improving plasticity and workability of the fresh concrete (though it does reduce strength and improve frost resistance too, per this text the key answer selected is improved plasticity/workability)."
+    },
+    {
+      "q": "149. The factor which affects workability, is",
+      "options": [
+        "Water content and its temperature",
+        "Shape and size of the aggregates",
+        "Grading and surface textures of the aggregates",
+        "Air entraining agents",
+        "All of the above"
+      ],
+      "correct": 4,
+      "explain": "Workability is influenced by multiple interacting factors — water content and temperature, aggregate shape/size, grading and surface texture, and the use of air-entraining agents — so all of the above are correct."
+    },
+    {
+      "q": "201. While designing an air entrained concrete",
+      "options": [
+        "water cement ratio is reduced",
+        "proportion of aggregates is reduced",
+        "an allowance for the entrained air is made",
+        "strength of the concretes, is reduced",
+        "all of the above "
+      ],
+      "correct": 4,
+      "explain": "In air-entrained concrete mix design, a specific allowance/adjustment is made in the mix proportions to account for the volume of entrained air voids introduced into the mix."
+    },
+    {
+      "q": "232. Pozzolanic properties exist in",
+      "options": [
+        "shales",
+        "fly ash",
+        "pumicite",
+        "diatomaceous clay",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "All these materials - shales, fly ash, pumicite, and diatomaceous clay - are known to possess pozzolanic properties, meaning they can react with calcium hydroxide to form cementitious compounds."
+    },
+    {
+      "q": "250. Workability of concrete may be improved by adding",
+      "options": [
+        "fly ash",
+        "hydrated lime",
+        "calcium chloride",
+        "bentonite",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "All these admixtures/materials - fly ash, hydrated lime, calcium chloride, and bentonite - are known to improve the workability of concrete mixes when added in appropriate quantities."
+    },
+    {
+      "q": "251. Workability of concrete may be improved by adding",
+      "options": [
+        "air-entering agent",
+        "foaming agent",
+        "oily agent",
+        "aluminium compound",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "Air-entraining agents, foaming agents, oily agents, and aluminium compounds are all known types of admixtures that can improve the workability of concrete when properly used."
+    },
+    {
+      "q": "330. Gypsum is used as admixture in concrete to increase the property of concrete",
+      "options": [
+        "accelerator",
+        "retarder",
+        "water proofer",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Gypsum is interground with clinker/added to cement primarily to retard/regulate the initial setting time, acting as a retarder."
+    },
+    {
+      "q": "331. Calcium chloride is used as admixture in concrete to increase the property of concrete",
+      "options": [
+        "accelerator",
+        "retarder",
+        "water proofer",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Calcium chloride is a well-known chemical accelerator that speeds up the hydration process and early strength gain of concrete."
+    },
+    {
+      "q": "332. Calcium chloride as an accelerating admixture is not recommended for use with",
+      "options": [
+        "ordinary portland cement",
+        "high alumina cement",
+        "rapid hardening cement",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "With high alumina cement, calcium chloride can cause flash setting and a serious loss of ultimate strength, so its use is specifically avoided in that case."
+    },
+    {
+      "q": "333. To improve the certain properties of concrete, admixture is used at the time of",
+      "options": [
+        "grading of cement",
+        "mixing of concrete",
+        "after pouring of concrete",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Admixtures are dosed into the mix during the mixing stage so that they are uniformly dispersed and can act effectively throughout the concrete."
+    },
+    {
+      "q": "334. An admixture",
+      "options": [
+        "is a basic ingredient of concrete",
+        "offers improvement not economically attained by adjusting mix proportions",
+        "is a substitute for good concreting practice",
+        "is beneficial to the properties of concrete when used in large quantities"
+      ],
+      "correct": 1,
+      "explain": "An admixture is defined as a material used to achieve special properties (workability, setting time, etc.) that could not be economically obtained just by varying the basic mix proportions."
+    },
+    {
+      "q": "335. An admixture could be used to",
+      "options": [
+        "accelerate initial setting of concrete",
+        "increase strength of concrete",
+        "improve workability",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Different classes of admixtures can accelerate setting, enhance strength, or improve workability, so admixtures collectively serve all these purposes."
+    },
+    {
+      "q": "336. An accelerator shortens all of the following except",
+      "options": [
+        "setting time",
+        "period of curing",
+        "strength of concrete",
+        "period of removal of formwork"
+      ],
+      "correct": 2,
+      "explain": "An accelerator speeds up setting, curing duration, and permits earlier formwork removal, but it does not 'shorten' strength — strength is a magnitude, not a time-based quantity, so it is the exception."
+    },
+    {
+      "q": "337. Addition of retarder to concrete decreases all of the following except",
+      "options": [
+        "rate of hydration",
+        "water-cement ratio",
+        "workability and compressive strength",
+        "rate of development of strength"
+      ],
+      "correct": 2,
+      "explain": "A retarder slows the rate of hydration and rate of strength development, but it does not necessarily decrease workability (in fact it can be prolonged) or ultimate compressive strength, making this option the exception."
+    },
+    {
+      "q": "338. Pick up the incorrect statement from the following:",
+      "options": [
+        "admixtures accelerate hydration",
+        "admixtures make concrete water proof",
+        "admixtures make concrete acid proof",
+        "admixtures give high strength",
+        "none of the above"
+      ],
+      "correct": 4,
+      "explain": "Since different types of admixtures individually achieve acceleration of hydration, waterproofing, acid resistance and strength gain, none of the listed statements is incorrect on its own."
+    },
+    {
+      "q": "12. A suitable admixture added at the time of preparing the concrete mix, makes the concrete",
+      "options": [
+        "water- proof",
+        "acid proof",
+        "highly strong",
+        "all of these"
+      ],
+      "correct": 3,
+      "explain": "Different admixtures are available to impart different properties, so depending on the admixture chosen, concrete can be made water-proof, acid-proof, or of higher strength."
+    },
+    {
+      "q": "104. A concrete using an air entrained cement",
+      "options": [
+        "has strength less than 10 % to 15 %",
+        "has more resistance to weathering",
+        "is more plastic and workable",
+        "is free from segregation and bleeding"
+      ],
+      "correct": 2,
+      "explain": "Air-entrained cement introduces tiny air bubbles that act as ball bearings within the mix, making the concrete more plastic and easier to work with."
+    },
+    {
+      "q": "129. Most commonly used material for accelerating hardening of the concrete is",
+      "options": [
+        "Sodium chloride",
+        "Calcium chloride",
+        "Potassium chloride",
+        "Aluminium chlorids"
+      ],
+      "correct": 1,
+      "explain": "Calcium chloride is the most widely used chemical accelerator, added to speed up the setting and early strength development of concrete."
+    },
+    {
+      "q": "164. Setting time of cement increases by adding",
+      "options": [
+        "gypsum",
+        "hydrogen peroxide",
+        "calcium chloride",
+        "sodium oxide"
+      ],
+      "correct": 0,
+      "explain": "Gypsum is added specifically to retard the rapid setting reaction of tricalcium aluminate, thereby increasing the overall setting time of cement."
+    },
+    {
+      "q": "205. Air entrainment in concrete increases:",
+      "options": [
+        "workability",
+        "strength",
+        "effects of temperature variations",
+        "unit weight"
+      ],
+      "correct": 0,
+      "explain": "Entrained air bubbles improve the flow characteristics of fresh concrete, thereby increasing its workability, though it typically reduces strength and unit weight."
+    },
+    {
+      "q": "208. An air-entraining agent when added to cement improves",
+      "options": [
+        "strength of concrete",
+        "density of concrete",
+        "surface finish of concrete",
+        "workability of concrete"
+      ],
+      "correct": 3,
+      "explain": "Air-entraining agents introduce fine air bubbles that act as lubricants between particles, primarily improving the workability of the concrete."
+    },
+    {
+      "q": "210. A suitable admixture added at the time of preparing for concrete mix makes the concrete:",
+      "options": [
+        "water-proof",
+        "acid -proof",
+        "highly strong",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Depending on the specific admixture used, concrete properties can be tailored to be water-proof, acid-proof, or of higher strength, so all these outcomes are achievable."
+    },
+    {
+      "q": "214. Early setting of cement can be attained by the addition of",
+      "options": [
+        "calcium chloride",
+        "gypsum",
+        "calcium sulphate",
+        "hydrogen peroxide"
+      ],
+      "correct": 0,
+      "explain": "Calcium chloride is a well-known accelerating admixture that speeds up the setting and early hardening of cement, unlike gypsum which retards setting."
+    },
+    {
+      "q": "219. Addition of air entraining agents to concrete increases all of the following EXCEPT",
+      "options": [
+        "Workability",
+        "Hardening",
+        "Curing",
+        "Bleeding"
+      ],
+      "correct": 3,
+      "explain": "Air-entraining agents improve workability and resistance to weathering effects during curing, and reduce bleeding rather than increasing it, making bleeding the exception."
+    }
+  ]
+}

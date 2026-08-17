@@ -1,0 +1,502 @@
+{
+  "code": "5.5",
+  "subtopic": "METALS",
+  "topic": "Metals: types and properties of steel, alloys",
+  "questions": [
+    {
+      "q": "259. The property of steel enabling it to be drawn into thin wires is called",
+      "options": [
+        "toughness",
+        "hardness",
+        "ductility",
+        "malleability"
+      ],
+      "correct": 2,
+      "explain": "Ductility is the physical property of a material associated with the ability to be hammered thin or stretched into wire without breaking."
+    },
+    {
+      "q": "260. The Property of metals because of which they can be transformed into different shapes by heating is called",
+      "options": [
+        "toughness",
+        "hardness",
+        "ductility",
+        "malleability"
+      ],
+      "correct": 3,
+      "explain": "Malleability is the ability of a metal to be deformed under compression, often improved by heating, allowing it to be rolled or hammered into sheets."
+    },
+    {
+      "q": "261. The property due to which steel can withstand hammer blows is called",
+      "options": [
+        "toughness",
+        "hardness",
+        "ductility",
+        "malleability"
+      ],
+      "correct": 0,
+      "explain": "Toughness is the ability of a material to absorb energy and deform plastically without fracturing, essential for resisting impact or hammer blows."
+    },
+    {
+      "q": "262. The operation of removal of impurities or clay adhering to iron ores is known as",
+      "options": [
+        "dressing",
+        "calcinations",
+        "roasting",
+        "smelting"
+      ],
+      "correct": 0,
+      "explain": "Dressing involves the mechanical removal of impurities like clay and stones from the ore before chemical processing."
+    },
+    {
+      "q": "263. Pig iron made from haematite are free from sulphur, phosphorus and copper is known as",
+      "options": [
+        "bessemer pig",
+        "foundry pig",
+        "forge pig",
+        "melted pig"
+      ],
+      "correct": 0,
+      "explain": "Bessemer pig iron is high-quality pig iron low in phosphorus and sulphur, specifically suitable for the Bessemer steel-making process."
+    },
+    {
+      "q": "264. The pig iron obtained from the furnace that is property provided with fuel at very high temperature is called",
+      "options": [
+        "bessemer pig",
+        "foundry pig",
+        "forge pig",
+        "melted pig"
+      ],
+      "correct": 1,
+      "explain": "Foundry pig iron is produced under conditions that allow it to be easily remelted and cast into various shapes."
+    },
+    {
+      "q": "265. The pig iron obtained from the furnace that is property provided with insufficient fuel at very low temperature is called",
+      "options": [
+        "bessemer pig",
+        "foundry pig",
+        "forge pig",
+        "melted pig"
+      ],
+      "correct": 2,
+      "explain": "Forge pig iron is produced at lower temperatures and is generally used for making wrought iron."
+    },
+    {
+      "q": "266. The process involved in the manufacture of wrought iron from pig iron is known as",
+      "options": [
+        "refining",
+        "pudding",
+        "rolling",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Wrought iron manufacture involves refining the pig iron, 'puddling' to remove carbon, and rolling to create the fibrous structure."
+    },
+    {
+      "q": "267. For melting one tonne of cast iron the requirement of material is",
+      "options": [
+        "700 m3 of air",
+        "20 kg of lime stone",
+        "100 kg of coke",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "The melting process in a cupola furnace requires specific ratios of fuel (coke), flux (limestone), and air for combustion."
+    },
+    {
+      "q": "268. Pig iron contains carbon up to",
+      "options": [
+        "2%",
+        "3%",
+        "4%",
+        "5%"
+      ],
+      "correct": 2,
+      "explain": "Pig iron is the immediate product of smelting iron ore and has a very high carbon content, typically between 3% and 5%."
+    },
+    {
+      "q": "269. The property of steel is influenced maximum by",
+      "options": [
+        "iron",
+        "manganese",
+        "carbon",
+        "sulphur"
+      ],
+      "correct": 2,
+      "explain": "Carbon content is the primary factor that determines the hardness, strength, and ductility of steel."
+    },
+    {
+      "q": "270. Purest form of iron is",
+      "options": [
+        "mild steel",
+        "cast iron",
+        "high carbon steel",
+        "wrought iron"
+      ],
+      "correct": 3,
+      "explain": "Wrought iron contains less than 0.15% carbon and very few impurities, making it the purest commercial form of iron."
+    },
+    {
+      "q": "271. As compared to mild steel, cast iron has",
+      "options": [
+        "high compressive strength",
+        "low tensile strength",
+        "both (a) & (b) of above",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Cast iron is brittle; it is very strong in compression but fails easily under tension compared to the ductile mild steel."
+    },
+    {
+      "q": "272. Wrought iron contains carbon up to",
+      "options": [
+        "0.10%",
+        "0.15%",
+        "0.20%",
+        "0.25%"
+      ],
+      "correct": 1,
+      "explain": "To maintain its purity and fibrous nature, wrought iron carbon content is strictly limited, usually below 0.15%."
+    },
+    {
+      "q": "273. Mild steel contains carbon up to",
+      "options": [
+        "0.10%",
+        "0.20%",
+        "0.25%",
+        "0.30%"
+      ],
+      "correct": 3,
+      "explain": "Mild steel (low carbon steel) typically has a carbon range of 0.15% to 0.25%."
+    },
+    {
+      "q": "274. The unit weight of steel in taken as",
+      "options": [
+        "7.2 ton/m3",
+        "7.4 ton/m3",
+        "7.6 ton/m3",
+        "7.8 ton/m3"
+      ],
+      "correct": 3,
+      "explain": "The standard density of steel used in engineering calculations is approximately 7850 kg/m3 or 7.85 ton/m3."
+    },
+    {
+      "q": "275. Vanadium steel in generally used for",
+      "options": [
+        "railway switches and crossing",
+        "bearing balls",
+        "magnets",
+        "axles and springs"
+      ],
+      "correct": 3,
+      "explain": "Vanadium increases the fatigue strength and toughness of steel, making it ideal for high-stress automotive parts like axles and springs."
+    },
+    {
+      "q": "276. Cast iron is used for",
+      "options": [
+        "structural works in beams",
+        "small size water pipes",
+        "columns and struts",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Because cast iron is excellent in compression, it was historically used for vertical members like columns and struts."
+    },
+    {
+      "q": "277. Mild steel is used for",
+      "options": [
+        "structural works in beams",
+        "small size water pipes",
+        "columns and struts",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Mild steel's high tensile strength and ductility make it the standard material for structural beams and reinforcement."
+    },
+    {
+      "q": "278. Wrought iron is used for",
+      "options": [
+        "structural works in beams",
+        "small size water pipes",
+        "columns and struts",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Wrought iron's corrosion resistance made it a popular choice for water pipes and decorative ironwork before the advent of galvanized steel."
+    },
+    {
+      "q": "279. The types of steel used for precision leveling staff in",
+      "options": [
+        "titanium steel",
+        "carbon steel",
+        "invar",
+        "stainless steel"
+      ],
+      "correct": 2,
+      "explain": "Invar has an extremely low coefficient of thermal expansion, ensuring that precision leveling staffs do not change length with temperature."
+    },
+    {
+      "q": "280. The steel used for rails under heavy traffic and sharp curves in",
+      "options": [
+        "nickel steel",
+        "chrome steel",
+        "manganese steel",
+        "vanadium steel"
+      ],
+      "correct": 2,
+      "explain": "Manganese steel (Hadfield steel) is 'work-hardening,' meaning it gets harder as it is impacted, making it perfect for heavy-duty rails."
+    },
+    {
+      "q": "281. The steel used for manufacture of rails in",
+      "options": [
+        "bessemer steel",
+        "mild steel",
+        "cast steel",
+        "stainless steel"
+      ],
+      "correct": 0,
+      "explain": "Bessemer steel was historically the primary material for rails because the process allowed for the economical production of large quantities of steel with the necessary hardness."
+    },
+    {
+      "q": "282. Softer variety of steel may be obtained by",
+      "options": [
+        "cementation process",
+        "crucible process",
+        "bessemer process",
+        "open hearth process"
+      ],
+      "correct": 2,
+      "explain": "The crucible process allows for high control over the composition, often used to produce high-quality, uniform tool steel or softer, specialized varieties."
+    },
+    {
+      "q": "283. Brass is an alloy of",
+      "options": [
+        "copper and zinc",
+        "zinc and lead",
+        "lead and silver",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Brass is a non-ferrous alloy primarily consisting of copper and zinc. The proportions can be varied to achieve different mechanical and electrical properties."
+    },
+    {
+      "q": "284. Bronze is as alloy of",
+      "options": [
+        "copper and tin",
+        "tin and zinc",
+        "lead and lead",
+        "lead and silver"
+      ],
+      "correct": 0,
+      "explain": "Bronze is an alloy consisting primarily of copper, usually with tin as the main additive, making it harder and more durable than pure copper."
+    },
+    {
+      "q": "285. Invar is an alloy of",
+      "options": [
+        "copper and nickel",
+        "nickel and steel",
+        "steel and zinc",
+        "zinc and lead"
+      ],
+      "correct": 1,
+      "explain": "Invar (FeNi36) is a nickel-iron alloy notable for its uniquely low coefficient of thermal expansion, making it essential for precision instruments."
+    },
+    {
+      "q": "286. Solder is an alloy of",
+      "options": [
+        "nickel and steel",
+        "steel and lead",
+        "lead and tin",
+        "tin and zinc"
+      ],
+      "correct": 2,
+      "explain": "Soft solder is typically an alloy of lead and tin, characterized by a low melting point used to join metal workpieces."
+    },
+    {
+      "q": "287. German silver is an alloy of",
+      "options": [
+        "zinc, lead and nickel",
+        "silver, gold and lead",
+        "copper, nickel and zinc",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Despite its name, German silver contains no actual silver; it is composed of copper, nickel, and zinc, resembling silver in appearance."
+    },
+    {
+      "q": "288. Monel metal is an alloy of",
+      "options": [
+        "nickel and copper",
+        "copper and zinc",
+        "zinc and tin",
+        "tin and lead"
+      ],
+      "correct": 0,
+      "explain": "Monel is a group of nickel alloys, primarily composed of nickel (up to 67%) and copper, with small amounts of iron, manganese, carbon, and silicon."
+    },
+    {
+      "q": "289. Stainless steel resists corrosion due to",
+      "options": [
+        "carbon",
+        "chromium",
+        "sulphur",
+        "vanadium"
+      ],
+      "correct": 1,
+      "explain": "Chromium reacts with oxygen to form a thin, invisible, and self-healing layer of chromium oxide, which protects the steel from rusting."
+    },
+    {
+      "q": "290. For the manufacture of stainless steel, steel is mixed width",
+      "options": [
+        "chromium",
+        "nickel",
+        "tungsten",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Chromium is the essential alloying element (at least 10.5%) that transforms steel into stainless steel."
+    },
+    {
+      "q": "291. Galvanizing means",
+      "options": [
+        "depositing a fine film of zinc on iron/steel by dipping it in molten zinc",
+        "coating with tin",
+        "painting with lead",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Galvanization is the process of applying a protective zinc coating to steel or iron to prevent rusting."
+    },
+    {
+      "q": "292. A combination of metals with other substances is called",
+      "options": [
+        "alloy",
+        "pig iron",
+        "wrought iron",
+        "cast iron"
+      ],
+      "correct": 0,
+      "explain": "An alloy is a metallic substance composed of two or more elements, as either a compound or a solution."
+    },
+    {
+      "q": "293. The main purpose of manufacture of alloys steel is to attain a certain properties like",
+      "options": [
+        "strength",
+        "hardness",
+        "toughness",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Alloying elements are added to steel to improve various characteristics, including mechanical strength, hardness, and impact resistance (toughness)."
+    },
+    {
+      "q": "417. Aluminium is extensively used in aeroplane industries because",
+      "options": [
+        "its tensile strength is very low",
+        "it is non magnetic material",
+        "it is very tough and light metal",
+        "None of the above"
+      ],
+      "correct": 2,
+      "explain": "Aluminum's high strength-to-weight ratio (tough but lightweight) makes it the primary material for aircraft construction."
+    },
+    {
+      "q": "429. The crudest form of iron is",
+      "options": [
+        "cast iron",
+        "pig iron",
+        "steel",
+        "wrought iron"
+      ],
+      "correct": 1,
+      "explain": "Cast iron (or Pig iron directly from the furnace) is the crudest form, containing high carbon content and impurities."
+    },
+    {
+      "q": "430. The process at which steel is passed through a small hole to make cylindrical rods and wires is",
+      "options": [
+        "drawing",
+        "rolling",
+        "extrusion",
+        "forging"
+      ],
+      "correct": 2,
+      "explain": "as per key c but Drawing is the manufacturing process used to reduce the cross-section of a wire or rod by pulling it through a die."
+    },
+    {
+      "q": "435. Addition of chromium to steel makes it",
+      "options": [
+        "soft",
+        "more elastic",
+        "more abrasive",
+        "rubble"
+      ],
+      "correct": 2,
+      "explain": "Chromium increases the corrosion resistance and can enhance the elasticity and hardness of steel."
+    },
+    {
+      "q": "436. Major component of a gun metal is",
+      "options": [
+        "zinc",
+        "copper",
+        "tin",
+        "lead"
+      ],
+      "correct": 1,
+      "explain": "Gunmetal is a type of bronze primarily composed of Copper (88%), with Tin and Zinc."
+    },
+    {
+      "q": "438. In mild steel, carbon content is",
+      "options": [
+        "less than 0.25%",
+        "between 0.25 and 0.75%",
+        "between 0.75 and 1.5%",
+        "more than 1.5%"
+      ],
+      "correct": 0,
+      "explain": "Mild steel is low carbon steel, containing approximately 0.05% to 0.25% carbon."
+    },
+    {
+      "q": "440. Bulb angles are used in",
+      "options": [
+        "column building",
+        "bridge building",
+        "ship building",
+        "water tank building"
+      ],
+      "correct": 2,
+      "explain": "Bulb angles provide high stiffening capacity and are predominantly used in the framing of ships."
+    },
+    {
+      "q": "443. Wrought iron contains carbon upto",
+      "options": [
+        "0.25%",
+        "1%",
+        "1.5%",
+        "29%"
+      ],
+      "correct": 0,
+      "explain": "Wrought iron is the purest form of commercial iron, with carbon content usually less than 0.15%."
+    },
+    {
+      "q": "445. Expanded metal is obtained from",
+      "options": [
+        "iron",
+        "magnesium",
+        "galvanized sheet",
+        "zinc plates"
+      ],
+      "correct": 2,
+      "explain": "Expanded metal is produced by slitting and stretching a metal sheet, often galvanized steel, to form a diamond-shaped mesh."
+    },
+    {
+      "q": "447. Depending on the chemical composition and mechanical properties, iron may be classified as",
+      "options": [
+        "cast iron",
+        "wrought iron",
+        "steel",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Iron is classified into these three main categories based on the percentage of carbon present."
+    }
+  ]
+}

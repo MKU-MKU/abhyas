@@ -1,0 +1,140 @@
+{
+  "code": "11.5",
+  "subtopic": "BREAKEVEN&SENSITIVITY",
+  "topic": "Break-even analysis, sensitivity and risk analysis",
+  "source": "econ_1-75.json, econ_76-127.json",
+  "questions": [
+    {
+      "q": "4. The point or situation when the production of material is just sufficient to consumption then it is called",
+      "options": [
+        "equivalent point",
+        "break even point",
+        "satisfaction point",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "The Break-Even Point is the production level where total revenue equals total cost, resulting in zero profit or loss."
+    },
+    {
+      "q": "5. Which one is correct with respect to break even point?",
+      "options": [
+        "income should be equal to expenses",
+        "import should be equal to export",
+        "supply should be equal to demand",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "At equilibrium (Break-Even), all inflows match outflows and supply meets demand."
+    },
+    {
+      "q": "6. If production is less than break even point, the product will be",
+      "options": [
+        "lesser than consumption",
+        "equal to consumption",
+        "greater than consumption",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Operating below the break-even point implies that the output is not yet meeting the required consumption or cost recovery levels."
+    },
+    {
+      "q": "35. The change in any parameters of project due to change in any factor is called",
+      "options": [
+        "sensitivity",
+        "resistivity",
+        "variation",
+        "costivity"
+      ],
+      "correct": 0,
+      "explain": "Sensitivity analysis tests how project outcomes change based on variations in input assumptions."
+    },
+    {
+      "q": "80. In economical equilibrium analysis",
+      "options": [
+        "revenue equal to cost",
+        "revenue greater than cost",
+        "revenue less than cost",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Economic equilibrium or the break-even state occurs precisely where total revenue matches total cost."
+    },
+    {
+      "q": "81. Break even analysis is the limited form of",
+      "options": [
+        "sensitivity analysis",
+        "cost analysis",
+        "benefit analysis",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Break-even analysis focuses specifically on the relationship between cost structures (fixed/variable) and volume to find the zero-profit point."
+    },
+    {
+      "q": "85. A technique that measures the change in the profitability of a project caused by changes in the factors that affect the cash inflows of the project is called:",
+      "options": [
+        "capital analysis",
+        "cost benefit analysis",
+        "sensitivity analysis",
+        "risk analysis"
+      ],
+      "correct": 2,
+      "explain": "Sensitivity analysis determines how different values of an independent variable impact a particular dependent variable under a given set of assumptions."
+    },
+    {
+      "q": "93. Costs that are not borne by the parties to the economic............are called 'externalities'.",
+      "options": [
+        "gain",
+        "transaction",
+        "transfer",
+        "loss"
+      ],
+      "correct": 1,
+      "explain": "An externality is a cost or benefit that results from an economic transaction and affects a third party who did not choose to incur that cost or benefit."
+    },
+    {
+      "q": "97. Sensitivity analysis is",
+      "options": [
+        "the ration of benefits to costs using either preen worth or annual cash flow calculation",
+        "condition under which the alternatives are equivalent",
+        "examination of range of values for some parameters to determine their effect on a particular decision",
+        "to change one to many estimate to see what the results is"
+      ],
+      "correct": 1,
+      "explain": "This analysis involves varying key inputs to see how sensitive the final decision is to changes in those variables."
+    },
+    {
+      "q": "98. Mostly used risk analysis technique in engineering economics is",
+      "options": [
+        "sensitivity analysis",
+        "breakeven analysis",
+        "scenario analysis",
+        "monte-carlo simulation"
+      ],
+      "correct": 3,
+      "explain": "Sensitivity analysis is the most common starting point for assessing risk in engineering projects."
+    },
+    {
+      "q": "99. The main objectives of sensitivity analysis of a project is to examine the ..........",
+      "options": [
+        "productivity",
+        "profitability",
+        "uncertainly",
+        "sustainability"
+      ],
+      "correct": 2,
+      "explain": "Sensitivity analysis helps quantify the impact of uncertainty in project parameters."
+    },
+    {
+      "q": "120. For a financial institution the most important study of a project to be taken for risks management is :",
+      "options": [
+        "appraisal",
+        "environmental and social",
+        "technical",
+        "financial and economical"
+      ],
+      "correct": 0,
+      "explain": "Project appraisal is the comprehensive process of evaluating the viability of a project before lending funds."
+    }
+  ]
+}

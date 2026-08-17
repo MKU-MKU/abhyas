@@ -1,0 +1,239 @@
+{
+  "code": "6.7",
+  "subtopic": "PRESTRESSED CONC",
+  "topic": "Prestressed concrete: pre-tensioning, post-tensioning, tendons, losses",
+  "source": "601-80.json, 681-760.json, 761-842.json, Concrete_1-50.json, Concrete_101-150.json, Concrete_151-200.json, Concrete_50-100.json, conc_201-250.json, conc_250-300.json, conc_301-350.json, conc_350-405.json",
+  "questions": [
+    {
+      "q": "345. Prestress is imparted to concrete by bearing in",
+      "options": [
+        "pre tensioning",
+        "post tensioning",
+        "both (a) and (b) of above",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "In post-tensioning, the prestressing force is transferred to the concrete through end anchorages bearing against the concrete member, unlike pre-tensioning where it is transferred by bond."
+    },
+    {
+      "q": "346. The minimum grade of concrete for pre-tensioned member is",
+      "options": [
+        "M15",
+        "M20",
+        "M25",
+        "M40"
+      ],
+      "correct": 3,
+      "explain": "Pre-tensioned members require high early strength to allow release of the tendons, so a minimum grade of M40 concrete is specified."
+    },
+    {
+      "q": "347. The mix proportion of cement mortar to be used in the joints in precast prestressed member is",
+      "options": [
+        "1:1",
+        "1:1.5",
+        "1:2",
+        "1:2.5"
+      ],
+      "correct": 1,
+      "explain": "A relatively rich mortar mix of 1:1.5 (cement:sand) is recommended for filling joints between precast prestressed concrete units to ensure adequate strength and durability."
+    },
+    {
+      "q": "348. The diameter of high tensile steel tendons used is",
+      "options": [
+        "3 mm to 5 mm",
+        "5 mm to 8 mm",
+        "6 mm to 9 mm",
+        "8 mm to 12 mm"
+      ],
+      "correct": 1,
+      "explain": "High tensile steel wires used as tendons in prestressed concrete typically range from about 5 mm to 8 mm in diameter."
+    },
+    {
+      "q": "349. The minimum clear spacing for single wires used in pre-tension system is",
+      "options": [
+        "2 times the diameter of the wire and max. size of aggregate whichever is greater",
+        "3 times the diameter of the wire and max. size of aggregate whichever is greater",
+        "2 times the diameter of the wire and 1.5 times max. size of aggregate whichever is greater",
+        "3 times the diameter of the wire and 1.5 times max. size of aggregate whichever is greater"
+      ],
+      "correct": 3,
+      "explain": "IS code requires the minimum clear spacing between single pre-tensioned wires to be the greater of 3 times the wire diameter or 1.5 times the maximum aggregate size, to ensure proper compaction and bond."
+    },
+    {
+      "q": "350. The minimum clear spacing of non-grouped cables or large bars shall be",
+      "options": [
+        "40 mm",
+        "maximum size of cable or bar",
+        "5 mm plus maximum size of aggregate",
+        "greater of (a), (b) and (c) of above"
+      ],
+      "correct": 3,
+      "explain": "The code specifies the minimum clear spacing for non-grouped cables/large bars as whichever is greatest among 40 mm, the cable/bar size, or 5 mm plus the maximum aggregate size."
+    },
+    {
+      "q": "351. The minimum clear horizontal spacing between groups of cables or ducts of grouped cables shall be greater of",
+      "options": [
+        "30 mm or 5 mm more than maximum size of aggregate",
+        "40 mm or 5 mm more than maximum size of aggregate",
+        "30 mm or maximum size of aggregate",
+        "40 mm or maximum size of aggregate"
+      ],
+      "correct": 1,
+      "explain": "The code requires the minimum clear horizontal spacing between groups/ducts of grouped cables to be the greater of 40 mm or 5 mm more than the maximum aggregate size, to permit proper concrete placement."
+    },
+    {
+      "q": "352. The minimum clear vertical spacing between groups of cables or ducts of grouped cables shall be",
+      "options": [
+        "30 mm",
+        "40 mm",
+        "50 mm",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "For grouped cables/ducts, the code specifies a minimum clear vertical spacing of 50 mm between groups to ensure adequate concrete cover and compaction."
+    },
+    {
+      "q": "353. The grouting of ducts in post-tensioned prestressed concrete causes",
+      "options": [
+        "reduction in deflections",
+        "reduction in crack width",
+        "reduction in corrosion",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Grouting bonds the tendon to the surrounding concrete, which improves load transfer (reducing deflection and crack width) while also protecting the tendon from corrosion — all benefits occur together."
+    },
+    {
+      "q": "354. A parabolic tendon in prestressed beam causes an equivalent balancing",
+      "options": [
+        "concentrated shear force",
+        "constant moment",
+        "distributed force",
+        "uniformly distributed force"
+      ],
+      "correct": 3,
+      "explain": "A parabolic tendon profile produces a uniformly varying upward transverse force along its length, which acts as an equivalent distributed load balancing the external gravity loads on the beam."
+    },
+    {
+      "q": "357. In case of prestressed concrete, prestressing force is",
+      "options": [
+        "tensile force",
+        "compressive force",
+        "shear force",
+        "momentum force"
+      ],
+      "correct": 1,
+      "explain": "Prestressing induces a compressive force in the concrete section (via tensioned tendons) so that tensile stresses from external loads are counteracted."
+    },
+    {
+      "q": "358. In case of prestressed concrete",
+      "options": [
+        "load carrying capacity of member increases",
+        "quantity of concrete is saved for same grade",
+        "quantity of steel is saved for same grade",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Prestressing utilizes the full section more efficiently, so it increases load-carrying capacity while also economizing on both concrete and steel quantities compared to ordinary RCC — all these benefits occur."
+    },
+    {
+      "q": "378. The purpose of reinforcement in prestressed concrete is :",
+      "options": [
+        "to impact initial compressive stress in concrete",
+        "to provide adequate bond stress",
+        "to resist tensile stress",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "The prestressing steel is tensioned specifically to impart an initial compressive stress into the concrete section before service loads are applied, which is the primary purpose in prestressed members."
+    },
+    {
+      "q": "388. For the same design load, the weight of concrete in a prestressed concrete as compared to ordinary reinforced concrete is less by :",
+      "options": [
+        "25 %",
+        "33 %",
+        "50 %",
+        "66%"
+      ],
+      "correct": 2,
+      "explain": "Because prestressed members use the full section more efficiently by pre-compressing the concrete, they require considerably less concrete — typically about 50% less — than an equivalent ordinary RCC member for the same load."
+    },
+    {
+      "q": "5. Ferro-concrete is another name given to (Ferror = iron)",
+      "options": [
+        "Plain cement concrete",
+        "reinforced cement concrete",
+        "prestressed cement concrete",
+        "none of these"
+      ],
+      "correct": 1,
+      "explain": "Ferro-concrete literally means iron-concrete, referring to concrete reinforced with steel (iron) bars, i.e., reinforced cement concrete."
+    },
+    {
+      "q": "7. The cement concrete in which high compressive stressed are artificially induced before its actual use, is called",
+      "options": [
+        "plain cement concrete",
+        "reinforced cement concrete",
+        "prestressed cement concrete",
+        "lime concrete"
+      ],
+      "correct": 2,
+      "explain": "Prestressed concrete has internal compressive stresses artificially induced (via tensioned tendons) before loading, so that tensile stresses from service loads are offset."
+    },
+    {
+      "q": "8. The cement concrete, from which entrained air and excess water are removed after placing it in position, is called",
+      "options": [
+        "vacuum concrete",
+        "light weight concrete",
+        "prestressed concrete",
+        "sawdust concrete"
+      ],
+      "correct": 0,
+      "explain": "In vacuum concrete, a vacuum process is applied after placing to remove excess water and entrapped air, increasing density and early strength."
+    },
+    {
+      "q": "184. Cube strength of controlled concrete to be used for pretensioned and post-tensioned work respectively should not be less than",
+      "options": [
+        "250 kg/cm2 and 420 kg/cm2",
+        "420 kg/cm2 and 350 kg/cm2",
+        "420 kg/cm2 and 530 kg/cm2",
+        "230 kg/cm2 and 420 kg/cm2"
+      ],
+      "correct": 1,
+      "explain": "For prestressed concrete work, the required minimum cube strengths differ for pretensioned (420 kg/cm²) and post-tensioned (350 kg/cm²) systems due to their different stress transfer mechanisms."
+    },
+    {
+      "q": "224. The minimum grade of concrete prescribed for prestressed construction is",
+      "options": [
+        "M40 for post-tensioned systems",
+        "M 30 for pre-tensioned systems",
+        "M40 for pre-tensioned system",
+        "M55 for post-tensioned systems"
+      ],
+      "correct": 2,
+      "explain": "Prestressed concrete construction requires higher strength concrete to handle prestressing forces, with a minimum grade of M40 prescribed for pre-tensioned systems."
+    },
+    {
+      "q": "228. The cement concrete in which high compressive stressed are artificially induced before its actual use is called",
+      "options": [
+        "plain cement concrete",
+        "reinforced cement concrete",
+        "prestressed cement concrete",
+        "lime concrete"
+      ],
+      "correct": 2,
+      "explain": "Prestressed concrete has compressive stresses artificially induced through tensioned tendons before the structure is put into service, to counteract future tensile stresses."
+    },
+    {
+      "q": "238. The major loss of prestressed concrete is caused due to",
+      "options": [
+        "creep of concrete",
+        "Relaxation of steel",
+        "Shrinkage of concrete",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Prestress losses in prestressed concrete occur due to a combination of factors: creep of concrete, relaxation of steel tendons, and shrinkage of concrete, all contributing together."
+    }
+  ]
+}

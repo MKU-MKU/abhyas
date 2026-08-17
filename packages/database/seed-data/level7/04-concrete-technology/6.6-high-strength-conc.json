@@ -1,0 +1,283 @@
+{
+  "code": "6.6",
+  "subtopic": "HIGH STRENGTH CONC",
+  "topic": "High strength and other special/high-performance concretes",
+  "source": "601-80.json, 681-760.json, 761-842.json, Concrete_1-50.json, Concrete_101-150.json, Concrete_151-200.json, Concrete_50-100.json, conc_201-250.json, conc_250-300.json, conc_301-350.json, conc_350-405.json",
+  "questions": [
+    {
+      "q": "75. The light weight aggregates may be obtained from",
+      "options": [
+        "sedimentary rocks",
+        "metamorphic rocks",
+        "igneous rocks",
+        "volcanic source"
+      ],
+      "correct": 3,
+      "explain": "Lightweight aggregates such as pumice and scoria are derived from volcanic sources, which contain porous, low-density material."
+    },
+    {
+      "q": "76. To obtain a very high strength concrete, use very fine grained",
+      "options": [
+        "granite",
+        "magnetite",
+        "barite",
+        "volcanic scoria"
+      ],
+      "correct": 0,
+      "explain": "Very fine grained granite, being a dense and strong igneous rock, is used as aggregate to achieve very high strength concrete."
+    },
+    {
+      "q": "200. The 28 days cube strength of mass concrete using aggregates of maximum size 5 cm for gravity dams should be",
+      "options": [
+        "between 150 to 300 kg/cm2",
+        "between 350 to 600kg/cm2",
+        "between 150 to 500 kg/cm2",
+        "below 200 kg/cm2"
+      ],
+      "correct": 3,
+      "explain": "For mass concrete in gravity dams using large aggregate (5 cm max size), the required 28-day cube strength is relatively modest, typically specified as below 200 kg/cm², since strength requirements are lower than structural concrete."
+    },
+    {
+      "q": "229. Saw dust can be rendered chemically inert by boiling it in water containing",
+      "options": [
+        "ferrous sulphate",
+        "potassium chloride",
+        "ammonia",
+        "nitric acid"
+      ],
+      "correct": 0,
+      "explain": "Boiling saw dust in a solution containing ferrous sulphate neutralizes its harmful sugars/tannins, rendering it chemically inert so it can be safely used in concrete or lightweight products."
+    },
+    {
+      "q": "341. The minimum grade of high strength concrete is",
+      "options": [
+        "M25",
+        "M40",
+        "M50",
+        "M60"
+      ],
+      "correct": 3,
+      "explain": "High strength concrete is classified as concrete with a characteristic strength of M60 grade and above."
+    },
+    {
+      "q": "342. The type of aggregates not suitable for high strength concrete and for pavements subjected to tension, is",
+      "options": [
+        "rounded aggregate",
+        "irregular aggregate",
+        "angular aggregate",
+        "flaky aggregate"
+      ],
+      "correct": 0,
+      "explain": "Rounded aggregates give poor interlocking and lower bond strength with cement paste, making them unsuitable where high strength and good tensile/flexural performance (as in pavements) are needed."
+    },
+    {
+      "q": "343. The aggregate used for high strength concrete is",
+      "options": [
+        "round aggregate",
+        "irregular aggregate",
+        "angular aggregate",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Angular aggregate provides strong mechanical interlocking and better bond with the cement paste, which is essential for achieving high strength concrete."
+    },
+    {
+      "q": "344. To obtain a very high strength concrete, use very fine grained",
+      "options": [
+        "granite",
+        "magnetite",
+        "barite",
+        "pumice"
+      ],
+      "correct": 0,
+      "explain": "Very fine grained granite aggregate/powder is used to densify the microstructure and achieve very high compressive strength in specialty concrete mixes."
+    },
+    {
+      "q": "359. Light weight concrete is prepared by",
+      "options": [
+        "using light aggregate",
+        "formation of air void in concrete by omitting sand",
+        "formation of air voids in cement paste by the substances causing foam",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Light weight concrete can be produced using lightweight aggregates, by omitting fine aggregate (no-fines concrete), or by introducing air voids through foaming agents — all these are recognized methods."
+    },
+    {
+      "q": "360. Light weight concrete is used in",
+      "options": [
+        "heat resistance",
+        "air conditioning of buildings",
+        "non load bearing wall",
+        "reducing thickness"
+      ],
+      "correct": 2,
+      "explain": "Because of its lower strength and density, light weight concrete finds its principal application in non-load-bearing wall construction such as partition walls."
+    },
+    {
+      "q": "361. To obtain a light weight concrete the types of aggregate used is",
+      "options": [
+        "granite",
+        "magnetite",
+        "barite",
+        "pumice"
+      ],
+      "correct": 3,
+      "explain": "Pumice is a naturally occurring porous, low-density volcanic aggregate commonly used to produce light weight concrete."
+    },
+    {
+      "q": "362. A concrete in which dry coarse aggregate are first packed to have the least voids and then the cement sand mortar is injected under pressure to fill all the voids, resulting in a very dense concrete, is known as",
+      "options": [
+        "pre-packed concrete",
+        "vacuum concrete",
+        "no fines concrete",
+        "aerated concrete"
+      ],
+      "correct": 0,
+      "explain": "This describes pre-packed concrete, where coarse aggregate is placed first and mortar is then grouted under pressure into the voids to produce a dense mass."
+    },
+    {
+      "q": "363. The ferrocement is a composite material obtained by",
+      "options": [
+        "random disposal of short, discontinuous fibres in the conventional concrete",
+        "reinforcing the cement mortar with steel fibres in the form of wire mesh",
+        "blending ferrous compounds in the ordinary Portland cement",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Ferrocement is defined as cement mortar reinforced with closely spaced layers of continuous, relatively thin steel wire mesh, distinguishing it from randomly dispersed fibre-reinforced concrete."
+    },
+    {
+      "q": "364. The cement sand ratio in the ferrocement matrix should not be leaner than",
+      "options": [
+        "1:1.5",
+        "1:2",
+        "1:2.5",
+        "1:3"
+      ],
+      "correct": 2,
+      "explain": "To achieve adequate strength and to properly encase the closely spaced wire mesh, the ferrocement matrix cement-sand ratio should not be leaner than 1:2.5."
+    },
+    {
+      "q": "365. The volume of reinforcement in ferrocement (percent) normally varies between",
+      "options": [
+        "1-2",
+        "2-5",
+        "5-8",
+        "8-10"
+      ],
+      "correct": 2,
+      "explain": "In typical ferrocement construction, the volume fraction of the wire mesh reinforcement generally lies in the range of 5% to 8% of the total volume."
+    },
+    {
+      "q": "366. The water cement ratio for ferrocement mix should be",
+      "options": [
+        "less than 0.35",
+        "between 0.35 to 0.40",
+        "between 0.40 to 0.45",
+        "between 0.45 to 0.60"
+      ],
+      "correct": 1,
+      "explain": "A relatively low water-cement ratio of 0.35 to 0.40 is recommended for ferrocement mixes so that the rich mortar can properly penetrate the closely spaced mesh while maintaining strength."
+    },
+    {
+      "q": "370. To get ultra high strength concrete :",
+      "options": [
+        "compaction by pressure and helical binding",
+        "polymerization in concrete",
+        "reactive powder concrete",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Ultra high strength concretes are produced using several specialized techniques — pressure compaction with helical confinement, polymer impregnation, and reactive powder concrete technology — so all listed methods apply."
+    },
+    {
+      "q": "396. To obtain a very high strength concrete, use very fine grained :",
+      "options": [
+        "volcanic scoria",
+        "granite",
+        "magnetite",
+        "barite"
+      ],
+      "correct": 1,
+      "explain": "Very fine grained granite is used as a dense filler/aggregate material to help achieve very high strength concrete by densifying the microstructure."
+    },
+    {
+      "q": "9. The sound absorption coefficient of light weight concrete is nearly ......than that of ordinary concrete.",
+      "options": [
+        "twice",
+        "three times",
+        "four times",
+        "six times"
+      ],
+      "correct": 0,
+      "explain": "The porous structure of light weight concrete gives it roughly twice the sound absorption coefficient compared to dense ordinary concrete."
+    },
+    {
+      "q": "10. In making precast structural units for partition and wall lining purposes, the concrete should be",
+      "options": [
+        "sawdust concrete",
+        "air-entrained concrete",
+        "light -weight concrete",
+        "vacuum concrete"
+      ],
+      "correct": 2,
+      "explain": "Light-weight concrete is preferred for precast partition and lining units because it reduces dead load while still providing adequate strength and insulation."
+    },
+    {
+      "q": "132. The 28 days cube strength of mass concrete using aggregates of maximum size 5 cm for gravity dams should be",
+      "options": [
+        "between 150 to 300 kg/cm2",
+        "between 350 to 600 kg/cm2",
+        "between 150 to 500 kg/cm2",
+        "below 200 kg/cm2"
+      ],
+      "correct": 2,
+      "explain": "Mass concrete for gravity dams using 5cm maximum size aggregate is typically specified to achieve a 28-day cube strength ranging between 150 to 500 kg/cm²."
+    },
+    {
+      "q": "153. The types of aggregates not suitable for high strength concrete and for pavements subjected to tension, is",
+      "options": [
+        "rounded aggregate",
+        "irregular aggregate",
+        "angular aggregate",
+        "flaky aggregate"
+      ],
+      "correct": 0,
+      "explain": "Rounded aggregates provide weaker interlocking and bond with cement paste, making them unsuitable for high strength concrete and pavements that experience tensile stresses."
+    },
+    {
+      "q": "160. The light weight aggregates are obtained from",
+      "options": [
+        "sedimentary rocks",
+        "metamorphic rocks",
+        "igneous rocks",
+        "volcanic source."
+      ],
+      "correct": 3,
+      "explain": "Light weight aggregates such as pumice and volcanic scoria are naturally obtained from volcanic sources due to their porous, low-density structure."
+    },
+    {
+      "q": "207. Light weight concrete is used for",
+      "options": [
+        "water tanks",
+        "heat resistance",
+        "air conditioned buildings",
+        "non-load bearing walls"
+      ],
+      "correct": 3,
+      "explain": "Due to its lower density and reduced structural strength, light weight concrete is mainly suitable for non-load bearing walls and partitions."
+    },
+    {
+      "q": "222. Light-weight concrete is prepared by",
+      "options": [
+        "Mixing portland cement with sawdust",
+        "using cock breeze, cinder or slag",
+        "mixing aluminum",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explain": "Light-weight concrete is commonly prepared using lightweight aggregates such as coke breeze, cinder, or slag, which reduce the overall density of the concrete."
+    }
+  ]
+}

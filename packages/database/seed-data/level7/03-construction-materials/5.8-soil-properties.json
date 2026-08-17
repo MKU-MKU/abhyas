@@ -1,0 +1,18 @@
+{
+  "code": "5.8",
+  "subtopic": "SOIL PROPERTIES",
+  "topic": "Soil properties and its parameters",
+  "questions": [
+    {
+      "q": "427. The best method of compaction of sand is by using a",
+      "options": [
+        "sheep-foot roller",
+        "vibrator",
+        "pneumatic-tyred rollers",
+        "power rollers"
+      ],
+      "correct": 1,
+      "explain": "Sand, being a cohesionless material, is most effectively compacted through vibration which rearranges the particles into a dense state."
+    }
+  ]
+}

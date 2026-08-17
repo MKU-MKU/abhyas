@@ -1,0 +1,227 @@
+{
+  "code": "10.5",
+  "subtopic": "DRAFTING CONVENTIONS",
+  "topic": "Drafting conventions and symbols",
+  "questions": [
+    {
+      "q": "56. While drawing straight lines, the general direction of the movement of pencil or pen is from",
+      "options": [
+        "right to left",
+        "left to right",
+        "top to bottom",
+        "bottom to top"
+      ],
+      "correct": 1,
+      "explain": "For a right-handed person, drawing left to right prevents the hand from smudging the freshly drawn line."
+    },
+    {
+      "q": "57. Bisecting a line means to divide it into",
+      "options": [
+        "three equal parts",
+        "two equal parts",
+        "two parts",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "To 'bisect' geometrically means to cut something precisely into two equal halves."
+    },
+    {
+      "q": "58. The angle between two perpendicular lines is",
+      "options": [
+        "45 degree",
+        "60 degree",
+        "90 degree",
+        "180 degree"
+      ],
+      "correct": 2,
+      "explain": "By definition, perpendicular lines meet at an exact right angle of 90 degrees."
+    },
+    {
+      "q": "59. The angle between two horizontal lines is",
+      "options": [
+        "0 degree",
+        "45 degree",
+        "90 degree",
+        "180 degree"
+      ],
+      "correct": 0,
+      "explain": "Two horizontal lines are parallel to each other, and therefore the angle between them is 0 degrees."
+    },
+    {
+      "q": "60. Dashed line in drawing generally indicate",
+      "options": [
+        "visible edge",
+        "hidden edge",
+        "cutting plane",
+        "centre line"
+      ],
+      "correct": 1,
+      "explain": "Dashed (hidden) lines are the standard convention used to represent edges or surfaces that are not visible from the current viewing angle."
+    },
+    {
+      "q": "61. Continuous thick lines generally represent",
+      "options": [
+        "hidden edges",
+        "visible outlines and edges",
+        "centre lines",
+        "dimension lines"
+      ],
+      "correct": 1,
+      "explain": "Solid, continuous, thick lines are used to define the visible outline and edges of an object."
+    },
+    {
+      "q": "62. Unseen edge of a shape in orthographic view is shown by",
+      "options": [
+        "continuous thin line",
+        "dashed line",
+        "chain line",
+        "dotted line"
+      ],
+      "correct": 1,
+      "explain": "Standard drafting convention uses dashed lines to indicate edges that are hidden behind other surfaces of the object."
+    },
+    {
+      "q": "63. The space between two words while lettering should be approximately equal to the",
+      "options": [
+        "width of one letter",
+        "height of one letter",
+        "half the width of a letter",
+        "two letter widths"
+      ],
+      "correct": 0,
+      "explain": "To maintain readability and proportion, the gap between words is generally set to the width of a single average letter."
+    },
+    {
+      "q": "64. In ......... dimensioning method, all dimensions are placed so that they may be read from the bottom of the drawing sheet.",
+      "options": [
+        "unidirectional",
+        "aligned",
+        "both (a) and (b) of above",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Unidirectional dimensioning is a system where all text, regardless of the dimension line's orientation, is oriented horizontally to be read from the bottom of the sheet."
+    },
+    {
+      "q": "65. In ........... dimensioning method, dimensions are placed perpendicular to the dimension line",
+      "options": [
+        "unidirectional",
+        "aligned",
+        "both (a) and (b) of above",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "In the aligned method, the dimension text is oriented in line with the dimension line so it reads correctly from the bottom or the right side of the sheet."
+    },
+    {
+      "q": "66. The main purpose of lettering in a drawing is to give",
+      "options": [
+        "information regarding drawing size",
+        "specification",
+        "information which cannot be conveyed by lines",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Lettering provides notes, dimensions, and specifications that cannot be visually represented purely by the object's geometric lines."
+    },
+    {
+      "q": "85. The lines used to draw a machine drawing according to their thickness are called",
+      "options": [
+        "continuous lines",
+        "mechanical lines",
+        "conventional lines",
+        "technical lines"
+      ],
+      "correct": 2,
+      "explain": "Standard drawing lines (thick, thin, dashed, etc.) with specific meanings assigned to them are collectively known as conventional lines."
+    },
+    {
+      "q": "86. Leader line is used to give",
+      "options": [
+        "dimension",
+        "specific notes/remarks to a feature",
+        "boundary",
+        "outline"
+      ],
+      "correct": 1,
+      "explain": "A leader line is a thin line ending in an arrowhead used to connect a note or dimension text directly to the specific feature it describes."
+    },
+    {
+      "q": "87. Section lines/Hatching lines are generally drawn at",
+      "options": [
+        "30 degree",
+        "45 degree",
+        "60 degree",
+        "90 degree"
+      ],
+      "correct": 1,
+      "explain": "The standard convention for hatching (cross-hatching) to indicate a cut/sectioned material is a 45-degree angle to the main outlines."
+    },
+    {
+      "q": "88. Horizontal lines are generally drawn from",
+      "options": [
+        "left to right",
+        "right to left",
+        "top to bottom",
+        "bottom to top"
+      ],
+      "correct": 0,
+      "explain": "Following the standard drafting convention, horizontal lines are drawn from left to right using a T-square or parallel bar."
+    },
+    {
+      "q": "89. Vertical lines are generally drawn from",
+      "options": [
+        "top to bottom",
+        "bottom to top",
+        "left to right",
+        "right to left"
+      ],
+      "correct": 1,
+      "explain": "Vertical lines are typically drawn from the bottom of the sheet upwards toward the top using a set square resting on the T-square."
+    },
+    {
+      "q": "105. The slant of the letters written in slant style makes an angle of ....... with the horizontal.",
+      "options": [
+        "45 degree",
+        "60 degree",
+        "75 degree",
+        "90 degree"
+      ],
+      "correct": 2,
+      "explain": "Slanted (italic) lettering in technical drawing conventionally uses a 75-degree angle from the horizontal for legibility and standardization."
+    },
+    {
+      "q": "106. The ratio of height to width of the letters and numerals should normally be kept as",
+      "options": [
+        "6:5",
+        "5:3",
+        "3:5",
+        "5:6"
+      ],
+      "correct": 1,
+      "explain": "Standard lettering proportions maintain a height-to-width ratio of 5:3 for optimal readability."
+    },
+    {
+      "q": "154. A ...... is a thin line used to indicate a feature to which a number, note or dimension applies.",
+      "options": [
+        "extension line",
+        "dimension line",
+        "leader line",
+        "construction line"
+      ],
+      "correct": 2,
+      "explain": "By definition, a leader line points from an annotation to the specific part of the drawing it refers to."
+    },
+    {
+      "q": "171. Dimension line and projection line (extension line) are drawn as",
+      "options": [
+        "thick continuous lines",
+        "thin continuous lines",
+        "thick dashed lines",
+        "thin dashed lines"
+      ],
+      "correct": 1,
+      "explain": "To distinguish them from the object's visible outline (thick lines), dimension and extension lines are drawn as thin continuous lines."
+    }
+  ]
+}

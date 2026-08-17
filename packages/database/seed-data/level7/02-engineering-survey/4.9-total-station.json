@@ -1,0 +1,63 @@
+{
+  "code": "4.9",
+  "subtopic": "TOTAL STATION",
+  "topic": "Uses of total station and electronic distance measuring instruments",
+  "source": "survey 350-455 updated.json (merged from old LEVEL 7 archive)",
+  "questions": [
+    {
+      "q": "438. The range of accuracy in measuring distance by EDM with respect to ODM is:",
+      "options": [
+        "more",
+        "equal",
+        "less",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Electronic Distance Measurement (EDM) uses light or radio waves to reach accuracies of 1/100,000 or better, which is significantly more accurate than Optical Distance Measurement (ODM/Tacheometry)."
+    },
+    {
+      "q": "439. Distomats is a type of:",
+      "options": [
+        "direct distance measuring instrument",
+        "optical distance measuring instrument",
+        "electro magnetic distance measuring instrument",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "A Distomat (brand name by Leica/Wild) is a highly precise Electronic (Electro-magnetic) Distance Measurement instrument that uses infrared or laser light."
+    },
+    {
+      "q": "440. Tellurometer uses:",
+      "options": [
+        "light waves",
+        "radio waves",
+        "infra waves",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "The Tellurometer is an EDM instrument specifically designed to use radio waves (microwaves), which allows it to work over long distances even in foggy weather."
+    },
+    {
+      "q": "441. Total station is:",
+      "options": [
+        "total no. of stations in traverse",
+        "even/odd no. of stations in traverse",
+        "optical distance measurement instrument",
+        "electro magnetic distance measurement instrument"
+      ],
+      "correct": 3,
+      "explain": "A Total Station is an integrated electronic instrument that combines a digital theodolite with an EDM (Electro-magnetic Distance Measurement) and a microprocessor."
+    },
+    {
+      "q": "442. Total station measures:",
+      "options": [
+        "horizontal & slope distance",
+        "slope & difference in level",
+        "difference in level & coordinates",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Because it measures slope distance and angles simultaneously, it uses internal software to calculate all of the above, including 3D coordinates (X, Y, Z)."
+    }
+  ]
+}

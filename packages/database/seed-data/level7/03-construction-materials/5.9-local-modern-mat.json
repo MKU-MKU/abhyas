@@ -1,0 +1,106 @@
+{
+  "code": "5.9",
+  "subtopic": "LOCAL&MODERN MAT",
+  "topic": "Local and modern building construction material in Nepal",
+  "questions": [
+    {
+      "q": "61. Marble is found in",
+      "options": [
+        "mechi zone",
+        "bagmati zone",
+        "koshi zone",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "In the context of Nepal's geography, significant marble deposits (like Godavari marble) are located in the Bagmati zone."
+    },
+    {
+      "q": "108. The standard size of a brick as per Nepal Standard (NS) is",
+      "options": [
+        "200 x 100 x 50 mm3",
+        "230 x 115 x 57 mm3",
+        "240 x 90 x 90 mm3",
+        "18 x 8 x 8 cm3"
+      ],
+      "correct": 1,
+      "explain": "The Nepal Standard (NS) specifies the brick size as 230mm x 115mm x 57mm."
+    },
+    {
+      "q": "123. For one cubic meter of brick masonry, the number of machine made brick required as per NS is",
+      "options": [
+        "430",
+        "530",
+        "560",
+        "660"
+      ],
+      "correct": 1,
+      "explain": "According to Nepal Standards, approximately 530 machine-made bricks are required to complete 1 cubic meter of masonry."
+    },
+    {
+      "q": "128. The amount of local brick required for one m3 masonry (As per NS norms)",
+      "options": [
+        "500",
+        "530",
+        "560",
+        "600"
+      ],
+      "correct": 2,
+      "explain": "Due to size variations in local traditional bricks in Nepal, the norm usually estimates 560 bricks per cubic meter."
+    },
+    {
+      "q": "166. The most widely used kiln in Nepal is",
+      "options": [
+        "hoffman's kiln",
+        "bull's trench kiln",
+        "clamp kiln",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Bull's Trench Kiln is the most popular type in Nepal due to its cost-efficiency and ability to produce a large volume of bricks continuously."
+    },
+    {
+      "q": "258. During Rana Cracy, types of mortar generally used for public buildings are",
+      "options": [
+        "cement mortar",
+        "mud mortar",
+        "dry mortar",
+        "lime and surkhi mortar"
+      ],
+      "correct": 3,
+      "explain": "Historically in Nepal (Rana Era), lime and surkhi (crushed brick) were the primary binding materials before cement became widely available."
+    },
+    {
+      "q": "433. Which type of timber is used for construction of houses in Himalayan Region of Nepal?",
+      "options": [
+        "Sal wood",
+        "Rose wood",
+        "Pine wood",
+        "Oak"
+      ],
+      "correct": 0,
+      "explain": "Sal (Shorea robusta) is highly valued for its durability and strength in Nepalese construction."
+    },
+    {
+      "q": "434. What is the minimum thickness of stone masonry wall in Nepal?",
+      "options": [
+        "200 mm",
+        "300 mm",
+        "450 mm",
+        "500 mm"
+      ],
+      "correct": 1,
+      "explain": "According to the Nepal National Building Code, 300 mm is typically the minimum specified thickness for load-bearing stone walls."
+    },
+    {
+      "q": "437. The recent material used in cladding multi storeyed commercial buildings in Kathmandu",
+      "options": [
+        "stainless steel",
+        "aluminium composite panel",
+        "marble",
+        "iron sheets"
+      ],
+      "correct": 1,
+      "explain": "Aluminium Composite Panels (ACP) are popular for modern commercial facades due to their lightweight and aesthetic appeal."
+    }
+  ]
+}

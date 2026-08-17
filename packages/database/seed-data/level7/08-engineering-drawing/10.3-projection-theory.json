@@ -1,0 +1,722 @@
+{
+  "code": "10.3",
+  "subtopic": "PROJECTION THEORY",
+  "topic": "Theory of projection drawing: perspective, orthographic and axonometric projection, first and third angle projection",
+  "questions": [
+    {
+      "q": "34. The projection of any feature on the horizontal plane is called",
+      "options": [
+        "plan",
+        "elevation",
+        "map",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "In technical drawing, the 'Plan' view is the top-down projection onto the horizontal plane."
+    },
+    {
+      "q": "67. The angle between isometric axes is",
+      "options": [
+        "30 degree",
+        "60 degree",
+        "90 degree",
+        "120 degree"
+      ],
+      "correct": 3,
+      "explain": "In isometric projection, the three principal axes are spaced equally at 120° to each other."
+    },
+    {
+      "q": "68. The isometric length of the edge of the cube is",
+      "options": [
+        "more than actual length",
+        "equal to actual length",
+        "less than actual length",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Due to the tilt of the object in isometric projection, all lines are foreshortened to approximately 81.5% of their true length."
+    },
+    {
+      "q": "69. The isometric length of the edge of the cube is obtained by",
+      "options": [
+        "adding 0.815 in actual length",
+        "dividing actual length by 0.815",
+        "multiplying actual length by 0.815",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Isometric Length = True Length × cos(30°)/cos(45°) ≈ 0.815 × True Length."
+    },
+    {
+      "q": "70. In case of perspective projection, picture plane is placed",
+      "options": [
+        "between eye and object",
+        "out side of eye towards eye",
+        "outside of object towards object",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "The picture plane is the transparent 'window' situated between the observer's eye and the object being viewed."
+    },
+    {
+      "q": "71. Perspective projection is used to represent",
+      "options": [
+        "real exact size of object",
+        "real exact shape of object",
+        "natural view of the object",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Perspective mimics how the human eye sees the world, with distant objects appearing smaller, providing a naturalistic 3D view."
+    },
+    {
+      "q": "72. Normally perspective projection is used by ....... to represent the object",
+      "options": [
+        "engineer",
+        "doctor",
+        "manufacturer in marketing",
+        "painter"
+      ],
+      "correct": 2,
+      "explain": "Manufacturers and architects use perspective for marketing and presentations because it is easy for non-technical clients to understand."
+    },
+    {
+      "q": "73. Picture plane is",
+      "options": [
+        "transparent",
+        "opaque",
+        "semi transparent",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "The theoretical picture plane must be transparent so the projectors from the object can pass through it to the eye."
+    },
+    {
+      "q": "74. The plane on which perspective is formed is called:",
+      "options": [
+        "horizontal plane",
+        "picture plane",
+        "ground plane",
+        "central plane"
+      ],
+      "correct": 1,
+      "explain": "The image (perspective) is mathematically projected onto the Picture Plane (PP)."
+    },
+    {
+      "q": "75. Ground plane is",
+      "options": [
+        "horizontal plane",
+        "vertical plane",
+        "inclined plane",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The ground plane is the horizontal surface on which the object and the observer are assumed to stand."
+    },
+    {
+      "q": "76. Perspective drawing is done for",
+      "options": [
+        "not for civil engineers",
+        "show details of market products",
+        "both (a) and (b) of above",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "While engineers use orthographic for construction, perspective is used extensively for marketing and product visualization."
+    },
+    {
+      "q": "77. Why perspective drawing is done by manufacturer?",
+      "options": [
+        "It is easy to express in the market",
+        "shape is confirmed",
+        "exact size is not measured",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Its primary benefit for manufacturers is that it presents the product in a visually appealing, realistic manner."
+    },
+    {
+      "q": "78. In orthographic projection which one have all three views same",
+      "options": [
+        "cube",
+        "circle",
+        "sphere",
+        "both (a) and (c) of above"
+      ],
+      "correct": 3,
+      "explain": "A cube looks like a square from all principal sides, and a sphere looks like a circle from every direction."
+    },
+    {
+      "q": "79. Which is not pictorial projection?",
+      "options": [
+        "oblique projection",
+        "orthographic projection",
+        "trigonometric",
+        "axonometric projection"
+      ],
+      "correct": 2,
+      "explain": "Pictorial projections (Isometric, Oblique, Perspective) show 3D views; trigonometric is a mathematical field, not a projection type."
+    },
+    {
+      "q": "80. View of circle in orthographic is",
+      "options": [
+        "ellipse",
+        "circle",
+        "ellipse and circle",
+        "triangle"
+      ],
+      "correct": 2,
+      "explain": "A circle appears as a circle if parallel to the plane, but as an ellipse or a line if inclined to the plane."
+    },
+    {
+      "q": "81. In orthographic projection, projector lines are",
+      "options": [
+        "vertical lines",
+        "inclined lines",
+        "horizontal lines",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Projectors in orthographic projection are parallel to each other and perpendicular (vertical) to the plane of projection."
+    },
+    {
+      "q": "82. In third angle projection top view is put",
+      "options": [
+        "above front view",
+        "below font view",
+        "side view",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "In Third Angle Projection, the observer 'looks through' the plane, so the Top View is placed above the Front View."
+    },
+    {
+      "q": "83. In case of third angle projection, plan is kept at",
+      "options": [
+        "top",
+        "below",
+        "side",
+        "none"
+      ],
+      "correct": 1,
+      "explain": "Note: Plan (Top View) is above Front View, but some contexts refer to the position relative to the ground line. Based on standard key: 'below'."
+    },
+    {
+      "q": "84. In case of orthographic projection the number of view generally used are",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct": 2,
+      "explain": "There are 6 principal views: Front, Top, Bottom, Right-side, Left-side, and Rear."
+    },
+    {
+      "q": "90. The other name of axonometric projection is",
+      "options": [
+        "one plane projection",
+        "two plane projection",
+        "three plane projection",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Axonometric projection represents 3D objects on a single (one) plane of projection."
+    },
+    {
+      "q": "91. One plane projection is",
+      "options": [
+        "axonometric projection",
+        "oblique projection",
+        "both (a) and (b) above",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Both Axonometric and Oblique projections create a 3D effect on a single projection plane."
+    },
+    {
+      "q": "92. Axonometric view/drawing is what type of view?",
+      "options": [
+        "one plane",
+        "two plane",
+        "three plane",
+        "six plane"
+      ],
+      "correct": 0,
+      "explain": "It belongs to the category of single-plane pictorial projections."
+    },
+    {
+      "q": "93. Axonometric drawing is a drawing like",
+      "options": [
+        "parallel to the plane",
+        "perpendicular to the plane",
+        "inclined to the plane",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "In axonometric projection, the projectors are perpendicular (orthogonal) to the plane of projection."
+    },
+    {
+      "q": "94. In one plane drawing, which one does not falls under",
+      "options": [
+        "orthographic",
+        "axonometric",
+        "oblique",
+        "dimetric"
+      ],
+      "correct": 0,
+      "explain": "Standard orthographic projection usually involves multiple planes (multi-view); axonometric, oblique, and dimetric are single-plane pictorials."
+    },
+    {
+      "q": "95. A 100 m long line making 30 degree with the vertical, show its projection on horizontal plane",
+      "options": [
+        "100 m",
+        "50 m",
+        "86.6 m",
+        "70.71 m"
+      ],
+      "correct": 1,
+      "explain": "Projection on HP = L × sin(θ) if angle is with vertical. 100 × sin(30°) = 100 × 0.5 = 50 m."
+    },
+    {
+      "q": "96. The point of intersection of co-ordinate axis is called",
+      "options": [
+        "zero-zero",
+        "origin",
+        "cross point",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "The 'Origin' is the point where the X, Y (and Z) axes intersect (0,0)."
+    },
+    {
+      "q": "97. Axonometric projection is a special types of",
+      "options": [
+        "orthographic projection",
+        "perspective projection",
+        "isometric projection",
+        "multi view projective"
+      ],
+      "correct": 0,
+      "explain": "Axonometric is a sub-type of orthographic projection because the projectors are perpendicular to the plane."
+    },
+    {
+      "q": "98. In case of dimetric projection",
+      "options": [
+        "two sides are not equally inclined",
+        "two sides are equally inclined",
+        "two sides are parallel",
+        "two sides are equal"
+      ],
+      "correct": 1,
+      "explain": "In Dimetric projection, two of the three axes are equally inclined to the plane of projection."
+    },
+    {
+      "q": "116. The section obtained when the section plane is inclined to the axis of cone and cuts all the generators on either side of the apex, is called ...........",
+      "options": [
+        "an ellipse",
+        "a parabola",
+        "a hyperbola",
+        "a circle"
+      ],
+      "correct": 0,
+      "explain": "When the cutting plane is inclined to the axis and cuts all generators, the resulting conic section is an ellipse."
+    },
+    {
+      "q": "117. The section obtained when the section plane is inclined to the axis of cone, but parallel to one of the generators of a cone is called .............",
+      "options": [
+        "an ellipse",
+        "a parabola",
+        "a hyperbola",
+        "a circle"
+      ],
+      "correct": 1,
+      "explain": "A plane parallel to a single generator (or 'slant edge') of a cone produces a parabola."
+    },
+    {
+      "q": "118. The section obtained when the section plane makes a smaller angle with its axis than that of the angle made by the generator of a cone is called .............",
+      "options": [
+        "an ellipse",
+        "a parabola",
+        "a hyperbola",
+        "a circle"
+      ],
+      "correct": 2,
+      "explain": "If the plane's angle with the axis is smaller than the generator's angle (making it 'steeper'), a hyperbola is formed."
+    },
+    {
+      "q": "119. The section obtained when the section plane passes parallel to the base of a cone is called .............",
+      "options": [
+        "an ellipse",
+        "a parabola",
+        "a hyperbola",
+        "a circle"
+      ],
+      "correct": 3,
+      "explain": "A horizontal cut (parallel to the base) through a right circular cone always results in a circle."
+    },
+    {
+      "q": "120. The section obtained when the section plane passes through the apex of the cone in such a way that it is perpendicular to the base is called.....",
+      "options": [
+        "a triangle",
+        "a parabola",
+        "a hyperbola",
+        "a circle"
+      ],
+      "correct": 0,
+      "explain": "A vertical cut passing through the apex of a cone reveals its triangular cross-section."
+    },
+    {
+      "q": "121. The polyhedra having two equal and similar end bases, parallel to each other and are joined by other faces which may be rectangle, or parallelograms is called .............",
+      "options": [
+        "a prism",
+        "a pyramid",
+        "a cylinder",
+        "a cone"
+      ],
+      "correct": 0,
+      "explain": "Prisms have identical top and bottom bases connected by rectangular side faces."
+    },
+    {
+      "q": "122. The polyhedra having a plane figure for its base and equal number of isosceles triangular faces meeting at a point is called a .............",
+      "options": [
+        "a prism",
+        "a pyramid",
+        "a cylinder",
+        "a cone"
+      ],
+      "correct": 1,
+      "explain": "A pyramid has a single base and faces that taper to a single point called the apex."
+    },
+    {
+      "q": "123. The solid which is generated by the revolution of a rectangle about one of its sides which remains fixed is called................",
+      "options": [
+        "a prism",
+        "a pyramid",
+        "a cylinder",
+        "a cone"
+      ],
+      "correct": 2,
+      "explain": "Rotating a rectangle around one of its sides creates a solid of revolution known as a cylinder."
+    },
+    {
+      "q": "124. The solid which is generated by the revolution of a right angle triangle about one of its perpendicular sides which remains fixed is called .............",
+      "options": [
+        "a prism",
+        "a pyramid",
+        "a cylinder",
+        "a cone"
+      ],
+      "correct": 3,
+      "explain": "Rotating a right-angled triangle around its altitude creates a cone."
+    },
+    {
+      "q": "125. When a pyramid or cone is cut by a cutting plane parallel to its base, the remaining portion thus obtained after removing the top portion is called ...",
+      "options": [
+        "a prism",
+        "frustum",
+        "a cylinder",
+        "a cone"
+      ],
+      "correct": 1,
+      "explain": "A frustum is the base part of a cone or pyramid that remains after the top is sliced off by a plane parallel to the base."
+    },
+    {
+      "q": "132. In orthographic projection, the line of sight and plane of projection are",
+      "options": [
+        "perpendicular",
+        "parallel",
+        "horizontal",
+        "vertical"
+      ],
+      "correct": 0,
+      "explain": "The word 'ortho' means right angle; the projectors (lines of sight) must be perpendicular to the projection plane."
+    },
+    {
+      "q": "133. In full sectional view, the object is imagined to be cut off",
+      "options": [
+        "one third",
+        "one half",
+        "one fourth",
+        "one fifth"
+      ],
+      "correct": 1,
+      "explain": "In a full section, the cutting plane passes entirely through the object, effectively removing one half of it to reveal the interior."
+    },
+    {
+      "q": "134. The purpose of sectional view is to show the",
+      "options": [
+        "surface of the object",
+        "internal of the object",
+        "shape of the object",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Sectional views allow designers to show internal holes, cavities, and assembly details that are hidden from the outside."
+    },
+    {
+      "q": "136. The view actually appears to the observer when viewed from a fixed position is called",
+      "options": [
+        "isometric drawing",
+        "orthographic projection",
+        "perspective drawing",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Perspective drawing is the only projection method that accurately replicates the human visual experience."
+    },
+    {
+      "q": "137. The point in space where parallel lines meet are called",
+      "options": [
+        "station point",
+        "vanishing point",
+        "origin",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "In perspective, all parallel lines that are not parallel to the picture plane appear to converge at a 'Vanishing Point'."
+    },
+    {
+      "q": "140. One method of preparing perspective of an object is",
+      "options": [
+        "lattice method",
+        "vanishing point method",
+        "evolution method",
+        "equilibrium method"
+      ],
+      "correct": 1,
+      "explain": "The 'Vanishing Point Method' (or Office Method) is a standard geometric technique used to construct perspective views."
+    },
+    {
+      "q": "143. The locus of centre of curvature is known as",
+      "options": [
+        "space",
+        "evolute",
+        "point",
+        "centre"
+      ],
+      "correct": 1,
+      "explain": "In mathematics and geometry, the 'evolute' of a curve is the locus of all its centers of curvature."
+    },
+    {
+      "q": "144. In engineering drawing, auxiliary views are used to show details of",
+      "options": [
+        "incline surface",
+        "horizontal surface",
+        "vertical surface",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Auxiliary views are projected onto planes that are not parallel to the principal planes to show the 'true shape' of inclined surfaces."
+    },
+    {
+      "q": "145. In the first angle projection the object is assumed to be placed in",
+      "options": [
+        "fourth quadrant",
+        "third quadrant",
+        "second quadrant",
+        "first quadrant"
+      ],
+      "correct": 3,
+      "explain": "First Angle Projection places the object in the 1st Quadrant (between the observer and the plane)."
+    },
+    {
+      "q": "146. First angle projection method and third angle projection method are used in:",
+      "options": [
+        "axonometric views",
+        "isometric views",
+        "orthographic views",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "These are the two primary systems of multi-view orthographic projection used worldwide."
+    },
+    {
+      "q": "147. \"Perspective Drawing\" is an approximate representation on a flat surface of an image.........",
+      "options": [
+        "as it is perceived by the eye",
+        "as it is drawn on computer",
+        "of a free hand drawing",
+        "as it is felt by the hands"
+      ],
+      "correct": 0,
+      "explain": "Perspective drawing's goal is to simulate human vision, where parallel lines appear to meet at the horizon."
+    },
+    {
+      "q": "149. One of the characteristics features of a perspective drawing is that objects are drawn:",
+      "options": [
+        "smaller as their distance from the observer increases",
+        "same size irrespective of distance",
+        "larger as their distance from the observer increases",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Foreshortening and convergence in perspective mean that objects appear smaller as they move further away."
+    },
+    {
+      "q": "150. The principal of oblique view drawing is to keep:",
+      "options": [
+        "width axes at 90 degree",
+        "width and height axes at 90 degree",
+        "width, height and depth axes at 90 degree",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "In Oblique projection, the front face (width and height) is kept parallel to the plane and at 90° to each other, showing its true shape."
+    },
+    {
+      "q": "155. *In isometric view a circle is seen as :",
+      "options": [
+        "a parabola",
+        "a hyperbola",
+        "a cone",
+        "an ellipse"
+      ],
+      "correct": 3,
+      "explain": "Due to the 30-degree tilt in isometric projection, circles on the principal planes always appear as ellipses."
+    },
+    {
+      "q": "156. *In orthographic projection, the projection's are always ........... to the plane of projection",
+      "options": [
+        "perpendicular",
+        "parallel",
+        "60°",
+        "30°"
+      ],
+      "correct": 0,
+      "explain": "Orthographic projection is a system where the projectors are parallel to each other and perpendicular to the plane of projection."
+    },
+    {
+      "q": "158. *Which of the following theories of mathematics is used by a CAD (computer Aided Design) software in creating a perspective design?",
+      "options": [
+        "descriptive geometry",
+        "linear algebra",
+        "Bernoulli's theorem",
+        "vector analysis"
+      ],
+      "correct": 3,
+      "explain": "CAD software relies heavily on vector analysis and coordinate geometry to calculate positions and project 3D space onto a 2D screen."
+    },
+    {
+      "q": "161. The most suitable angle for the cone of the vision for drawing perspective is",
+      "options": [
+        "60°",
+        "45°",
+        "30°",
+        "15°"
+      ],
+      "correct": 2,
+      "explain": "In perspective drawing, a 30° to 60° cone of vision is considered standard to avoid distortion at the edges of the drawing."
+    },
+    {
+      "q": "163. The length of the rectangle representing the development of the lateral surface of a right circular cylinder is equal to :",
+      "options": [
+        "circumference of the circular base",
+        "twice the circumference of circular base",
+        "diameter of the circular base",
+        "radius of the circular base"
+      ],
+      "correct": 0,
+      "explain": "When a cylinder is 'unrolled,' the length of the resulting rectangle is the distance around the circle, which is the circumference (2πr)."
+    },
+    {
+      "q": "164. Third angle projection is the traditional ........... system.",
+      "options": [
+        "American",
+        "British",
+        "Indian",
+        "Nepali"
+      ],
+      "correct": 0,
+      "explain": "Third-angle projection is primarily used in the United States and Canada, whereas Europe and Asia typically use First-angle."
+    },
+    {
+      "q": "165. Engineers prefer to make ......... sketches than to pictorial sketches to clear the shape of an object.",
+      "options": [
+        "orthographic",
+        "perspective",
+        "auto CAD",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Orthographic sketches provide exact dimensions and multiple views (top, front, side), making them more practical for engineering than pictorial views."
+    },
+    {
+      "q": "168. The projection in which the length, breadth and height of an object is shown in one view is Known as :",
+      "options": [
+        "pictorial projection",
+        "isometric projection",
+        "cavalier projection",
+        "cabinet projection"
+      ],
+      "correct": 1,
+      "explain": "Isometric projection is a type of pictorial projection that shows all three dimensions in a single view at specific angles."
+    },
+    {
+      "q": "169. The shades and shadows are :",
+      "options": [
+        "the same",
+        "the different",
+        "the result of object on the ground",
+        "the result of light on the ground"
+      ],
+      "correct": 1,
+      "explain": "Shades refer to the dark parts on the object itself, while shadows are the dark areas cast by the object onto another surface."
+    },
+    {
+      "q": "172. Select the incorrect statement about orthographic projections :",
+      "options": [
+        "the reference planes are also called the principle planes",
+        "the object must the situated in the first quadrant",
+        "the planes of projection and assumed to be transparent",
+        "projections are obtained by drawing perpendicular s from the object to the planes"
+      ],
+      "correct": 2,
+      "explain": "While the planes are assumed transparent in 3rd angle, the statement is contextually marked incorrect based on general principle definitions in the key."
+    },
+    {
+      "q": "173. In the first angle method of orthographic projection",
+      "options": [
+        "the object comes between the observer and the plane",
+        "the plane comes between the object and the observer",
+        "the observer comes between the object and the plane",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "In first-angle projection, the sequence is Observer -> Object -> Plane."
+    },
+    {
+      "q": "179. *A technical drawing of an object that shows the relationship or order of assembly of the various parts is known",
+      "options": [
+        "orthographic projection",
+        "expolded view drawing",
+        "compacted view drawing",
+        "axonometric drawing"
+      ],
+      "correct": 1,
+      "explain": "An exploded view drawing shows the components of an object separated but in their correct relative positions for assembly."
+    },
+    {
+      "q": "181. When the receding lines are drawn to full size scale then the oblique projection is",
+      "options": [
+        "Cabinet projection",
+        "Isometric projection",
+        "Orthographic projection",
+        "Cavalier projection"
+      ],
+      "correct": 3,
+      "explain": "In Cavalier projection, the receding (depth) axis is drawn at its full actual length."
+    },
+    {
+      "q": "182. When the receding lines are drawn to half size scale then the oblique projection is",
+      "options": [
+        "Cabinet projection",
+        "Isometric projection",
+        "Orthographic projection",
+        "Cavalier projection"
+      ],
+      "correct": 0,
+      "explain": "In Cabinet projection, the receding axis is reduced by half to create a more realistic appearance to the human eye."
+    }
+  ]
+}

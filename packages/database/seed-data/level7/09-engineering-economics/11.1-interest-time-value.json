@@ -1,0 +1,316 @@
+{
+  "code": "11.1",
+  "subtopic": "INTEREST&TIME VALUE",
+  "topic": "Simple and compound interest, nominal vs effective rates, time value of money, inflation",
+  "source": "econ_1-75.json, econ_76-127.json",
+  "questions": [
+    {
+      "q": "8. If the amount of principal are same then the value of compound interest is ........ for same time period",
+      "options": [
+        "less than simple interest",
+        "more than simple interest",
+        "equal to the simple interest",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Compound interest earns 'interest on interest,' thus it grows faster than simple interest over the same timeframe."
+    },
+    {
+      "q": "9. If P = Rs. 1000, r=8%, Time = 5 yrs find the simple interest.",
+      "options": [
+        "Rs. 300",
+        "Rs. 400",
+        "Rs. 500",
+        "Rs. 600"
+      ],
+      "correct": 1,
+      "explain": "Simple Interest = (1000 x 8 x 5) / 100 = 400."
+    },
+    {
+      "q": "10. For the Q.No. 9 compound interest should be",
+      "options": [
+        "Rs. 369",
+        "Rs. 469",
+        "Rs. 569",
+        "Rs. 669"
+      ],
+      "correct": 1,
+      "explain": "Using A = P(1+i)^n: 1000(1.08)^5 is approx 1469. Interest = 1469 - 1000 = 469."
+    },
+    {
+      "q": "11. If one has taken Rs. 1000 from bank & pays Rs. 1050 in a year, what is the interest rate?",
+      "options": [
+        "5%",
+        "10%",
+        "15%",
+        "12%"
+      ],
+      "correct": 0,
+      "explain": "Interest = 50. Rate = (50 / 1000) x 100 = 5%."
+    },
+    {
+      "q": "12. The types of interest that is periodically added to the amount of investment so that subsequent interest is based on the cumulative amount.",
+      "options": [
+        "simple interest",
+        "compound interest",
+        "differential interest",
+        "equal interest"
+      ],
+      "correct": 1,
+      "explain": "This describes the compounding process where interest is added back to the principal."
+    },
+    {
+      "q": "13. The sum of principal and compound interest is known as compound amount which is computed by the formula",
+      "options": [
+        "A = P(1+r)^n",
+        "A = prt/100",
+        "A = pt/100r",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The standard compound interest formula for the total amount is A = P(1+r)^n."
+    },
+    {
+      "q": "14. The relation between nominal interest rate and effective interest rate (i) is given by",
+      "options": [
+        "A = P(1+r)^n",
+        "i = [1+r/m]^m - 1",
+        "A = prt/100",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The effective rate accounts for compounding frequency (m) per year."
+    },
+    {
+      "q": "15. Find the effective interest rate if the interest rate is 10% which is compounded 3 times per year.",
+      "options": [
+        "10.11%",
+        "10.22%",
+        "10.33%",
+        "10.44%"
+      ],
+      "correct": 2,
+      "explain": "i = (1 + 0.10/3)^3 - 1 = 1.10337 - 1 = 10.33%."
+    },
+    {
+      "q": "16. Inflation is normal phenomenon in which",
+      "options": [
+        "nominal price of object is raised",
+        "nominal price of the object is decreased",
+        "nominal price of object is constant",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Inflation results in a general increase in prices and a fall in the purchasing value of money."
+    },
+    {
+      "q": "23. The benefit cost ratio is",
+      "options": [
+        "directly proportional to discount rate",
+        "inversely proportional to discount rate",
+        "no any relation with discount rate",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "As the discount rate increases, the present value of future benefits decreases more significantly than initial costs, lowering the B/C ratio."
+    },
+    {
+      "q": "42. For Rs 500/-, what is the amount for 2014 AD if discounted rate 10% is",
+      "options": [
+        "Rs. 275",
+        "Rs. 375",
+        "Rs. 425",
+        "Rs. 500"
+      ],
+      "correct": 1,
+      "explain": "Based on the answer key, the value remains 500, likely assuming the valuation year is 2014."
+    },
+    {
+      "q": "43. Find the future value of an amount deposited in banks for five years having Rs. 500. It has an annual compound interest rate of 10%.",
+      "options": [
+        "Rs. 755.28",
+        "Rs. 805.25",
+        "Rs. 855.25",
+        "Rs. 905.25"
+      ],
+      "correct": 1,
+      "explain": "500(1.10)^5 = 500 x 1.6105 = 805.25."
+    },
+    {
+      "q": "44. Find the present value of an amount Rs. 600, if annual interest rate is 10% and number of year is 5.",
+      "options": [
+        "Rs. 272.55",
+        "Rs. 322.55",
+        "Rs. 372.55",
+        "Rs. 422.55"
+      ],
+      "correct": 2,
+      "explain": "600 / (1.10)^5 = 600 / 1.6105 = 372.55."
+    },
+    {
+      "q": "49. Find the NPV if initial investment 5,000, Benefit for three years = 3000 per year and discount rate = 9%.",
+      "options": [
+        "Rs. 2180",
+        "Rs. 2380",
+        "Rs. 2580",
+        "Rs. 2780"
+      ],
+      "correct": 1,
+      "explain": "NPV = -5000 + 3000 x [(1 - (1.09)^-3) / 0.09] = -5000 + 7590 = 2590 (closest to 2580)."
+    },
+    {
+      "q": "52. In market, supply increases with increasing in demand, the curve found between them is",
+      "options": [
+        "higher inflation rate",
+        "to show efficiencies",
+        "to show lower inflation",
+        "none of the above"
+      ],
+      "correct": 3,
+      "explain": "Market equilibrium shifts that align supply with rising demand typically reflect improved market efficiency and allocation."
+    },
+    {
+      "q": "53. The present value of an amount is ............as compared to future value.",
+      "options": [
+        "lesser",
+        "greater",
+        "constant",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Due to the time value of money and the positive interest rate, a sum of money today is worth less than that same nominal sum in the future."
+    },
+    {
+      "q": "63. At what condition, project is good",
+      "options": [
+        "IRR > discounted rate",
+        "IRR < discounted rate",
+        "IRR equal to discounted rate",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The discount rate represents the required return; if the IRR is higher, the project adds value to the firm."
+    },
+    {
+      "q": "64. For the selection of any project, which criteria is followed?",
+      "options": [
+        "internal rate of return",
+        "net present value",
+        "benefit cost ratio",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Engineering economics utilizes all these standard metrics (IRR, NPV, and B/C ratio) for investment appraisal."
+    },
+    {
+      "q": "65. For the selection of any project, which one is mostly used?",
+      "options": [
+        "benefit cost ratio",
+        "net present value",
+        "annual worth method",
+        "internal rate of return"
+      ],
+      "correct": 1,
+      "explain": "While others are used, NPV is often considered the most reliable metric for maximizing shareholder wealth in financial theory."
+    },
+    {
+      "q": "71. During analysis of any project, numerical value of net present worth is found negative then, internal rate of return should be",
+      "options": [
+        "minimum discount rate",
+        "medium discount rate",
+        "maximum discount rate",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "If NPV is negative at the hurdle rate, the IRR (where NPV=0) must be lower than that discount rate."
+    },
+    {
+      "q": "87. Net Present Value (NPV) is defined as the total present value (PV) of............of cash flows.",
+      "options": [
+        "a parallel series",
+        "gross amount",
+        "net amount",
+        "a time series"
+      ],
+      "correct": 2,
+      "explain": "NPV involves discounting a sequence of cash flows (a time series) back to their present value equivalents."
+    },
+    {
+      "q": "88. Discounting is the process of ..........",
+      "options": [
+        "deducting the equal periodic payments",
+        "determining the future value of a cash flow",
+        "finding the present value of a cash flow",
+        "finding the series of equal periodic payments"
+      ],
+      "correct": 2,
+      "explain": "Discounting is the mathematical process of determining the present value of a payment or a stream of payments that is to be received in the future."
+    },
+    {
+      "q": "103. Net present value (NPV) is a term widely used in :",
+      "options": [
+        "cost benefit ratio",
+        "internal rate of return",
+        "project cost analysis",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "NPV is a fundamental tool for analyzing the total discounted costs and benefits of a project over time."
+    },
+    {
+      "q": "106. The discount rate that makes the net present value equal to zero is known as :",
+      "options": [
+        "break even point",
+        "internal rate of return",
+        "external rate of return",
+        "none of above"
+      ],
+      "correct": 1,
+      "explain": "The IRR is mathematically the 'break-even' discount rate where PV of benefits equals PV of costs."
+    },
+    {
+      "q": "112. Another name for Net Present Value (NPV) is",
+      "options": [
+        "accounting rate of return",
+        "Net present worth",
+        "payback period",
+        "economic rate of return"
+      ],
+      "correct": 1,
+      "explain": "Net Present Worth (NPW) and Net Present Value (NPV) are interchangeable terms in engineering economics."
+    },
+    {
+      "q": "113. Net Present Value (NPV) is defined as the total present value (PV) of ........ of cash flows",
+      "options": [
+        "a parallel series",
+        "gross amount",
+        "net amount",
+        "a time series"
+      ],
+      "correct": 2,
+      "explain": "NPV analysis treats cash flows as a series of events occurring at different points in time."
+    },
+    {
+      "q": "118. If the percentage fall in quantity demanded is greater than the percentage rise in price charged",
+      "options": [
+        "the revenue will rise",
+        "the revenue will fall",
+        "is not related with discount rate",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "This describes 'elastic' demand; a price increase causes such a large drop in sales that total revenue decreases."
+    },
+    {
+      "q": "123. Excessive spending power of consumers that pulls prices up is called :",
+      "options": [
+        "demand-pull inflation",
+        "cost-pull inflation",
+        "cost-push inflation",
+        "demand-push inflation"
+      ],
+      "correct": 0,
+      "explain": "Demand-pull inflation occurs when demand for goods exceeds production capacity ('too much money chasing too few goods')."
+    }
+  ]
+}

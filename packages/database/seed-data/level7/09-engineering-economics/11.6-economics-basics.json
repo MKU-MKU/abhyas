@@ -1,0 +1,52 @@
+{
+  "code": "11.6",
+  "subtopic": "ECONOMICS BASICS",
+  "topic": "Supply and demand, capital, basic economic principles",
+  "source": "econ_1-75.json, econ_76-127.json",
+  "questions": [
+    {
+      "q": "50. According to law of demand, if the price of goods increases then the demand of articles",
+      "options": [
+        "increases",
+        "decreases",
+        "constant",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "The law of demand states an inverse relationship between price and quantity demanded."
+    },
+    {
+      "q": "51. According to law of supply, if the price of goods increases then the demand of articles",
+      "options": [
+        "increases",
+        "decreases",
+        "constant",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "The law of supply states that, ceteris paribus, an increase in price results in an increase in quantity supplied as producers seek higher profits."
+    },
+    {
+      "q": "79. Expected output of any project should be........... to the investment of any investor.",
+      "options": [
+        "directly proportional",
+        "inversely proportional",
+        "constant",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "In general investment theory, higher investments are expected to yield higher total outputs or returns."
+    },
+    {
+      "q": "125. In economic analysis a shift in the supply curve is said to take place due to",
+      "options": [
+        "change in input prices",
+        "technological progress",
+        "level of competition in production",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Shifts in supply (rather than movement along the curve) are caused by external factors like tech, costs, or competition."
+    }
+  ]
+}

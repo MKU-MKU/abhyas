@@ -1,0 +1,536 @@
+{
+  "code": "4.7",
+  "subtopic": "THEODOLITE TRAVERSE",
+  "topic": "Theodolite traversing: need of traverse and its significance, principle of traverse, computation of coordinates; adjustment of closed traverse and linked traverse, closing errors",
+  "source": "survey251-350 updated.json (merged from old LEVEL 7 archive)",
+  "questions": [
+    {
+      "q": "298. Theodolite is an instrument used for measuring",
+      "options": [
+        "horizontal angles",
+        "vertical angles",
+        "deflection angle",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Theodolites are versatile instruments designed for precise angular measurements in both planes."
+    },
+    {
+      "q": "299. The process of turning the telescope about the horizontal axis in a vertical plane by a complete revolution is known as",
+      "options": [
+        "reversing",
+        "transiting",
+        "plunging",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "All three terms—reversing, transiting, and plunging—describe the act of flipping the telescope over its horizontal axis."
+    },
+    {
+      "q": "300. The process of turning the telescope about the vertical axis in a horizontal plane is known as",
+      "options": [
+        "reversing",
+        "transiting",
+        "plunging",
+        "swinging"
+      ],
+      "correct": 3,
+      "explain": "Swinging describes rotating the instrument left or right around its vertical axis."
+    },
+    {
+      "q": "301. The levelling head of a transit theodolite consists of",
+      "options": [
+        "parallel plates",
+        "a tribrach plate",
+        "levelling screws",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "The leveling head is the entire lower assembly that connects the instrument to the tripod and includes the screws and plates used to level the device."
+    },
+    {
+      "q": "302. The function of levelling head is",
+      "options": [
+        "to attach the theodolite to the tripod",
+        "to provide a bearing for the outer hollow spindle",
+        "to provide a mean of levelling the instrument",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "The leveling head serves as the interface between the tripod and the instrument, supporting the vertical axis and housing the leveling mechanism."
+    },
+    {
+      "q": "303. Size of a theodolite is specified by",
+      "options": [
+        "the diameter of lower plate",
+        "the diameter of upper plate",
+        "the length of telescope",
+        "diameter of vertical circle"
+      ],
+      "correct": 0,
+      "explain": "The 'size' (e.g., a 10 cm theodolite) refers specifically to the graduated diameter of the lower horizontal circle."
+    },
+    {
+      "q": "304. A 20 cm theodolite means",
+      "options": [
+        "length of theodolite is 20 cm",
+        "diameter of the lower plate is 20 cm",
+        "diameter of the upper plate is 20 cm",
+        "total height of theodolite plate is 20 cm"
+      ],
+      "correct": 1,
+      "explain": "As per standard nomenclature, the measurement refers to the diameter of the lower graduated horizontal plate."
+    },
+    {
+      "q": "305. The projection of a line on a plane parallel to meridian is known as",
+      "options": [
+        "parallax",
+        "aberration",
+        "latitude",
+        "departure"
+      ],
+      "correct": 2,
+      "explain": "Latitude is the orthographic projection of a line onto the North-South meridian (L cos θ)."
+    },
+    {
+      "q": "306. The projection of a line on a plane perpendicular to meridian is known as",
+      "options": [
+        "parallax",
+        "aberration",
+        "latitude",
+        "departure"
+      ],
+      "correct": 3,
+      "explain": "Departure is the orthographic projection of a line onto the East-West axis (L sin θ), which is perpendicular to the meridian."
+    },
+    {
+      "q": "307. In case of telescopic alidade, the adjustment done is",
+      "options": [
+        "the line of collimation should perpendicular to the axis of telescope",
+        "the horizontal axis should be parallel to the alidade rule",
+        "the bubble line of telescope level should be parallel to the plane of collimation",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Telescopic alidades require these permanent adjustments to ensure the line of sight accurately reflects the horizontal and vertical positions plotted on the sheet."
+    },
+    {
+      "q": "308. The outer spindle attached to the lower plate in a transit theodolite known is",
+      "options": [
+        "vernier plate",
+        "scale plate",
+        "alidade",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The lower plate carries the main graduated scale and is attached to the outer spindle; hence it is called the scale plate."
+    },
+    {
+      "q": "309. In a theodolite the line passing through the intersection of the horizontal and vertical cross hairs and optical centre of the object glass and its continuation is known as",
+      "options": [
+        "horizontal glass",
+        "line of collimation",
+        "line of sight",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The line of collimation is the specific imaginary line defined by the crosshairs and the optical center of the objective lens."
+    },
+    {
+      "q": "310. The fundamental lines of transit are",
+      "options": [
+        "horizontal axis and line of collimation",
+        "vertical axis",
+        "axes of plate levels and bubble line of telescope level",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "The geometry of a theodolite is based on several axes (Vertical, Horizontal, Collimation, Bubble) being in specific relationships (perpendicular or parallel)."
+    },
+    {
+      "q": "311. The upper plate",
+      "options": [
+        "is attached to the inner spindle and is called vernier plate",
+        "has two vernier 180° apart for reading the horizontal angles",
+        "is also called alidade of theodolite",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "The upper plate (vernier plate) carries the verniers and the standards for the telescope and rotates on the inner spindle."
+    },
+    {
+      "q": "312. If the image formed by the objective of the telescope is not in the plane of cross hairs it is called",
+      "options": [
+        "indistinct focusing",
+        "parallax",
+        "aberration",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Parallax occurs when there is apparent movement between the image and the crosshairs due to the image not falling exactly on the diaphragm plane."
+    },
+    {
+      "q": "313. A straight line tangential to the longitudinal curve of the level tube at its center, is known as",
+      "options": [
+        "horizontal axis",
+        "line of collimation",
+        "bubble line",
+        "line of right"
+      ],
+      "correct": 2,
+      "explain": "The bubble line (or axis of the level tube) is the tangent to the inner surface of the tube at its midpoint."
+    },
+    {
+      "q": "314. The trunion axis or transverse axis is",
+      "options": [
+        "the axis about which the telescope can be rotated in a vertical plane",
+        "the axis about which the telescope can be rotated in a horizontal plane",
+        "is also known as line of collimation",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The trunnion axis is the horizontal axis supported by the standards, allowing the telescope to rotate vertically (transit)."
+    },
+    {
+      "q": "315. The telescope is said to be normal when the",
+      "options": [
+        "bubble of the telescope is down and the face of the vertical circle is right",
+        "bubble of the telescope is up and the face of the vertical circle is left",
+        "bubble of the telescope is up and the face of the vertical circle is right",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Telescope Normal (or Face Left) is the standard position where the vertical circle is to the left of the observer and the bubble is on top."
+    },
+    {
+      "q": "316. The process of bringing the vertical circle to the right of the observer is called",
+      "options": [
+        "face left",
+        "face right",
+        "changing face",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Changing face is the operation of transiting the telescope and swinging it 180 degrees to switch from Face Left to Face Right (or vice versa)."
+    },
+    {
+      "q": "317. Parallax may be eliminated by",
+      "options": [
+        "focussing the eyepiece",
+        "focussing the objective",
+        "both (a) and (b) of above",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "You must first focus the eyepiece to see the crosshairs clearly, then focus the objective to bring the image onto the crosshair plane."
+    },
+    {
+      "q": "318. 'SPIRE TEST' is used in permanent adjustment of theodolite for",
+      "options": [
+        "adjusting the plate levels",
+        "adjusting the line of sight",
+        "adjusting the vertical axis",
+        "adjustment of horizontal axis"
+      ],
+      "correct": 3,
+      "explain": "The Spire Test (or Horizontal Axis Test) ensures that the horizontal axis is perpendicular to the vertical axis."
+    },
+    {
+      "q": "319. The error eliminated by taking mean of both face observations is",
+      "options": [
+        "error due to eccentricity of verniers",
+        "error due to imperfect adjustment of levels",
+        "error due to line of collimation not being perpendicular to horizontal axis",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Taking the mean of Face Left and Face Right cancels out errors caused by the line of collimation not being perfectly perpendicular to the horizontal axis."
+    },
+    {
+      "q": "320. A traverse deflection angle is",
+      "options": [
+        "less than 90°",
+        "between 90° and 180°",
+        "the difference between the included angle and 180°",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "The deflection angle is the angle between the extension of the previous line and the current line; it is calculated as 180° - Included Angle."
+    },
+    {
+      "q": "321. If the included angle is greater than 180°, the deflection angle is",
+      "options": [
+        "right handed or positive",
+        "left handed or negative",
+        "90°",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "An included angle > 180° results in a deflection to the right of the forward-extended line."
+    },
+    {
+      "q": "322. If the included angle is less than 180°, the deflection angle is",
+      "options": [
+        "right handed or positive",
+        "left handed or negative",
+        "90°",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "An included angle < 180° results in a deflection to the left (negative) of the forward-extended line."
+    },
+    {
+      "q": "323. The difference between the sum of the measured angles and the theoretical sum of the angles of a closed traverse is called the",
+      "options": [
+        "angular closing error",
+        "closing error in bearing",
+        "relative closing error",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "The error found by comparing the sum of observed angles with (2N ± 4) × 90° is the angular closing error."
+    },
+    {
+      "q": "324. The difference between the two bearings of the last line as observed at the first and the last station of a traverse is known as",
+      "options": [
+        "angular closing error",
+        "closing error in bearing",
+        "relative closing error",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "If the computed bearing of the final line doesn't match its measured bearing, the difference is the closing error in bearing."
+    },
+    {
+      "q": "325. The bearing of the traverse line is calculated by",
+      "options": [
+        "included angle method",
+        "deflection angle method",
+        "both (a) and (b) of above",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Bearings can be computed from known starting bearings using either the measured included angles or the deflection angles."
+    },
+    {
+      "q": "326. Bowditch rule is applied to",
+      "options": [
+        "an open traverse for graphical adjustment",
+        "determine the effect of local attraction",
+        "a closed traverse for adjustment of closing error",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Bowditch's rule is a standard method for balancing a closed traverse when linear and angular measurements are of equal precision."
+    },
+    {
+      "q": "327. The included angle of the theodolite traverse, are generally measured",
+      "options": [
+        "clock wise from the back station",
+        "clock wise from the forward station",
+        "anti clock wise from the forward station",
+        "anti clock wise from the back station"
+      ],
+      "correct": 0,
+      "explain": "Standard practice is to sight the back station, set zero, and turn clockwise to the forward station."
+    },
+    {
+      "q": "328. In a closed traverse by included angles, the sum of measured interior angles should be equal to",
+      "options": [
+        "(N-4) right angles",
+        "(2N-4) right angles",
+        "(2N+4) right angles",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The formula for the sum of interior angles of a polygon with N sides is (2N - 4) × 90°."
+    },
+    {
+      "q": "329. Azimuth (direct angles) is an angle measured in",
+      "options": [
+        "c.w. direction",
+        "a.c.w. direction",
+        "both",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Azimuth is measured clockwise from the North (or South) meridian."
+    },
+    {
+      "q": "330. Direction of closing error in given by",
+      "options": [
+        "sin⁻¹ (ΣD/ΣL)",
+        "tan⁻¹ (ΣD/ΣL)",
+        "sin⁻¹ (ΣL/ΣD)",
+        "tan⁻¹ (ΣL/ΣD)"
+      ],
+      "correct": 1,
+      "explain": "The direction (bearing) θ of the closing error is given by tan θ = (Sum of Departures / Sum of Latitudes)."
+    },
+    {
+      "q": "331. The closing error is given by",
+      "options": [
+        "√(ΣL² + ΣD²)",
+        "√(ΣL + ΣD²)",
+        "ΣL² + ΣD²",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "By Pythagoras' theorem, the magnitude of the closing error is the square root of the sum of the squares of the latitude and departure errors."
+    },
+    {
+      "q": "332. In a traverse, the algebraic sum of the deflection angles, taking the right hand deflection angles as positive and left hand deflection as negative, should be equal to",
+      "options": [
+        "(N-4) right angles",
+        "(2N-4) right angles",
+        "180°",
+        "360°"
+      ],
+      "correct": 3,
+      "explain": "In a closed traverse, the sum of the deflection angles must equal 360° to return to the original direction."
+    },
+    {
+      "q": "333. A traverse consists of six side, then the sum of external angle must be",
+      "options": [
+        "1080°",
+        "540°",
+        "720°",
+        "1440°"
+      ],
+      "correct": 3,
+      "explain": "The sum of exterior angles is (2N + 4) × 90°. For N=6, (12 + 4) × 90 = 1440°."
+    },
+    {
+      "q": "334. In closed traverse the algebraic sum of deflection angle is",
+      "options": [
+        "0°",
+        "360°",
+        "(2n-4) 90°",
+        "(2n+4) 90°"
+      ],
+      "correct": 1,
+      "explain": "As noted in Q332, the total turn required to close a loop is a full circle (360°)."
+    },
+    {
+      "q": "335. In a closed traverse, the closing error should not be more than",
+      "options": [
+        "N × least count of instrument",
+        "√N × least count of instrument",
+        "1/N least count of instrument",
+        "1/√N least count of instrument"
+      ],
+      "correct": 1,
+      "explain": "Errors in angles tend to accumulate in proportion to the square root of the number of stations (√N)."
+    },
+    {
+      "q": "336. The angular and linear measurement of the part of the traverse can be checked by",
+      "options": [
+        "astronomical error",
+        "cut off lines",
+        "well defined objects",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Cut-off lines and observations to distant known objects are common ways to verify accuracy within a large traverse."
+    },
+    {
+      "q": "337. The distance between terminal points computed from a subsidiary traverse run between them is known as",
+      "options": [
+        "traverse base",
+        "transverse base",
+        "corrected base",
+        "traverse length"
+      ],
+      "correct": 0,
+      "explain": "A traverse base refers to the line connecting the start and end points of a traverse segment."
+    },
+    {
+      "q": "338. The maximum number of omitted measurements that can be calculated from latitudes and departures of a closed traverse is",
+      "options": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
+      "correct": 1,
+      "explain": "Since there are two independent equations (ΣL=0 and ΣD=0), you can solve for a maximum of two unknowns (e.g., one length and one bearing)."
+    },
+    {
+      "q": "339. Axis method of traverse correction is used when",
+      "options": [
+        "the angles are measured very accurately",
+        "the lengths are measured very accurately",
+        "both (a) and (b) are not measured very accurately",
+        "any of the above"
+      ],
+      "correct": 0,
+      "explain": "The Axis method is specialized for cases where angular precision far exceeds linear precision."
+    },
+    {
+      "q": "340. If the sum of northing of a traverse exceeds the sum of southing by 2m and sum of easting exceeds the sum of westing by 2m, the resulting closing error will be",
+      "options": [
+        "√2 m",
+        "2√2 m",
+        "2m",
+        "4m"
+      ],
+      "correct": 1,
+      "explain": "Error = √(ΣL² + ΣD²) = √(2² + 2²) = √8 = 2√2 m."
+    },
+    {
+      "q": "341. The perpendicular distance of the mid point of the line from the reference meridian is known as",
+      "options": [
+        "double meridian distance",
+        "meridian distance",
+        "departure of the line",
+        "latitude of the line"
+      ],
+      "correct": 1,
+      "explain": "Meridian distance of a line is the distance of its midpoint from the reference meridian."
+    },
+    {
+      "q": "342. Right face and left face reading are taken to",
+      "options": [
+        "get the correct reading",
+        "eliminate error of trunnion axis not exactly horizontal",
+        "eliminate error in vertical axis",
+        "eliminate error in the line of collimation"
+      ],
+      "correct": 1,
+      "explain": "While it also helps with collimation, the provided answer specifically highlights the trunnion (horizontal) axis error."
+    },
+    {
+      "q": "358. Theodolite traverse is plotted more accurately by",
+      "options": [
+        "consecutive ordinate of each section",
+        "independent coordinates of each section",
+        "inclined angle & scaling off each traverse leg",
+        "the tangent method of plotting"
+      ],
+      "correct": 1,
+      "explain": "Independent coordinates (Total coordinates) prevent the accumulation of plotting errors from station to station."
+    },
+    {
+      "q": "436. The instrument used to measure horizontal and vertical angle is:",
+      "options": [
+        "planimeter",
+        "clinomerer",
+        "ghat tracer",
+        "sextant"
+      ],
+      "correct": 3,
+      "explain": "A sextant is a doubly reflecting navigation instrument that can measure both horizontal and vertical angles between two objects, traditionally used in marine surveying."
+    },
+    {
+      "q": "443. The deflection angle of pentagon is:",
+      "options": [
+        "72°",
+        "60°",
+        "51°",
+        "60°"
+      ],
+      "correct": 0,
+      "explain": "For a regular polygon, the deflection (exterior) angle is 360°/n. For a pentagon (n=5), 360/5 = 72°."
+    }
+  ]
+}

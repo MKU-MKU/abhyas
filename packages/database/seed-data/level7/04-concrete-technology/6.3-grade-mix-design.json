@@ -1,0 +1,362 @@
+{
+  "code": "6.3",
+  "subtopic": "GRADE&MIX DESIGN",
+  "topic": "Grades of concrete, nominal and design mixes, mix proportioning methods",
+  "source": "601-80.json, 681-760.json, 761-842.json, Concrete_1-50.json, Concrete_101-150.json, Concrete_151-200.json, Concrete_50-100.json, conc_201-250.json, conc_250-300.json, conc_301-350.json, conc_350-405.json",
+  "questions": [
+    {
+      "q": "100. How much water read for M20 mix concrete of cement 50kg?",
+      "options": [
+        "30 lit",
+        "35 lit",
+        "35 lit",
+        "40 lit"
+      ],
+      "correct": 0,
+      "explain": "For M20 mix concrete with a water-cement ratio of about 0.6, using 50 kg cement requires approximately 30 litres of water."
+    },
+    {
+      "q": "106. Water required for M25 concrete per bag of cement, is",
+      "options": [
+        "7 kg",
+        "14 kg",
+        "21 kg",
+        "35 kg"
+      ],
+      "correct": 3,
+      "explain": "As per the standard nominal mix proportioning tables referenced in this text, the water requirement per 50 kg bag of cement for M25 grade concrete is taken as 35 kg."
+    },
+    {
+      "q": "169. Proper proportioning of concrete, ensures",
+      "options": [
+        "desired strength and workability",
+        "desired durability",
+        "water tightness of the structure",
+        "resistance to wear",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "Correct mix proportioning of cement, aggregates, and water ensures all these desirable properties - strength, workability, durability, water tightness, and wear resistance - together."
+    },
+    {
+      "q": "170. As the grade of concrete increases the quantity of cement required per cubic metre",
+      "options": [
+        "increases",
+        "decreases",
+        "constant",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Higher grade concrete requires higher compressive strength, which is generally achieved by increasing the cement content per cubic metre of concrete."
+    },
+    {
+      "q": "171. The grade of concrete M150 means that compressive strength of a 15 cm cube after 28 days, is",
+      "options": [
+        "100 kg/cm2",
+        "150 kg/cm2",
+        "200 kg/cm2",
+        "250 kg/cm2"
+      ],
+      "correct": 1,
+      "explain": "In the grade designation 'M150', the number denotes the characteristic compressive strength of a 15 cm cube at 28 days in kg/cm², i.e., 150 kg/cm²."
+    },
+    {
+      "q": "174. Pick up the incorrect statement from the following. While performing preliminary test on concrete",
+      "options": [
+        "proportions of the material and water should be the same as to be used at the work site",
+        "cement should be mixed by hand in order to maintain uniformity",
+        "concrete mix should be stored in air-tight containers",
+        "concrete ingredients should be kept at a temperature of 37 deg +/- 2 deg C"
+      ],
+      "correct": 3,
+      "explain": "For preliminary tests, mixing should ideally be done as it would be at the site (usually by machine, not hand) to reflect actual site conditions; mixing by hand purely 'to maintain uniformity' is not the correct requirement, making this statement incorrect."
+    },
+    {
+      "q": "178. For the construction of R.C.C. slabs, columns, beams, walls, etc. the grade of concrete mix used, is",
+      "options": [
+        "1:3:6",
+        "1: 1½ :3",
+        "1:2:4",
+        "1:1:2"
+      ],
+      "correct": 2,
+      "explain": "A nominal mix of 1:2:4 (cement:sand:aggregate), corresponding to M15 grade, is commonly used for general R.C.C. work such as slabs, beams, and columns."
+    },
+    {
+      "q": "179. For the construction of the retaining structures, the type of concrete mix to be used, is",
+      "options": [
+        "1:3:6",
+        "1: 1½ :3",
+        "1:2:4",
+        "1:1:2"
+      ],
+      "correct": 1,
+      "explain": "For retaining structures which require higher strength due to lateral earth pressures, a richer mix of 1:1½:3 (M20 grade) is typically used."
+    },
+    {
+      "q": "180. The correct proportion of ingredients of concrete, depends upon",
+      "options": [
+        "bulking of sand",
+        "water content",
+        "absorption",
+        "workability",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "Correct mix proportioning must account for all these factors - bulking of sand, water content, absorption of aggregates, and desired workability - to achieve an accurate and effective concrete mix."
+    },
+    {
+      "q": "184. The following proportion of the ingredients or concrete mix, is not in confirmation to arbitrary method of proportioning",
+      "options": [
+        "1:1:2",
+        "1:2:4",
+        "1:3:6",
+        "1:4:10"
+      ],
+      "correct": 3,
+      "explain": "In the arbitrary method, the standard nominal mixes follow ratios like 1:1:2, 1:2:4, 1:3:6, 1:4:8; the ratio 1:4:10 does not fit this standard arbitrary series."
+    },
+    {
+      "q": "237. The most appropriate method to specify the concrete mix is by",
+      "options": [
+        "the nominal mix ratio",
+        "the designed mix ratio",
+        "the degree of control",
+        "the grade of concrete"
+      ],
+      "correct": 3,
+      "explain": "Specifying concrete by its grade (e.g., M20, M25) is considered the most appropriate and standardized method, as it directly denotes the required characteristic compressive strength."
+    },
+    {
+      "q": "238. The total number of grades of ordinary concrete stipulated in IS 456:2000 are",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "correct": 0,
+      "explain": "IS 456:2000 stipulates a total of 6 grades under the ordinary concrete category (M10, M15, M20, M25, M30... within the ordinary grade group)."
+    },
+    {
+      "q": "240. If the various concrete ingredients i.e. cement, sand and aggregates are in the ratio of 1:3:6, the grade of concrete, is",
+      "options": [
+        "M100",
+        "M150",
+        "M200",
+        "M250"
+      ],
+      "correct": 0,
+      "explain": "The nominal mix ratio 1:3:6 corresponds to the M150 grade of concrete as per standard grade-mix ratio correlations."
+    },
+    {
+      "q": "241. Permissible compressive strength of M150 concrete grade is",
+      "options": [
+        "100 kg/cm2",
+        "150 kg/cm2",
+        "200 kg/cm2",
+        "250 kg/cm2"
+      ],
+      "correct": 1,
+      "explain": "As indicated by its designation, the M150 grade of concrete has a characteristic (permissible) compressive strength of 150 kg/cm²."
+    },
+    {
+      "q": "242. Permissible compressive strength of M150 concrete grade is",
+      "options": [
+        "100 kg/m2",
+        "15 kg/cm2",
+        "15 N/mm2",
+        "25 kg/mm2"
+      ],
+      "correct": 2,
+      "explain": "150 kg/cm² is equivalent to approximately 15 N/mm² (since 1 N/mm² ≈ 10.2 kg/cm²), making 15 N/mm² the correct equivalent expression of the M150 grade strength."
+    },
+    {
+      "q": "243. Permissible compressive strength of M200 concrete grade is",
+      "options": [
+        "100 kg/cm2",
+        "150 kg/cm2",
+        "200 kg/cm2",
+        "250 kg/cm2"
+      ],
+      "correct": 2,
+      "explain": "By definition, the M200 grade concrete has a characteristic (permissible) compressive strength of 200 kg/cm²."
+    },
+    {
+      "q": "244. The ratio of various ingredients (cement, sand, aggregates) in concrete of grade M 200, is",
+      "options": [
+        "1:2:4",
+        "1:3:6",
+        "1:1.5:3",
+        "1:1:2"
+      ],
+      "correct": 2,
+      "explain": "The M200 grade of concrete typically corresponds to a nominal mix ratio of 1:1.5:3 (cement:sand:aggregate)."
+    },
+    {
+      "q": "245. Permissible compressive strength of M250 concrete grade is",
+      "options": [
+        "100 kg/cm2",
+        "150 kg/cm2",
+        "200 kg/cm2",
+        "250 kg/cm2"
+      ],
+      "correct": 3,
+      "explain": "By definition, the M250 grade concrete has a characteristic (permissible) compressive strength of 250 kg/cm²."
+    },
+    {
+      "q": "246. Permissible compressive strength of M300 concrete grade is",
+      "options": [
+        "100 kg/cm2",
+        "150 kg/cm2",
+        "200 kg/cm2",
+        "300 kg/cm2"
+      ],
+      "correct": 3,
+      "explain": "By definition, the M300 grade concrete has a characteristic (permissible) compressive strength of 300 kg/cm²."
+    },
+    {
+      "q": "257. For the construction of RCC slab, column, beam and walls, the minimum grade of concrete mixed is used for",
+      "options": [
+        "1:3:6",
+        "1:1:2",
+        "1:1.5:3",
+        "1:2:4"
+      ],
+      "correct": 2,
+      "explain": "The minimum recommended nominal mix for general RCC construction (slabs, columns, beams, walls) is 1:2:4, corresponding to M15 grade concrete."
+    },
+    {
+      "q": "258. M100 grade of concrete approximates",
+      "options": [
+        "1:3:6",
+        "1:1:2",
+        "1:2:4",
+        "1:1.5:3"
+      ],
+      "correct": 0,
+      "explain": "The M100 grade of concrete (lowest strength grade) approximately corresponds to a lean nominal mix ratio of 1:3:6."
+    },
+    {
+      "q": "259. M150 grade of concrete approximates",
+      "options": [
+        "1:3:6",
+        "1:1:2",
+        "1:2:4",
+        "1:1.5:3"
+      ],
+      "correct": 2,
+      "explain": "The M150 grade of concrete approximately corresponds to a nominal mix ratio of 1:2:4 (cement:sand:aggregate)."
+    },
+    {
+      "q": "275. For batching 1:3:6 concrete mix by volume, the ingredients required per bag for 50kg cement are",
+      "options": [
+        "70 liters of sand 120 liters of aggregates",
+        "70 kg of sand 140 liters of aggregates",
+        "105 liters of sand and 140 liters of aggregates",
+        "105 liters of sand and 210 liters of aggregates"
+      ],
+      "correct": 3,
+      "explain": "For a 1:3:6 mix by volume with a standard 50 kg (35-litre volume) cement bag, the proportional quantities work out to 105 litres of sand (3 x 35) and 210 litres of aggregates (6 x 35)."
+    },
+    {
+      "q": "323. The main purpose of concrete design mix is",
+      "options": [
+        "economise the cost of concrete",
+        "mixing the concrete in better way",
+        "selection of ingredients of concrete",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Design mixing proportions the ingredients scientifically to achieve the required strength and durability at the most economical cement content, making cost economy its main purpose."
+    },
+    {
+      "q": "324. Generally nominal mix is done by volume while design mix is done by",
+      "options": [
+        "volume",
+        "weight",
+        "both (a) and (b) of above",
+        "consolidation"
+      ],
+      "correct": 1,
+      "explain": "Design mixes require accurate proportioning of ingredients, which is achieved by batching materials by weight rather than the less precise volume batching used in nominal mixes."
+    },
+    {
+      "q": "326. If the average compressive strength is 4000 kg/cm2 and standard deviation is 500, the coefficient of variation is",
+      "options": [
+        "10%",
+        "12.5%",
+        "15%",
+        "18.5%"
+      ],
+      "correct": 1,
+      "explain": "Coefficient of variation = (standard deviation / mean) x 100 = (500/4000) x 100 = 12.5%."
+    },
+    {
+      "q": "15. Volume of coarse aggregate required to make 100m3 of 1:2:4 concrete is",
+      "options": [
+        "98m3",
+        "84m3",
+        "79m3",
+        "72m3"
+      ],
+      "correct": 1,
+      "explain": "For a 1:2:4 mix (7 parts total, with dry volume factor ~1.54-1.55), the coarse aggregate proportion (4/7) of the total dry volume works out to approximately 84m3 for 100m3 of finished concrete."
+    },
+    {
+      "q": "124. The grade of concrete M 150 means that compressive strength of 15 cm cube after 28 days, is",
+      "options": [
+        "100 kg/cm2",
+        "150 kg/cm2",
+        "200 kg/ cm2",
+        "250 kg/cm2"
+      ],
+      "correct": 1,
+      "explain": "The grade designation M150 directly indicates that the characteristic compressive strength of a 15cm cube after 28 days of curing is 150 kg/cm²."
+    },
+    {
+      "q": "125. According to I.S. : 456, the number of grades of concrete mixes, is",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "7"
+      ],
+      "correct": 3,
+      "explain": "As per IS:456, concrete mixes were historically classified into 7 grades based on specified compressive strengths (though modern codes list more, this classic reference lists 7)."
+    },
+    {
+      "q": "130. The ratio of various ingredients (cement, sand, aggregates) in concrete of grade M20, is",
+      "options": [
+        "1 : 2 : 4",
+        "1: 3: 6",
+        "1 : 1 1/2 : 3",
+        "1: 1: 2"
+      ],
+      "correct": 2,
+      "explain": "The nominal mix proportion traditionally associated with grade M20 concrete is 1 : 1.5 : 3 (cement : sand : coarse aggregate)."
+    },
+    {
+      "q": "221. The ratio of various ingredients (cement, sand, aggregates) in concrete of grade M 200, is",
+      "options": [
+        "1: 2:4",
+        "1: 3: 6",
+        "1: 1.5:3",
+        "1: 1: 2"
+      ],
+      "correct": 2,
+      "explain": "The nominal mix proportion associated with grade M200 concrete (equivalent to M20 in modern notation) is 1 : 1.5 : 3 (cement : sand : coarse aggregate)."
+    },
+    {
+      "q": "233. The grade of concrete M 150 means that compressive strength of 15 cm cube after 28 days is",
+      "options": [
+        "100 kg/cm2",
+        "150 kg/cm2",
+        "200 kg/cm2",
+        "250 kg/cm2"
+      ],
+      "correct": 1,
+      "explain": "By definition, the grade designation M150 directly specifies a characteristic compressive strength of 150 kg/cm² for a 15cm cube tested after 28 days."
+    }
+  ]
+}

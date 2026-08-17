@@ -1,0 +1,690 @@
+{
+  "code": "4.3",
+  "subtopic": "COMPASS",
+  "topic": "Compass: types of compass, problems and sources of errors in compass survey",
+  "source": "survey101-175 updated.json (merged from old LEVEL 7 archive)",
+  "questions": [
+    {
+      "q": "101. In compass surveying",
+      "options": [
+        "the direction and lengths of survey line is measured by compass",
+        "the direction is measured by compass",
+        "length is measured by the chain or tape",
+        "both (b) and (c) of above"
+      ],
+      "correct": 3,
+      "explain": "In compass surveying, the compass is used to determine the magnetic bearing (direction), while linear measurements (lengths) are taken using a chain or tape."
+    },
+    {
+      "q": "102. In a prismatic compass",
+      "options": [
+        "the magnetic needle moves with the box",
+        "the magnetic needle and graduated circle do not move with the box",
+        "the line of sight does not move with the box",
+        "the graduated circle is fixed to the box and the magnetic needle always remains in the N-S direction"
+      ],
+      "correct": 1,
+      "explain": "In a prismatic compass, the needle and the graduated ring are attached together and remain stationary relative to the magnetic meridian; the box and sights rotate around them."
+    },
+    {
+      "q": "103. In a closed traverse",
+      "options": [
+        "the difference between fore bearing & back bearing should be 90°",
+        "the sum of included angles should be (2N-4) right angle, where N is the number of sides",
+        "the sum of inclined angles should be (2N-1), where N is the number of sides",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The geometric property of a closed polygon dictates that the sum of the interior angles is given by the formula (2N - 4) x 90 degrees."
+    },
+    {
+      "q": "104. Methods adopted for traversing are",
+      "options": [
+        "chain traversing and loose needle method",
+        "chain angle method and fast needle method",
+        "both (a) and (b) of above",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Traversing can be done using various methods such as 'loose needle' (compass), 'fast needle' (theodolite), or by measuring angles between lines using a chain."
+    },
+    {
+      "q": "105. The graduations in a prismatic compass are",
+      "options": [
+        "inverted and run clockwise having 0° at north",
+        "inverted and run clockwise having 0° at south",
+        "are erect",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Graduations are inverted because they are read through a prism; 0° is at South and 180° is at North to ensure the reading at the eye-end reflects the forward bearing."
+    },
+    {
+      "q": "106. True meridians",
+      "options": [
+        "are parallel to each other",
+        "converge at a point called pole",
+        "converge near equator",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "True meridians are Great Circles passing through the Earth's geographical North and South poles, meaning they converge as they approach the poles."
+    },
+    {
+      "q": "107. In whole circle system the bearings are measured",
+      "options": [
+        "clock wise from the north point of the reference meridian towards the line of sight round the circle",
+        "anti clockwise from the north point",
+        "with the notations of cardinal points N, E, S & W",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The Whole Circle Bearing (WCB) system measures angles from 0° to 360° exclusively in a clockwise direction starting from the North meridian."
+    },
+    {
+      "q": "108. Quadrantal system confines the user to measure the bearings from",
+      "options": [
+        "the north point clockwise",
+        "the north point or south point whichever is nearer",
+        "the north point anticlockwise",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "In the Quadrantal (or Reduced) Bearing system, bearings are measured from North or South toward East or West, whichever side is closer, and never exceed 90°."
+    },
+    {
+      "q": "109. A bearing noted N45° E represents",
+      "options": [
+        "quadrantal system",
+        "whole circle system",
+        "none of the above",
+        "reduces bearing system"
+      ],
+      "correct": 0,
+      "explain": "Any bearing using cardinal directions (N, S, E, W) and an angle between 0-90° belongs to the Quadrantal Bearing system."
+    },
+    {
+      "q": "110. The whole circle bearing 338°42' converted into quadrantal form is given as",
+      "options": [
+        "N 21°18'W",
+        "S21°18'E",
+        "W21°18'N",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Since 338°42' is in the 4th quadrant, the Reduced Bearing = 360° - 338°42' = N 21°18' W."
+    },
+    {
+      "q": "111. If the quadrantal bearing of a line is N 35°W then the whole circle bearing is",
+      "options": [
+        "325°",
+        "205°",
+        "215°",
+        "315°"
+      ],
+      "correct": 0,
+      "explain": "For a North-West bearing, the WCB = 360° - (Reduced Bearing). So, 360° - 35° = 325°."
+    },
+    {
+      "q": "112. The prismatic compass and surveyor's compass respectively give",
+      "options": [
+        "whole circle bearing of a line & quadrantal bearing of a line",
+        "both quadrantal bearing of a line",
+        "both whole circle bearing of a line",
+        "quadrantal & whole circle bearing of a line"
+      ],
+      "correct": 0,
+      "explain": "Prismatic compasses are graduated 0-360° (WCB), while Surveyor's compasses are graduated in quadrants 0-90° (QB)."
+    },
+    {
+      "q": "113. The whole circle bearing of a line is 270° then find the reduced bearing of line",
+      "options": [
+        "0°",
+        "E90°",
+        "180°",
+        "W 90°"
+      ],
+      "correct": 3,
+      "explain": "An angle of 270° points directly West. In the quadrantal system, this is represented as W 90°."
+    },
+    {
+      "q": "114. The quadrantal bearing of a line is determined by",
+      "options": [
+        "surveyor's compass",
+        "prismatic compass",
+        "celestial observations",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The Surveyor's compass is specifically designed and graduated to give bearings in the quadrantal form (N/S - Angle - E/W)."
+    },
+    {
+      "q": "115. Local attraction at a place may be due to",
+      "options": [
+        "key bunches",
+        "steel buttons",
+        "current carrying base wire",
+        "electric storm"
+      ],
+      "correct": 2,
+      "explain": "Local attraction is a disturbance of the magnetic needle caused by external magnetic influences; while small metal objects affect it, electric storms cause significant regional disturbances."
+    },
+    {
+      "q": "116. The amount of correction due to local attraction at a place",
+      "options": [
+        "is constant for all bearings",
+        "various with the bearing",
+        "changes from time to time",
+        "sometimes additive and sometimes subtractive"
+      ],
+      "correct": 0,
+      "explain": "Local attraction affects the needle's orientation locally; however, the specific correction depends on the observed bearing's relationship to the magnetic interference."
+    },
+    {
+      "q": "117. An instrumental error in compass survey is because",
+      "options": [
+        "inaccurate leveling",
+        "variation in declination",
+        "no counter weight provision to counter act dip",
+        "local attraction due to base current carrying conductors."
+      ],
+      "correct": 2,
+      "explain": "A lack of a counterweight to offset the magnetic dip is a physical defect of the instrument itself, rather than an observational or natural error."
+    },
+    {
+      "q": "118. If bearing of AB is N 30° W and bearing of BC, is N 40° E then find the angle <ABC",
+      "options": [
+        "10°",
+        "70°",
+        "110°",
+        "170°"
+      ],
+      "correct": 2,
+      "explain": "Since AB is in the NW quadrant and BC is in the NE quadrant, the included angle calculation based on their positions results in 110°."
+    },
+    {
+      "q": "119. The smaller angle which a survey line makes with the true meridian is known as",
+      "options": [
+        "altitude",
+        "azimuth",
+        "declination",
+        "dip"
+      ],
+      "correct": 1,
+      "explain": "Azimuth is the horizontal angle measured clockwise from the true meridian to the survey line."
+    },
+    {
+      "q": "120. Azimuth and altitude of a star",
+      "options": [
+        "is constant",
+        "vary due to diurnal motion",
+        "azimuth is constant but altitude is not constant",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Due to the Earth's daily rotation (diurnal motion), the apparent position of celestial bodies changes throughout the night."
+    },
+    {
+      "q": "121. The W.C.B of a line is preferred to a quadrantal bearing merely because",
+      "options": [
+        "bearing is not completely specified by an angle",
+        "bearing is completely specified by an angle",
+        "sing of correction of magnetic declination is different in different quadrant.",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "WCB is simpler for calculations because a single numerical value (0-360°) defines the direction without needing cardinal prefixes or suffixes."
+    },
+    {
+      "q": "122. For a line AB",
+      "options": [
+        "the fore bearing and back bearing of line AB differ by 180°",
+        "the fore bearing of AB and back bearing of line BA differ by 180°",
+        "both (a) and (b) of above",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "In a correct survey, the difference between the forward look (FB) and the backward look (BB) of the same line must be exactly 180°."
+    },
+    {
+      "q": "123. Local attraction in a compass surveying may be due to",
+      "options": [
+        "faulty adjustment in compass",
+        "presence of magnetic materials",
+        "loss of magnetism in the needle",
+        "friction of the needle at the point"
+      ],
+      "correct": 1,
+      "explain": "Local attraction specifically refers to the deflection of the needle caused by nearby magnetic objects like iron ore, steel structures, or electric cables."
+    },
+    {
+      "q": "124. The inclination of needle to the horizontal towards the pole is called",
+      "options": [
+        "dip",
+        "declination",
+        "azimuth",
+        "bearing"
+      ],
+      "correct": 0,
+      "explain": "Dip is the vertical angle that a magnetic needle makes with the horizontal plane due to the Earth's magnetic field."
+    },
+    {
+      "q": "125. The dip of the needle",
+      "options": [
+        "is constant",
+        "varies from place to place & is zero at the equator and maximum at the poles",
+        "is zero at the equators and poles",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Magnetic dip is 0° at the magnetic equator (horizontal needle) and 90° at the magnetic poles (vertical needle)."
+    },
+    {
+      "q": "126. The Q. B of the lines are given by......, & ...... If W.C.B. of the lines are 0°, 135° & 270° respectively",
+      "options": [
+        "S, S45°E, E90°",
+        "N, N45°W, E90°",
+        "N, S45°E, E90°",
+        "N, S45°E, W90°"
+      ],
+      "correct": 3,
+      "explain": "0° is North (N), 135° is in the 2nd quadrant (180-135=S45°E), and 270° is due West (W90°)."
+    },
+    {
+      "q": "127. The effect of local attraction is observed in",
+      "options": [
+        "chain survey",
+        "compass survey",
+        "PT survey",
+        "leveling"
+      ],
+      "correct": 1,
+      "explain": "Local attraction specifically affects magnetic instruments like the compass."
+    },
+    {
+      "q": "128. The angle which the true meridian makes with magnetic meridian is called",
+      "options": [
+        "magnetic declination or declination",
+        "true declination",
+        "dip",
+        "azimuth"
+      ],
+      "correct": 0,
+      "explain": "Magnetic declination is the horizontal angle between the true North-South line and the magnetic North-South line."
+    },
+    {
+      "q": "129. Magnetic declination",
+      "options": [
+        "remains same at different places",
+        "varies from place to place",
+        "does not vary with temperature",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Declination changes depending on the geographical location and also changes over time at the same location."
+    },
+    {
+      "q": "130. The magnetic north is indicated by",
+      "options": [
+        "magnetic compass",
+        "prismatic compass",
+        "none of the above",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Any magnetic compass, including a prismatic compass, is designed to align with the magnetic North."
+    },
+    {
+      "q": "131. If the magnetic bearing of a line is 65° and the true bearing 45°, then the magnetic declination is",
+      "options": [
+        "10°W",
+        "20°W",
+        "20°E",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Declination = True Bearing - Magnetic Bearing. 45° - 65° = -20°, which indicates 20° West."
+    },
+    {
+      "q": "132. A negative declination shows the magnetic meridian to the",
+      "options": [
+        "eastern side of the true meridian",
+        "western side of the true meridian",
+        "southern side of the true meridian",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Negative declination is synonymous with Western declination (magnetic North is West of true North)."
+    },
+    {
+      "q": "133. If the magnetic bearing of sun at noon at a place in southern hemisphere is 150°, the magnetic declination at that place is",
+      "options": [
+        "30°E",
+        "30°W",
+        "20°E",
+        "20°W"
+      ],
+      "correct": 0,
+      "explain": "At noon, the sun is at the true meridian (180°). Declination = True Bearing (180°) - Magnetic Bearing (150°) = +30° (East)."
+    },
+    {
+      "q": "134. Isogonic lines are",
+      "options": [
+        "line passing through the points having same declination at a given point",
+        "line passing through point of zero declination",
+        "line passing through the point having same dip",
+        "line passing through the point having zero dip"
+      ],
+      "correct": 0,
+      "explain": "Lines connecting points on the Earth's surface with equal magnetic declination are called isogonic lines."
+    },
+    {
+      "q": "135. In survey works declination varies from time to time and place to place. The main important variation is",
+      "options": [
+        "secular variation",
+        "annual variation",
+        "diurnal variation",
+        "irregular variation"
+      ],
+      "correct": 0,
+      "explain": "Secular variation follows a long-term swing (hundreds of years) and is the most significant for maintaining old records."
+    },
+    {
+      "q": "136. Secular variation is important factor because",
+      "options": [
+        "the variation is due to seasonal changes",
+        "the magnitude of variation is of high order and the needle after coming to standstill may move in opposite direction",
+        "the needle will stop",
+        "the variation is less"
+      ],
+      "correct": 1,
+      "explain": "Secular variation can be quite large over long periods, significantly affecting the accuracy of old survey maps."
+    },
+    {
+      "q": "137. Diurnal variation depends upon",
+      "options": [
+        "locality",
+        "time",
+        "seasons",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Daily (diurnal) variation is influenced by the time of day, the season, and the geographical latitude."
+    },
+    {
+      "q": "138. The true bearing of a line can be calculated as",
+      "options": [
+        "true bearing = magnetic bearing ± magnetic declination",
+        "true bearing = magnetic bearing + magnetic declination",
+        "true bearing = magnetic bearing - magnetic declination",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The general formula uses ± depending on whether the declination is East (+) or West (-)."
+    },
+    {
+      "q": "139. The magnetic declination at a place is 7°20' W, the bearing given by the compass is S45°40'E, the true bearing of the place is",
+      "options": [
+        "N53°0'E",
+        "S53°0'E",
+        "N53°0'W",
+        "S53°0'W"
+      ],
+      "correct": 1,
+      "explain": "Convert S45°40'E to WCB: 180-45°40'=134°20'. True Bearing = 134°20' - 7°20' (West) = 127°00'. Convert back to RB: 180-127=S53°E."
+    },
+    {
+      "q": "140. The bearing of line AB is 200° and that of BC is 270°, the included angle ABC, is",
+      "options": [
+        "110°,",
+        "70°",
+        "90°",
+        "80°"
+      ],
+      "correct": 0,
+      "explain": "Included angle = Back Bearing of AB - Fore Bearing of BC. BB of AB=200-180=20°. Difference=270-20=250° (exterior). Interior=360-250=110°."
+    },
+    {
+      "q": "141. If the magnetic declination is (-) 6°0' and the reduced bearing of a line is S40°0'E the true bearing of the line is",
+      "options": [
+        "S134°0'E",
+        "S146°0'E",
+        "S46°0'E",
+        "S34°0'E"
+      ],
+      "correct": 2,
+      "explain": "WCB=180-40=140°. True WCB=140-6=134°. True RB=180-134=S46°E."
+    },
+    {
+      "q": "142. Find the whole circle bearing of a line as shown in figure",
+      "options": [
+        "15°",
+        "345°",
+        "375°",
+        "195°"
+      ],
+      "correct": 1,
+      "explain": "The diagram shows an angle of 15° West of North. WCB = 360-15=345°."
+    },
+    {
+      "q": "143. If the bearing of a line AB is 210° and that of CB is 150° then find the angle <ABC",
+      "options": [
+        "45°",
+        "60°",
+        "75°",
+        "90°"
+      ],
+      "correct": 1,
+      "explain": "Angle ABC=BB of AB - BB of BC. BB of AB=210-180=30°. FB of BC=150+180=330°. BB of BC=150°. The internal angle calculation for this setup results in 60°."
+    },
+    {
+      "q": "144. The bearing of a line AB is N30°E and that of CB is S80°E then find the angle between AB & BC.",
+      "options": [
+        "50°",
+        "60°",
+        "70°",
+        "90°"
+      ],
+      "correct": 2,
+      "explain": "Convert to WCB: AB=30°, CB=100°. Angle=100-30=70°."
+    },
+    {
+      "q": "145. The whole circle bearing of a line is 210°30' then find the RB of line",
+      "options": [
+        "S30°30'W",
+        "S30°30'E",
+        "N30°30'W",
+        "N30°30'E"
+      ],
+      "correct": 0,
+      "explain": "210°30' is in the 3rd quadrant. RB=WCB-180=210°30'-180°=S30°30'W."
+    },
+    {
+      "q": "146. The value of magnetic declination if the magnetic bearing of sun at noon is 350°",
+      "options": [
+        "10°E",
+        "10°W",
+        "80°E",
+        "80°W"
+      ],
+      "correct": 0,
+      "explain": "True Bearing at noon=360°/0°. Magnetic Bearing=350°. Declination=360-350=10° East."
+    },
+    {
+      "q": "147. Back bearing of a line BA is 35° and bearing of BC is 125° then find the included angle ABC",
+      "options": [
+        "35°",
+        "90°",
+        "125°",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Included angle=125°-35°=90°."
+    },
+    {
+      "q": "148. The foremost work to be executed while traversing with a compass is",
+      "options": [
+        "marking and referencing of stations",
+        "running survey lines",
+        "picking up of details",
+        "reconnaissance"
+      ],
+      "correct": 3,
+      "explain": "Reconnaissance (preliminary inspection) is always the first step in any survey to plan station locations."
+    },
+    {
+      "q": "149. A traverse survey can be plotted",
+      "options": [
+        "by rectangular coordinates or plotting by tangents",
+        "by paper protractor or by included angles",
+        "by parallel meridian method or plotting by chords",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "All the mentioned methods are valid ways to transfer field traverse data onto paper."
+    },
+    {
+      "q": "150. If the needle of the compass is sluggish the type of error will be",
+      "options": [
+        "instrumental error",
+        "personal error",
+        "natural error",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Sluggishness is caused by a dull pivot or loss of magnetism, which are defects of the instrument."
+    },
+    {
+      "q": "151. Which one of the following may not be classified as natural error?",
+      "options": [
+        "variation in magnetic declination",
+        "local attraction",
+        "sluggish needle",
+        "irregular variation"
+      ],
+      "correct": 2,
+      "explain": "A sluggish needle is an instrumental error caused by a dull pivot or loss of magnetism, whereas the others are related to natural magnetic phenomena."
+    },
+    {
+      "q": "152. For a station to be free from local attraction",
+      "options": [
+        "the fore and back bearings of the line should be measured accurately",
+        "the fore and back bearings of line should differ by exactly 180°",
+        "the fore and back bearings of the line should be exactly same but with opposite signs",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "If the difference between Fore Bearing (FB) and Back Bearing (BB) is exactly 180°, it indicates that neither station is influenced by local magnetic interference."
+    },
+    {
+      "q": "153. The magnetic bearing of a line is 60° and true bearing of the same line is 70°. Find the declination",
+      "options": [
+        "10°E",
+        "10°W",
+        "0°",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Declination=True Bearing-Magnetic Bearing. 70°-60°=+10°. A positive result indicates Eastern declination (10°E)."
+    },
+    {
+      "q": "154. If the station A and B are equally affected and in the different direction, then the difference between fore bearing and back bearing of a line AB should be",
+      "options": [
+        "180°",
+        "200°",
+        "220°",
+        "may any of the above"
+      ],
+      "correct": 3,
+      "explain": "If both stations are affected by local attraction, the 180° rule is violated; the resulting difference depends on the magnitude and direction of the local error at both ends."
+    },
+    {
+      "q": "155. The survey stations set up during traversing with compass should be such that",
+      "options": [
+        "they are visible from each other",
+        "chaining between them is easy",
+        "the line joining them are near the objects to be located",
+        "they are as long as possible"
+      ],
+      "correct": 2,
+      "explain": "Longer survey lines reduce the relative effect of centering errors and improve the overall accuracy of the traverse."
+    },
+    {
+      "q": "156. The maximum permissible difference allowed while taking down the fore bearing and back bearing of a line is",
+      "options": [
+        "15'",
+        "15\"",
+        "no such limit",
+        "1°"
+      ],
+      "correct": 0,
+      "explain": "In general practice for prismatic compass surveys, a discrepancy of up to 15 minutes is often considered acceptable before re-measurement is required."
+    },
+    {
+      "q": "157. Which one of the following may not be classified as personal error?",
+      "options": [
+        "inaccurate centring",
+        "inaccurate levelling",
+        "plane of sight not being vertical",
+        "carelessness in reading and recording"
+      ],
+      "correct": 2,
+      "explain": "If the plane of sight is not vertical, it is typically an instrumental error (permanent adjustment issue), while centering and reading are human (personal) errors."
+    },
+    {
+      "q": "158. If the needle is truly magnetic and is not sluggish",
+      "options": [
+        "it will be always oscillating and never stop",
+        "when it stops it will be exactly on magnetic meridian",
+        "it will be always free from local attraction",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "A high-quality, sensitive needle will align itself perfectly with the local magnetic meridian once it settles."
+    },
+    {
+      "q": "159. If the sights are vertical",
+      "options": [
+        "the eye vane and object vane will be in same line",
+        "the eye vane, object vane and string will be parallel and in same line",
+        "there will be no local attraction",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Correct vertical alignment ensures that the line of sight accurately reflects the bearing on the graduated ring."
+    },
+    {
+      "q": "160. The needle is adjusted for",
+      "options": [
+        "sensitivity",
+        "balancing",
+        "straightening vertically and horizontally",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "To ensure accuracy, the needle must be balanced (to counter dip), sensitive (to move freely), and straight (to point correctly)."
+    },
+    {
+      "q": "161. A diagonal eye piece is provided with a",
+      "options": [
+        "plane convex lens",
+        "reflecting prism",
+        "mirror fitted at 45° with the axis of telescope",
+        "both (b) and (c) of above"
+      ],
+      "correct": 3,
+      "explain": "Diagonal eyepieces use prisms or mirrors to allow the observer to see through the telescope from a comfortable angle, especially for steep sightings."
+    },
+    {
+      "q": "162. The angular error of closure or summation error should not exceed",
+      "options": [
+        "15'√N",
+        "15\"√N",
+        "√N",
+        "3√N where N is number of stations or sides."
+      ],
+      "correct": 0,
+      "explain": "The standard permissible angular closure error in compass surveying is typically defined as 15' multiplied by the square root of the number of stations."
+    }
+  ]
+}

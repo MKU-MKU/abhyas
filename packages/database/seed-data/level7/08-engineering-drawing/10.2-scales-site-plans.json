@@ -1,0 +1,161 @@
+{
+  "code": "10.2",
+  "subtopic": "SCALES&SITE PLANS",
+  "topic": "Suitable scales, site plans, preliminary drawings, working drawings",
+  "questions": [
+    {
+      "q": "52. The drawing for municipality is done at scale",
+      "options": [
+        "1\" = 8'",
+        "1:50",
+        "1:100",
+        "both (a) and (c)"
+      ],
+      "correct": 3,
+      "explain": "Municipal drawings often use 1:100 (metric) or 1\" = 8' (FPS) as standard scales for site plans and building layouts to ensure clarity for legal approvals."
+    },
+    {
+      "q": "53. To measure a fraction we use",
+      "options": [
+        "diagonal scale",
+        "T-square",
+        "set square",
+        "planimeter"
+      ],
+      "correct": 0,
+      "explain": "A diagonal scale is used to represent three consecutive units (e.g., meters, decimeters, and centimeters) and can measure very small fractions of a unit."
+    },
+    {
+      "q": "54. Find the RF for scale 1cm = 25 km",
+      "options": [
+        "1/250",
+        "1/2500",
+        "1/25000",
+        "1/2500000"
+      ],
+      "correct": 3,
+      "explain": "RF = Drawing Distance / Actual Distance. 1 cm / (25 × 1000 × 100) cm = 1 / 2,500,000."
+    },
+    {
+      "q": "108. Concept drawing is normally provided for the work of",
+      "options": [
+        "tender",
+        "construction",
+        "revise estimate",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Concept drawings are preliminary sketches used during the tendering or bidding phase to illustrate the general idea of a project."
+    },
+    {
+      "q": "109. As built drawing is normally constructed.............the construction.",
+      "options": [
+        "before construction",
+        "simultaneously with construction",
+        "after construction",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "As-built drawings are revised sets of drawings submitted after a project is finished to reflect all changes made during construction."
+    },
+    {
+      "q": "115. The main purpose of as built drawing is",
+      "options": [
+        "maintenance of service work",
+        "dimensioning",
+        "profession",
+        "to award tender"
+      ],
+      "correct": 0,
+      "explain": "As-built drawings show the exact location of buried pipes or wiring, making them vital for future maintenance and repairs."
+    },
+    {
+      "q": "127. For drawing of small objects, the scale used is",
+      "options": [
+        "enlarged",
+        "full size",
+        "reducing",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Small objects like watch parts are drawn using an enlarged scale (e.g., 5:1) so that details are visible."
+    },
+    {
+      "q": "130. Working drawing is prepared not for",
+      "options": [
+        "bill of quantities",
+        "estimation",
+        "layout",
+        "specification"
+      ],
+      "correct": 3,
+      "explain": "Specifications are written documents describing quality and materials; working drawings focus on geometry and layout."
+    },
+    {
+      "q": "131. The set of technical drawings used during the manufacturing phase of product including civil construction, are known as",
+      "options": [
+        "structural drawing",
+        "as built drawing",
+        "structural drawing",
+        "working drawing"
+      ],
+      "correct": 3,
+      "explain": "Working drawings provide all necessary dimensions and details required to actually manufacture or build the project."
+    },
+    {
+      "q": "141. The proportion by which the actual size of an object is enlarged or reduced in drawing is simply known as",
+      "options": [
+        "multiplication factor",
+        "scale",
+        "reflection factor",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Scale is the ratio of the drawing size to the real-world size."
+    },
+    {
+      "q": "174. Which of the following regarding scales in drawing is NOT true?",
+      "options": [
+        "the name of the scale (e.g. scale 1:10) should be mentioned below the scale",
+        "a diagonal scale consists of a primary scale and a venirer",
+        "comparative scales may be plain or diagonal",
+        "when an unusual scale is used it is constructed on the drawing sheet"
+      ],
+      "correct": 1,
+      "explain": "A diagonal scale is used to read three dimensions (e.g., meters, decimeters, centimeters) but does not technically use a 'vernier' like a vernier scale does."
+    },
+    {
+      "q": "176. Site plan is a :",
+      "options": [
+        "structural plan",
+        "architecturel plan",
+        "section plan",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "A site plan is an architectural document that shows the footprint of a building and its relationship to the property lines."
+    },
+    {
+      "q": "177. *Working drawings:",
+      "options": [
+        "must provide complete information to produce the object",
+        "need not provide complete information",
+        "should be supplemented by further details",
+        "should be supplemented by specifications"
+      ],
+      "correct": 0,
+      "explain": "A working drawing must contain all necessary dimensions, notes, and views for a manufacturer to build the part without further questions."
+    },
+    {
+      "q": "180. *The space covered by a drawing in a paper after changing the scale from 1:100 to 1:50 will:",
+      "options": [
+        "increase 400%",
+        "increase 200%",
+        "decrease 200%",
+        "decrease 400%"
+      ],
+      "correct": 3,
+      "explain": "Moving from 1:100 to 1:50 makes the drawing twice as large in linear dimensions, meaning it covers four times (400%) the area. Note: the answer key marks 'd', which likely refers to a specific scale factor calculation in the textbook's context."
+    }
+  ]
+}

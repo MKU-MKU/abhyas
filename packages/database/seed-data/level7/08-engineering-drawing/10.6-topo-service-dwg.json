@@ -1,0 +1,106 @@
+{
+  "code": "10.6",
+  "subtopic": "TOPO&SERVICE DWG",
+  "topic": "Topographic, electrical, plumbing and structural drawings",
+  "questions": [
+    {
+      "q": "99. Topographic drawing is drawn to show",
+      "options": [
+        "natural details only",
+        "artificial details only",
+        "both natural and artificial details",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "Topographic maps depict both natural features (rivers, hills, vegetation) and man-made/artificial features (roads, buildings, bridges) of an area."
+    },
+    {
+      "q": "100. In topographic map, the symbol used to represent mosque is",
+      "options": [
+        "a cross",
+        "a crescent",
+        "a triangle",
+        "a dot"
+      ],
+      "correct": 1,
+      "explain": "A crescent shape is the standardized conventional symbol used on topographic maps to indicate the location of a mosque."
+    },
+    {
+      "q": "101. In topographic map, the symbol used to represent church is",
+      "options": [
+        "a cross",
+        "a crescent",
+        "a triangle",
+        "a dot"
+      ],
+      "correct": 0,
+      "explain": "A cross symbol is the standard conventional sign used on topographic maps to mark the location of a church."
+    },
+    {
+      "q": "102. In topographic map, the symbol used to represent tree is",
+      "options": [
+        "a circle with dots",
+        "a small circular shape",
+        "an irregular round shape",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Trees are generally represented by a small, irregular circular or clustered symbol to distinguish them from man-made point features."
+    },
+    {
+      "q": "103. In topographic map, the symbol used to represent stone is",
+      "options": [
+        "a triangle",
+        "a small dot",
+        "a square",
+        "a rectangle"
+      ],
+      "correct": 1,
+      "explain": "A single stone or boundary marker is often represented by a small dot symbol on detailed survey maps."
+    },
+    {
+      "q": "104. In topographic map, the symbol used to represent school is",
+      "options": [
+        "a flag symbol",
+        "letter 'S' in a box",
+        "a cross",
+        "a triangle"
+      ],
+      "correct": 1,
+      "explain": "Educational institutions like schools are conventionally marked with the letter 'S' enclosed in a small box or circle on topographic maps."
+    },
+    {
+      "q": "107. Topographic map is drawn to represent",
+      "options": [
+        "natural details of small area",
+        "natural details of large area",
+        "artificial details only",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Topographic maps are generally used to depict natural and cultural details spanning a large geographical area."
+    },
+    {
+      "q": "152. Topographical maps are drawn to a :",
+      "options": [
+        "small scale",
+        "large scale",
+        "medium scale",
+        "any scale"
+      ],
+      "correct": 1,
+      "explain": "Since topographic maps need to show significant detail (contours, symbols) over a wide area, they are typically drawn to a large scale (e.g., 1:25000) to maintain clarity."
+    },
+    {
+      "q": "178. Structural drawing shall furnish complete information for :",
+      "options": [
+        "fabrication and erection of structural elements",
+        "only the electrical layout",
+        "only the plumbing layout",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Structural drawings must contain all necessary specifications, dimensions, and material grades required for engineers to safely fabricate and erect the load-bearing components of a building."
+    }
+  ]
+}

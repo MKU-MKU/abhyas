@@ -1,0 +1,382 @@
+{
+  "code": "9.1",
+  "subtopic": "TYPES OF ESTIMATES",
+  "topic": "Types and stages of estimates: preliminary, plinth area, detailed, revised, supplementary",
+  "source": "est_1-50.json, est_101-151.json, est_151-200.json, est_201-250.json, est_51-100.json",
+  "questions": [
+    {
+      "q": "7. *For electric wiring such as fan, light, plug etc, the estimate is made in terms of",
+      "options": [
+        "type of point",
+        "number of points",
+        "total load at main in kw",
+        "total length of wiring in meters"
+      ],
+      "correct": 2,
+      "explain": "While individual points are counted, the overall estimate for the system often considers the total load in kilowatts for capacity planning."
+    },
+    {
+      "q": "38. Estimate is",
+      "options": [
+        "calculation of quantity",
+        "calculation of cost",
+        "Rough or detailed estimate",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "The fundamental purpose of an estimate is to calculate the probable cost of a project."
+    },
+    {
+      "q": "39. *The main objective of the estimating is",
+      "options": [
+        "to find the probable cost of the work",
+        "to find the quantity of various materials and labour",
+        "calculation of cost",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Estimating aims to determine the likely expenditure required before the project begins."
+    },
+    {
+      "q": "40. Estimate is",
+      "options": [
+        "the actual cost of construction of a structure",
+        "the probable cost arrived at before commencement of the structure",
+        "all of the above",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "An estimate is a forecast of cost, whereas 'actual cost' is only known after completion."
+    },
+    {
+      "q": "41. *Which of the following is the most correct estimate?",
+      "options": [
+        "plinth area estimate",
+        "cube rate estimate",
+        "detailed estimate",
+        "supplementary estimate"
+      ],
+      "correct": 2,
+      "explain": "A detailed estimate is the most accurate as it involves item-by-item quantity calculations."
+    },
+    {
+      "q": "42. Estimate expected to be least accurate is",
+      "options": [
+        "supplementary estimate",
+        "plinth area estimate",
+        "detailed estimate",
+        "revised estimate"
+      ],
+      "correct": 1,
+      "explain": "Plinth area estimates are preliminary/approximate and based on rough rates per unit area."
+    },
+    {
+      "q": "43. *The plinth area estimate method is also known as",
+      "options": [
+        "square rate method",
+        "rectangle rate method",
+        "triangle rate method",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Because it uses the floor area (measured in square meters/feet) to calculate cost, it is also called the square rate method."
+    },
+    {
+      "q": "44. Plinth area estimate is a approximate estimate mostly used for the estimation of",
+      "options": [
+        "building",
+        "road and highway",
+        "irrigation channel",
+        "bridge and culvert"
+      ],
+      "correct": 0,
+      "explain": "Plinth area (floor area) is a concept specific to buildings."
+    },
+    {
+      "q": "46. *Actual cost of the structure is obtained",
+      "options": [
+        "after design",
+        "after estimate",
+        "after detail drawing",
+        "only after completion of work"
+      ],
+      "correct": 3,
+      "explain": "Actual cost represents the final total spent, which is only certain once the project is finished."
+    },
+    {
+      "q": "47. The actual cost of supplementary and revised estimate is",
+      "options": [
+        "less than estimated cost",
+        "more than estimated cost",
+        "equal to estimated cost",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "The final actual cost is only realized upon completion of the works defined in the estimates."
+    },
+    {
+      "q": "48. Which one estimate is the best among all?",
+      "options": [
+        "plinth area estimate",
+        "lump sum estimate",
+        "both (a) and (b) of above",
+        "detailed estimate"
+      ],
+      "correct": 3,
+      "explain": "A detailed estimate provides the most comprehensive and reliable cost breakdown."
+    },
+    {
+      "q": "61. *Of the total estimated cost a building, the cost of electrification usually accounts",
+      "options": [
+        "3%",
+        "8%",
+        "13%",
+        "18%"
+      ],
+      "correct": 1,
+      "explain": "Electrical installations are generally estimated as 8% of the total building cost."
+    },
+    {
+      "q": "67. In the detailed estimate the areas are worked out to the nearest",
+      "options": [
+        "0.001 m^2",
+        "0.01 m^2",
+        "0.05 m^2",
+        "0.005 m^2"
+      ],
+      "correct": 1,
+      "explain": "Standard practice in quantity surveying is to record areas to two decimal places (0.01 m^2)."
+    },
+    {
+      "q": "68. In the detailed estimate the volumes are worked out to the nearest",
+      "options": [
+        "0.001 m^3",
+        "0.01 m^3",
+        "0.05 m^3",
+        "0.005 m^3"
+      ],
+      "correct": 1,
+      "explain": "Volumes are calculated with higher precision, usually to three decimal places (0.01 m^3)."
+    },
+    {
+      "q": "71. Which is considered in the calculation of plinth area?",
+      "options": [
+        "thick of wall",
+        "corridor",
+        "car parch",
+        "both (a) and (b) of above"
+      ],
+      "correct": 3,
+      "explain": "Plinth area includes the wall thickness and internal circulation spaces like corridors."
+    },
+    {
+      "q": "72. Which is not considered in the calculation of plinth area?",
+      "options": [
+        "cantilever beam projection",
+        "inside room",
+        "below the staircase",
+        "passage"
+      ],
+      "correct": 0,
+      "explain": "Uncovered projections or cantilevered beams outside the wall line are excluded from the plinth area."
+    },
+    {
+      "q": "74. The plan of a building is in the from of a rectangle with centerline dimension of outer walls as 9.7m x 14.7m. The thickness of the wall in super structure is 0.30m. Then its plinth area is",
+      "options": [
+        "150 m^2",
+        "145 m^2",
+        "145.5 m^2",
+        "135.36 m^2"
+      ],
+      "correct": 0,
+      "explain": "Plinth dimensions = (9.7+0.3) x (14.7+0.3) = 10m x 15m = 150 m^2."
+    },
+    {
+      "q": "75. *In the case of unsewered areas, an additional provision for septic tank is usually",
+      "options": [
+        "1% of the building cost",
+        "3 to 4% of the building cost",
+        "10% of the building cost",
+        "12 to 15% of the building cost"
+      ],
+      "correct": 1,
+      "explain": "Standard estimates add 3-4% for sanitary and water supply works including septic tanks."
+    },
+    {
+      "q": "93. *The plan of a building is in the form of rectangle with center line dimension of outer walls as 9.7m x 14.7m. The thickness of the wall in super structure is 0.30m. Then its carpet area is",
+      "options": [
+        "150 m^2",
+        "145 m^2",
+        "145.5 m^2",
+        "135.36 m^2"
+      ],
+      "correct": 3,
+      "explain": "Carpet area = Inner dimensions. (9.7-0.3) x (14.7-0.3) = 9.4 x 14.4 = 135.36 m^2."
+    },
+    {
+      "q": "98. For the approval of any project a no. of sanction is followed out. Which one is initially done?",
+      "options": [
+        "administrative sanction",
+        "expenditure sanction",
+        "technical sanction",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Administrative sanction is the formal acceptance of the project proposal by the department before technical details are finalized."
+    },
+    {
+      "q": "167. Tentative cost of a road project is calculated by",
+      "options": [
+        "road per metre length",
+        "road per square metre length",
+        "road per cft length",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Preliminary or tentative estimates for roads are usually prepared on a 'per kilometer' or 'per meter' length basis."
+    },
+    {
+      "q": "170. The appropriate cost to the complete labour as a percentage of the total cost of the building is",
+      "options": [
+        "10%",
+        "25%",
+        "40%",
+        "5%"
+      ],
+      "correct": 1,
+      "explain": "On average, labor costs account for approximately 25% to 30% of the total construction cost of a building."
+    },
+    {
+      "q": "171. The covered area of a proposed building is 150 m2 and it includes a rear courtyard of 5m x 4m. If the prevailing plinth area rate for similar building is Rs.1250 / m2, what is its cost?",
+      "options": [
+        "Rs. 1,87,500",
+        "Rs. 2,12,500",
+        "Rs. 1,62,500",
+        "Rs. 3,75,000"
+      ],
+      "correct": 2,
+      "explain": "Courtyards are excluded from plinth area. Plinth Area = 150 - (5x4) = 130 m2. Cost = 130 * 1250 = Rs. 1,62,500."
+    },
+    {
+      "q": "172. At present the cost of Residential building per square feet in Kathmandu",
+      "options": [
+        "Rs.1000-1500",
+        "Rs.1500-2000",
+        "Rs.2000-2500",
+        "Rs.2500-3000"
+      ],
+      "correct": 1,
+      "explain": "Based on the provided book context (likely older data), the rate is 1500-2000. Current 2026 market rates are higher, but we follow the provided key."
+    },
+    {
+      "q": "173. Demolition means",
+      "options": [
+        "same as dismental",
+        "breaking up the structure",
+        "breaking up the structure with care",
+        "all of the above"
+      ],
+      "correct": 1,
+      "explain": "Demolition refers to the systematic destruction of a building where the recovery of materials is not the primary concern."
+    },
+    {
+      "q": "174. Dismental means",
+      "options": [
+        "same as dismental",
+        "breaking up the structure",
+        "breaking up the structure with care",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Dismantling implies taking a structure apart carefully so that the components can be salvaged and reused."
+    },
+    {
+      "q": "175. The useful part of liveable area of a building is also known as",
+      "options": [
+        "carpet area",
+        "circulation area",
+        "horizontal circulation area",
+        "plinth area"
+      ],
+      "correct": 0,
+      "explain": "Carpet area is the actual usable area within the walls of a room where a carpet can be spread."
+    },
+    {
+      "q": "176. Which one area must be greater at any floor of a building?",
+      "options": [
+        "carpet area",
+        "plinth area",
+        "floor area",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Plinth area is the largest as it includes the floor area plus the area occupied by the walls."
+    },
+    {
+      "q": "179. A document containing detailed description of all the types of work together with their current rates is called",
+      "options": [
+        "tender",
+        "schedule of rates",
+        "analysis of rate",
+        "abstract estimate"
+      ],
+      "correct": 1,
+      "explain": "The Schedule of Rates (SOR) is a standard document issued by departments listing current market rates for various construction items."
+    },
+    {
+      "q": "182. The investment required for the completion of any project is obtained by",
+      "options": [
+        "planning",
+        "budgeting",
+        "estimating",
+        "management"
+      ],
+      "correct": 2,
+      "explain": "Estimating provides the probable cost, which informs the investment or budget needed before the project starts."
+    },
+    {
+      "q": "185. The expenses of items which do not come under any regular head of items and the cost of unforeseen items are called",
+      "options": [
+        "lamp-sum",
+        "extras",
+        "customary charges",
+        "contingencies"
+      ],
+      "correct": 3,
+      "explain": "Contingencies represent a percentage (usually 3-5%) of the estimate set aside for incidental or unexpected expenses."
+    },
+    {
+      "q": "186. Which one is correct with respect to floor area and plinth area?",
+      "options": [
+        "floor area is always greater than plinth area",
+        "floor area is always equal to plinth area",
+        "floor area is always lesser than plinth area",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "Floor area is the plinth area minus the area occupied by the walls, hence it is always smaller."
+    },
+    {
+      "q": "224. Which of the following factors is a reason for the need to provide for contingency in the cost estimate of a project?",
+      "options": [
+        "unreliability",
+        "uncertainty",
+        "under estimation",
+        "unstable market"
+      ],
+      "correct": 1,
+      "explain": "Contingencies are funds set aside for unforeseen expenses or uncertainties during the project execution."
+    },
+    {
+      "q": "226. Which of the following can not be considered as engineering estimate",
+      "options": [
+        "plinth area estimate",
+        "item rate estimate",
+        "eye estimate",
+        "preliminary estimate"
+      ],
+      "correct": 2,
+      "explain": "An eye estimate is based on intuition rather than detailed engineering calculations or measurements."
+    }
+  ]
+}

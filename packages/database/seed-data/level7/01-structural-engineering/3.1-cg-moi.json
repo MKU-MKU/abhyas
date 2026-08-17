@@ -1,0 +1,129 @@
+{
+  "code": "3.1",
+  "subtopic": "CG&MOI",
+  "topic": "Center of gravity, moment of inertia, radius of gyration",
+  "source": "structure 1-70 / 71-140 / 141-228 updated.json (merged from old LEVEL 7 archive)",
+  "questions": [
+    {
+      "q": "44. If the M.I of section about its axis is I and if the effective sectional area is A, then radius of gyration r is given by",
+      "options": [
+        "√(I/A)",
+        "√(IA)",
+        "√(A/I)",
+        "√(II/A)"
+      ],
+      "correct": 0,
+      "explain": "The radius of gyration is defined as the distance from the axis at which the entire area could be concentrated to yield the same moment of inertia: I = Ar²."
+    },
+    {
+      "q": "47. The moment of inertia of rectangular section is",
+      "options": [
+        "BD³/12",
+        "a⁴/12",
+        "π/64 BD³",
+        "bh³/36"
+      ],
+      "correct": 0,
+      "explain": "For a rectangle of breadth B and depth D, the moment of inertia about the centroidal x-axis is BD³/12."
+    },
+    {
+      "q": "48. Ratio of moment of inertia (MOI) of a rectangular object about its x-axis to its base is",
+      "options": [
+        "1/12",
+        "1/8",
+        "1/6",
+        "1/4"
+      ],
+      "correct": 3,
+      "explain": "MOI about centroid is BD³/12. MOI about base is BD³/3. The ratio (BD³/12) / (BD³/3) = 1/4."
+    },
+    {
+      "q": "49. M.I of circular section",
+      "options": [
+        "πd⁴/64",
+        "πd⁴/48",
+        "πd⁴/56",
+        "πd⁴/78"
+      ],
+      "correct": 0,
+      "explain": "The moment of inertia for a circle of diameter d about any centroidal axis is πd⁴/64."
+    },
+    {
+      "q": "50. The moment of inertia of square section is",
+      "options": [
+        "a⁴/12",
+        "BD³/12",
+        "π/64 BD³",
+        "bh³/36"
+      ],
+      "correct": 0,
+      "explain": "A square is a rectangle where B = D = a, so BD³/12 becomes a⁴/12."
+    },
+    {
+      "q": "51. The moment of inertia of elliptical section is",
+      "options": [
+        "π/64 BD³",
+        "BD³/12",
+        "a⁴/12",
+        "bh³/36"
+      ],
+      "correct": 0,
+      "explain": "For an ellipse with major axis B and minor axis D, the formula follows the π/64 convention similar to circular sections."
+    },
+    {
+      "q": "52. The moment of inertia of triangular section about its c.g.",
+      "options": [
+        "bh³/36",
+        "BD³/12",
+        "a⁴/12",
+        "π/64 BD³"
+      ],
+      "correct": 0,
+      "explain": "While the MOI of a triangle about its base is bh³/12, the MOI about the centroidal axis parallel to the base is bh³/36."
+    },
+    {
+      "q": "53. Along the neutral axis of a simply supported beam",
+      "options": [
+        "fibres do not undergo strain",
+        "fibres undergo minimum strain",
+        "fibres undergo maximum strain",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "By definition, the neutral axis is the layer where bending stress and strain are zero."
+    },
+    {
+      "q": "54. The ratio of the moment of inertia of a circular plate and a square plate for equal depth is",
+      "options": [
+        "slightly less than one",
+        "equal to one",
+        "more than one",
+        "equal to 3π/16"
+      ],
+      "correct": 3,
+      "explain": "Comparing (πd⁴/64) for the circle and (a⁴/12) for the square where d = a leads to the mathematical ratio 3π/16."
+    },
+    {
+      "q": "55. The section modulus of a rectangular section is proportional to",
+      "options": [
+        "area of the section",
+        "square of the area of the section",
+        "product of the area and depth",
+        "product of the area and width"
+      ],
+      "correct": 0,
+      "explain": "Section Modulus Z = BD²/6. Since Area A = BD, Z can be expressed as (A × D)/6, showing proportionality to area."
+    },
+    {
+      "q": "147. The term centre of gravity was introduced by",
+      "options": [
+        "Archimedes",
+        "Otto Mohr",
+        "Saint Venant",
+        "Coulomb"
+      ],
+      "correct": 0,
+      "explain": "Archimedes was the first to provide a clear definition and method for finding the center of gravity of geometric shapes."
+    }
+  ]
+}

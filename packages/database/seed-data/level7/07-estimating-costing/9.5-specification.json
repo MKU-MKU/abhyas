@@ -1,0 +1,349 @@
+{
+  "code": "9.5",
+  "subtopic": "SPECIFICATION",
+  "topic": "Specifications of works, materials, and standard construction details",
+  "source": "est_1-50.json, est_101-151.json, est_151-200.json, est_201-250.json, est_51-100.json",
+  "questions": [
+    {
+      "q": "76. The capacity of a flushing cistern is normally",
+      "options": [
+        "12 to 15 litres",
+        "20 to 25 litres",
+        "30 to 40 litres",
+        "1 to 5 litres"
+      ],
+      "correct": 0,
+      "explain": "Standard domestic low-level flushing cisterns have a capacity of 12-15 liters."
+    },
+    {
+      "q": "92. What is the minimum period for which the lime concrete in foundation be left wet without the construction of masonry over it?",
+      "options": [
+        "3 days",
+        "5 days",
+        "7 days",
+        "15 days"
+      ],
+      "correct": 2,
+      "explain": "Lime concrete requires a curing period of at least 7 days before building upon it."
+    },
+    {
+      "q": "115. The rate of an item of work depends",
+      "options": [
+        "specifications of works",
+        "specifications of materials",
+        "method of construction",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Rates are influenced by the quality of materials, the specific task instructions (specifications), and the construction techniques used."
+    },
+    {
+      "q": "116. The main purpose of specification is",
+      "options": [
+        "specify the nature of work",
+        "estimate the quantity and cost",
+        "specify the quality of materials",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Specifications serve to define work nature, material quality, and assist in accurate costing and quantity surveying."
+    },
+    {
+      "q": "117. *Specification includes",
+      "options": [
+        "quality, type of work & methodology",
+        "quality of work",
+        "quantity & quality of work",
+        "methodology of work"
+      ],
+      "correct": 0,
+      "explain": "A complete specification details the quality of materials, the specific type of work, and the step-by-step methodology."
+    },
+    {
+      "q": "118. Which one information is found through specification?",
+      "options": [
+        "nature of works",
+        "quality of materials",
+        "types of workmanship",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Specifications cover the nature of work, material standards, and the required level of workmanship."
+    },
+    {
+      "q": "119. *Which one information is not found in specification?",
+      "options": [
+        "nature of works",
+        "quality of materials",
+        "types of workmanship",
+        "dimension"
+      ],
+      "correct": 3,
+      "explain": "While specifications describe quality and method, dimensions are primarily found in architectural and engineering drawings, not the written specification."
+    },
+    {
+      "q": "123. In specification of earth work in foundation trenches, drains etc. lift ordinarily specified is",
+      "options": [
+        "30 m",
+        "1.5 m",
+        "5 m",
+        "3 m"
+      ],
+      "correct": 1,
+      "explain": "The standard unit of vertical distance (lift) for earthwork in excavations is 1.5 meters."
+    },
+    {
+      "q": "124. In specification of earth work in foundation trenches, drains etc. lead specified is (IS code)",
+      "options": [
+        "30 m",
+        "1.5 m",
+        "50 m",
+        "100 m"
+      ],
+      "correct": 0,
+      "explain": "The standard unit of horizontal distance (lead) for disposal of earth is 30 meters according to IS codes."
+    },
+    {
+      "q": "143. *The number of corrugations in a galvanized corrugated sheet is usually",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correct": 2,
+      "explain": "Standard CGI (Galvanized Corrugated Iron) sheets used in roofing commonly have 10 corrugations."
+    },
+    {
+      "q": "144. The number of corrugations in a asbestos cement sheet is usually",
+      "options": [
+        "5",
+        "7",
+        "10",
+        "12"
+      ],
+      "correct": 1,
+      "explain": "Standard Asbestos Cement (AC) sheets typically feature 7 corrugations."
+    },
+    {
+      "q": "145. The standard width of galvanized iron sheet is",
+      "options": [
+        "32\"",
+        "36\"",
+        "41\"",
+        "46\""
+      ],
+      "correct": 0,
+      "explain": "The standard commercial width for GI sheets is 36 inches."
+    },
+    {
+      "q": "146. *The standard width of asbestos cement corrugated sheet is",
+      "options": [
+        "0.9 m",
+        "1.05 m",
+        "1.2 m",
+        "1.35 m"
+      ],
+      "correct": 1,
+      "explain": "AC corrugated sheets are standardized at a width of 1.05 meters."
+    },
+    {
+      "q": "147. Minimum side lap required for asbestos cement sheets is",
+      "options": [
+        "4 cm",
+        "10 cm",
+        "15 cm",
+        "25 cm"
+      ],
+      "correct": 2,
+      "explain": "For weatherproofing, AC sheets must overlap by at least 15 cm on the sides."
+    },
+    {
+      "q": "148. End lap provided in asbestos cements is equal to",
+      "options": [
+        "5 cm",
+        "10 cm",
+        "15 cm",
+        "25 cm"
+      ],
+      "correct": 2,
+      "explain": "The vertical overlap (end lap) between AC sheets should be 15 cm."
+    },
+    {
+      "q": "149. The minimum space left from property line (In Kathmandu valley) for the provision of window/door is",
+      "options": [
+        "1 ft",
+        "3 ft",
+        "5 ft",
+        "7 ft"
+      ],
+      "correct": 2,
+      "explain": "Building bylaws in Kathmandu Valley require a 5-foot setback from the property line if windows or doors are to be installed."
+    },
+    {
+      "q": "150. Minimum size of pipe connected in septic tank is",
+      "options": [
+        "50 mm",
+        "100 mm",
+        "150 mm",
+        "200 mm"
+      ],
+      "correct": 1,
+      "explain": "To prevent clogging of waste, a minimum 100 mm diameter pipe is required for septic tank connections."
+    },
+    {
+      "q": "152. The building material brick",
+      "options": [
+        "absorb more heat than stone",
+        "absorb less heat than stone",
+        "absorb equal heat as the stone",
+        "may be less or more"
+      ],
+      "correct": 0,
+      "explain": "Bricks generally have a higher thermal capacity and lower thermal conductivity compared to many dense stones, causing them to absorb and retain more heat."
+    },
+    {
+      "q": "156. Specifications for the hold fasts are given in terms of",
+      "options": [
+        "number",
+        "weight",
+        "volume",
+        "length"
+      ],
+      "correct": 1,
+      "explain": "Hold fasts are typically made of mild steel flats and are measured by weight (kilograms or quintals) in detailed estimates."
+    },
+    {
+      "q": "159. The thickness of 25 guage sheet is",
+      "options": [
+        "less than 1mm",
+        "1mm",
+        "between 1 and 1.5mm",
+        "2mm"
+      ],
+      "correct": 0,
+      "explain": "25 Gauge (SWG) steel is approximately 0.508 mm thick, which is significantly less than 1mm."
+    },
+    {
+      "q": "160. The concealed faces of the frames of doors and windows are painted with",
+      "options": [
+        "two coats of primer",
+        "two coats of same enamel paint which is applied for the rest of the frame",
+        "varnishes",
+        "two coats of coaltar"
+      ],
+      "correct": 3,
+      "explain": "Faces of timber frames in contact with masonry are coated with coal tar or a wood preservative to prevent moisture penetration and decay."
+    },
+    {
+      "q": "162. Which of the following is not a common size of reinforcement bars?",
+      "options": [
+        "16 mm",
+        "20 mm",
+        "25 mm",
+        "32 mm"
+      ],
+      "correct": 3,
+      "explain": "While 32mm exists, in standard residential and common civil works, 8, 10, 12, 16, 20, and 25mm are the most 'common' sizes used, whereas 32mm is reserved for heavy industrial/bridge works."
+    },
+    {
+      "q": "183. The essential requirements to prepare a good estimate are",
+      "options": [
+        "a full dimensioned drawing to scale",
+        "detailed specifications",
+        "schedule of rates",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "An accurate estimate requires drawings for dimensions, specs for quality, and rates for pricing."
+    },
+    {
+      "q": "184. A layer of dry bricks put below the foundation concrete, in the case of soft soils, is called",
+      "options": [
+        "soling",
+        "shoring",
+        "D.P.C.",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Brick flat soling or stone soling is used to provide a firm base and distribute loads over soft soil before pouring concrete."
+    },
+    {
+      "q": "199. The document supplementing the drawing to furnish information that are not covered in drawings and explaining the workmanship, and method of working is",
+      "options": [
+        "specifications",
+        "cover note",
+        "progress chart",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Specifications describe the quality of materials and the standard of workmanship required, which drawings alone cannot convey."
+    },
+    {
+      "q": "223. Specification of works is required only when the work is carried by:",
+      "options": [
+        "contractor",
+        "muster roll",
+        "users committee",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "Specifications are essential for any mode of execution to ensure quality and standard of work."
+    },
+    {
+      "q": "228. An explicit set of requirements to be satisfied by a material, product or service is called a set of:",
+      "options": [
+        "estimates",
+        "specifications",
+        "drawings",
+        "documents"
+      ],
+      "correct": 1,
+      "explain": "Specifications detail the materials, workmanship, and standards required for the project."
+    },
+    {
+      "q": "238. In corrugated Galvanized Iron sheets, the pitch of the corrugation is measured, usually as",
+      "options": [
+        "65mm",
+        "100mm",
+        "75 mm",
+        "150 MM"
+      ],
+      "correct": 2,
+      "explain": "The standard pitch for CGI sheets used in roofing is commonly 75mm."
+    },
+    {
+      "q": "242. The two type of specification commonly are",
+      "options": [
+        "initial and final specification",
+        "material and item specification",
+        "labour and equipment specification",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Specifications usually focus on the materials to be used and the items of work to be performed."
+    },
+    {
+      "q": "244. Which of the following is a type of contract specification:",
+      "options": [
+        "technical specification",
+        "standard specification",
+        "design specification",
+        "product specification"
+      ],
+      "correct": 0,
+      "explain": "Technical specifications are the core part of construction contracts, detailing how the work is to be done."
+    },
+    {
+      "q": "250. Norms are used to:",
+      "options": [
+        "prepare rate analysis",
+        "compare cost estimates",
+        "prepare specifications",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Norms provide the standard quantity of labor and materials required for a unit of work, essential for rate analysis."
+    }
+  ]
+}

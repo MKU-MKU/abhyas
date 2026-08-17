@@ -1,0 +1,486 @@
+{
+  "code": "6.2",
+  "subtopic": "W-C RATIO",
+  "topic": "Water-cement ratio and its effect on strength, workability and durability of concrete",
+  "source": "601-80.json, 681-760.json, 761-842.json, Concrete_1-50.json, Concrete_101-150.json, Concrete_151-200.json, Concrete_50-100.json, conc_201-250.json, conc_250-300.json, conc_301-350.json, conc_350-405.json",
+  "questions": [
+    {
+      "q": "52. Sand requiring a high water cement ratio, belongs to",
+      "options": [
+        "zone I",
+        "zone II",
+        "zone III",
+        "zone IV"
+      ],
+      "correct": 0,
+      "explain": "Zone I sand is the coarsest grading zone; coarse sand has less surface area, but due to its grading it requires a comparatively higher water-cement ratio to achieve workability."
+    },
+    {
+      "q": "96. Water cement ratio is",
+      "options": [
+        "volume of water to that of cement",
+        "weight of water to that of cement",
+        "weight of concrete to that of water",
+        "volume of concrete to that of water",
+        "both (a) and (b) of the above"
+      ],
+      "correct": 4,
+      "explain": "Water-cement ratio can be expressed either by volume of water to cement or by weight of water to cement, hence both (a) and (b) are correct."
+    },
+    {
+      "q": "97. Water cement ratio by weight is",
+      "options": [
+        "higher as compared to that by volume",
+        "lower as compared to volume",
+        "same as that by volume",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Since cement has a higher specific gravity than water, the water-cement ratio expressed by weight is numerically higher than that expressed by volume."
+    },
+    {
+      "q": "98. Water cement ratio is generally expressed in volume of water required per",
+      "options": [
+        "10 kg",
+        "20 kg",
+        "30 kg",
+        "50 kg"
+      ],
+      "correct": 3,
+      "explain": "Water-cement ratio is commonly expressed in terms of litres of water required per 50 kg (one bag) of cement."
+    },
+    {
+      "q": "99. Water cement ratio is normally used",
+      "options": [
+        "0.4-0.5",
+        "0.5-0.6",
+        "0.6-0.65",
+        "0.05-0.70"
+      ],
+      "correct": 0,
+      "explain": "For most practical concrete mixes, the normally used water-cement ratio ranges between 0.4 and 0.5 to achieve adequate strength and workability."
+    },
+    {
+      "q": "101. The maximum water required for w/c ratio is",
+      "options": [
+        "M25",
+        "M20",
+        "M15",
+        "M10"
+      ],
+      "correct": 3,
+      "explain": "Lower grade mixes are leaner and are permitted a higher water-cement ratio; among the grades listed, M10 (the leanest, lowest-strength mix) is allowed the maximum w/c ratio and hence the maximum water content."
+    },
+    {
+      "q": "102. Pick up the incorrect statement from the following",
+      "options": [
+        "A rich mix of concrete possesses lesser strength than a lean mix of desired workability with excessive quantity of water",
+        "The strength of concrete decreases as the water cement ratio increases",
+        "If the water cement ratio is less than 0.45, the concrete is not workable and causes honey-combed structure",
+        "Good compaction by mechanical vibrations increases the strength of concrete"
+      ],
+      "correct": 0,
+      "explain": "This is false: for a given workability, a rich mix needs less water and therefore has a lower w/c ratio, which gives it HIGHER strength than a lean mix that needs excess water to achieve the same workability."
+    },
+    {
+      "q": "103. According to Water-Cement ratio Law, the strength of workable plastic concrete",
+      "options": [
+        "Depends upon the amount of water used in the mix",
+        "Does not depend upon the quality of cement mixed with aggregates",
+        "Does not depend upon the quantity of cement mixed with aggregates",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explain": "Abrams' Water-Cement Ratio Law states that, for fully workable plastic concrete, strength is governed only by the w/c ratio and is independent of the cement quantity or quality used, provided the mix is workable."
+    },
+    {
+      "q": "104. The minimum amount of water cement ratio for complete hydration of cement is",
+      "options": [
+        "0.40",
+        "0.45",
+        "0.50",
+        "0.55"
+      ],
+      "correct": 0,
+      "explain": "Complete chemical and physical hydration of cement requires approximately 0.40 water-cement ratio by weight (chemical combination alone needs about 0.25, but 0.40 accounts for gel water/physical absorption as well)."
+    },
+    {
+      "q": "105. The condition not applicable to water cement ratio law, is",
+      "options": [
+        "Internal moisture conditions on hydration continue till complete strength is gained",
+        "Concrete specimens may be tested at any temperature",
+        "Concrete specimens need be of same age",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explain": "The Water-Cement Ratio Law assumes standard, controlled testing conditions; testing specimens 'at any temperature' violates the law's requirement of comparable curing/testing conditions, so this condition is NOT applicable."
+    },
+    {
+      "q": "107. C.R.R.I. charts are used to obtain a relationship between strength of concrete and",
+      "options": [
+        "Water cement ratio",
+        "Workability",
+        "Grading of aggregate",
+        "Fineness modulus"
+      ],
+      "correct": 0,
+      "explain": "Central Road Research Institute (C.R.R.I.) charts plot compressive strength of concrete against the water-cement ratio, allowing quick estimation of the w/c ratio needed for a target strength."
+    },
+    {
+      "q": "130. The strength of concrete is directly proportional to",
+      "options": [
+        "Cement water ratio",
+        "Water cement ratio",
+        "Sand cement ratio",
+        "Water aggregate ratio"
+      ],
+      "correct": 0,
+      "explain": "Strength varies inversely with the water-cement ratio, which is the same as saying it is directly proportional to the cement-water ratio (i.e., more cement relative to water gives higher strength)."
+    },
+    {
+      "q": "146. The lower water cement ratio in concrete, introduces",
+      "options": [
+        "Smaller creep and shrinkage",
+        "Greater density and smaller permeability",
+        "Improved frost resistance",
+        "Greater wear resistance and improved bond strength",
+        "All of the above"
+      ],
+      "correct": 4,
+      "explain": "A lower w/c ratio produces a denser, less porous cement paste, which simultaneously reduces creep/shrinkage, lowers permeability, improves frost resistance, and increases wear resistance and bond strength — all of the above."
+    },
+    {
+      "q": "164. When water cement ratio is increased; workability",
+      "options": [
+        "increases",
+        "decreases",
+        "both (a) and (b) of above",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Increasing the water cement ratio makes the mix more fluid and easier to work with, thus increasing workability (though it reduces strength)."
+    },
+    {
+      "q": "166. Workability of concrete in which low water cement ratio is determined by",
+      "options": [
+        "tensile strength test",
+        "slump test",
+        "compaction factor test",
+        "flexural strength test"
+      ],
+      "correct": 2,
+      "explain": "The compaction factor test is more suitable and sensitive for measuring workability of stiff/low workability (low w/c ratio) mixes where the slump test is not effective."
+    },
+    {
+      "q": "182. Pick up the correct statement from the following:",
+      "options": [
+        "the quality of water governs the strength of concrete",
+        "the quality of water required for concreting, depends upon the grading of aggregate and method of compaction",
+        "10% excess of water reduces the strength of concrete by 15%",
+        "30% excess of water reduces the strength of concrete by 50%",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "All these statements about the effect of water quality and excess water quantity on concrete strength are established facts in concrete technology, hence all are correct."
+    },
+    {
+      "q": "186. If P, Y and Z are the weights of cement, fine aggregates and coarse aggregates respectively and W/C is the water to be added to first batch, is obtained by the equation",
+      "options": [
+        "0.1p+0.3y+0.1z=w/cxp",
+        "0.3p+0.1y+0.012z=w/cxp",
+        "0.4p+0.2y+0.01z=w/cxp",
+        "0.5p+0.3y+0.01z=w/cxp"
+      ],
+      "correct": 1,
+      "explain": "This is the standard empirical formula (0.3p + 0.1y + 0.012z = W/C x p) used to estimate the water to be added to the first trial batch based on the absorption characteristics of the mix ingredients."
+    },
+    {
+      "q": "187. If 50 kg of fine aggregates and 100kg of coarse aggregates re mixed in a concrete whose water cement ratio is 0.6, the weight of water required for harsh mix, is",
+      "options": [
+        "8 kg",
+        "10 kg",
+        "12 kg",
+        "14 kg"
+      ],
+      "correct": 2,
+      "explain": "Using the standard empirical relation for harsh mixes and given the fine and coarse aggregate quantities along with the specified w/c ratio of 0.6, the calculated water requirement works out to 12 kg."
+    },
+    {
+      "q": "190. Shrinkage in cement concrete can be reduced by using",
+      "options": [
+        "low water cement ratio",
+        "less cement in the concrete",
+        "proper concrete mix",
+        "pre-saturated aggregates",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "All these measures - low w/c ratio, reduced cement content, properly proportioned mix, and use of pre-saturated aggregates - help in minimizing drying shrinkage of concrete."
+    },
+    {
+      "q": "217. The modulus of elasticity of concrete improves with",
+      "options": [
+        "age",
+        "high water cement ratio",
+        "shorter curing periods",
+        "better compaction"
+      ],
+      "correct": 0,
+      "explain": "As concrete matures/ages, continued hydration increases its density and strength, which in turn improves (increases) its modulus of elasticity."
+    },
+    {
+      "q": "274. For batching 1:3:6 and water cement ratio 0.6 both by weight, the quantity of water required per bag, is",
+      "options": [
+        "10 kg",
+        "15 kg",
+        "20 kg",
+        "30 kg"
+      ],
+      "correct": 3,
+      "explain": "For a 50 kg cement bag with a water-cement ratio of 0.6 by weight, the water required = 0.6 x 50 = 30 kg."
+    },
+    {
+      "q": "284. Pick up the correct statement from the following:",
+      "options": [
+        "the diameter of the pipe line used for transportation of concrete by pumps does not exceed 30 cm",
+        "the slump of the concrete to be pumped should not be less that 5 cm and more",
+        "the water cement ratio of concrete to be pumped is kept between 0.5 to 0.65.",
+        "number of bends provided in the pipe line should be minimum",
+        "all of the above"
+      ],
+      "correct": 4,
+      "explain": "All these are correct standard requirements for pumpable concrete - restricted pipe diameter, minimum slump requirement, controlled w/c ratio, and minimizing pipe bends for efficient pumping."
+    },
+    {
+      "q": "368. If water cement ratio is more,",
+      "options": [
+        "the durability of the concrete will be more",
+        "the durability of the concrete will be less",
+        "the durability of the concrete will not be affected",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "A higher water-cement ratio increases the porosity and permeability of hardened concrete, which reduces its durability against attack by external agents."
+    },
+    {
+      "q": "369. Low water-cement ratio in concrete:",
+      "options": [
+        "reduces the permeability of concrete",
+        "increases the compressive strength",
+        "improves the frost resistance of concrete",
+        "all of the above"
+      ],
+      "correct": 3,
+      "explain": "A low water-cement ratio produces a denser paste, which simultaneously lowers permeability, raises compressive strength, and improves resistance to frost/freeze-thaw damage."
+    },
+    {
+      "q": "379. Reduction in aggregate - cement ratio while keeping W/C ratio constant causes :",
+      "options": [
+        "increase in workability",
+        "decrease in workability",
+        "workability is not affected",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Reducing the aggregate-cement ratio means using more cement paste relative to aggregate, which, at the same water-cement ratio, provides more lubrication and thus increases workability."
+    },
+    {
+      "q": "385. The strength of concrete increase with decreases in :",
+      "options": [
+        "size of aggregate",
+        "moisture content",
+        "water cement ratio",
+        "aggregate cement ratio"
+      ],
+      "correct": 2,
+      "explain": "Strength of concrete is inversely related to the water-cement ratio — as the water-cement ratio decreases, the paste becomes denser and strength increases (Abrams' law)."
+    },
+    {
+      "q": "57. The rule of water cement ratio was established by",
+      "options": [
+        "Duff Abram",
+        "Plowman",
+        "W. Simms",
+        "Dr. Karl Terzaghi"
+      ],
+      "correct": 0,
+      "explain": "The water-cement ratio law, relating strength of concrete inversely to the water-cement ratio, was established by Duff Abrams in 1918."
+    },
+    {
+      "q": "58. Water-cement ratio is, usually, expressed in",
+      "options": [
+        "liters of water required per bag of cement",
+        "liters of water required per kg of cement",
+        "both a. and b.",
+        "none of these"
+      ],
+      "correct": 0,
+      "explain": "Water-cement ratio can be conveniently expressed in either liters of water per bag of cement or liters of water per kg of cement, since both are equivalent ways of expressing the same ratio."
+    },
+    {
+      "q": "62. If 30 % excess water is added, the strength of concrete is reduced by",
+      "options": [
+        "30 %",
+        "40 %",
+        "50 %",
+        "60 %"
+      ],
+      "correct": 2,
+      "explain": "Excess water disproportionately weakens concrete strength; adding 30% excess water can reduce the resulting strength by as much as 50%, according to established water-cement ratio relationships."
+    },
+    {
+      "q": "86. The strength of concrete is directly proportional to",
+      "options": [
+        "cement water ratio",
+        "water cement ratio",
+        "sand cement ratio",
+        "water aggregate ratio"
+      ],
+      "correct": 0,
+      "explain": "According to Abram's law, strength varies inversely with water-cement ratio, which is the same as saying strength is directly proportional to the cement-water ratio."
+    },
+    {
+      "q": "87. The strength of concrete increases with increase in",
+      "options": [
+        "decrease in water cement ratio",
+        "size of aggregate",
+        "increase in fineness of cement",
+        "all the above"
+      ],
+      "correct": 3,
+      "explain": "Concrete strength benefits from a lower water-cement ratio, appropriately larger aggregate (up to a limit for better interlocking), and finer cement particles that hydrate faster, so all these factors together increase strength."
+    },
+    {
+      "q": "113. The condition not applicable to water cement ratio law, is",
+      "options": [
+        "internal moisture conditions on hydration continue till complete strength is gained",
+        "concrete specimens may be tested at any temperature",
+        "concrete specimens need be of same age",
+        "concrete specimens need be of same size"
+      ],
+      "correct": 1,
+      "explain": "The water-cement ratio law assumes standard curing conditions; testing specimens 'at any temperature' is not a valid assumption of the law, since temperature affects hydration and thus strength results."
+    },
+    {
+      "q": "122. Workability of concrete mix with low water cement ratio is determined by",
+      "options": [
+        "tensile strength test",
+        "slump test",
+        "compaction factor test",
+        "flexural strength test"
+      ],
+      "correct": 2,
+      "explain": "For low workability, stiff concrete mixes with low water-cement ratios, the compaction factor test gives more reliable and sensitive results than the slump test."
+    },
+    {
+      "q": "131. Shrinkage in concrete can be reduced by using",
+      "options": [
+        "low water cement ratio",
+        "less cement in the concrete",
+        "pre-saturated aggregates",
+        "all the above"
+      ],
+      "correct": 3,
+      "explain": "Shrinkage can be minimized through multiple combined measures: keeping water-cement ratio low, reducing cement content, and using pre-saturated (pre-wetted) aggregates, all reducing moisture loss and paste volume."
+    },
+    {
+      "q": "163. Strength of concrete increases with",
+      "options": [
+        "increase in water cement ratio",
+        "increase in fineness of cement",
+        "decrease in curing time",
+        "decrease in size of aggregate"
+      ],
+      "correct": 1,
+      "explain": "Finer cement particles have greater surface area and hydrate faster and more completely, contributing to increased strength of concrete."
+    },
+    {
+      "q": "187. Water cement ratio by weight is",
+      "options": [
+        "Higher as compared to that by volume",
+        "Lower is compared to that by volume",
+        "Same as that by volume",
+        "None of these"
+      ],
+      "correct": 0,
+      "explain": "Since cement is heavier than an equal volume of water, expressing the water-cement ratio by weight generally yields a higher numerical value compared to expressing it by volume."
+    },
+    {
+      "q": "189. Shrinkage in concrete can be reduced by",
+      "options": [
+        "Using low water cement ratio",
+        "Using suitable aggregates",
+        "Using tight and non-absorbent from work",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explain": "Shrinkage can be minimized through combined measures: reducing water-cement ratio, selecting suitable low-shrinkage aggregates, and using tight, non-absorbent formwork to retain moisture."
+    },
+    {
+      "q": "193. If water cement ratio is 0.7 by weight, then the quantity of water required in concrete while using one full bag will be",
+      "options": [
+        "10 kg",
+        "20 kg",
+        "35 kg",
+        "50 kg"
+      ],
+      "correct": 2,
+      "explain": "With a water-cement ratio of 0.7 and one bag of cement weighing 50kg, the water required is 0.7 × 50 = 35kg."
+    },
+    {
+      "q": "201. Minimum water cement ratio required for fully hydration of cement is",
+      "options": [
+        "0.18",
+        "0.28",
+        "0.38",
+        "0.48"
+      ],
+      "correct": 2,
+      "explain": "A water-cement ratio of about 0.38 is theoretically required for complete hydration of cement, ensuring all cement particles react fully with water."
+    },
+    {
+      "q": "218. Minimum required water cement ratio for a workable concrete, is",
+      "options": [
+        "0.30",
+        "0.40",
+        "0.50",
+        "0.60"
+      ],
+      "correct": 1,
+      "explain": "A minimum water-cement ratio of about 0.40 is generally required to produce a workable concrete mix that can be properly placed and compacted."
+    },
+    {
+      "q": "232. For constant w/c ratio if the aggregate/cement ratio is reduced, the workability of concrete",
+      "options": [
+        "increases",
+        "decreases",
+        "is not affected",
+        "may increase or decrease"
+      ],
+      "correct": 0,
+      "explain": "Reducing the aggregate-cement ratio (i.e., using relatively more cement paste) while keeping water-cement ratio constant provides more paste to lubricate the aggregates, increasing workability."
+    },
+    {
+      "q": "234. Sand requiring a high water cement ratio belongs to",
+      "options": [
+        "zone I",
+        "zone II",
+        "zone III",
+        "zone IV"
+      ],
+      "correct": 0,
+      "explain": "Zone I sand consists of relatively coarser grading with higher surface irregularity, requiring a higher water-cement ratio to achieve the necessary workability."
+    },
+    {
+      "q": "240. The minimum water-cement ratio to obtain workable concrete is",
+      "options": [
+        "0.65",
+        "0.50",
+        "0.55",
+        "0.40"
+      ],
+      "correct": 3,
+      "explain": "A minimum water-cement ratio of about 0.40 is generally needed to produce a concrete mix with sufficient workability for proper placement and compaction."
+    }
+  ]
+}

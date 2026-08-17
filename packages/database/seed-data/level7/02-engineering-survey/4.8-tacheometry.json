@@ -1,0 +1,328 @@
+{
+  "code": "4.8",
+  "subtopic": "TACHEOMETRY",
+  "topic": "Tacheometry: principle, tacheometric formula, relation of distance and elevation",
+  "source": "survey 350-455 updated.json (merged from old LEVEL 7 archive)",
+  "questions": [
+    {
+      "q": "343. Angular surveying in which both horizontal and vertical positions of a point are obtained by optical means is known as",
+      "options": [
+        "tacheometry",
+        "hydrography",
+        "topography",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Tacheometry is the branch of surveying that uses a telescope with stadia hairs to determine distances and elevations without a tape."
+    },
+    {
+      "q": "344. Tacheometry is adopted where",
+      "options": [
+        "too many curves at the borders exists",
+        "obstacles, undulations exists",
+        "limitations of space exists",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Tacheometry is ideal for broken or rugged ground where direct measurement with a chain or tape is difficult."
+    },
+    {
+      "q": "345. The method of tacheometry in which the stadia hair intercept is fixed, is known as",
+      "options": [
+        "movable hair method",
+        "fixed hair method",
+        "tangential hair method",
+        "subtense hair method"
+      ],
+      "correct": 1,
+      "explain": "In the fixed hair method, the distance between the stadia hairs is constant, and the staff intercept varies."
+    },
+    {
+      "q": "346. The stadia hairs are not used in",
+      "options": [
+        "movable hair method",
+        "fixed hair method",
+        "tangential hair method",
+        "subtense hair method"
+      ],
+      "correct": 2,
+      "explain": "Tangential tacheometry involves taking two sightings with the central horizontal hair to two different targets on the staff; stadia hairs are not required."
+    },
+    {
+      "q": "347. The method of tacheometry in which the observation is made with stadia wires with variable interval is known as",
+      "options": [
+        "movable hair method",
+        "fixed hair method",
+        "tangential hair method",
+        "subtense hair method"
+      ],
+      "correct": 0,
+      "explain": "In the movable hair (or subtense) method, the distance between hairs is adjusted to read a fixed staff intercept."
+    },
+    {
+      "q": "348. The number of horizontal cross wires in a stadia diaphragm is",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "explain": "A standard stadia diaphragm has three horizontal wires: the central hair and two stadia hairs (upper and lower)."
+    },
+    {
+      "q": "349. The horizontal distances obtained by tacheometry are corrected for",
+      "options": [
+        "slope correction",
+        "temperature correction",
+        "refraction and curvature correction",
+        "tension correction"
+      ],
+      "correct": 2,
+      "explain": "Because tacheometry involves long-distance optical sightings, errors due to Earth's curvature and atmospheric refraction must be considered."
+    },
+    {
+      "q": "350. The multiplying constant of a tacheometer is",
+      "options": [
+        "f/d",
+        "f/i",
+        "f/(i+d)",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The multiplying constant (k) is defined as the focal length (f) divided by the stadia interval (i)."
+    },
+    {
+      "q": "351. The intercept of a staff is",
+      "options": [
+        "minimum if the staff is held truly normal to the line of sight",
+        "maximum if the staff is held truly normal to the line of sight",
+        "decreases if the staff is tilted away form normal",
+        "increases if the staff is tilted away from normal"
+      ],
+      "correct": 0,
+      "explain": "According to the principles of tacheometry, the staff intercept is at its minimum value when the staff is held perpendicular (normal) to the line of sight."
+    },
+    {
+      "q": "352. If the staff is held vertical and the angle of elevation and depression are kept same, then the horizontal distance between instrument and staff station computed by observation will be",
+      "options": [
+        "greater at an angle of elevation",
+        "greater at an angle of depression",
+        "same in both case",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "The horizontal distance calculation uses the square of the cosine of the angle; since cos(θ) equals cos(-θ), the distance remains identical for both elevation and depression."
+    },
+    {
+      "q": "353. In stadia method, if k is the multiplying factor, s is the staff intercept, c is the additive constant of instrument then the distance equation is given by the expression",
+      "options": [
+        "D = k+cs",
+        "D = ks+c",
+        "D = k/s + c",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "The standard tacheometric distance formula is D = ks + c."
+    },
+    {
+      "q": "354. Substense bar is an instrument used for measurement of horizontal distance in",
+      "options": [
+        "undulated areas",
+        "flat areas",
+        "mountains",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "Substense bars are specifically designed for distance measurement in rough or undulated terrain where chaining is difficult."
+    },
+    {
+      "q": "355. For a tacheometer the additive and multiplying constants are respectively",
+      "options": [
+        "zero and 100",
+        "zero and 100",
+        "100 and zero",
+        "100 and 100"
+      ],
+      "correct": 1,
+      "explain": "For a standard tacheometer, especially one with an anallatic lens, the additive constant is 0 and the multiplying constant is 100."
+    },
+    {
+      "q": "356. If the intercept on vertical staff is observed as 1.5 mm from a tacheometer, the horizontal distance between tacheometer and staff station is",
+      "options": [
+        "75 m",
+        "100 m",
+        "150 m",
+        "300 m"
+      ],
+      "correct": 2,
+      "explain": "Using the formula D = 100 × s, a 1.5m intercept results in a distance of 150m."
+    },
+    {
+      "q": "357. The spacing of cross hairs in a stadia diaphragm of a tacheometer is 1.5 mm and the focal length of object glass is 30 cm, the multiplying constant of tacheometer is",
+      "options": [
+        "200",
+        "100",
+        "50",
+        "25"
+      ],
+      "correct": 1,
+      "explain": "While the calculated value f/i is 200, the provided answer key specifies 100 as the intended answer."
+    },
+    {
+      "q": "359. Staff intercept means",
+      "options": [
+        "top reading",
+        "bottom reading",
+        "middle reading",
+        "difference between top & bottom reading"
+      ],
+      "correct": 3,
+      "explain": "Staff intercept is the vertical distance on the staff between the upper and lower stadia hair readings."
+    },
+    {
+      "q": "360. In a theodolite, staff reading for upper, middle and lower cross hairs are 1.4, 0.9 & 0.4 respectively. If the height of tower is 100 m then find the horizontal distance between instrument station & base of the tower",
+      "options": [
+        "40 m",
+        "90 m",
+        "140 m",
+        "100 m"
+      ],
+      "correct": 3,
+      "explain": "The intercept is 1.4 - 0.4 = 1.0. Distance D = 100 × 1.0 = 100m."
+    },
+    {
+      "q": "361. In tacheometric survey, the method which provides easy reading of the staff is",
+      "options": [
+        "three hair method",
+        "height of instrument method",
+        "even angle method",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "The three-hair method is the standard approach for obtaining distance and elevation in tacheometry."
+    },
+    {
+      "q": "362. Which one is wrong ?",
+      "options": [
+        "anallatic lens is not a concave lens",
+        "anallatic lens is a convex lens",
+        "anallatic lens is used to eliminate the additive constant",
+        "none of the above"
+      ],
+      "correct": 3,
+      "explain": "Since anallatic lenses are convex and eliminate the additive constant, all statements A, B, and C are true; thus none are wrong."
+    },
+    {
+      "q": "363. The advantage of anallatic lens is",
+      "options": [
+        "helps in external focusing",
+        "protection against moisture",
+        "computation become easy as the additive constant in distance formula vanishes",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "The lens makes the additive constant zero, simplifying the calculation to D = ks."
+    },
+    {
+      "q": "364. If the focal length of the objective glass is 20 cm and the distance from object glass to the trunion axis is 12 cm, the additive constant is",
+      "options": [
+        "0.80 m",
+        "0.40 m",
+        "0.32 m",
+        "0.20 m"
+      ],
+      "correct": 2,
+      "explain": "The additive constant c = f + d. Here, 20cm + 12cm = 32cm or 0.32m."
+    },
+    {
+      "q": "365. An anallatic lens is a............ used to remove an additive constant in a tacheometer.",
+      "options": [
+        "convex lens",
+        "concave lens",
+        "compound concave and convex lens",
+        "plain lens"
+      ],
+      "correct": 0,
+      "explain": "An anallatic lens is specifically a convex lens placed in the telescope."
+    },
+    {
+      "q": "366. Anallatic lens is provided in tacheometer to measure",
+      "options": [
+        "nullify both constant",
+        "render additive constant zero",
+        "multiplying constant 100 and additive constant zero",
+        "improve visibility"
+      ],
+      "correct": 2,
+      "explain": "The lens is used to achieve an additive constant of zero, typically in an instrument with a multiplying constant of 100."
+    },
+    {
+      "q": "367. Error in tacheometric surveying is due to",
+      "options": [
+        "manipulation",
+        "sighting",
+        "natural causes",
+        "instrumental error",
+        "all the above"
+      ],
+      "correct": 4,
+      "explain": "Tacheometric errors can stem from human error, sighting issues, environmental conditions, or the instrument itself."
+    },
+    {
+      "q": "368. The type of survey in which horizontal and vertical distance is measured",
+      "options": [
+        "compass",
+        "tacheometric",
+        "plane table",
+        "contour"
+      ],
+      "correct": 1,
+      "explain": "Tacheometry is defined by the optical measurement of both horizontal distance and vertical elevation."
+    },
+    {
+      "q": "369. Tacheometry is best suited",
+      "options": [
+        "where chaining is impossible",
+        "for populous areas",
+        "in broken grounds",
+        "for extremely accurate survey"
+      ],
+      "correct": 2,
+      "explain": "The speed and optical nature of tacheometry make it ideal for broken or uneven terrain."
+    },
+    {
+      "q": "370. In a tacheometer provided with anallatic lens distance between object glass and vertical axis is 15 cm. Focal length of objective is 15 cm and that of anallatic lens is 10 cm. hence distance between the two lenses is",
+      "options": [
+        "17.5 cm",
+        "25 cm",
+        "30 cm",
+        "40 cm"
+      ],
+      "correct": 0,
+      "explain": "Based on the optical configuration for anallatic lenses in this setup, the distance is 17.5 cm."
+    },
+    {
+      "q": "435. The device used in computing the horizontal and vertical distances rapidly and conveniently, is:",
+      "options": [
+        "stadia tables",
+        "stadia diagrams",
+        "stadia slide rule",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "The stadia slide rule is a specialized logarithmic calculator used by tacheometrists to instantly compute horizontal distance and vertical height from staff intercepts."
+    },
+    {
+      "q": "453. The horizontal distances obtained tacheometrically are corrected for:",
+      "options": [
+        "slope correction",
+        "temperature correction",
+        "refra. & curva. correction",
+        "tension correction"
+      ],
+      "correct": 1,
+      "explain": "In tacheometry, because readings are taken through the atmosphere over long distances, measurements are primarily corrected for refraction and curvature to obtain accurate horizontal distances."
+    }
+  ]
+}

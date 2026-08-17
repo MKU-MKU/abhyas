@@ -1,0 +1,128 @@
+{
+  "code": "10.7",
+  "subtopic": "FREEHAND DRAWING",
+  "topic": "Techniques of free hand drawing",
+  "questions": [
+    {
+      "q": "110. Free hand sketch is generally used to represent",
+      "options": [
+        "concept/idea quickly",
+        "exact scaled dimensions",
+        "final construction drawing",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Freehand sketches are valued for their speed, used primarily to quickly capture and communicate a concept or idea before formal drafting."
+    },
+    {
+      "q": "111. The main purpose of free hand drawing is",
+      "options": [
+        "to prepare final working drawing",
+        "to quickly convey an idea without instruments",
+        "to replace orthographic projection",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Freehand drawing allows an engineer or designer to communicate ideas rapidly without relying on precision instruments."
+    },
+    {
+      "q": "112. In engineering field, free hand drawing is generally used for",
+      "options": [
+        "preliminary design and site sketches",
+        "final structural detailing",
+        "legal documentation",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Engineers commonly use freehand sketches for preliminary design discussions, site notes, and quick conceptual studies."
+    },
+    {
+      "q": "113. The technique to draw a freehand straight line is to",
+      "options": [
+        "look at the point where the line is to end",
+        "move the pencil slowly with wrist locked",
+        "use a straight edge for guidance",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "A common freehand sketching technique is to focus the eyes on the endpoint of the intended line rather than watching the moving pencil tip."
+    },
+    {
+      "q": "114. The technique to draw a freehand circle is to",
+      "options": [
+        "mark the centre and radius points first, then join freehand",
+        "use a compass and trace",
+        "draw the circumscribing square only",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "A common technique is to lightly mark the center and a few key points along the desired radius, then sketch the curve freehand connecting these guide points."
+    },
+    {
+      "q": "135. Freehand sketching is defined as",
+      "options": [
+        "drawing made with the aid of drafting instruments",
+        "drawing made without the aid of drafting instruments/mechanical devices",
+        "drawing made only by computer",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "By definition, freehand sketching involves creating a drawing purely by hand, without rulers, compasses, or other mechanical aids."
+    },
+    {
+      "q": "138. Freehand sketching requires the drafter to have",
+      "options": [
+        "a high degree of manual proficiency",
+        "only knowledge of CAD software",
+        "a compass and scale",
+        "none of the above"
+      ],
+      "correct": 0,
+      "explain": "Since no instruments are used, freehand sketching relies heavily on the manual skill and practiced hand-eye coordination of the drafter."
+    },
+    {
+      "q": "139. Sketching of an object without using any instrument is called",
+      "options": [
+        "mechanical drawing",
+        "freehand sketching",
+        "orthographic projection",
+        "isometric drawing"
+      ],
+      "correct": 1,
+      "explain": "Freehand sketching is specifically defined as drawing done entirely by hand without the aid of drafting instruments."
+    },
+    {
+      "q": "148. A sketch is normally :",
+      "options": [
+        "intended as a finished, dimensioned product",
+        "not intended as a finished, dimensioned product",
+        "a legal working drawing",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "Sketches serve as preliminary communication tools and are typically not treated as final, precisely dimensioned deliverables."
+    },
+    {
+      "q": "160. A drawing which is fully rendered with shades and shadow, colour or wash to give a realistic effect is known as",
+      "options": [
+        "orthographic drawing",
+        "working drawing",
+        "presentation drawing",
+        "structural drawing"
+      ],
+      "correct": 2,
+      "explain": "Presentation drawings are pictorial/rendered drawings enhanced with shading, color, and texture, designed for clients rather than fabrication."
+    },
+    {
+      "q": "175. *Free hand drawing of an ordinary room, using two point perspective, would show :",
+      "options": [
+        "only one wall",
+        "two walls meeting at a corner, both receding to vanishing points",
+        "three walls with no vanishing points",
+        "none of the above"
+      ],
+      "correct": 1,
+      "explain": "In two-point perspective, an interior corner view of a room typically shows two walls converging visually toward two separate vanishing points on the horizon."
+    }
+  ]
+}

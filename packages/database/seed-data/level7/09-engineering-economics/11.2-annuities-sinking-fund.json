@@ -1,0 +1,118 @@
+{
+  "code": "11.2",
+  "subtopic": "ANNUITIES&SINKING FUND",
+  "topic": "Annuities, sinking funds, capital recovery",
+  "source": "econ_1-75.json, econ_76-127.json",
+  "questions": [
+    {
+      "q": "2. A series of equal payments occurring at equal period of time to obtain a certain amount is called",
+      "options": [
+        "fixed deposit",
+        "equal deposit",
+        "annuity",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "An annuity represents a sequence of equal payments made at regular intervals over a fixed duration."
+    },
+    {
+      "q": "3. In a project equal investment is done for future value then it is called",
+      "options": [
+        "future investment",
+        "capital recovery",
+        "sinking fund",
+        "all of the above"
+      ],
+      "correct": 2,
+      "explain": "A sinking fund is a fund established by periodically setting aside money to pay off a debt or replace an asset in the future."
+    },
+    {
+      "q": "7. The non-human ingredients that contribute to the production of goods and services, including land, raw and semi finished materials, tools, building machinery and inventories",
+      "options": [
+        "future investment",
+        "capital recovery",
+        "sinking fund",
+        "capital"
+      ],
+      "correct": 3,
+      "explain": "Capital consists of the physical, non-human assets used in the production process."
+    },
+    {
+      "q": "45. Assume a deposit of Rs. 200 is placed on a saving account at the end of each year for 10 years. Annual interest is 8%. Find the future value of an annuity.",
+      "options": [
+        "Rs. 2597",
+        "Rs. 2697",
+        "Rs. 2797",
+        "Rs. 2897"
+      ],
+      "correct": 3,
+      "explain": "FV = 200 x [((1.08)^10 - 1) / 0.08] is approx 2897."
+    },
+    {
+      "q": "46. Assume a deposit of Rs. 200 is placed on a saving account at the end of each year for 10 years. Annual interest rate is 8%. Find the present value of annuity.",
+      "options": [
+        "Rs. 1342",
+        "Rs. 1242",
+        "Rs. 1142",
+        "Rs. 1042"
+      ],
+      "correct": 0,
+      "explain": "PV = 200 x [(1 - (1.08)^-10) / 0.08] is approx 1342."
+    },
+    {
+      "q": "47. Find the annuity for getting 10,000 after the end of 10 years. If the annual interest rate is 12%.",
+      "options": [
+        "Rs. 569",
+        "Rs. 579",
+        "Rs. 589",
+        "Rs. 599"
+      ],
+      "correct": 0,
+      "explain": "A = 10000 x [0.12 / ((1.12)^10 - 1)] is approx 569."
+    },
+    {
+      "q": "48. Find the annuity for getting 10,000 at the beginning of year at a interest rate of 12% for 12 years.",
+      "options": [
+        "Rs. 1600",
+        "Rs. 1614",
+        "Rs. 1628",
+        "Rs. 1656"
+      ],
+      "correct": 1,
+      "explain": "Calculating annuity with compounding results in 1614."
+    },
+    {
+      "q": "73. In a project equal investment is done to obtain a fixed amount in the future, this amount is known as",
+      "options": [
+        "sinking fund",
+        "capital recovery",
+        "uniform series",
+        "all of the above"
+      ],
+      "correct": 0,
+      "explain": "A sinking fund is an annuity specifically designed to accumulate a target sum in the future."
+    },
+    {
+      "q": "82. Amount of money payable to a beneficiary at a regular intervals for a prescribed period of time out of a fund reserved for the purpose is",
+      "options": [
+        "interest",
+        "principle amount",
+        "annuity",
+        "none of the above"
+      ],
+      "correct": 2,
+      "explain": "An annuity is a series of equal payments made at regular intervals."
+    },
+    {
+      "q": "110. The annuity which refers to debt payment for recovering the initial amount or capital in equal periodical payments, is known as",
+      "options": [
+        "capital recovery annuity",
+        "present worth annuity",
+        "sinking fund annuity",
+        "compound annuity"
+      ],
+      "correct": 0,
+      "explain": "Capital recovery involves calculating a series of equal payments to recover an initial investment plus interest."
+    }
+  ]
+}

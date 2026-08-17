@@ -1,0 +1,30 @@
+{
+  "code": "4.11",
+  "subtopic": "AREA&VOLUME",
+  "topic": "Calculation of area and volume: methods of area calculation of land, methods of area and volume calculation of cut and fill, mass haul diagram",
+  "source": "survey 350-455 updated.json (merged from old LEVEL 7 archive)",
+  "questions": [
+    {
+      "q": "433. The instrument used to reproduce plans to a different scale is called:",
+      "options": [
+        "planimeter",
+        "clinomerer",
+        "ghat tracer",
+        "pentagraph"
+      ],
+      "correct": 3,
+      "explain": "A pentagraph (or pantograph) is the specific mechanical device used to enlarge or reduce maps and plans to a different scale."
+    },
+    {
+      "q": "434. The instrument used for measuring area on a contour map is:",
+      "options": [
+        "graph meter",
+        "planimeter",
+        "area meter",
+        "clinometers"
+      ],
+      "correct": 1,
+      "explain": "A planimeter is the standard instrument used to calculate the area of any irregular shape, such as a catchment area on a contour map."
+    }
+  ]
+}
