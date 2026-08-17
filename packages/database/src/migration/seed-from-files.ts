@@ -128,10 +128,18 @@ async function main() {
 
   const { drizzle } = await import("drizzle-orm/node-postgres");
   const { Pool } = await import("pg");
+  const { sql } = await import("drizzle-orm");
   const schema = await import("../schema");
 
   const pool = new Pool({ connectionString: databaseUrl });
   const db = drizzle(pool, { schema });
+
+  // This is a seed script, not a migration: clear existing content tables
+  // first so it's safe to re-run (e.g. after adding more seed-data files)
+  // without hitting unique-constraint violations on levels.code etc.
+  // TRUNCATE ... CASCADE follows FK dependencies regardless of each
+  // table's individual ON DELETE setting, so ordering here doesn't matter.
+  await db.execute(sql`TRUNCATE TABLE levels, subjects, chapters, sources, topics, questions, question_options RESTART IDENTITY CASCADE`);
 
   await db.insert(schema.levels).values(built.levels.map((l) => ({ id: l.id, code: l.code, name: l.name, sortOrder: l.sortOrder })));
   await db.insert(schema.subjects).values(built.subjects.map((s) => ({ id: s.id, levelId: s.levelId, code: s.code, name: s.name, sortOrder: s.sortOrder })));
@@ -139,32 +147,39 @@ async function main() {
   await db.insert(schema.sources).values(built.sources.map((s) => ({ id: s.id, chapterId: s.chapterId, title: s.title, sortOrder: s.sortOrder })));
   await db.insert(schema.topics).values(built.topics.map((t) => ({ id: t.id, chapterId: t.chapterId, name: t.name, sortOrder: t.sortOrder })));
 
-  for (const q of built.questions) {
-    await db.insert(schema.questions).values({
-      id: q.id,
-      version: q.version,
-      chapterId: q.chapterId,
-      sourceId: q.sourceId ?? null,
-      topicId: q.topicId ?? null,
-      prompt: q.prompt,
-      explanation: q.explanation ?? null,
-      difficulty: q.difficulty,
-      tags: [...q.tags],
-      isActive: q.isActive,
-    });
-    await db.insert(schema.questionOptions).values(
-      q.options.map((opt) => ({
-        id: opt.id,
-        questionId: q.id,
-        text: opt.text,
-        sortOrder: opt.sortOrder,
-        isCorrect: q.correctOptionIds.includes(opt.id),
-      })),
-    );
+  const questionRows = built.questions.map((q) => ({
+    id: q.id,
+    version: q.version,
+    chapterId: q.chapterId,
+    sourceId: q.sourceId ?? null,
+    topicId: q.topicId ?? null,
+    prompt: q.prompt,
+    explanation: q.explanation ?? null,
+    difficulty: q.difficulty,
+    tags: [...q.tags],
+    isActive: q.isActive,
+  }));
+
+  const optionRows = built.questions.flatMap((q) =>
+    q.options.map((opt) => ({
+      id: opt.id,
+      questionId: q.id,
+      text: opt.text,
+      sortOrder: opt.sortOrder,
+      isCorrect: q.correctOptionIds.includes(opt.id),
+    })),
+  );
+
+  const BATCH_SIZE = 500;
+  for (let i = 0; i < questionRows.length; i += BATCH_SIZE) {
+    await db.insert(schema.questions).values(questionRows.slice(i, i + BATCH_SIZE));
+  }
+  for (let i = 0; i < optionRows.length; i += BATCH_SIZE) {
+    await db.insert(schema.questionOptions).values(optionRows.slice(i, i + BATCH_SIZE));
   }
 
   await pool.end();
-  console.log("\nSeed complete: inserted into Postgres.");
+  console.log(`\nSeed complete: inserted ${questionRows.length} questions, ${optionRows.length} options into Postgres.`);
 }
 
 main().catch((err) => {
