@@ -61,6 +61,7 @@ export default function ExamPage() {
       const selected = answers[i];
       if (selected === undefined) continue;
       const item = questions[i];
+      if (!item) continue;
       try { recordAttempt({ sessionId, questionId: item.id, mode: "exam", selectedAnswer: selected, correctAnswer: item.answer, correct: selected === item.answer, marks: item.marks ?? 1 }); } catch { /* Scoring must never block submission. */ }
     }
     setSubmitted(true);
