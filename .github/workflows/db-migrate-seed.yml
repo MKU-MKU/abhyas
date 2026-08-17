@@ -1,0 +1,32 @@
+name: Database Migrate & Seed
+
+on:
+  workflow_dispatch:
+
+jobs:
+  migrate-and-seed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.15.0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Push schema to database
+        run: pnpm --filter @abhyas/database exec drizzle-kit push --force
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
+      - name: Seed content from seed-data/
+        run: pnpm --filter @abhyas/database db:seed
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
