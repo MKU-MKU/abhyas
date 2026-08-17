@@ -3,6 +3,8 @@ name: Deploy Abhyas Web to GitHub Pages
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -11,7 +13,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: abhyas-pages
+  group: abhyas-pages-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -34,19 +36,23 @@ jobs:
         run: pnpm install --no-frozen-lockfile
 
       - name: Configure Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Build web
         run: pnpm --filter @abhyas/web build
         env:
-          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+          # The production site is served from the custom domain
+          # www.abhyas.mku.name.np, so assets and routes live at /.
+          NEXT_PUBLIC_BASE_PATH: ""
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        if: github.event_name == 'push'
+        uses: actions/upload-pages-artifact@v5
         with:
           path: apps/web/out
 
   deploy:
+    if: github.event_name == 'push'
     needs: build
     runs-on: ubuntu-latest
     environment:
@@ -55,4 +61,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
