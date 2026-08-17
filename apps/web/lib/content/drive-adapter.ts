@@ -4,10 +4,22 @@ import { DRIVE_SOURCES, type DriveSource } from "./drive-manifest";
 const CONTENT_API =
   process.env.NEXT_PUBLIC_ABHYAS_CONTENT_API ||
   "https://script.google.com/macros/s/AKfycbwAhfyQm7NvxaNjgRm3oC9SdKwrfKNfjgDd-J0nYjYAhsU1d2PP2JfyMI30ol9AGSatyg/exec";
-
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const LOCAL_BANK_URL = `${BASE_PATH}/question-bank.json`;
 const CACHE_PREFIX = "abhyas:q:";
 
 type RawQuestion = Record<string, unknown>;
+type LocalBank = {
+  version: number;
+  totalQuestions: number;
+  chapters: Array<{
+    level: string;
+    chapterCode: string;
+    chapterName: string;
+    subtopics: Array<{ code: string; name: string; questionCount: number }>;
+    questions: Question[];
+  }>;
+};
 
 function normalize(raw: unknown, source: DriveSource): Question[] {
   if (raw && typeof raw === "object" && !Array.isArray(raw) && (raw as RawQuestion).success === false) {
@@ -38,15 +50,11 @@ function normalize(raw: unknown, source: DriveSource): Question[] {
     if (!prompt) return [];
 
     let rawOptions = q.options || q.opts || q.choices || q.Options;
-    if (!Array.isArray(rawOptions)) {
-      rawOptions = [q.a || q.A, q.b || q.B, q.c || q.C, q.d || q.D, q.e || q.E].filter(Boolean);
-    }
+    if (!Array.isArray(rawOptions)) rawOptions = [q.a || q.A, q.b || q.B, q.c || q.C, q.d || q.D, q.e || q.E].filter(Boolean);
     if (!Array.isArray(rawOptions) || rawOptions.length < 2) return [];
 
     let correct = q.correct ?? q.answer ?? q.ans ?? q.Answer;
-    if (typeof correct === "string" && /^[a-e]$/i.test(correct.trim())) {
-      correct = "abcde".indexOf(correct.trim().toLowerCase());
-    }
+    if (typeof correct === "string" && /^[a-e]$/i.test(correct.trim())) correct = "abcde".indexOf(correct.trim().toLowerCase());
 
     const options: QuestionOption[] = rawOptions.map((option, optionIndex) => ({
       id: String(optionIndex),
@@ -65,31 +73,38 @@ function normalize(raw: unknown, source: DriveSource): Question[] {
   });
 }
 
+let localBankPromise: Promise<LocalBank | null> | null = null;
+
+async function loadLocalBank(): Promise<LocalBank | null> {
+  if (!localBankPromise) {
+    localBankPromise = fetch(LOCAL_BANK_URL, { cache: "force-cache" })
+      .then(async (response) => {
+        if (!response.ok) return null;
+        return (await response.json()) as LocalBank;
+      })
+      .catch(() => null);
+  }
+  return localBankPromise;
+}
+
 async function fetchSource(source: DriveSource): Promise<Question[]> {
   const cacheKey = `${CACHE_PREFIX}${source.fileId}`;
   if (typeof window !== "undefined") {
     const cached = window.localStorage.getItem(cacheKey);
     if (cached) {
-      try {
-        return JSON.parse(cached) as Question[];
-      } catch {
-        window.localStorage.removeItem(cacheKey);
-      }
+      try { return JSON.parse(cached) as Question[]; } catch { window.localStorage.removeItem(cacheKey); }
     }
   }
 
   const url = new URL(CONTENT_API);
   url.searchParams.set("action", "getFile");
   url.searchParams.set("fileId", source.fileId);
-
   const response = await fetch(url.toString(), { cache: "no-store" });
   if (!response.ok) throw new Error(`Question source returned HTTP ${response.status}.`);
   const payload = await response.json();
   const questions = normalize(payload?.success === true ? payload.result : payload, source);
 
-  if (typeof window !== "undefined") {
-    window.localStorage.setItem(cacheKey, JSON.stringify(questions));
-  }
+  if (typeof window !== "undefined") window.localStorage.setItem(cacheKey, JSON.stringify(questions));
   return questions;
 }
 
@@ -98,9 +113,18 @@ export async function loadQuestions(source: DriveSource): Promise<Question[]> {
 }
 
 export async function loadChapterQuestions(level = "level7", chapterCode = "2"): Promise<Question[]> {
+  const localBank = await loadLocalBank();
+  const localChapter = localBank?.chapters.find((chapter) => chapter.level === level && chapter.chapterCode === chapterCode);
+  if (localChapter?.questions.length) return localChapter.questions;
+
   const sources = DRIVE_SOURCES.filter((source) => source.level === level && source.chapterCode === chapterCode);
   const results = await Promise.allSettled(sources.map((source) => loadQuestions(source)));
   return results.flatMap((result) => result.status === "fulfilled" ? result.value : []);
+}
+
+export async function loadQuestionBankChapters(): Promise<LocalBank["chapters"]> {
+  const bank = await loadLocalBank();
+  return bank?.chapters ?? [];
 }
 
 export { DRIVE_SOURCES };
