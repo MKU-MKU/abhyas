@@ -7,7 +7,19 @@ import type { Question } from "../../lib/content/types";
 import { recordAttempt } from "../../lib/learning/attempts";
 
 const FALLBACK_CHAPTERS = [["1", "Structural Engineering"], ["2", "Engineering Survey"], ["3", "Construction Materials"], ["4", "Concrete Technology"], ["7", "Estimating & Costing"], ["8", "Engineering Drawing"], ["9", "Engineering Economics"]] as const;
-function shuffle<T>(items: T[]): T[] { const copy = [...items]; for (let i = copy.length - 1; i > 0; i -= 1) { const j = Math.floor(Math.random() * (i + 1)); [copy[i], copy[j]] = [copy[j], copy[i]]; } return copy; }
+
+function shuffle<T>(items: T[]): T[] {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const current = copy[i];
+    const replacement = copy[j];
+    if (current === undefined || replacement === undefined) continue;
+    copy[i] = replacement;
+    copy[j] = current;
+  }
+  return copy;
+}
 
 export default function PracticePage() {
   const [chapterKey, setChapterKey] = useState("2");
@@ -25,12 +37,21 @@ export default function PracticePage() {
   const question = questions[index];
   const progress = questions.length ? ((index + 1) / questions.length) * 100 : 0;
 
-  useEffect(() => { void loadQuestionBankChapters().then((items) => { const mapped = items.map((item) => ({ code: item.chapterCode, name: item.chapterName, count: item.questions.length })); if (mapped.length) setChapters(mapped); }); }, []);
+  useEffect(() => {
+    void loadQuestionBankChapters().then((items) => {
+      const mapped = items.map((item) => ({ code: item.chapterCode, name: item.chapterName, count: item.questions.length }));
+      if (mapped.length) setChapters(mapped);
+    });
+  }, []);
 
   async function startPractice(nextChapter = chapterKey) {
     setLoading(true); setError(""); setQuestions([]); setIndex(0); setSelected(null); setSubmitted(false); setFinished(false); setScore(0); setSessionId(crypto.randomUUID());
-    try { const available = await loadChapterQuestions("level7", nextChapter); const loaded = shuffle(available).slice(0, 20); if (!loaded.length) throw new Error("No verified questions are available for this chapter yet."); setQuestions(loaded); }
-    catch (err) { setError(err instanceof Error ? err.message : "Could not load questions."); }
+    try {
+      const available = await loadChapterQuestions("level7", nextChapter);
+      const loaded = shuffle(available).slice(0, 20);
+      if (!loaded.length) throw new Error("No verified questions are available for this chapter yet.");
+      setQuestions(loaded);
+    } catch (err) { setError(err instanceof Error ? err.message : "Could not load questions."); }
     finally { setLoading(false); }
   }
 
