@@ -99,8 +99,8 @@ export async function loadQuestions(source: DriveSource): Promise<Question[]> {
 
 export async function loadChapterQuestions(level = "level7", chapterCode = "2"): Promise<Question[]> {
   const sources = DRIVE_SOURCES.filter((source) => source.level === level && source.chapterCode === chapterCode);
-  const batches = await Promise.all(sources.map((source) => loadQuestions(source)));
-  return batches.flat();
+  const results = await Promise.allSettled(sources.map((source) => loadQuestions(source)));
+  return results.flatMap((result) => result.status === "fulfilled" ? result.value : []);
 }
 
 export { DRIVE_SOURCES };

@@ -2,28 +2,25 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { getProgressStats, getWrongQuestionIds } from "../../lib/learning/attempts";
 
 export default function ProgressPage() {
-  const [stats, setStats] = useState({ total: 0, correct: 0 });
+  const [stats, setStats] = useState({ total: 0, correct: 0, accuracy: 0 });
   const [wrong, setWrong] = useState(0);
 
   useEffect(() => {
-    try {
-      setStats(JSON.parse(localStorage.getItem("abhyas:stats") || '{"total":0,"correct":0}'));
-      setWrong(JSON.parse(localStorage.getItem("abhyas:wrong") || "[]").length);
-    } catch { /* empty local state */ }
+    setStats(getProgressStats());
+    setWrong(getWrongQuestionIds().size);
   }, []);
-
-  const accuracy = stats.total ? Math.round((stats.correct / stats.total) * 100) : 0;
 
   return <main className="main">
     <p className="eyebrow">Performance</p>
     <h1>See your progress.</h1>
-    <p className="subtitle">Practice attempts currently persist on this device. The same contract can later be synchronized to PostgreSQL without changing this dashboard.</p>
+    <p className="subtitle">Practice attempts are tracked through the shared learning contract. The persistence boundary can later synchronize these records to PostgreSQL without changing this dashboard.</p>
     <div className="stats" style={{ marginTop: 30 }}>
-      <div className="stat"><strong>{accuracy}%</strong><span>Accuracy</span></div>
+      <div className="stat"><strong>{stats.accuracy}%</strong><span>Accuracy</span></div>
       <div className="stat"><strong>{stats.total}</strong><span>Questions answered</span></div>
-      <div className="stat"><strong>{wrong}</strong><span>Wrong bank</span></div>
+      <div className="stat"><strong>{wrong}</strong><span>Wrong questions</span></div>
     </div>
     <section className="card" style={{ marginTop: 20 }}>
       <p className="eyebrow">Next action</p>

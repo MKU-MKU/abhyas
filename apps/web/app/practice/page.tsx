@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { DRIVE_SOURCES, loadQuestions } from "../../lib/content/drive-adapter";
 import type { Question } from "../../lib/content/types";
+import { recordAttempt } from "../../lib/learning/attempts";
 
 const chapterOptions = Array.from(new Map(DRIVE_SOURCES.map((source) => [`${source.level}:${source.chapterCode}`, source])).values());
 function shuffle<T>(items: T[]): T[] { return [...items].sort(() => Math.random() - 0.5); }
@@ -16,18 +17,21 @@ export default function PracticePage() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [sessionId, setSessionId] = useState("");
   const selectedChapter = chapterOptions.find((item) => `${item.level}:${item.chapterCode}` === chapterKey) || chapterOptions[0];
   const sources = DRIVE_SOURCES.filter((source) => `${source.level}:${source.chapterCode}` === chapterKey);
   const question = questions[index];
   const progress = questions.length ? ((index + 1) / questions.length) * 100 : 0;
 
   async function startPractice() {
-    setLoading(true); setError(""); setQuestions([]); setIndex(0); setSelected(null); setSubmitted(false);
+    setLoading(true); setError(""); setQuestions([]); setIndex(0); setSelected(null); setSubmitted(false); setSessionId(crypto.randomUUID());
     try {
-      const batches = await Promise.all(sources.map(loadQuestions));
-      const loaded = shuffle(batches.flat()).slice(0, 20);
+      const results = await Promise.allSettled(sources.map(loadQuestions));
+      const failed = results.filter((result) => result.status === "rejected").length;
+      const loaded = shuffle(results.flatMap((result) => result.status === "fulfilled" ? result.value : [])).slice(0, 20);
       if (!loaded.length) throw new Error("No valid questions were returned from this chapter.");
       setQuestions(loaded);
+      if (failed) setError(`${failed} question source${failed === 1 ? "" : "s"} could not be opened. Available question sets are still loaded.`);
     } catch (err) { setError(err instanceof Error ? err.message : "Could not load questions."); }
     finally { setLoading(false); }
   }
@@ -43,16 +47,14 @@ export default function PracticePage() {
   }, [question, selected, submitted]);
 
   function checkAnswer() {
-    if (!question || selected === null) return;
+    if (!question || selected === null || !sessionId) return;
     setSubmitted(true);
+    const isCorrect = selected === question.answer;
     try {
+      recordAttempt({ sessionId, questionId: question.id, mode: "practice", selectedAnswer: selected, correctAnswer: question.answer, correct: isCorrect, marks: question.marks ?? 1 });
       const current = JSON.parse(localStorage.getItem("abhyas:wrong") || "[]") as Question[];
-      const wrong = selected !== question.answer;
-      localStorage.setItem("abhyas:wrong", JSON.stringify(wrong ? [question, ...current.filter((item) => item.id !== question.id)].slice(0, 100) : current.filter((item) => item.id !== question.id)));
-      const stats = JSON.parse(localStorage.getItem("abhyas:stats") || '{"total":0,"correct":0}') as { total: number; correct: number };
-      stats.total += 1; if (!wrong) stats.correct += 1;
-      localStorage.setItem("abhyas:stats", JSON.stringify(stats));
-    } catch { /* local persistence must never block answering */ }
+      localStorage.setItem("abhyas:wrong", JSON.stringify(isCorrect ? current.filter((item) => item.id !== question.id) : [question, ...current.filter((item) => item.id !== question.id)].slice(0, 100)));
+    } catch { /* persistence must never block answering */ }
   }
 
   if (!selectedChapter) return <main className="main"><section className="card"><h1>Question bank is being connected</h1><p>Drive sources are not configured yet.</p></section></main>;
@@ -63,9 +65,9 @@ export default function PracticePage() {
       <div><p className="eyebrow">Real Question Bank</p><h1>Practice</h1><p className="meta">Questions load from the existing Abhyas Drive files through the V1 content API.</p></div>
       <div style={{ minWidth: 240 }}><label className="meta" htmlFor="chapter">Chapter</label><select id="chapter" className="input" value={chapterKey} onChange={(event) => setChapterKey(event.target.value)}>{chapterOptions.map((chapter) => <option key={`${chapter.level}:${chapter.chapterCode}`} value={`${chapter.level}:${chapter.chapterCode}`}>{chapter.chapterName}</option>)}</select></div>
     </div>
-    <div className="card" style={{ marginTop: 20, display: "flex", gap: 12, flexWrap: "wrap", alignItems: "center" }}><span className="meta">{sources.length} Drive question sets</span><span className="meta">·</span><span className="meta">Offline cache enabled</span><Link className="cardLink" href="/review" style={{ margin: 0 }}>Review mistakes →</Link><button type="button" className="primaryButton" onClick={() => void startPractice()} disabled={loading} style={{ marginLeft: "auto" }}>{loading ? "Loading questions…" : "Start / Reload Practice →"}</button></div>
-    {error && <div className="card" style={{ marginTop: 16, borderColor: "var(--danger)" }}><strong>Could not load the question bank.</strong><p>{error}</p><p className="meta">Check that the existing Apps Script deployment is available and can read the Drive file.</p></div>}
-    {question && !loading && !error && <div className="card" style={{ marginTop: 20 }}>
+    <div className="card" style={{ marginTop: 20, display: "flex", gap: 12, flexWrap: "wrap", alignItems: "center" }}><span className="meta">{sources.length} Drive question sets</span><span className="meta">·</span><span className="meta">Attempts saved locally</span><Link className="cardLink" href="/review" style={{ margin: 0 }}>Review mistakes →</Link><button type="button" className="primaryButton" onClick={() => void startPractice()} disabled={loading} style={{ marginLeft: "auto" }}>{loading ? "Loading questions…" : "Start / Reload Practice →"}</button></div>
+    {error && <div className="card" style={{ marginTop: 16, borderColor: "var(--danger)" }}><strong>{questions.length ? "Some question sources were unavailable." : "Could not load the question bank."}</strong><p>{error}</p><p className="meta">Check that the existing Apps Script deployment is available and can read the Drive files.</p></div>}
+    {question && !loading && <div className="card" style={{ marginTop: 20 }}>
       <div style={{ height: 7, background: "var(--surface-muted)", borderRadius: 99, overflow: "hidden", marginBottom: 22 }}><div style={{ width: `${progress}%`, height: "100%", background: "var(--primary)" }} /></div>
       <div className="meta" style={{ display: "flex", justifyContent: "space-between", gap: 12 }}><span>{selectedChapter.chapterName}</span><span>Question {index + 1} / {questions.length}</span></div>
       <h2 style={{ fontSize: "clamp(1.3rem, 3vw, 2rem)", lineHeight: 1.35, marginTop: 12 }}>{question.prompt}</h2>
