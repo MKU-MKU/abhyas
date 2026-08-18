@@ -1,28 +1,67 @@
+"use client";
+
 import Link from "next/link";
-import { listSubjects } from "../../lib/content/repository";
+import { useEffect, useState } from "react";
+import { loadChapters, type ChapterSummary } from "../../lib/content/db-adapter";
+import { slugify } from "../../lib/content/slug";
 
 export default function ChaptersPage() {
-  const subjects = listSubjects();
+  const [chapters, setChapters] = useState<ChapterSummary[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+
+  useEffect(() => {
+    let cancelled = false;
+    loadChapters("level7")
+      .then((data) => {
+        if (!cancelled) setChapters(data);
+      })
+      .catch((err) => {
+        if (!cancelled) setError(err instanceof Error ? err.message : "Could not load chapters.");
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   return (
     <main className="main">
       <div className="sectionHeader">
-        <div><p className="eyebrow">Syllabus explorer</p><h1>Chapters</h1><p className="subtitle">Navigate the study structure without tying the interface to a particular storage provider.</p></div>
+        <div>
+          <p className="eyebrow">Syllabus explorer</p>
+          <h1>Chapters</h1>
+          <p className="subtitle">Real question counts, straight from the Abhyas question bank.</p>
+        </div>
       </div>
-      {subjects.map((subject) => (
-        <section key={subject.id} aria-labelledby={subject.id} style={{ marginTop: 28 }}>
-          <div className="sectionHeader"><div><h2 id={subject.id} style={{ margin: 0 }}>{subject.name}</h2><span className="meta">{subject.chapters.length} chapters</span></div></div>
+
+      {loading && <p className="meta" style={{ marginTop: 20 }}>Loading chapters…</p>}
+      {error && <p className="meta" style={{ marginTop: 20, color: "var(--danger, #b00)" }}>{error}</p>}
+
+      {!loading && !error && (
+        <section style={{ marginTop: 28 }}>
+          <div className="sectionHeader">
+            <div>
+              <h2 style={{ margin: 0 }}>Level 7 — Engineering</h2>
+              <span className="meta">{chapters.length} chapters</span>
+            </div>
+          </div>
           <div className="chapterGrid">
-            {subject.chapters.map((chapter) => (
-              <Link className="chapterCard" href={`/chapters/${chapter.slug}`} key={chapter.id}>
-                <span className="chapterCode">CHAPTER {chapter.code}</span>
-                <h3 className="chapterTitle">{chapter.name}</h3>
-                <p className="meta">{chapter.description}</p>
-                <div className="pillRow"><span className="pill">{chapter.subtopics.length} subtopics</span><span className="pill">Question bank ready</span></div>
+            {chapters.map((chapter) => (
+              <Link className="chapterCard" href={`/chapters/${slugify(chapter.chapterName)}`} key={chapter.chapterCode}>
+                <span className="chapterCode">CHAPTER {chapter.chapterCode}</span>
+                <h3 className="chapterTitle">{chapter.chapterName}</h3>
+                <div className="pillRow">
+                  <span className="pill">{chapter.topics.length} subtopics</span>
+                  <span className="pill">{chapter.questionCount} questions</span>
+                </div>
               </Link>
             ))}
           </div>
         </section>
-      ))}
+      )}
     </main>
   );
 }

@@ -76,7 +76,7 @@ export default function ExamPage() {
         <p className="meta">Question {index + 1} of {questions.length}</p>
         <h2 style={{ fontSize: "clamp(1.4rem, 4vw, 2.25rem)", lineHeight: 1.35 }}>{question.prompt}</h2>
         <div style={{ display: "grid", gap: 10, marginTop: 24 }}>
-          {question.options.map((option) => <button key={option.id} type="button" onClick={() => setAnswers((current) => ({ ...current, [index]: option.id }))} aria-pressed={answers[index] === option.id} className={`questionOption ${answers[index] === option.id ? "selected" : ""}`}><strong>{String.fromCharCode(65 + Number(option.id))}.</strong><span>{option.label}</span></button>)}
+          {question.options.map((option, i) => <button key={option.id} type="button" onClick={() => setAnswers((current) => ({ ...current, [index]: option.id }))} aria-pressed={answers[index] === option.id} className={`questionOption ${answers[index] === option.id ? "selected" : ""}`}><strong>{String.fromCharCode(65 + i)}.</strong><span>{option.label}</span></button>)}
         </div>
         <div style={{ display: "flex", justifyContent: "space-between", gap: 10, marginTop: 28 }}>
           <button type="button" disabled={index === 0} onClick={() => setIndex((value) => value - 1)} className="secondaryButton">← Previous</button>

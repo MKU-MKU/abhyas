@@ -1,35 +1,26 @@
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import { findChapter, listSubjects } from "../../../lib/content/repository";
+import ChapterDetailClient from "./ChapterDetailClient";
+import { slugify } from "../../../lib/content/slug";
+
+// Static export requires every dynamic route to be known at build time.
+// These are the 7 chapters that currently have real seeded content
+// (see packages/database/seed-data/level7/) - kept in sync manually
+// with apps/api's CHAPTER_CODE_MAP until there's a build-time way to
+// query the live API safely (Render free tier can be asleep at build).
+const REAL_CHAPTER_NAMES = [
+  "Structural Engineering",
+  "Engineering Survey",
+  "Construction Materials",
+  "Concrete Technology",
+  "Estimating & Costing",
+  "Engineering Drawing",
+  "Engineering Economics",
+];
 
 export function generateStaticParams() {
-  return listSubjects().flatMap((subject) => subject.chapters.map((chapter) => ({ slug: chapter.slug })));
+  return REAL_CHAPTER_NAMES.map((name) => ({ slug: slugify(name) }));
 }
 
 export default async function ChapterPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const chapter = findChapter(slug);
-  if (!chapter) notFound();
-
-  return (
-    <main className="main">
-      <Link className="cardLink" href="/chapters">← All chapters</Link>
-      <section style={{ marginTop: 18 }}>
-        <p className="eyebrow">Chapter {chapter.code}</p>
-        <h1>{chapter.name}</h1>
-        <p className="subtitle">{chapter.description}</p>
-      </section>
-      <section style={{ marginTop: 34 }} aria-labelledby="subtopics">
-        <div className="sectionHeader"><div><p className="eyebrow">Study map</p><h2 id="subtopics" style={{ margin: 0 }}>Subtopics</h2></div><span className="meta">{chapter.subtopics.length} sections</span></div>
-        <div className="subtopicList">
-          {chapter.subtopics.map((topic) => (
-            <div className="subtopic" key={topic.id}>
-              <div><span className="chapterCode">{topic.code}</span><br /><strong>{topic.name}</strong></div>
-              <span className="pill">Practice coming next</span>
-            </div>
-          ))}
-        </div>
-      </section>
-    </main>
-  );
+  return <ChapterDetailClient slug={slug} />;
 }

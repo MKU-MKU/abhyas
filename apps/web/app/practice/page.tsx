@@ -1,16 +1,25 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
-import { CONTENT_SOURCES, loadQuestions } from "../../lib/content/db-adapter";
+import { Suspense, useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { CONTENT_SOURCES, loadQuestions, type ContentSource } from "../../lib/content/db-adapter";
 import type { Question } from "../../lib/content/types";
 import { recordAttempt } from "../../lib/learning/attempts";
 
 const chapterOptions = Array.from(new Map(CONTENT_SOURCES.map((source) => [`${source.level}:${source.chapterCode}`, source])).values());
+const COUNT_OPTIONS = [10, 20, 50, 100, "all"] as const;
 function shuffle<T>(items: T[]): T[] { return [...items].sort(() => Math.random() - 0.5); }
 
-export default function PracticePage() {
-  const [chapterKey, setChapterKey] = useState("level7:2");
+function PracticeInner() {
+  const searchParams = useSearchParams();
+  const urlLevel = searchParams.get("level");
+  const urlChapterCode = searchParams.get("chapterCode");
+  const urlSubtopic = searchParams.get("subtopic");
+
+  const [chapterKey, setChapterKey] = useState(urlLevel && urlChapterCode ? `${urlLevel}:${urlChapterCode}` : "level7:2");
+  const [subtopicFilter, setSubtopicFilter] = useState<string | null>(urlSubtopic);
+  const [questionCount, setQuestionCount] = useState<number | "all">(20);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
@@ -19,7 +28,7 @@ export default function PracticePage() {
   const [error, setError] = useState("");
   const [sessionId, setSessionId] = useState("");
   const selectedChapter = chapterOptions.find((item) => `${item.level}:${item.chapterCode}` === chapterKey) || chapterOptions[0];
-  const sources = CONTENT_SOURCES.filter((source) => `${source.level}:${source.chapterCode}` === chapterKey);
+  const sources: ContentSource[] = subtopicFilter && selectedChapter ? [{ ...selectedChapter, subtopic: subtopicFilter }] : CONTENT_SOURCES.filter((source) => `${source.level}:${source.chapterCode}` === chapterKey);
   const question = questions[index];
   const progress = questions.length ? ((index + 1) / questions.length) * 100 : 0;
 
@@ -28,7 +37,8 @@ export default function PracticePage() {
     try {
       const results = await Promise.allSettled(sources.map(loadQuestions));
       const failed = results.filter((result) => result.status === "rejected").length;
-      const loaded = shuffle(results.flatMap((result) => result.status === "fulfilled" ? result.value : []));
+      const shuffled = shuffle(results.flatMap((result) => result.status === "fulfilled" ? result.value : []));
+      const loaded = questionCount === "all" ? shuffled : shuffled.slice(0, questionCount);
       if (!loaded.length) throw new Error("No valid questions were returned from this chapter.");
       setQuestions(loaded);
       if (failed) setError(`${failed} question source${failed === 1 ? "" : "s"} could not be opened. Available question sets are still loaded.`);
@@ -36,7 +46,7 @@ export default function PracticePage() {
     finally { setLoading(false); }
   }
 
-  useEffect(() => { void startPractice(); }, []);
+  useEffect(() => { void startPractice(); }, [chapterKey, subtopicFilter, questionCount]);
 
   const correct = submitted && question && selected === question.answer;
   const optionClass = useMemo(() => (optionId: string) => {
@@ -63,18 +73,36 @@ export default function PracticePage() {
     <Link className="cardLink" href="/">← Dashboard</Link>
     <div style={{ marginTop: 28, display: "flex", justifyContent: "space-between", gap: 16, alignItems: "end", flexWrap: "wrap" }}>
       <div><p className="eyebrow">Real Question Bank</p><h1>Practice</h1><p className="meta">Questions load from the Abhyas question bank via the content API.</p></div>
-      <div style={{ minWidth: 240 }}><label className="meta" htmlFor="chapter">Chapter</label><select id="chapter" className="input" value={chapterKey} onChange={(event) => setChapterKey(event.target.value)}>{chapterOptions.map((chapter) => <option key={`${chapter.level}:${chapter.chapterCode}`} value={`${chapter.level}:${chapter.chapterCode}`}>{chapter.chapterName}</option>)}</select></div>
+      <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
+        <div style={{ minWidth: 220 }}>
+          <label className="meta" htmlFor="chapter">Chapter</label>
+          <select id="chapter" className="input" value={chapterKey} onChange={(event) => { setChapterKey(event.target.value); setSubtopicFilter(null); }}>
+            {chapterOptions.map((chapter) => <option key={`${chapter.level}:${chapter.chapterCode}`} value={`${chapter.level}:${chapter.chapterCode}`}>{chapter.chapterName}</option>)}
+          </select>
+        </div>
+        <div style={{ minWidth: 140 }}>
+          <label className="meta" htmlFor="count">Questions</label>
+          <select id="count" className="input" value={String(questionCount)} onChange={(event) => setQuestionCount(event.target.value === "all" ? "all" : Number(event.target.value))}>
+            {COUNT_OPTIONS.map((count) => <option key={count} value={count}>{count === "all" ? "All" : count}</option>)}
+          </select>
+        </div>
+      </div>
     </div>
+    {subtopicFilter && <div className="card" style={{ marginTop: 16, display: "flex", gap: 12, alignItems: "center", flexWrap: "wrap" }}><span className="meta">Filtered to subtopic: <strong>{subtopicFilter}</strong></span><button type="button" className="cardLink" style={{ marginLeft: "auto" }} onClick={() => setSubtopicFilter(null)}>Practice whole chapter instead →</button></div>}
     <div className="card" style={{ marginTop: 20, display: "flex", gap: 12, flexWrap: "wrap", alignItems: "center" }}><span className="meta">{sources.length} question set{sources.length === 1 ? "" : "s"}</span><span className="meta">·</span><span className="meta">Attempts saved locally</span><Link className="cardLink" href="/review" style={{ margin: 0 }}>Review mistakes →</Link><button type="button" className="primaryButton" onClick={() => void startPractice()} disabled={loading} style={{ marginLeft: "auto" }}>{loading ? "Loading questions…" : "Start / Reload Practice →"}</button></div>
     {error && <div className="card" style={{ marginTop: 16, borderColor: "var(--danger)" }}><strong>{questions.length ? "Some question sources were unavailable." : "Could not load the question bank."}</strong><p>{error}</p><p className="meta">Check that the content API is reachable.</p></div>}
     {question && !loading && <div className="card" style={{ marginTop: 20 }}>
       <div style={{ height: 7, background: "var(--surface-muted)", borderRadius: 99, overflow: "hidden", marginBottom: 22 }}><div style={{ width: `${progress}%`, height: "100%", background: "var(--primary)" }} /></div>
       <div className="meta" style={{ display: "flex", justifyContent: "space-between", gap: 12 }}><span>{selectedChapter.chapterName}</span><span>Question {index + 1} / {questions.length}</span></div>
       <h2 style={{ fontSize: "clamp(1.3rem, 3vw, 2rem)", lineHeight: 1.35, marginTop: 12 }}>{question.prompt}</h2>
-      <div style={{ display: "grid", gap: 10, marginTop: 24 }}>{question.options.map((option) => <button key={option.id} type="button" className={`questionOption ${optionClass(option.id)}`} onClick={() => !submitted && setSelected(option.id)} disabled={submitted} aria-pressed={selected === option.id}><strong>{String.fromCharCode(65 + Number(option.id))}.</strong><span>{option.label}</span></button>)}</div>
+      <div style={{ display: "grid", gap: 10, marginTop: 24 }}>{question.options.map((option, i) => <button key={option.id} type="button" className={`questionOption ${optionClass(option.id)}`} onClick={() => !submitted && setSelected(option.id)} disabled={submitted} aria-pressed={selected === option.id}><strong>{String.fromCharCode(65 + i)}.</strong><span>{option.label}</span></button>)}</div>
       {submitted && <div className="card" style={{ marginTop: 18, background: "var(--surface-muted)", boxShadow: "none" }}><strong>{correct ? "✓ Correct" : "Review this question"}</strong>{question.explanation && <p style={{ marginBottom: 0 }}>{question.explanation}</p>}</div>}
       <div style={{ display: "flex", justifyContent: "flex-end", gap: 10, marginTop: 22 }}>{!submitted ? <button type="button" onClick={checkAnswer} disabled={selected === null} className="primaryButton" style={{ opacity: selected === null ? .5 : 1 }}>Check answer</button> : index < questions.length - 1 ? <button type="button" onClick={() => { setIndex((value) => value + 1); setSelected(null); setSubmitted(false); }} className="primaryButton">Next question →</button> : <button type="button" onClick={() => void startPractice()} className="primaryButton">New practice set ↻</button>}</div>
     </div>}
     {!question && !loading && !error && <div className="card" style={{ marginTop: 20 }}><h2>Ready when you are.</h2><p>Choose a chapter and start a real question session.</p></div>}
   </section></main>;
+}
+
+export default function PracticePage() {
+  return <Suspense fallback={<main className="main"><p className="meta">Loading…</p></main>}><PracticeInner /></Suspense>;
 }

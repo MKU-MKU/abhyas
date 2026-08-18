@@ -138,6 +138,66 @@ app.get("/questions", async (req, res) => {
   }
 });
 
+app.get("/chapters", async (req, res) => {
+  const level = String(req.query.level ?? "level7");
+
+  try {
+    const [levelRow] = await db.select().from(schema.levels).where(eq(schema.levels.code, level)).limit(1);
+    if (!levelRow) {
+      res.json([]);
+      return;
+    }
+
+    const chapterRows = await db
+      .select({ id: schema.chapters.id, code: schema.chapters.code, name: schema.chapters.name, sortOrder: schema.chapters.sortOrder })
+      .from(schema.chapters)
+      .innerJoin(schema.subjects, eq(schema.chapters.subjectId, schema.subjects.id))
+      .where(eq(schema.subjects.levelId, levelRow.id));
+
+    const codeToNumeric = new Map(Object.entries(CHAPTER_CODE_MAP).map(([num, slug]) => [slug, num]));
+
+    const chapters = await Promise.all(
+      chapterRows
+        .filter((c) => codeToNumeric.has(c.code))
+        .sort((a, b) => a.sortOrder - b.sortOrder)
+        .map(async (chapter) => {
+          const topicRows = await db
+            .select({ id: schema.topics.id, name: schema.topics.name, sortOrder: schema.topics.sortOrder })
+            .from(schema.topics)
+            .where(eq(schema.topics.chapterId, chapter.id));
+
+          const questionCounts = await db
+            .select({ topicId: schema.questions.topicId })
+            .from(schema.questions)
+            .where(eq(schema.questions.chapterId, chapter.id));
+
+          const countByTopic = new Map<string, number>();
+          for (const q of questionCounts) {
+            if (!q.topicId) continue;
+            countByTopic.set(q.topicId, (countByTopic.get(q.topicId) ?? 0) + 1);
+          }
+
+          const topics = topicRows
+            .sort((a, b) => a.sortOrder - b.sortOrder)
+            .map((t) => ({ name: t.name, questionCount: countByTopic.get(t.id) ?? 0 }));
+
+          return {
+            level,
+            chapterCode: codeToNumeric.get(chapter.code)!,
+            chapterName: chapter.name,
+            questionCount: questionCounts.length,
+            topics,
+          };
+        }),
+    );
+
+    res.json(chapters);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Internal error fetching chapters." });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Abhyas API listening on port ${PORT}`);
 });
