@@ -13,7 +13,18 @@ if (!DATABASE_URL) {
   process.exit(1);
 }
 
-const pool = new Pool({ connectionString: DATABASE_URL });
+const pool = new Pool({
+  connectionString: DATABASE_URL,
+  connectionTimeoutMillis: 10_000,
+  statement_timeout: 15_000,
+  query_timeout: 15_000,
+  idleTimeoutMillis: 30_000,
+});
+pool.on("error", (err) => {
+  // Idle clients can emit background errors (e.g. Neon closing an idle
+  // connection); log them so they're visible instead of crashing silently.
+  console.error("Unexpected pg pool error:", err);
+});
 const db = drizzle(pool, { schema });
 
 /**
@@ -45,6 +56,7 @@ app.get("/health", (_req, res) => {
 });
 
 app.get("/questions", async (req, res) => {
+  console.log(`[questions] request: ${JSON.stringify(req.query)}`);
   const level = String(req.query.level ?? "");
   const chapterCode = String(req.query.chapterCode ?? "");
   const subtopic = req.query.subtopic ? String(req.query.subtopic) : undefined;
@@ -118,6 +130,7 @@ app.get("/questions", async (req, res) => {
       };
     });
 
+    console.log(`[questions] returning ${result.length} questions for level=${level} chapterCode=${chapterCode} subtopic=${subtopic ?? ""}`);
     res.json(result);
   } catch (err) {
     console.error(err);
