@@ -1,5 +1,5 @@
 import cors from "cors";
-import { and, eq } from "drizzle-orm";
+import { and, eq, inArray } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/node-postgres";
 import express from "express";
 import { Pool } from "pg";
@@ -93,13 +93,15 @@ app.get("/questions", async (req, res) => {
       .where(topicId ? and(eq(schema.questions.chapterId, chapterRow.id), eq(schema.questions.topicId, topicId))! : eq(schema.questions.chapterId, chapterRow.id));
     const questionIds = questionRows.map((q) => q.id);
 
-    // Fetch options per-question (question counts here are small enough
-    // per chapter that N+1 is acceptable; revisit with a single IN query
-    // if this becomes a bottleneck).
-    const optionsByQuestion = new Map<string, (typeof schema.questionOptions.$inferSelect)[]>();
-    for (const qid of questionIds) {
-      const opts = await db.select().from(schema.questionOptions).where(eq(schema.questionOptions.questionId, qid));
-      optionsByQuestion.set(qid, opts);
+    const allOptions = questionIds.length
+      ? await db.select().from(schema.questionOptions).where(inArray(schema.questionOptions.questionId, questionIds))
+      : [];
+
+    const optionsByQuestion = new Map<string, typeof allOptions>();
+    for (const opt of allOptions) {
+      const list = optionsByQuestion.get(opt.questionId) ?? [];
+      list.push(opt);
+      optionsByQuestion.set(opt.questionId, list);
     }
 
     const result = questionRows.map((q) => {
