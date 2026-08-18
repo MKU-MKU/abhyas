@@ -7,3 +7,4 @@ dist/
 .env.local
 seed-output.json
 .turbo/
+*.tsbuildinfo

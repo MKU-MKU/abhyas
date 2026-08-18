@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { loadChapterQuestions } from "../../lib/content/drive-adapter";
+import { loadChapterQuestions } from "../../lib/content/db-adapter";
 import type { Question } from "../../lib/content/types";
 
 const TOTAL_SECONDS = 20 * 90;
@@ -26,7 +26,7 @@ export default function ExamPage() {
     try {
       const loaded = await loadChapterQuestions("level7", "2");
       const selected = [...loaded].sort(() => Math.random() - 0.5).slice(0, 20);
-      if (!selected.length) throw new Error("No valid questions are available from the Drive question bank.");
+      if (!selected.length) throw new Error("No valid questions are available for this chapter.");
       setQuestions(selected);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Could not load the exam question bank.");
@@ -53,7 +53,7 @@ export default function ExamPage() {
   const minutes = Math.floor(seconds / 60).toString().padStart(2, "0");
   const secs = (seconds % 60).toString().padStart(2, "0");
 
-  if (loading) return <main className="main"><section className="card" style={{ maxWidth: 700, margin: "60px auto", textAlign: "center" }}><p className="eyebrow">Preparing exam</p><h1>Loading real questions…</h1><p className="subtitle" style={{ marginInline: "auto" }}>Reading the existing Abhyas Drive question bank.</p></section></main>;
+  if (loading) return <main className="main"><section className="card" style={{ maxWidth: 700, margin: "60px auto", textAlign: "center" }}><p className="eyebrow">Preparing exam</p><h1>Loading real questions…</h1><p className="subtitle" style={{ marginInline: "auto" }}>Reading the Abhyas question bank.</p></section></main>;
 
   if (error) return <main className="main"><section className="card" style={{ maxWidth: 700, margin: "60px auto" }}><p className="eyebrow">Exam unavailable</p><h1>Could not load questions</h1><p>{error}</p><button type="button" className="primaryButton" onClick={() => void startExam()}>Retry</button></section></main>;
 
