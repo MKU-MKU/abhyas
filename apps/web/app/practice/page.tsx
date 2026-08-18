@@ -28,7 +28,7 @@ export default function PracticePage() {
     try {
       const results = await Promise.allSettled(sources.map(loadQuestions));
       const failed = results.filter((result) => result.status === "rejected").length;
-      const loaded = shuffle(results.flatMap((result) => result.status === "fulfilled" ? result.value : [])).slice(0, 20);
+      const loaded = shuffle(results.flatMap((result) => result.status === "fulfilled" ? result.value : []));
       if (!loaded.length) throw new Error("No valid questions were returned from this chapter.");
       setQuestions(loaded);
       if (failed) setError(`${failed} question source${failed === 1 ? "" : "s"} could not be opened. Available question sets are still loaded.`);
