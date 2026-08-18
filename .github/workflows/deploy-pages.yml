@@ -44,6 +44,7 @@ jobs:
           # The production site is served from the custom domain
           # www.abhyas.mku.name.np, so assets and routes live at /.
           NEXT_PUBLIC_BASE_PATH: ""
+          NEXT_PUBLIC_ABHYAS_API_URL: ${{ vars.ABHYAS_API_URL }}
 
       - name: Upload Pages artifact
         if: github.event_name == 'push'
